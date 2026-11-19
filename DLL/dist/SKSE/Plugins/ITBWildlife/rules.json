@@ -1,6 +1,114 @@
 {
- "_comment": "ITB Wildlife rules. Generated; see README. Re-applied at game start, so another mod that overwrites these records does not undo them.",
+ "_comment": "ITB Wildlife rules. Generated. Re-applied at game start so another mod that overwrites these records does not undo them.",
  "attack_caps": [
+  {
+   "race": "Skyrim.esm|0E7713",
+   "_name": "AlduinRace",
+   "caps": {
+    "attackStartBite": [
+     1.5,
+     0.0
+    ],
+    "attackStartBiteLeft": [
+     1.5,
+     0.0
+    ],
+    "attackStartBiteRight": [
+     1.5,
+     0.0
+    ],
+    "attackStartTail": [
+     0.5,
+     0.0
+    ],
+    "attackStartTailLeft": [
+     0.5,
+     0.0
+    ],
+    "attackStartTailRight": [
+     0.5,
+     0.0
+    ],
+    "attackStartWingLeft": [
+     0.75,
+     0.0
+    ],
+    "attackStartWingRight": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131F5",
+   "_name": "AtronachFlameRace",
+   "caps": {
+    "attackStart_L1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_PowerAttackForward1": [
+     0.5,
+     0.0
+    ],
+    "attackStart_PowerAttackForward2": [
+     0.5,
+     0.0
+    ],
+    "attackStart_R1": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131F6",
+   "_name": "AtronachFrostRace",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack_R1": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack_L1": [
+     1.25,
+     0.0
+    ],
+    "attackStart_Attack_L1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack_R1": [
+     0.0,
+     0.0
+    ],
+    "bashPowerStart": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131F7",
+   "_name": "AtronachStormRace",
+   "caps": {
+    "attackPowerStart_ForwardAttack": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_StandingAttack": [
+     0.75,
+     0.0
+    ],
+    "attackStart_Attack_Swipe": [
+     0.0,
+     0.0
+    ]
+   }
+  },
   {
    "race": "Skyrim.esm|0131E8",
    "_name": "BearBlackRace",
@@ -22,7 +130,7 @@
      0.0
     ],
     "attackStart_ForwardPower": [
-     0.0625,
+     0.4,
      0.0
     ],
     "attackStart_ForwardPowerShort": [
@@ -56,7 +164,7 @@
      0.0
     ],
     "attackStart_ForwardPower": [
-     0.0625,
+     0.3,
      0.0
     ],
     "attackStart_ForwardPowerShort": [
@@ -90,7 +198,7 @@
      0.0
     ],
     "attackStart_ForwardPower": [
-     0.0675,
+     0.4,
      0.0
     ],
     "attackStart_ForwardPowerShort": [
@@ -99,6 +207,198 @@
     ],
     "attackStart_StandingPower": [
      0.0625,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0CAE13",
+   "_name": "C00GiantOutsideWhiterunRace",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack": [
+     1.5,
+     0.0
+    ],
+    "attackPowerStart_Stomp": [
+     0.5,
+     0.0
+    ],
+    "attackStart_BackAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ClubAttack1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ClubAttack2": [
+     1.0,
+     0.0
+    ],
+    "attackStart_HandSwipeAttack": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     1.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0DE505",
+   "_name": "CartHorseRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     1.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131EB",
+   "_name": "ChaurusRace",
+   "caps": {
+    "attackStart_Bite1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_LBite4": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LHeadBash": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_RBite3": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RHeadBash": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0A5601",
+   "_name": "ChaurusReaperRace",
+   "caps": {
+    "attackStart_Bite1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.5,
+     0.0
+    ],
+    "AttackStart_LBite4": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LHeadBash": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_RBite3": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RHeadBash": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.75,
      0.0
     ]
    }
@@ -116,11 +416,615 @@
      0.0
     ],
     "attackStart_ForwardPower": [
-     7.0,
+     0.0,
      0.0
     ],
     "attackStart_StandingPower": [
      0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dawnguard.esm|0051FB",
+   "_name": "DLC1ChaurusHunterRace",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.75,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dawnguard.esm|003D02",
+   "_name": "DLC1DeathHoundCompanionRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dawnguard.esm|00C5F0",
+   "_name": "DLC1DeathHoundRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dawnguard.esm|003D01",
+   "_name": "DLC1HuskyArmoredCompanionRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dawnguard.esm|018B33",
+   "_name": "DLC1HuskyArmoredRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.075,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dawnguard.esm|0122B7",
+   "_name": "DLC1HuskyBareCompanionRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dawnguard.esm|018B36",
+   "_name": "DLC1HuskyBareRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.075,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dawnguard.esm|0117F4",
+   "_name": "DLC1TrollFrostRaceArmored",
+   "caps": {
+    "attackStartBackwardPower": [
+     0.0,
+     0.0
+    ],
+    "attackStartForwardPower": [
+     1.25,
+     0.0
+    ],
+    "attackStartForwardPowerRush": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftA": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftB": [
+     1.0,
+     0.0
+    ],
+    "attackStartLeftC": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftD": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboA": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboB": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboC": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerX2": [
+     1.0,
+     0.0
+    ],
+    "attackStartRightA": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightB": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightC": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightD": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightPower": [
+     1.0,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dawnguard.esm|0117F5",
+   "_name": "DLC1TrollRaceArmored",
+   "caps": {
+    "attackStartBackwardPower": [
+     0.0,
+     0.0
+    ],
+    "attackStartForwardPower": [
+     1.25,
+     0.0
+    ],
+    "attackStartForwardPowerRush": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftA": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftB": [
+     1.0,
+     0.0
+    ],
+    "attackStartLeftC": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftD": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboA": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboB": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboC": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerX2": [
+     1.0,
+     0.0
+    ],
+    "attackStartRightA": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightB": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightC": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightD": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightPower": [
+     1.0,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dawnguard.esm|00283A",
+   "_name": "DLC1VampireBeastRace",
+   "caps": {
+    "AttackPowerStart_Left": [
+     1.5,
+     0.0
+    ],
+    "AttackPowerStart_Right": [
+     1.5,
+     0.0
+    ],
+    "AttackStartDual": [
+     0.2,
+     0.0
+    ],
+    "attackStartLeft": [
+     0.0,
+     0.0
+    ],
+    "attackStartRight": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dragonborn.esm|01B658",
+   "_name": "DLC2AshHopperRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.25,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.25,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.5,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.5,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dragonborn.esm|024038",
+   "_name": "DLC2BoarRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPowerLarge": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.7,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.5,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dragonborn.esm|02A6FD",
+   "_name": "DLC2HulkingDraugrRace",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     1.0,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     1.0,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.75,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.75,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     1.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.5,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dragonborn.esm|01B647",
+   "_name": "DLC2MudcrabSolstheimRace",
+   "caps": {
+    "AttackStart_ComboChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dragonborn.esm|01FEB8",
+   "_name": "DLC2NetchRace",
+   "caps": {
+    "attackStartLeft": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerStanding": [
+     1.5,
+     0.0
+    ],
+    "attackStartRight": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dragonborn.esm|01B644",
+   "_name": "DLC2SprigganBurntRace",
+   "caps": {
+    "attackStart_L1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_PowerAttackForward": [
+     0.75,
+     0.0
+    ],
+    "attackStart_PowerAttackForwardShort": [
+     0.75,
+     0.0
+    ],
+    "attackStart_R1": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
      0.0
     ]
    }
@@ -180,6 +1084,36 @@
    }
   },
   {
+   "race": "Skyrim.esm|0F1AC4",
+   "_name": "DogCompanionRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
    "race": "Skyrim.esm|0131EE",
    "_name": "DogRace",
    "caps": {
@@ -205,6 +1139,44 @@
     ],
     "attackStart_StandingPower": [
      0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|012E82",
+   "_name": "DragonRace",
+   "caps": {
+    "attackStartBite": [
+     1.5,
+     0.0
+    ],
+    "attackStartBiteLeft": [
+     1.5,
+     0.0
+    ],
+    "attackStartBiteRight": [
+     1.5,
+     0.0
+    ],
+    "attackStartTail": [
+     0.5,
+     0.0
+    ],
+    "attackStartTailLeft": [
+     0.5,
+     0.0
+    ],
+    "attackStartTailRight": [
+     0.5,
+     0.0
+    ],
+    "attackStartWingLeft": [
+     0.75,
+     0.0
+    ],
+    "attackStartWingRight": [
+     0.75,
      0.0
     ]
    }
@@ -318,6 +1290,142 @@
    }
   },
   {
+   "race": "Skyrim.esm|0131F8",
+   "_name": "FrostbiteSpiderRace",
+   "caps": {
+    "attackStart_Bite1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.1,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.25,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|04E507",
+   "_name": "FrostbiteSpiderRaceGiant",
+   "caps": {
+    "attackStart": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite1": [
+     0.75,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.75,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     1.25,
+     0.0
+    ],
+    "bashPowerStart": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|053477",
+   "_name": "FrostbiteSpiderRaceLarge",
+   "caps": {
+    "attackStart": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite1": [
+     0.5,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.5,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.75,
+     0.0
+    ],
+    "bashPowerStart": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|06FC4A",
+   "_name": "GoatDomesticsRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.1,
+     0.0
+    ]
+   }
+  },
+  {
    "race": "Skyrim.esm|0131FA",
    "_name": "GoatRace",
    "caps": {
@@ -356,7 +1464,7 @@
      0.0
     ],
     "attackStart_ForwardPowerShort": [
-     0.0375,
+     0.75,
      0.0
     ],
     "attackStart_HorkerSwim": [
@@ -374,6 +1482,5238 @@
      0.0
     ],
     "attackStart_Attack2": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008C6",
+   "_name": "ITB_CrabRace",
+   "caps": {
+    "AttackStart_ComboChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008E8",
+   "_name": "ITB_DodoRace",
+   "caps": {
+    "attackStart_Bite1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.1,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.25,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008FB",
+   "_name": "ITB_MudcrabRaceGiant",
+   "caps": {
+    "AttackStart_ComboChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.5,
+     0.0
+    ],
+    "AttackStart_RSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     1.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008FC",
+   "_name": "ITB_OwlRace",
+   "caps": {
+    "attackStart_Bite1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.1,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.25,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008FD",
+   "_name": "ITB_OwlRaceFollower",
+   "caps": {
+    "attackStart_Bite1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.1,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.25,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000900",
+   "_name": "ITB_PenguinFollowerRace",
+   "caps": {
+    "attackStart_Bite1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.1,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.25,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000901",
+   "_name": "ITB_PenguinRace",
+   "caps": {
+    "attackStart_Bite1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.1,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.25,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000903",
+   "_name": "ITB_PigRace",
+   "caps": {
+    "attackStart_Attack1": [
+     10.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     10.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     7.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000904",
+   "_name": "ITB_RatRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.1,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00090F",
+   "_name": "ITB_SheepRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.5,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000915",
+   "_name": "ITB_SpiderRace",
+   "caps": {
+    "attackStart_Bite1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.1,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.25,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000918",
+   "_name": "ITB_VL_foglin_race",
+   "caps": {
+    "attackPowerStart_ForwardSpear": [
+     0.0,
+     0.0
+    ],
+    "attackPowerStart_StandingSpear": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MT_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Spear_Attack1": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000919",
+   "_name": "ITB_VL_race_common",
+   "caps": {
+    "AttackPowerStart_Left": [
+     1.5,
+     0.0
+    ],
+    "AttackPowerStart_Right": [
+     1.5,
+     0.0
+    ],
+    "AttackStartDual": [
+     0.2,
+     0.0
+    ],
+    "attackStartLeft": [
+     0.0,
+     0.0
+    ],
+    "attackStartRight": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00091A",
+   "_name": "ITB_VL_race_grand",
+   "caps": {
+    "AttackPowerStart_Left": [
+     1.5,
+     0.0
+    ],
+    "AttackPowerStart_Right": [
+     1.5,
+     0.0
+    ],
+    "AttackStartDual": [
+     0.2,
+     0.0
+    ],
+    "attackStartLeft": [
+     0.0,
+     0.0
+    ],
+    "attackStartRight": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00091B",
+   "_name": "ITB_VL_race_skeletal",
+   "caps": {
+    "AttackPowerStart_Left": [
+     1.5,
+     0.0
+    ],
+    "AttackPowerStart_Right": [
+     1.5,
+     0.0
+    ],
+    "AttackStartDual": [
+     0.2,
+     0.0
+    ],
+    "attackStartLeft": [
+     0.0,
+     0.0
+    ],
+    "attackStartRight": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008B5",
+   "_name": "ITB_ancientskeletonrace",
+   "caps": {
+    "attackPowerStart_2HMSprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_2HWSprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_MC_1HMLeft": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_MC_1HMRight": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_Sprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_SprintLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartBackLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartBackward": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartDualWield": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartForward": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartForwardH2HLeftHand": [
+     0.5,
+     0.0
+    ],
+    "attackPowerStartForwardH2HRightHand": [
+     0.5,
+     0.0
+    ],
+    "attackPowerStartForwardLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartH2HCombo": [
+     0.0,
+     0.0
+    ],
+    "attackPowerStartInPlace": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartInPlaceLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartLeft": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartLeftLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartRight": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartRightLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackStart": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC_1HMLeft": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC_1HMRight": [
+     0.0,
+     0.0
+    ],
+    "attackStartDualWield": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftHand": [
+     0.0,
+     0.0
+    ],
+    "attackStartSprint": [
+     0.0,
+     0.0
+    ],
+    "attackStartSprintLeftHand": [
+     0.0,
+     0.0
+    ],
+    "bashPowerStart": [
+     1.5,
+     0.0
+    ],
+    "bashStart": [
+     0.5,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008B6",
+   "_name": "ITB_batrace",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.0,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008B7",
+   "_name": "ITB_batraceELDER",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.75,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008B8",
+   "_name": "ITB_blackpantherrace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.75,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.75,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     1.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008B9",
+   "_name": "ITB_bonecolossusrace",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack": [
+     1.5,
+     0.0
+    ],
+    "attackPowerStart_Stomp": [
+     0.5,
+     0.0
+    ],
+    "attackStart_BackAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ClubAttack1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_HandSwipeAttack": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008BA",
+   "_name": "ITB_bonecolossusraceFIRE",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack": [
+     1.5,
+     0.0
+    ],
+    "attackPowerStart_Stomp": [
+     0.5,
+     0.0
+    ],
+    "attackStart_BackAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ClubAttack1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_HandSwipeAttack": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008BB",
+   "_name": "ITB_bonecolossusraceSHOCK",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack": [
+     4.5,
+     0.0
+    ],
+    "attackPowerStart_Stomp": [
+     4.5,
+     0.0
+    ],
+    "attackStart_BackAttack": [
+     4.0,
+     0.0
+    ],
+    "attackStart_ClubAttack1": [
+     4.0,
+     0.0
+    ],
+    "attackStart_HandSwipeAttack": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008BC",
+   "_name": "ITB_bonelingrace",
+   "caps": {
+    "attackPowerStart_ForwardSpear": [
+     0.0,
+     0.0
+    ],
+    "attackPowerStart_StandingSpear": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MT_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Spear_Attack1": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008BD",
+   "_name": "ITB_bonelingraceFIRE",
+   "caps": {
+    "attackPowerStart_ForwardSpear": [
+     0.0,
+     0.0
+    ],
+    "attackPowerStart_StandingSpear": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MT_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Spear_Attack1": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008BE",
+   "_name": "ITB_bonelingraceSHOCK",
+   "caps": {
+    "attackPowerStart_ForwardSpear": [
+     0.0,
+     0.0
+    ],
+    "attackPowerStart_StandingSpear": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MT_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Spear_Attack1": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008BF",
+   "_name": "ITB_bonemasterrace",
+   "caps": {
+    "attackPowerStart_2HMSprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_2HWSprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_MC_1HMLeft": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_MC_1HMRight": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_Sprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_SprintLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartBackLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartBackward": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartDualWield": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartForward": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartForwardH2HLeftHand": [
+     0.5,
+     0.0
+    ],
+    "attackPowerStartForwardH2HRightHand": [
+     0.5,
+     0.0
+    ],
+    "attackPowerStartForwardLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartH2HCombo": [
+     0.0,
+     0.0
+    ],
+    "attackPowerStartInPlace": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartInPlaceLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartLeft": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartLeftLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartRight": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartRightLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackStart": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC_1HMLeft": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC_1HMRight": [
+     0.0,
+     0.0
+    ],
+    "attackStartDualWield": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftHand": [
+     0.0,
+     0.0
+    ],
+    "attackStartSprint": [
+     0.0,
+     0.0
+    ],
+    "attackStartSprintLeftHand": [
+     0.0,
+     0.0
+    ],
+    "bashPowerStart": [
+     1.5,
+     0.0
+    ],
+    "bashStart": [
+     0.5,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008C0",
+   "_name": "ITB_bonemasterraceFIRE",
+   "caps": {
+    "attackPowerStart_2HMSprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_2HWSprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_MC_1HMLeft": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_MC_1HMRight": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_Sprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_SprintLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartBackLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartBackward": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartDualWield": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartForward": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartForwardH2HLeftHand": [
+     0.5,
+     0.0
+    ],
+    "attackPowerStartForwardH2HRightHand": [
+     0.5,
+     0.0
+    ],
+    "attackPowerStartForwardLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartH2HCombo": [
+     0.0,
+     0.0
+    ],
+    "attackPowerStartInPlace": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartInPlaceLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartLeft": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartLeftLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartRight": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartRightLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackStart": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC_1HMLeft": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC_1HMRight": [
+     0.0,
+     0.0
+    ],
+    "attackStartDualWield": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftHand": [
+     0.0,
+     0.0
+    ],
+    "attackStartSprint": [
+     0.0,
+     0.0
+    ],
+    "attackStartSprintLeftHand": [
+     0.0,
+     0.0
+    ],
+    "bashPowerStart": [
+     1.5,
+     0.0
+    ],
+    "bashStart": [
+     0.5,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008C1",
+   "_name": "ITB_bonemasterraceSHOCK",
+   "caps": {
+    "attackPowerStart_2HMSprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_2HWSprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_MC_1HMLeft": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_MC_1HMRight": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_Sprint": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_SprintLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartBackLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartBackward": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartDualWield": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartForward": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartForwardH2HLeftHand": [
+     0.5,
+     0.0
+    ],
+    "attackPowerStartForwardH2HRightHand": [
+     0.5,
+     0.0
+    ],
+    "attackPowerStartForwardLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartH2HCombo": [
+     0.0,
+     0.0
+    ],
+    "attackPowerStartInPlace": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartInPlaceLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartLeft": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartLeftLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartRight": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStartRightLeftHand": [
+     1.0,
+     0.0
+    ],
+    "attackStart": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC_1HMLeft": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MC_1HMRight": [
+     0.0,
+     0.0
+    ],
+    "attackStartDualWield": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftHand": [
+     0.0,
+     0.0
+    ],
+    "attackStartSprint": [
+     0.0,
+     0.0
+    ],
+    "attackStartSprintLeftHand": [
+     0.0,
+     0.0
+    ],
+    "bashPowerStart": [
+     1.5,
+     0.0
+    ],
+    "bashStart": [
+     0.5,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008C3",
+   "_name": "ITB_cougarrace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.75,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.75,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     1.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008C4",
+   "_name": "ITB_crab_race",
+   "caps": {
+    "AttackStart_ComboChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008C5",
+   "_name": "ITB_crab_race2",
+   "caps": {
+    "AttackStart_ComboChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008C7",
+   "_name": "ITB_cyrodiilwolfrace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0125,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008C8",
+   "_name": "ITB_cyrodiilwolfracerabies",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0125,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008C9",
+   "_name": "ITB_cyrotrollrace",
+   "caps": {
+    "attackStartBackwardPower": [
+     0.0,
+     0.0
+    ],
+    "attackStartForwardPower": [
+     1.25,
+     0.0
+    ],
+    "attackStartForwardPowerRush": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftA": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftB": [
+     1.0,
+     0.0
+    ],
+    "attackStartLeftC": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftD": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboA": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboB": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboC": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerX2": [
+     1.0,
+     0.0
+    ],
+    "attackStartRightA": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightB": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightC": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightD": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightPower": [
+     1.0,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008CA",
+   "_name": "ITB_dmgskel_race",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008CB",
+   "_name": "ITB_dmgskel_race1",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008CC",
+   "_name": "ITB_dmgskel_race10",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008CD",
+   "_name": "ITB_dmgskel_race2",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008CE",
+   "_name": "ITB_dmgskel_race3",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008CF",
+   "_name": "ITB_dmgskel_race4",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008D0",
+   "_name": "ITB_dmgskel_race5",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008D1",
+   "_name": "ITB_dmgskel_race6",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008D2",
+   "_name": "ITB_dmgskel_race7",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008D3",
+   "_name": "ITB_dmgskel_race8",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008D4",
+   "_name": "ITB_dmgskel_race9",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008D5",
+   "_name": "ITB_dmgskel_race_10",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008D6",
+   "_name": "ITB_dmgskel_race_11",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008D7",
+   "_name": "ITB_dmgskel_race_12",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008D8",
+   "_name": "ITB_dmgskel_race_13",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008D9",
+   "_name": "ITB_dmgskel_race_14",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008DA",
+   "_name": "ITB_dmgskel_race_15",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008DB",
+   "_name": "ITB_dmgskel_race_16",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008DC",
+   "_name": "ITB_dmgskel_race_17",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008DD",
+   "_name": "ITB_dmgskel_race_18",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008DE",
+   "_name": "ITB_dmgskel_race_19",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008DF",
+   "_name": "ITB_dmgskel_race_2",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008E0",
+   "_name": "ITB_dmgskel_race_20",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008E1",
+   "_name": "ITB_dmgskel_race_3",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008E2",
+   "_name": "ITB_dmgskel_race_4",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008E3",
+   "_name": "ITB_dmgskel_race_5",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008E4",
+   "_name": "ITB_dmgskel_race_6",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008E5",
+   "_name": "ITB_dmgskel_race_7",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008E6",
+   "_name": "ITB_dmgskel_race_8",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008E7",
+   "_name": "ITB_dmgskel_race_9",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008E9",
+   "_name": "ITB_dragonling_race",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.05,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008EA",
+   "_name": "ITB_draugundr_race",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.5,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008EB",
+   "_name": "ITB_foglingrace",
+   "caps": {
+    "attackPowerStart_ForwardSpear": [
+     0.0,
+     0.0
+    ],
+    "attackPowerStart_StandingSpear": [
+     0.0,
+     0.0
+    ],
+    "attackStart_MT_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Spear_Attack1": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008EC",
+   "_name": "ITB_frostgiant_race_common",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack": [
+     1.5,
+     0.0
+    ],
+    "attackPowerStart_Stomp": [
+     0.5,
+     0.0
+    ],
+    "attackStart_BackAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ClubAttack1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ClubAttack2": [
+     1.0,
+     0.0
+    ],
+    "attackStart_HandSwipeAttack": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008ED",
+   "_name": "ITB_giantcentipede_race",
+   "caps": {
+    "attackStart_Bite1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_LBite4": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LHeadBash": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_RBite3": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RHeadBash": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008EE",
+   "_name": "ITB_giantcentipede_race2",
+   "caps": {
+    "attackStart_Bite1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Bite2": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_ComboChop": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_LBite4": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LHeadBash": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_RBite3": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RHeadBash": [
+     0.25,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008EF",
+   "_name": "ITB_giantesses_race",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack": [
+     1.5,
+     0.0
+    ],
+    "attackPowerStart_Stomp": [
+     0.5,
+     0.0
+    ],
+    "attackStart_BackAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ClubAttack1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ClubAttack2": [
+     1.0,
+     0.0
+    ],
+    "attackStart_HandSwipeAttack": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008F0",
+   "_name": "ITB_giantesses_race2",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack": [
+     1.5,
+     0.0
+    ],
+    "attackPowerStart_Stomp": [
+     0.5,
+     0.0
+    ],
+    "attackStart_BackAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ClubAttack1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ClubAttack2": [
+     1.0,
+     0.0
+    ],
+    "attackStart_HandSwipeAttack": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008F1",
+   "_name": "ITB_giantratrace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.1,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008F2",
+   "_name": "ITB_giantsnakerace",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.75,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.5,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008F3",
+   "_name": "ITB_giantsnakerace2SMALL",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.75,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.5,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008F4",
+   "_name": "ITB_giantsnakerace3BIG",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.75,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.5,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008F5",
+   "_name": "ITB_giantyounglingrace",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack": [
+     1.5,
+     0.0
+    ],
+    "attackPowerStart_Stomp": [
+     0.5,
+     0.0
+    ],
+    "attackStart_BackAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ClubAttack1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ClubAttack2": [
+     1.0,
+     0.0
+    ],
+    "attackStart_HandSwipeAttack": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008F7",
+   "_name": "ITB_gouti_race",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008F8",
+   "_name": "ITB_gouti_raceULTRA",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008F9",
+   "_name": "ITB_hummingbirdrace",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.75,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|0008FA",
+   "_name": "ITB_leopardrace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.75,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.75,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     1.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000905",
+   "_name": "ITB_rockatronach_race",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack_R1": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack_L1": [
+     1.25,
+     0.0
+    ],
+    "attackStart_Attack_L1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_Attack_R1": [
+     0.0,
+     0.0
+    ],
+    "bashPowerStart": [
+     1.5,
+     0.0
+    ],
+    "bashStart": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000906",
+   "_name": "ITB_seagiant_race",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack": [
+     1.5,
+     0.0
+    ],
+    "attackPowerStart_Stomp": [
+     0.5,
+     0.0
+    ],
+    "attackStart_BackAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ClubAttack1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ClubAttack2": [
+     1.0,
+     0.0
+    ],
+    "attackStart_HandSwipeAttack": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000907",
+   "_name": "ITB_seagiant_race2",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack": [
+     1.5,
+     0.0
+    ],
+    "attackPowerStart_Stomp": [
+     0.5,
+     0.0
+    ],
+    "attackStart_BackAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ClubAttack1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ClubAttack2": [
+     1.0,
+     0.0
+    ],
+    "attackStart_HandSwipeAttack": [
+     0.0,
+     10.0
+    ],
+    "bashStart": [
+     0.25,
+     10.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000908",
+   "_name": "ITB_servantrace",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.5,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.5,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00090A",
+   "_name": "ITB_sewerratrace_NEW",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.1,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00090B",
+   "_name": "ITB_shambles_race",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack_R1": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack_L1": [
+     1.25,
+     0.0
+    ],
+    "attackStart_Attack_L1": [
+     0.75,
+     0.0
+    ],
+    "attackStart_Attack_R1": [
+     0.75,
+     0.0
+    ],
+    "bashPowerStart": [
+     0.75,
+     0.0
+    ],
+    "bashStart": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00090C",
+   "_name": "ITB_shambles_race_LEFTonly",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack_R1": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack_L1": [
+     1.25,
+     0.0
+    ],
+    "attackStart_Attack_L1": [
+     0.75,
+     0.0
+    ],
+    "attackStart_Attack_R1": [
+     0.75,
+     0.0
+    ],
+    "bashPowerStart": [
+     0.75,
+     0.0
+    ],
+    "bashStart": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00090D",
+   "_name": "ITB_shambles_race_RIGHTonly",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack_R1": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack_L1": [
+     1.25,
+     0.0
+    ],
+    "attackStart_Attack_L1": [
+     0.75,
+     0.0
+    ],
+    "attackStart_Attack_R1": [
+     0.75,
+     0.0
+    ],
+    "bashPowerStart": [
+     0.75,
+     0.0
+    ],
+    "bashStart": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00090E",
+   "_name": "ITB_shambles_raceb",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack_R1": [
+     1.0,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack_L1": [
+     1.25,
+     0.0
+    ],
+    "attackStart_Attack_L1": [
+     0.75,
+     0.0
+    ],
+    "attackStart_Attack_R1": [
+     0.75,
+     0.0
+    ],
+    "bashPowerStart": [
+     0.75,
+     0.0
+    ],
+    "bashStart": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000910",
+   "_name": "ITB_smilodonrace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.75,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.75,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     1.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000911",
+   "_name": "ITB_snakerace",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.75,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.5,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000912",
+   "_name": "ITB_snakeraceRATTLE",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.75,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.5,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000913",
+   "_name": "ITB_snakeraceVIPER",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.75,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.5,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000914",
+   "_name": "ITB_snowleopardrace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.75,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.75,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     1.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000916",
+   "_name": "ITB_squirrelrace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.1,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00091C",
+   "_name": "ITB_zombie_race_deranged1",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     1.0,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     1.0,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.75,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.75,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     1.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.5,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00091D",
+   "_name": "ITB_zombie_race_deranged2",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     1.0,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     1.0,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.75,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.75,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     1.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.5,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00091E",
+   "_name": "ITB_zombie_race_dread",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     1.0,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     1.0,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.75,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.75,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     1.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.5,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|00091F",
+   "_name": "ITB_zombie_race_normal",
+   "caps": {
+    "attackStart1HMBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMForwardPower": [
+     1.0,
+     0.0
+    ],
+    "attackStart1HMPowerChop": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMPowerSlash": [
+     0.75,
+     0.0
+    ],
+    "attackStart1HMSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart1HMX2": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMBackSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMForwardPowerChop": [
+     1.0,
+     0.0
+    ],
+    "attackStart2HMForwardSwipe": [
+     0.0,
+     0.0
+    ],
+    "attackStart2HMPowerChop": [
+     0.75,
+     0.0
+    ],
+    "attackStart2HMSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSBackSlash": [
+     0.0,
+     0.0
+    ],
+    "attackStartGSChop": [
+     0.75,
+     0.0
+    ],
+    "attackStartGSForwardPowerB": [
+     1.0,
+     0.0
+    ],
+    "attackStartGSX2": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HLeft": [
+     0.0,
+     0.0
+    ],
+    "AttackStartH2HRight": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.5,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000920",
+   "_name": "ITB_zombiedog_race",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.5,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0F905F",
+   "_name": "MG07DogRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.75,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
      0.0,
      0.0
     ]
@@ -472,7 +6812,7 @@
      0.0
     ],
     "attackStart_ForwardPowerShort": [
-     0.0625,
+     0.3,
      0.0
     ]
    }
@@ -510,7 +6850,7 @@
      0.0
     ],
     "attackStart_ForwardPowerShort": [
-     0.0625,
+     0.3,
      0.0
     ]
    }
@@ -598,6 +6938,244 @@
    }
   },
   {
+   "race": "Dawnguard.esm|013B77",
+   "_name": "SprigganEarthMotherRace",
+   "caps": {
+    "attackStart_L1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_PowerAttackForward": [
+     0.75,
+     0.0
+    ],
+    "attackStart_PowerAttackForwardShort": [
+     0.75,
+     0.0
+    ],
+    "attackStart_R1": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|013204",
+   "_name": "SprigganRace",
+   "caps": {
+    "attackStart_L1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_PowerAttackForward": [
+     0.75,
+     0.0
+    ],
+    "attackStart_PowerAttackForwardShort": [
+     0.75,
+     0.0
+    ],
+    "attackStart_R1": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|013206",
+   "_name": "TrollFrostRace",
+   "caps": {
+    "attackStartBackwardPower": [
+     0.0,
+     0.0
+    ],
+    "attackStartForwardPower": [
+     1.25,
+     0.0
+    ],
+    "attackStartForwardPowerRush": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftA": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftB": [
+     1.0,
+     0.0
+    ],
+    "attackStartLeftC": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftD": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboA": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboB": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboC": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerX2": [
+     1.0,
+     0.0
+    ],
+    "attackStartRightA": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightB": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightC": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightD": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightPower": [
+     1.0,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|013205",
+   "_name": "TrollRace",
+   "caps": {
+    "attackStartBackwardPower": [
+     0.0,
+     0.0
+    ],
+    "attackStartForwardPower": [
+     1.25,
+     0.0
+    ],
+    "attackStartForwardPowerRush": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftA": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftB": [
+     1.0,
+     0.0
+    ],
+    "attackStartLeftC": [
+     0.0,
+     0.0
+    ],
+    "attackStartLeftD": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboA": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboB": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerComboC": [
+     0.0,
+     0.0
+    ],
+    "attackStartPowerX2": [
+     1.0,
+     0.0
+    ],
+    "attackStartRightA": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightB": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightC": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightD": [
+     0.0,
+     0.0
+    ],
+    "attackStartRightPower": [
+     1.0,
+     0.0
+    ],
+    "bashStart": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|1052A3",
+   "_name": "UndeadDragonRace",
+   "caps": {
+    "attackStartBite": [
+     1.0,
+     0.0
+    ],
+    "attackStartBiteLeft": [
+     1.0,
+     0.0
+    ],
+    "attackStartBiteRight": [
+     1.0,
+     0.0
+    ],
+    "attackStartTail": [
+     0.5,
+     0.0
+    ],
+    "attackStartTailLeft": [
+     0.5,
+     0.0
+    ],
+    "attackStartTailRight": [
+     0.5,
+     0.0
+    ],
+    "attackStartWingLeft": [
+     0.75,
+     0.0
+    ],
+    "attackStartWingRight": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
    "race": "Skyrim.esm|01320A",
    "_name": "WolfRace",
    "caps": {
@@ -626,7 +7204,7 @@
      0.0
     ],
     "attackStart_ForwardPower": [
-     0.0125,
+     0.1,
      0.0
     ],
     "attackStart_ForwardPowerShort": [
@@ -642,11 +7220,45 @@
      0.0
     ],
     "attackStart_SkeeverLungeShort": [
-     0.0125,
+     0.025,
      0.0
     ],
     "attackStart_StandingPower": [
-     0.0125,
+     0.0625,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Dragonborn.esm|01CAD8",
+   "_name": "ITB_frostgiant_race_Karstaag",
+   "caps": {
+    "attackPowerStart_ForwardPowerAttack": [
+     1.5,
+     0.0
+    ],
+    "attackPowerStart_Stomp": [
+     0.5,
+     0.0
+    ],
+    "attackStart_BackAttack": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ClubAttack1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ClubAttack2": [
+     1.0,
+     0.0
+    ],
+    "attackStart_HandSwipeAttack": [
+     0.0,
+     0.0
+    ],
+    "bashStart": [
+     0.25,
      0.0
     ]
    }
@@ -678,364 +7290,209 @@
  ],
  "package_list_by_race": [
   {
-   "race": "Skyrim.esm|0B7998",
-   "list": "ITB Wildlife.esp|000887",
-   "_name": "?"
-  },
-  {
    "race": "Dawnguard.esm|00D0B2",
-   "list": "ITB Wildlife.esp|00086A",
-   "_name": "?"
-  },
-  {
-   "race": "Skyrim.esm|0131F4",
-   "list": "ITB Wildlife.esp|000875",
-   "_name": "?"
+   "list": "ITB Wildlife.esp|00087F",
+   "_name": "ITB_Deer_2"
   },
   {
    "race": "Dawnguard.esm|00D0B6",
-   "list": "ITB Wildlife.esp|000884",
-   "_name": "?"
-  },
-  {
-   "race": "Dawnguard.esm|019FD3",
-   "list": "ITB Wildlife.esp|000887",
-   "_name": "?"
-  },
-  {
-   "race": "Dawnguard.esm|006AFA",
-   "list": "ITB Wildlife.esp|000887",
-   "_name": "?"
-  },
-  {
-   "race": "Dawnguard.esm|00894D",
-   "list": "ITB Wildlife.esp|000887",
-   "_name": "?"
-  },
-  {
-   "race": "Dawnguard.esm|0023E2",
-   "list": "ITB Wildlife.esp|000887",
-   "_name": "?"
-  },
-  {
-   "race": "Dragonborn.esm|027BFC",
-   "list": "ITB Wildlife.esp|000868",
-   "_name": "?"
+   "list": "ITB Wildlife.esp|00089B",
+   "_name": "ITB_SabreCat"
   },
   {
    "race": "Dragonborn.esm|01B637",
-   "list": "ITB Wildlife.esp|000860",
-   "_name": "?"
-  },
-  {
-   "race": "Dragonborn.esm|02B014",
-   "list": "ITB Wildlife.esp|000872",
-   "_name": "?"
+   "list": "ITB Wildlife.esp|000874",
+   "_name": "ITB_AshSpawn"
   },
   {
    "race": "Dragonborn.esm|028580",
-   "list": "ITB Wildlife.esp|000881",
-   "_name": "?"
+   "list": "ITB Wildlife.esp|000895",
+   "_name": "ITB_Netch"
   },
   {
    "race": "Dragonborn.esm|014449",
-   "list": "ITB Wildlife.esp|000889",
-   "_name": "?"
+   "list": "ITB Wildlife.esp|00089E",
+   "_name": "ITB_Spider"
   },
   {
    "race": "Dragonborn.esm|01CAD8",
-   "list": "ITB Wildlife.esp|000878",
-   "_name": "?"
-  },
-  {
-   "race": "Skyrim.esm|0131EF",
-   "list": "ITB Wildlife.esp|00086F",
-   "_name": "?"
-  },
-  {
-   "race": "Skyrim.esm|000D53",
-   "list": "ITB Wildlife.esp|000870",
-   "_name": "?"
-  },
-  {
-   "race": "Skyrim.esm|0131FB",
-   "list": "ITB Wildlife.esp|00087B",
-   "_name": "?"
-  },
-  {
-   "race": "Skyrim.esm|0EB872",
-   "list": "ITB Wildlife.esp|000887",
-   "_name": "?"
+   "list": "ITB Wildlife.esp|000888",
+   "_name": "ITB_Giant"
   },
   {
    "race": "Skyrim.esm|0F3903",
-   "list": "ITB Wildlife.esp|00088A",
-   "_name": "?"
-  },
-  {
-   "race": "Skyrim.esm|088794",
-   "list": "ITB Wildlife.esp|00088E",
-   "_name": "?"
-  },
-  {
-   "race": "Skyrim.esm|013209",
-   "list": "ITB Wildlife.esp|000890",
-   "_name": "?"
-  },
-  {
-   "race": "Skyrim.esm|013208",
-   "list": "ITB Wildlife.esp|000891",
-   "_name": "?"
-  },
-  {
-   "race": "Skyrim.esm|0F1182",
-   "list": "ITB Wildlife.esp|000890",
-   "_name": "?"
-  },
-  {
-   "race": "Skyrim.esm|0131F5",
-   "list": "ITB Wildlife.esp|000868",
-   "_name": "AtronachFlameRace"
-  },
-  {
-   "race": "Skyrim.esm|0131F6",
-   "list": "ITB Wildlife.esp|000868",
-   "_name": "AtronachFrostRace"
-  },
-  {
-   "race": "Skyrim.esm|0131F7",
-   "list": "ITB Wildlife.esp|000868",
-   "_name": "AtronachStormRace"
+   "list": "ITB Wildlife.esp|00089F",
+   "_name": "ITB_Spriggan"
   },
   {
    "race": "Skyrim.esm|0131E8",
-   "list": "ITB Wildlife.esp|000861",
-   "_name": "BearBlackRace"
+   "list": "ITB Wildlife.esp|000875",
+   "_name": "ITB_Bear"
   },
   {
    "race": "Skyrim.esm|0131E7",
-   "list": "ITB Wildlife.esp|000861",
-   "_name": "BearBrownRace"
+   "list": "ITB Wildlife.esp|000875",
+   "_name": "ITB_Bear"
   },
   {
    "race": "Skyrim.esm|0131E9",
-   "list": "ITB Wildlife.esp|000861",
-   "_name": "BearSnowRace"
+   "list": "ITB Wildlife.esp|000875",
+   "_name": "ITB_Bear"
   },
   {
    "race": "Skyrim.esm|106C10",
-   "list": "ITB Wildlife.esp|000892",
-   "_name": "C06WolfSpiritRace"
+   "list": "ITB Wildlife.esp|0008A6",
+   "_name": "ITB_Wolf"
   },
   {
    "race": "Skyrim.esm|0131EB",
-   "list": "ITB Wildlife.esp|000863",
-   "_name": "ChaurusRace"
+   "list": "ITB Wildlife.esp|000877",
+   "_name": "ITB_Chaurus"
   },
   {
    "race": "Skyrim.esm|0A5601",
-   "list": "ITB Wildlife.esp|000863",
-   "_name": "ChaurusReaperRace"
+   "list": "ITB Wildlife.esp|000877",
+   "_name": "ITB_Chaurus"
   },
   {
    "race": "Dawnguard.esm|0051FB",
-   "list": "ITB Wildlife.esp|000863",
-   "_name": "DLC1ChaurusHunterRace"
-  },
-  {
-   "race": "Dawnguard.esm|00C5F0",
-   "list": "ITB Wildlife.esp|000869",
-   "_name": "DLC1DeathHoundRace"
-  },
-  {
-   "race": "Dawnguard.esm|00A2C6",
    "list": "ITB Wildlife.esp|000877",
-   "_name": "DLC1GargoyleRace"
-  },
-  {
-   "race": "Dawnguard.esm|010D00",
-   "list": "ITB Wildlife.esp|000877",
-   "_name": "DLC1GargoyleVariantBossRace"
-  },
-  {
-   "race": "Dawnguard.esm|019D86",
-   "list": "ITB Wildlife.esp|000877",
-   "_name": "DLC1GargoyleVariantGreenRace"
+   "_name": "ITB_Chaurus"
   },
   {
    "race": "Dawnguard.esm|018B33",
-   "list": "ITB Wildlife.esp|00086B",
-   "_name": "DLC1HuskyArmoredRace"
+   "list": "ITB Wildlife.esp|000880",
+   "_name": "ITB_Dog"
   },
   {
    "race": "Dawnguard.esm|018B36",
-   "list": "ITB Wildlife.esp|00086B",
-   "_name": "DLC1HuskyBareRace"
+   "list": "ITB Wildlife.esp|000880",
+   "_name": "ITB_Dog"
   },
   {
    "race": "Dragonborn.esm|01B658",
-   "list": "ITB Wildlife.esp|00085F",
-   "_name": "DLC2AshHopperRace"
+   "list": "ITB Wildlife.esp|000873",
+   "_name": "ITB_AshHopper_2"
   },
   {
    "race": "Dragonborn.esm|024038",
-   "list": "ITB Wildlife.esp|000862",
-   "_name": "DLC2BoarRace"
-  },
-  {
-   "race": "Dragonborn.esm|014495",
-   "list": "ITB Wildlife.esp|00087E",
-   "_name": "DLC2LurkerRace"
-  },
-  {
-   "race": "Dragonborn.esm|0179CF",
-   "list": "ITB Wildlife.esp|000883",
-   "_name": "DLC2MountedRieklingRace"
+   "list": "ITB Wildlife.esp|000876",
+   "_name": "ITB_Boar_2"
   },
   {
    "race": "Dragonborn.esm|01FEB8",
-   "list": "ITB Wildlife.esp|000881",
-   "_name": "DLC2NetchRace"
-  },
-  {
-   "race": "Dragonborn.esm|017F44",
-   "list": "ITB Wildlife.esp|000883",
-   "_name": "DLC2RieklingRace"
-  },
-  {
-   "race": "Dragonborn.esm|01DCB9",
-   "list": "ITB Wildlife.esp|000885",
-   "_name": "DLC2SeekerRace"
+   "list": "ITB Wildlife.esp|000895",
+   "_name": "ITB_Netch"
   },
   {
    "race": "Dragonborn.esm|01B644",
-   "list": "ITB Wildlife.esp|00088A",
-   "_name": "DLC2SprigganBurntRace"
+   "list": "ITB Wildlife.esp|00089F",
+   "_name": "ITB_Spriggan"
   },
   {
    "race": "Dragonborn.esm|01E17B",
-   "list": "ITB Wildlife.esp|00088F",
-   "_name": "DLC2WerebearBeastRace"
+   "list": "ITB Wildlife.esp|0008A4",
+   "_name": "ITB_WereCreature"
   },
   {
    "race": "Skyrim.esm|0131EE",
-   "list": "ITB Wildlife.esp|00086B",
-   "_name": "DogRace"
-  },
-  {
-   "race": "Skyrim.esm|0131F1",
-   "list": "ITB Wildlife.esp|000872",
-   "_name": "DwarvenCenturionRace"
-  },
-  {
-   "race": "Skyrim.esm|0131F2",
-   "list": "ITB Wildlife.esp|000872",
-   "_name": "DwarvenSphereRace"
-  },
-  {
-   "race": "Skyrim.esm|0131F3",
-   "list": "ITB Wildlife.esp|000874",
-   "_name": "DwarvenSpiderRace"
+   "list": "ITB Wildlife.esp|000880",
+   "_name": "ITB_Dog"
   },
   {
    "race": "Skyrim.esm|109C7C",
-   "list": "ITB Wildlife.esp|000876",
-   "_name": "FoxRace"
+   "list": "ITB Wildlife.esp|000887",
+   "_name": "ITB_Fox_2"
   },
   {
    "race": "Skyrim.esm|0131F8",
-   "list": "ITB Wildlife.esp|000889",
-   "_name": "FrostbiteSpiderRace"
+   "list": "ITB Wildlife.esp|00089E",
+   "_name": "ITB_Spider"
   },
   {
    "race": "Skyrim.esm|04E507",
-   "list": "ITB Wildlife.esp|000889",
-   "_name": "FrostbiteSpiderRaceGiant"
+   "list": "ITB Wildlife.esp|00089E",
+   "_name": "ITB_Spider"
   },
   {
    "race": "Skyrim.esm|053477",
-   "list": "ITB Wildlife.esp|000889",
-   "_name": "FrostbiteSpiderRaceLarge"
+   "list": "ITB Wildlife.esp|00089E",
+   "_name": "ITB_Spider"
   },
   {
    "race": "Skyrim.esm|0131F9",
-   "list": "ITB Wildlife.esp|000878",
-   "_name": "GiantRace-Intended"
+   "list": "ITB Wildlife.esp|000888",
+   "_name": "ITB_Giant"
   },
   {
    "race": "Skyrim.esm|06DC99",
-   "list": "ITB Wildlife.esp|000882",
-   "_name": "HareRace"
+   "list": "ITB Wildlife.esp|00089A",
+   "_name": "ITB_Rabbit_2"
   },
   {
    "race": "Skyrim.esm|0131FC",
-   "list": "ITB Wildlife.esp|00087C",
-   "_name": "HorkerRace"
-  },
-  {
-   "race": "Skyrim.esm|0131FE",
-   "list": "ITB Wildlife.esp|000893",
-   "_name": "IceWraithRace"
+   "list": "ITB Wildlife.esp|00088D",
+   "_name": "ITB_Horker"
   },
   {
    "race": "Skyrim.esm|0131FF",
-   "list": "ITB Wildlife.esp|00087F",
-   "_name": "MammothRace"
+   "list": "ITB Wildlife.esp|000890",
+   "_name": "ITB_Mammoth"
   },
   {
    "race": "Skyrim.esm|0BA545",
-   "list": "ITB Wildlife.esp|000880",
-   "_name": "MudcrabRace"
+   "list": "ITB Wildlife.esp|000894",
+   "_name": "ITB_Mudcrab_2"
   },
   {
    "race": "Skyrim.esm|013200",
-   "list": "ITB Wildlife.esp|000884",
-   "_name": "SabreCatRace"
+   "list": "ITB Wildlife.esp|00089B",
+   "_name": "ITB_SabreCat"
   },
   {
    "race": "Skyrim.esm|013202",
-   "list": "ITB Wildlife.esp|000884",
-   "_name": "SabreCatSnowyRace"
+   "list": "ITB Wildlife.esp|00089B",
+   "_name": "ITB_SabreCat"
   },
   {
    "race": "Skyrim.esm|013201",
-   "list": "ITB Wildlife.esp|000886",
-   "_name": "SkeeverRace"
+   "list": "ITB Wildlife.esp|00089C",
+   "_name": "ITB_Skeever"
   },
   {
    "race": "Skyrim.esm|013203",
-   "list": "ITB Wildlife.esp|000888",
-   "_name": "SlaughterfishRace"
+   "list": "ITB Wildlife.esp|00089D",
+   "_name": "ITB_Slaughterfish"
   },
   {
    "race": "Dawnguard.esm|013B77",
-   "list": "ITB Wildlife.esp|00088A",
-   "_name": "SprigganEarthMotherRace"
+   "list": "ITB Wildlife.esp|00089F",
+   "_name": "ITB_Spriggan"
   },
   {
    "race": "Skyrim.esm|013204",
-   "list": "ITB Wildlife.esp|00088A",
-   "_name": "SprigganRace"
+   "list": "ITB Wildlife.esp|00089F",
+   "_name": "ITB_Spriggan"
   },
   {
    "race": "Skyrim.esm|013206",
-   "list": "ITB Wildlife.esp|00088D",
-   "_name": "TrollFrostRace"
+   "list": "ITB Wildlife.esp|0008A2",
+   "_name": "ITB_Troll"
   },
   {
    "race": "Skyrim.esm|013205",
-   "list": "ITB Wildlife.esp|00088D",
-   "_name": "TrollRace"
+   "list": "ITB Wildlife.esp|0008A2",
+   "_name": "ITB_Troll"
   },
   {
    "race": "Skyrim.esm|0CDD84",
-   "list": "ITB Wildlife.esp|00088F",
-   "_name": "WerewolfBeastRace"
+   "list": "ITB Wildlife.esp|0008A4",
+   "_name": "ITB_WereCreature"
   },
   {
    "race": "Skyrim.esm|01320A",
-   "list": "ITB Wildlife.esp|000892",
-   "_name": "WolfRace"
+   "list": "ITB Wildlife.esp|0008A6",
+   "_name": "ITB_Wolf"
   }
  ]
 }

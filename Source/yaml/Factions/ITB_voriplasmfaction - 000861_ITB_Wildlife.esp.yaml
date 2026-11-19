@@ -1,0 +1,23 @@
+FormKey: 000861:ITB_Wildlife.esp
+EditorID: ITB_voriplasmfaction
+Name:
+  TargetLanguage: English
+  Value: Predator Faction
+Relations:
+- Target: 02E893:Skyrim.esm
+- Target: 02E894:Skyrim.esm
+  Reaction: Enemy
+- Target: 032D9C:Skyrim.esm
+- Target: 03E093:Skyrim.esm
+- Target: 03E094:Skyrim.esm
+- Target: 0AA784:Skyrim.esm
+  Reaction: Friend
+- Target: 0D263E:Skyrim.esm
+- Target: 000861:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- HiddenFromPC
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

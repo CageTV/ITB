@@ -1,0 +1,57 @@
+FormKey: 0152AE:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: BroodCavern01
+Version2: 11
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#00323961'
+  DirectionalColor: '#0040606A'
+  FogNearColor: '#002E3154'
+  FogFar: 14000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#0033291D'
+    DirectionalXMinus: '#002A291A'
+    DirectionalYPlus: '#002F2A1C'
+    DirectionalYMinus: '#002F271C'
+    DirectionalZPlus: '#0016130C'
+    DirectionalZMinus: '#005C5138'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#002E3154'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 034566:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 019150:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 03EBF8:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 00113D:ITB_Wildlife.esp
+  Base: 000E4A:ITB_Wildlife.esp
+  Placement:
+    Position: 975.6272, 40.1192, 14.635361
+    Rotation: 0, 0, 2.9999993

@@ -1,0 +1,17 @@
+FormKey: 00082E:ITB_Wildlife.esp
+EditorID: ITB_DeerMaleFaction
+Relations:
+- Target: 00082E:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

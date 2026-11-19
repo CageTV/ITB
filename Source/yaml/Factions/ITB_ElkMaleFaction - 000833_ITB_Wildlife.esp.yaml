@@ -1,0 +1,17 @@
+FormKey: 000833:ITB_Wildlife.esp
+EditorID: ITB_ElkMaleFaction
+Relations:
+- Target: 000833:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

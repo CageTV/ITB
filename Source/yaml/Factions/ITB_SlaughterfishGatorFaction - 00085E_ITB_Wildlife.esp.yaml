@@ -1,0 +1,20 @@
+FormKey: 00085E:ITB_Wildlife.esp
+EditorID: ITB_SlaughterfishGatorFaction
+Name:
+  TargetLanguage: English
+  Value: Slaughterfish Gator Faction
+Relations:
+- Target: 00085E:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

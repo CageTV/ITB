@@ -1,0 +1,57 @@
+FormKey: 0142F6:Dragonborn.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DLC2GyldenhulBarrow01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Gyldenhul Barrow
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#00202621'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00172116'
+  FogFar: 4500
+  FogPower: 0.6
+  AmbientColors:
+    DirectionalXPlus: '#0030271C'
+    DirectionalXMinus: '#00272719'
+    DirectionalYPlus: '#002C281B'
+    DirectionalYMinus: '#002C251B'
+    DirectionalZPlus: '#0014120C'
+    DirectionalZMinus: '#005C5238'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00172116'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 03128C:Skyrim.esm
+WaterHeight: 0
+Location: 0142A8:Dragonborn.esm
+AcousticSpace: 0FD93A:Skyrim.esm
+EncounterZone: 0142A9:Dragonborn.esm
+Music: 05615B:Skyrim.esm
+ImageSpace: 000167:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012CA:ITB_Wildlife.esp
+  Base: 000E4A:ITB_Wildlife.esp
+  Placement:
+    Position: -14.534515, 167.21078, -1.886356
+    Rotation: 0, 0, 3.3000004

@@ -1,0 +1,50 @@
+FormKey: 016BCE:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: RiftenElgrimsElixirs
+Version2: 2
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00363327'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  DirectionalRotationZ: 30
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#003B3328'
+    DirectionalXMinus: '#00303325'
+    DirectionalYPlus: '#00363527'
+    DirectionalYMinus: '#00363027'
+    DirectionalZPlus: '#00191811'
+    DirectionalZMinus: '#00524D3C'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 05C735:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 022487:Skyrim.esm
+Owner: 0A2518:Skyrim.esm
+LockList: 0A2517:Skyrim.esm
+AcousticSpace: 0C5B6D:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011B5:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
+  Placement:
+    Position: -288.55267, 728.8877, 138.66809

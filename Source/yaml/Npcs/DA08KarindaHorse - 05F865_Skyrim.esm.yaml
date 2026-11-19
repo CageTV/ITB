@@ -2,12 +2,8 @@ FormKey: 05F865:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: DA08KarindaHorse
-Version2: 15
 SkyrimMajorRecordFlags:
 - Compressed
-ObjectBounds:
-  First: -31, -103, 0
-  Second: 31, 103, 169
 Configuration:
   Flags:
   - AutoCalcStats
@@ -16,7 +12,7 @@ Configuration:
   - Invulnerable
   Level:
     MutagenObjectType: NpcLevel
-    Level: 20
+    Level: 4
   SpeedMultiplier: 100
   DispositionBase: 35
   TemplateFlags:
@@ -35,8 +31,6 @@ Factions:
   Fluff: 0x000000
 - Faction: 093B1F:Skyrim.esm
   Fluff: 0x000000
-- Faction: 000820:ITB_Wildlife.esp
-  Fluff: 0x000000
 DeathItem: 03AD94:Skyrim.esm
 Voice: 01F232:Skyrim.esm
 Template: 068D07:Skyrim.esm
@@ -44,8 +38,9 @@ Race: 0131FD:Skyrim.esm
 WornArmor: 08650D:Skyrim.esm
 AttackRace: 0131FD:Skyrim.esm
 AIData:
+  Confidence: Cautious
   EnergyLevel: 50
-  Attack: 1500
+  Responsibility: NoCrime
 Packages:
 - 10BF05:Skyrim.esm
 Keywords:
@@ -57,13 +52,13 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 56
+    Value: 21
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 56
+    Value: 22
   - Key: Block
-    Value: 43
+    Value: 19
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -75,7 +70,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 57
+    Value: 22
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -129,8 +124,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 297
-  Stamina: 238
+  Health: 289
+  Stamina: 106
   GearedUpWeapons: 1
 CombatStyle: 01CF32:Skyrim.esm
 NAM5: 255

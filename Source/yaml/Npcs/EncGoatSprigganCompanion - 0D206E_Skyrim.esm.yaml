@@ -2,7 +2,6 @@ FormKey: 0D206E:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncGoatSprigganCompanion
-Version2: 9
 SkyrimMajorRecordFlags:
 - Compressed
 Configuration:
@@ -25,15 +24,11 @@ Factions:
   Fluff: 0x000000
 - Faction: 04359D:Skyrim.esm
   Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
-  Fluff: 0x000000
 DeathItem: 03AD8D:Skyrim.esm
 Voice: 01F22A:Skyrim.esm
 Race: 0131FA:Skyrim.esm
 ActorEffect:
-- 000AC2:ITB_Wildlife.esp
+- 000BA2:ITB_Wildlife.esp
 WornArmor: 06F278:Skyrim.esm
 AIData:
   EnergyLevel: 50
@@ -122,9 +117,9 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 25
+  Health: 50
   Magicka: 65511
-  Stamina: 25
+  Stamina: 50
   GearedUpWeapons: 1
 CombatStyle: 0D750C:Skyrim.esm
 NAM5: 255

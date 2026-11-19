@@ -1,0 +1,20 @@
+FormKey: 00081D:ITB_Wildlife.esp
+EditorID: ITB_BearBrownFemaleFaction
+Name:
+  TargetLanguage: English
+  Value: Bear Brown Female Faction
+Relations:
+- Target: 00081D:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

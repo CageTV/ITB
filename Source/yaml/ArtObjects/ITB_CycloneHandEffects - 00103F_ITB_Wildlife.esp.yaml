@@ -1,0 +1,6 @@
+FormKey: 00103F:ITB_Wildlife.esp
+EditorID: ITB_CycloneHandEffects
+Model:
+  File: itb\fauna\magic\magic_eff50921.nif
+  Data: 0x020000000000000000000000
+Type: []

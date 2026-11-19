@@ -2,7 +2,6 @@ FormKey: 023AB8:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncSlaughterfish
-Version2: 4
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -17,24 +16,26 @@ Configuration:
     Level: 1
   SpeedMultiplier: 100
   DispositionBase: 35
-  HealthOffset: 5
+  HealthOffset: 45
 Factions:
 - Faction: 000013:Skyrim.esm
   Fluff: 0x000000
-- Faction: 0418EA:Skyrim.esm
+- Faction: 02E893:Skyrim.esm
   Fluff: 0x000000
-- Faction: 000835:ITB_Wildlife.esp
+- Faction: 0418EA:Skyrim.esm
   Fluff: 0x000000
 DeathItem: 03AD9A:Skyrim.esm
 Voice: 041FBB:Skyrim.esm
 Race: 013203:Skyrim.esm
 AttackRace: 013203:Skyrim.esm
 AIData:
-  Aggression: VeryAggressive
-  Confidence: Foolhardy
+  Aggression: Aggressive
+  Confidence: Brave
   EnergyLevel: 50
-  WarnOrAttack: 768
-  Attack: 192
+  Assistance: HelpsAllies
+  AggroRadiusBehavior: True
+  WarnOrAttack: 4000
+  Attack: 2000
 Packages:
 - 0DA751:Skyrim.esm
 Keywords:
@@ -124,9 +125,10 @@ PlayerSkills:
   GearedUpWeapons: 1
 CombatStyle: 041445:Skyrim.esm
 NAM5: 255
-Height: 1
+Height: 1.1
 Weight: 50
 SoundLevel: Normal
+DefaultPackageList: 00089D:ITB_Wildlife.esp
 TextureLighting: '#00808080'
 MajorFlags:
 - 0x40000

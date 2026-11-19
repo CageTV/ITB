@@ -1,0 +1,59 @@
+FormKey: 015281:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: JaphetsFolly01
+Version2: 1
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#00282828'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00B0DCF7'
+  FogNear: 340
+  FogFar: 14000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00B0DCF7'
+    Scale: 1
+  FogFarColor: '#00B0DCF7'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 01952F:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 019178:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\CaveIceCubeMap_e.dds
+AcousticSpace: 02B3AE:Skyrim.esm
+EncounterZone: 03EC16:Skyrim.esm
+Music: 05228A:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001273:ITB_Wildlife.esp
+  Base: 000FF8:ITB_Wildlife.esp
+  Placement:
+    Position: 2622.3755, 1209.6211, -11.01935

@@ -1,0 +1,17 @@
+FormKey: 00086A:ITB_Wildlife.esp
+EditorID: ITB_WolfRedFemaleFaction
+Relations:
+- Target: 00086A:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

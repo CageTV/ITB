@@ -5,13 +5,9 @@ EditorID: MQ101Bear
 SkyrimMajorRecordFlags:
 - Compressed
 - CantWait
-ObjectBounds:
-  First: -65, -100, 0
-  Second: 65, 100, 98
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   Level:
     MutagenObjectType: NpcLevel
     Level: 1
@@ -19,40 +15,41 @@ Configuration:
   DispositionBase: 35
   TemplateFlags:
   - Traits
+  - Stats
   - Factions
+  - SpellList
   - ModelAnimation
   - BaseData
   - Inventory
   - Script
   - AttackData
   - Keywords
-  HealthOffset: 10
+  HealthOffset: 350
 Factions:
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02E893:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 03E093:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0FBBF3:Skyrim.esm
   Fluff: 0x000000
-- Faction: 000809:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 00080B:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 00080F:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000826:ITB_Wildlife.esp
-  Fluff: 0x000000
-DeathItem: 03AD77:Skyrim.esm
+DeathItem: 03AD78:Skyrim.esm
 Voice: 01F14E:Skyrim.esm
-Template: 023A8A:Skyrim.esm
+Template: 023A8B:Skyrim.esm
 Race: 0131E8:Skyrim.esm
-AttackRace: 0131E7:Skyrim.esm
 Perks:
 - Perk: 109C1B:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0FAB0A:ccBGSSSE037-Curios.esl
   Rank: 1
   Fluff: 0x000000
 AIData:
   Aggression: Aggressive
   Confidence: Foolhardy
   EnergyLevel: 50
+  Responsibility: NoCrime
   Assistance: HelpsFriendsAndAllies
   AggroRadiusBehavior: True
   Warn: 1300
@@ -102,43 +99,43 @@ PlayerSkills:
     Value: 15
   SkillOffsets:
   - Key: OneHanded
-    Value: 0
+    Value: 23
   - Key: TwoHanded
-    Value: 0
+    Value: 5
   - Key: Archery
-    Value: 0
+    Value: 23
   - Key: Block
-    Value: 0
+    Value: 31
   - Key: Smithing
-    Value: 0
+    Value: 5
   - Key: HeavyArmor
-    Value: 0
+    Value: 5
   - Key: LightArmor
-    Value: 0
+    Value: 5
   - Key: Pickpocket
-    Value: 0
+    Value: 5
   - Key: Lockpicking
-    Value: 0
+    Value: 5
   - Key: Sneak
-    Value: 0
+    Value: 31
   - Key: Alchemy
-    Value: 0
+    Value: 5
   - Key: Speech
-    Value: 0
+    Value: 5
   - Key: Alteration
-    Value: 0
+    Value: 5
   - Key: Conjuration
-    Value: 0
+    Value: 5
   - Key: Destruction
-    Value: 0
+    Value: 5
   - Key: Illusion
-    Value: 0
+    Value: 5
   - Key: Restoration
-    Value: 0
+    Value: 5
   - Key: Enchanting
-    Value: 0
-  Health: 70
-  Stamina: 75
+    Value: 5
+  Health: 1010
+  Stamina: 500
   GearedUpWeapons: 1
 CombatStyle: 08E665:Skyrim.esm
 NAM5: 255
@@ -148,7 +145,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 08A3C2:Skyrim.esm
-TextureLighting: '#00808080'
+TextureLighting: '#007F7F7F'
 MajorFlags:
 - 0x40000
 - 0x80000

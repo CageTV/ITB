@@ -1,21 +1,28 @@
 FormKey: 0131FC:Skyrim.esm
-VersionControl: 79128
 EditorID: HorkerRace
-Version2: 7
 Name:
   TargetLanguage: English
   Value: Horker
 Description:
   TargetLanguage: English
   Value: ''
+ActorEffect:
+- 05D175:Skyrim.esm
+- 08CACA:Skyrim.esm
+- 0B8782:Skyrim.esm
+- 10C042:Skyrim.esm
+- 000BA2:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 08CA6A:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
-- 000895:ITB_Wildlife.esp
+- 013798:Skyrim.esm
+- 586728:ccBGSSSE037-Curios.esl
+- 5F367F:ccBGSSSE037-Curios.esl
+- 000801:ITB_Wildlife.esp
 SkillBoost0:
   Skill: 255
 SkillBoost1:
@@ -34,28 +41,30 @@ Height:
   Male: 1.2
   Female: 1
 Weight:
-  Male: 1
-  Female: 1
+  Male: 1000
+  Female: 1000
 Flags:
 - TiltFrontBack
 - Swims
 - Walks
+- NotPunishable
 - CantOpenDoors
+- NoKnockdowns
 Starting:
 - Key: Health
-  Value: 100
+  Value: 1000
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 20
-BaseCarryWeight: 200
+  Value: 500
+BaseCarryWeight: 250
 BaseMass: 3.5
-AccelerationRate: 1
+AccelerationRate: 3
 DecelerationRate: 1
-Size: Medium
+Size: Large
 Regen:
 - Key: Health
-  Value: 0
+  Value: 0.1
 - Key: Magicka
   Value: 0
 - Key: Stamina
@@ -64,7 +73,7 @@ UnarmedDamage: 30
 UnarmedReach: 64
 BodyBipedObject: Body
 AimAngleTolerance: 10
-AngularAccelerationRate: 0.25
+AngularAccelerationRate: 2.5
 AngularTolerance: 45
 MountData:
   MountOffset: -63.479, 0, 0
@@ -80,11 +89,11 @@ SkeletalModel:
     File: Actors\Horker\Character Assets\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 01F22D:Skyrim.esm
   Female: 01F22D:Skyrim.esm
@@ -93,41 +102,51 @@ FacegenFaceClamp: 3
 Attacks:
 - AttackData:
     DamageMult: 1
-    StrikeAngle: 35
+    Chance: 0.4
+    Spell: 0B8782:Skyrim.esm
+    StrikeAngle: 30
+    RecoveryTime: 0.1
     StaminaMult: 1
   AttackEvent: attackStart_Attack2
 - AttackData:
     DamageMult: 1
     Chance: 0.4
-    Spell: 0B8782:Skyrim.esm
     StrikeAngle: 35
     RecoveryTime: 0.1
     StaminaMult: 1
   AttackEvent: attackStart_AttackLeft1
 - AttackData:
-    StrikeAngle: 35
+    DamageMult: 1
+    Chance: 0.4
+    Spell: 0B8782:Skyrim.esm
+    StrikeAngle: 30
+    RecoveryTime: 0.1
     StaminaMult: 1
   AttackEvent: attackStart_AttackLeft2
 - AttackData:
     DamageMult: 1
     Chance: 0.4
-    StrikeAngle: 35
+    StrikeAngle: 30
+    RecoveryTime: 0.1
     StaminaMult: 1
   AttackEvent: attackStart_AttackRight1
 - AttackData:
     DamageMult: 1.5
     Chance: 0.2
+    Spell: 09CD4D:Skyrim.esm
     Flags:
     - PowerAttack
-    StrikeAngle: 35
-    StaminaMult: 1
-    Stagger: 0.0375
+    StrikeAngle: 30
+    Stagger: 0.75
+    RecoveryTime: 0.2
+    StaminaMult: 1.5
   AttackEvent: attackStart_ForwardPowerShort
 - AttackData:
     DamageMult: 1
     Chance: 1
+    Spell: 0B8782:Skyrim.esm
     AttackAngle: 10
-    StrikeAngle: 35
+    StrikeAngle: 30
     StaminaMult: 1
   AttackEvent: attackStart_HorkerSwim
 BodyData:
@@ -159,35 +178,9 @@ BipedObjectNames:
   Value: BODY
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm
 BaseMovementDefaultWalk: 05965A:Skyrim.esm
 BaseMovementDefaultRun: 05965A:Skyrim.esm
 BaseMovementDefaultSwim: 0C9EDA:Skyrim.esm
-ActorEffect:
-- 05D175:Skyrim.esm
-- 08CACA:Skyrim.esm
-- 0B8782:Skyrim.esm
-- 000AC2:ITB_Wildlife.esp
-- 000ACD:ITB_Wildlife.esp

@@ -1,0 +1,31 @@
+FormKey: 0008AA:ITB_Wildlife.esp
+EditorID: ITB_csFox
+OffensiveMult: 0.2
+DefensiveMult: 0.089999996
+GroupOffensiveMult: 0.45
+EquipmentScoreMultMelee: 1
+EquipmentScoreMultMagic: 1
+EquipmentScoreMultRanged: 1
+EquipmentScoreMultShout: 1
+EquipmentScoreMultUnarmed: 1
+EquipmentScoreMultStaff: 1
+AvoidThreatChance: 0.8
+Melee:
+  AttackStaggeredMult: 2.25
+  PowerAttackStaggeredMult: 1.1
+  PowerAttackBlockingMult: 3.2
+  SpecialAttackMult: 0.1
+CloseRange:
+  CircleMult: 0.41
+  FallbackMult: 0.8
+  FlankDistance: 0.8
+  StalkTime: 0.2
+LongRangeStrafeMult: 0
+Flight:
+  HoverTime: 0.5
+  GroundAttackTime: 0.5
+  PerchAttackChance: 0.5
+  PerchAttackTime: 0.5
+  FlyingAttackChance: 0.75
+Flags:
+- Dueling

@@ -33,16 +33,16 @@ Factions:
   Fluff: 0x000000
 - Faction: 03E691:Skyrim.esm
   Fluff: 0x000000
-- Faction: 000826:ITB_Wildlife.esp
+- Faction: 00084A:ITB_Wildlife.esp
   Fluff: 0x000000
-- Faction: 000843:ITB_Wildlife.esp
+- Faction: 00086C:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD9E:Skyrim.esm
 Voice: 01F6A7:Skyrim.esm
 Template: 023ABE:Skyrim.esm
 Race: 01320A:Skyrim.esm
 ActorEffect:
-- 000ACA:ITB_Wildlife.esp
+- 000BAB:ITB_Wildlife.esp
 WornArmor: 0C02FB:Skyrim.esm
 AttackRace: 01320A:Skyrim.esm
 AIData:

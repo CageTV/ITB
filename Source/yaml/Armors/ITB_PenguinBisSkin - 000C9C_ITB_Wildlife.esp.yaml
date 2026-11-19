@@ -1,0 +1,18 @@
+FormKey: 000C9C:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_PenguinBisSkin
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000901:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000DF2:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

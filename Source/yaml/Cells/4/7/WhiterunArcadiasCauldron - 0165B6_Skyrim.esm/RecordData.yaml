@@ -1,0 +1,54 @@
+FormKey: 0165B6:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: WhiterunArcadiasCauldron
+Version2: 6
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- ShowSky
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#003E3533'
+    DirectionalXMinus: '#0033352E'
+    DirectionalYPlus: '#00393731'
+    DirectionalYMinus: '#00393231'
+    DirectionalZPlus: '#001B1916'
+    DirectionalZMinus: '#0056504B'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 06175D:Skyrim.esm
+WaterHeight: 0
+Location: 01F86C:Skyrim.esm
+Owner: 093B16:Skyrim.esm
+LockList: 093AF9:Skyrim.esm
+SkyAndWeatherFromRegion: 070408:Skyrim.esm
+AcousticSpace: 0C5B6B:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 036ED2:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011C6:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
+  Placement:
+    Position: -291, -40, 65
+    Rotation: 0, 0, 3.2800007

@@ -1,0 +1,62 @@
+FormKey: 01522C:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: PurewaterRun01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00B0DCF7'
+  FogNear: 340
+  FogFar: 14000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00000000'
+    DirectionalXMinus: '#00000000'
+    DirectionalYPlus: '#00000000'
+    DirectionalYMinus: '#00000000'
+    DirectionalZPlus: '#00000000'
+    DirectionalZMinus: '#00000000'
+    Specular: '#00B0DCF7'
+    Scale: 1
+  FogFarColor: '#00B0DCF7'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 0345A4:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 01928D:Skyrim.esm
+Water: 033DA7:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\DunCaveRuinGreen_e.dds
+SkyAndWeatherFromRegion: 02A72D:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 03EC55:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001169:ITB_Wildlife.esp
+  Base: 000E4A:ITB_Wildlife.esp
+  Placement:
+    Position: 328.14764, -1330.2073, 72.03196
+    Rotation: 0, 0, 6.1831884
+- MutagenObjectType: PlacedNpc
+  FormKey: 00116A:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: 157.19054, -1188.5532, -102.9613

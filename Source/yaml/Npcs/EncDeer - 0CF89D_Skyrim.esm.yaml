@@ -2,7 +2,6 @@ FormKey: 0CF89D:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncDeer
-Version2: 4
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -10,41 +9,34 @@ ObjectBounds:
   Second: 38, 139, 179
 Configuration:
   Flags:
+  - Female
   - Respawn
-  - AutoCalcStats
+  - DoesntAffectStealthMeter
   Level:
     MutagenObjectType: NpcLevel
-    Level: 8
-  SpeedMultiplier: 100
+    Level: 1
+  SpeedMultiplier: 160
   DispositionBase: 35
+  HealthOffset: 175
 Factions:
+- Faction: 00082B:ITB_Wildlife.esp
+  Fluff: 0x000000
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0F1ABC:Skyrim.esm
   Fluff: 0x000000
-- Faction: 000815:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000817:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
-  Fluff: 0x000000
 DeathItem: 0D284C:Skyrim.esm
 Voice: 041FBA:Skyrim.esm
 Race: 0CF89B:Skyrim.esm
 AIData:
   EnergyLevel: 50
+  Responsibility: NoCrime
   AggroRadiusBehavior: True
-  Attack: 1700
-Packages:
-- 0008B7:ITB_Wildlife.esp
-- 0008BC:ITB_Wildlife.esp
-- 0008BD:ITB_Wildlife.esp
-- 0008B9:ITB_Wildlife.esp
-- 000913:ITB_Wildlife.esp
+  Attack: 2000
 Class: 01CE1D:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -52,13 +44,13 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 30
+    Value: 15
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 30
+    Value: 15
   - Key: Block
-    Value: 25
+    Value: 15
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -70,7 +62,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 31
+    Value: 15
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -107,7 +99,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 0
   - Key: Sneak
-    Value: 0
+    Value: 70
   - Key: Alchemy
     Value: 0
   - Key: Speech
@@ -124,8 +116,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 100
-  Stamina: 85
+  Health: 50
+  Stamina: 25
   GearedUpWeapons: 1
 CombatStyle: 093A60:Skyrim.esm
 NAM5: 255
@@ -135,6 +127,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 0FFA08:Skyrim.esm
+DefaultPackageList: 10D483:Skyrim.esm
 TextureLighting: '#007F7F7F'
 MajorFlags:
 - 0x40000

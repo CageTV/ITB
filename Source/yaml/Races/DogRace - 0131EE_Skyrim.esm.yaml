@@ -1,23 +1,26 @@
 FormKey: 0131EE:Skyrim.esm
-VersionControl: 79128
 EditorID: DogRace
-Version2: 7
 Name:
   TargetLanguage: English
   Value: Dog
 Description:
   TargetLanguage: English
   Value: ''
+ActorEffect:
+- 10C042:Skyrim.esm
+- 000BA3:ITB_Wildlife.esp
+- 000BA5:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 04B2C9:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
+- 013798:Skyrim.esm
+- 586728:ccBGSSSE037-Curios.esl
 SkillBoost0:
-  Skill: Sneak
-  Boost: 35
+  Skill: 255
 SkillBoost1:
   Skill: 255
 SkillBoost2:
@@ -29,13 +32,14 @@ SkillBoost4:
 SkillBoost5:
   Skill: 255
 SkillBoost6:
-  Skill: 255
+  Skill: Sneak
+  Boost: 35
 Height:
   Male: 1
   Female: 1
 Weight:
-  Male: 1
-  Female: 1
+  Male: 80
+  Female: 80
 Flags:
 - TiltFrontBack
 - Swims
@@ -46,26 +50,26 @@ Flags:
 - AllowPcDialog
 Starting:
 - Key: Health
-  Value: 10
+  Value: 150
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 20
-BaseCarryWeight: 200
-BaseMass: 1
+  Value: 160
+BaseCarryWeight: 20
+BaseMass: 0.75
 AccelerationRate: 1
 DecelerationRate: 1
 Size: Medium
 Regen:
 - Key: Health
-  Value: 0
+  Value: 0.1
 - Key: Magicka
   Value: 0
 - Key: Stamina
   Value: 10
-UnarmedDamage: 8
+UnarmedDamage: 15
 UnarmedReach: 64
-AngularAccelerationRate: 0.25
+AngularAccelerationRate: 0.35
 AngularTolerance: 5
 MountData:
   MountOffset: -63.479, 0, 0
@@ -81,11 +85,11 @@ SkeletalModel:
     File: Actors\Canine\Character Assets Dog\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 01F180:Skyrim.esm
   Female: 01F180:Skyrim.esm
@@ -95,37 +99,41 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    StrikeAngle: 35
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: attackStart_Attack1
 - AttackData:
     DamageMult: 1
     Chance: 1
-    StrikeAngle: 35
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: attackStart_Attack2
 - AttackData:
     DamageMult: 2
     Chance: 1
-    StrikeAngle: 35
-    StaminaMult: 1
+    Spell: 09CD4D:Skyrim.esm
+    StrikeAngle: 25
     Stagger: 0.0375
+    StaminaMult: 2
   AttackEvent: attackStart_ForwardPower
 - AttackData:
     DamageMult: 2
     Chance: 1
-    StrikeAngle: 35
-    StaminaMult: 1
+    StrikeAngle: 25
+    StaminaMult: 2
   AttackEvent: attackStart_SkeeverLungeLong
 - AttackData:
     DamageMult: 2
     Chance: 1
-    StrikeAngle: 35
+    Spell: 09CD4D:Skyrim.esm
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeShort
 - AttackData:
     DamageMult: 1
-    StrikeAngle: 35
+    Chance: 1
+    Spell: 09CD4D:Skyrim.esm
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: attackStart_StandingPower
 BodyData:
@@ -156,29 +164,6 @@ BipedObjectNames:
   Value: BODY
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm
-ActorEffect:
-- 000AC3:ITB_Wildlife.esp
-- 000ACD:ITB_Wildlife.esp

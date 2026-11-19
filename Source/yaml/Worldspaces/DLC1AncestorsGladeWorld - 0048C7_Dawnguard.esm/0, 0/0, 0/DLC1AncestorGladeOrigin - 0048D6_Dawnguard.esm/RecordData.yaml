@@ -1,0 +1,31 @@
+FormKey: 0048D6:Dawnguard.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DLC1AncestorGladeOrigin
+SkyrimMajorRecordFlags:
+- Compressed
+Flags:
+- HasWater
+Grid: {}
+WaterHeight: 3.4028235E+38
+Regions:
+- 092C8E:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 00130B:ITB_Wildlife.esp
+  Base: 000FD4:ITB_Wildlife.esp
+  Placement:
+    Position: 576.2306, 626.96826, 717.7267
+    Rotation: 0, 0, 4.383187
+- MutagenObjectType: PlacedNpc
+  FormKey: 00130C:ITB_Wildlife.esp
+  Base: 000FD4:ITB_Wildlife.esp
+  Placement:
+    Position: 2710.869, 819.9062, 199.87854
+- MutagenObjectType: PlacedNpc
+  FormKey: 00130D:ITB_Wildlife.esp
+  Base: 000F91:ITB_Wildlife.esp
+  Placement:
+    Position: 2238.3335, 2077.1833, -179.32883

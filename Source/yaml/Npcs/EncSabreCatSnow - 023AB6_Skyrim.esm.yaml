@@ -2,7 +2,6 @@ FormKey: 023AB6:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncSabreCatSnow
-Version2: 14
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -11,28 +10,33 @@ ObjectBounds:
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   StaminaOffset: 150
   Level:
     MutagenObjectType: NpcLevel
-    Level: 25
-  SpeedMultiplier: 100
+    Level: 11
+  SpeedMultiplier: 175
   DispositionBase: 35
+  TemplateFlags:
+  - Factions
+  - AIData
+  - AIPackages
+  - Inventory
+  - Script
+  - DefPackList
+  - Keywords
+  HealthOffset: 175
 Factions:
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02E893:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 03E093:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0435A2:Skyrim.esm
   Fluff: 0x000000
-- Faction: 000826:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 00082E:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 00082F:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000831:ITB_Wildlife.esp
-  Fluff: 0x000000
 DeathItem: 03AD98:Skyrim.esm
 Voice: 01920C:Skyrim.esm
+Template: 023AB5:Skyrim.esm
 Race: 013202:Skyrim.esm
 WornArmor: 09DA65:Skyrim.esm
 AttackRace: 013202:Skyrim.esm
@@ -42,59 +46,50 @@ AIData:
   EnergyLevel: 50
   Assistance: HelpsAllies
   AggroRadiusBehavior: True
-  Warn: 2500
-  WarnOrAttack: 1000
-  Attack: 800
-Packages:
-- 00090D:ITB_Wildlife.esp
-- 00090E:ITB_Wildlife.esp
-- 000912:ITB_Wildlife.esp
-- 000910:ITB_Wildlife.esp
-- 000911:ITB_Wildlife.esp
-- 00090C:ITB_Wildlife.esp
-- 000913:ITB_Wildlife.esp
+  WarnOrAttack: 1500
+  Attack: 750
 Class: 0131E6:Skyrim.esm
 Name:
   TargetLanguage: English
-  Value: Snowy Sabre Cat
+  Value: Sabre Cat
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 63
+    Value: 31
   - Key: TwoHanded
-    Value: 15
+    Value: 5
   - Key: Archery
-    Value: 53
+    Value: 21
   - Key: Block
-    Value: 73
+    Value: 29
   - Key: Smithing
-    Value: 15
+    Value: 5
   - Key: HeavyArmor
-    Value: 15
+    Value: 5
   - Key: LightArmor
-    Value: 15
+    Value: 5
   - Key: Pickpocket
-    Value: 15
+    Value: 5
   - Key: Lockpicking
-    Value: 15
+    Value: 5
   - Key: Sneak
-    Value: 93
+    Value: 49
   - Key: Alchemy
-    Value: 15
+    Value: 5
   - Key: Speech
-    Value: 15
+    Value: 5
   - Key: Alteration
-    Value: 15
+    Value: 5
   - Key: Conjuration
-    Value: 15
+    Value: 5
   - Key: Destruction
-    Value: 15
+    Value: 5
   - Key: Illusion
-    Value: 15
+    Value: 5
   - Key: Restoration
-    Value: 15
+    Value: 5
   - Key: Enchanting
-    Value: 15
+    Value: 5
   SkillOffsets:
   - Key: OneHanded
     Value: 0
@@ -132,10 +127,10 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 340
-  Stamina: 370
+  Health: 275
+  Stamina: 300
   GearedUpWeapons: 1
-CombatStyle: 000804:ITB_Wildlife.esp
+CombatStyle: 01CDE6:Skyrim.esm
 NAM5: 255
 Height: 1
 Weight: 50
@@ -143,6 +138,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 017F39:Skyrim.esm
+DefaultPackageList: 00089B:ITB_Wildlife.esp
 TextureLighting: '#00808080'
 MajorFlags:
 - 0x40000

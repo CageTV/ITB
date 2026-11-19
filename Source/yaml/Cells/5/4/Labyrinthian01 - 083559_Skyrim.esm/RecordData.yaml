@@ -1,0 +1,78 @@
+FormKey: 083559:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: Labyrinthian01
+Version2: 12
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#001E1E1E'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#0011110B'
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#003A3021'
+    DirectionalXMinus: '#002F301E'
+    DirectionalYPlus: '#00353220'
+    DirectionalYMinus: '#00352D20'
+    DirectionalZPlus: '#0019160E'
+    DirectionalZMinus: '#005C5438'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#0011110B'
+  FogMax: 1
+  LightFadeBegin: 11000
+  LightFadeEnd: 11000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 03128D:Skyrim.esm
+WaterHeight: 0
+Location: 019262:Skyrim.esm
+SkyAndWeatherFromRegion: 106667:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 03EC42:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011F6:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -5984.2627, 378.0201, -316.7751
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011F7:ITB_Wildlife.esp
+  Base: 000E4A:ITB_Wildlife.esp
+  Placement:
+    Position: -7016.8794, 284.82825, -154.37038
+    Rotation: 0, 0, 4.5831876
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011F8:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -6464.2803, 215.13751, -287.7234
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011F9:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -7499.6045, 204.69194, -29.751663
+    Rotation: 0, 0, 4.3831882

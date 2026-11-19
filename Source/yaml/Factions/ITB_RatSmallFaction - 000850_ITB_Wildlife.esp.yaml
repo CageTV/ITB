@@ -1,0 +1,19 @@
+FormKey: 000850:ITB_Wildlife.esp
+EditorID: ITB_RatSmallFaction
+Relations:
+- Target: 09A741:Skyrim.esm
+  Reaction: Enemy
+- Target: 000850:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

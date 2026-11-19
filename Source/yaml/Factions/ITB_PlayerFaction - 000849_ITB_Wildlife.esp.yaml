@@ -1,0 +1,9 @@
+FormKey: 000849:ITB_Wildlife.esp
+EditorID: ITB_PlayerFaction
+Relations:
+- Target: 000DB1:Skyrim.esm
+  Reaction: Ally
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

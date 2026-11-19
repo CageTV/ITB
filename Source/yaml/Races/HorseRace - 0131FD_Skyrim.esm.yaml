@@ -1,7 +1,5 @@
 FormKey: 0131FD:Skyrim.esm
-VersionControl: 79128
 EditorID: HorseRace
-Version2: 13
 Name:
   TargetLanguage: English
   Value: Horse
@@ -9,18 +7,24 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
+- 10C042:Skyrim.esm
 - 10F71F:Skyrim.esm
-- 000AC3:ITB_Wildlife.esp
+- 078AA8:ccBGSSSE037-Curios.esl
+- 0CB37E:ccBGSSSE037-Curios.esl
+- 609AF0:ccBGSSSE037-Curios.esl
+- 000BA3:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 060715:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
+- 013798:Skyrim.esm
 - 06F6FB:Skyrim.esm
 - 0F23C5:Skyrim.esm
-- 000895:ITB_Wildlife.esp
+- 586728:ccBGSSSE037-Curios.esl
+- 000801:ITB_Wildlife.esp
 SkillBoost0:
   Skill: 255
 SkillBoost1:
@@ -39,8 +43,8 @@ Height:
   Male: 1
   Female: 1
 Weight:
-  Male: 1
-  Female: 1
+  Male: 450
+  Female: 450
 Flags:
 - TiltFrontBack
 - Walks
@@ -50,32 +54,32 @@ Flags:
 - NoKnockdowns
 Starting:
 - Key: Health
-  Value: 50
+  Value: 450
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 200
-BaseCarryWeight: 250
+  Value: 1000
+BaseCarryWeight: 300
 BaseMass: 3.5
 AccelerationRate: 1
 DecelerationRate: 1
 Size: Medium
 Regen:
 - Key: Health
-  Value: 1
+  Value: 0.2
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 10
-UnarmedDamage: 10
-UnarmedReach: 96
-BodyBipedObject: Head
+  Value: 0.5
+UnarmedDamage: 35
+UnarmedReach: 72
+BodyBipedObject: 15
 AngularAccelerationRate: 0.25
 AngularTolerance: 5
 MountData:
   MountOffset: -63.479, 0, 0
   DismountOffset: -50, 0, 65
-  MountCameraOffset: 0, -300, 0
+  MountCameraOffset: 45, -30, 55
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
@@ -86,11 +90,11 @@ SkeletalModel:
     File: Actors\Horse\Character Assets\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 01F232:Skyrim.esm
   Female: 01F232:Skyrim.esm
@@ -100,13 +104,13 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    StrikeAngle: 35
+    StrikeAngle: 18
     StaminaMult: 1
   AttackEvent: attackStart_Attack1
 - AttackData:
     DamageMult: 1
     Chance: 1
-    StrikeAngle: 35
+    StrikeAngle: 18
     StaminaMult: 1
   AttackEvent: attackStart_Attack2
 BodyData:
@@ -129,36 +133,18 @@ BehaviorGraph:
     File: Actors\Horse\HorseProject.hkx
     Data: 0x020000000000000000000000
 MaterialType: 012F3F:Skyrim.esm
-ImpactDataSet: 0AF666:Skyrim.esm
+ImpactDataSet: 0AF640:Skyrim.esm
 OpenLootSound: 0A5013:Skyrim.esm
 CloseLootSound: 0A5014:Skyrim.esm
 BipedObjectNames:
 - Key: Head
-  Value: BODY
+  Value: HEAD
 - Key: 15
   Value: Saddle
+- Key: 30
+  Value: Mane
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm

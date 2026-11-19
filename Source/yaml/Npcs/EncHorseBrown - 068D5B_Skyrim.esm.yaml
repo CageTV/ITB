@@ -2,29 +2,22 @@ FormKey: 068D5B:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 537133056
 EditorID: EncHorseBrown
-Version2: 8
 SkyrimMajorRecordFlags:
 - Compressed
 - 0x20000000
-ObjectBounds:
-  First: -31, -103, 0
-  Second: 31, 103, 169
 Configuration:
   Flags:
   - Respawn
   - AutoCalcStats
+  - DoesntAffectStealthMeter
   - BleedoutOverride
   Level:
     MutagenObjectType: NpcLevel
-    Level: 20
+    Level: 4
   SpeedMultiplier: 100
   DispositionBase: 35
 Factions:
-- Faction: 02E894:Skyrim.esm
-  Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000820:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD94:Skyrim.esm
 Voice: 01F232:Skyrim.esm
@@ -33,30 +26,25 @@ WornArmor: 060715:Skyrim.esm
 AttackRace: 0131FD:Skyrim.esm
 AIData:
   EnergyLevel: 50
-  Attack: 1500
-Packages:
-- 0008E7:ITB_Wildlife.esp
-- 0008E9:ITB_Wildlife.esp
-- 0008EB:ITB_Wildlife.esp
-- 0008E8:ITB_Wildlife.esp
-- 0008EC:ITB_Wildlife.esp
-- 0008EA:ITB_Wildlife.esp
+  AggroRadiusBehavior: True
+  Attack: 900
+  Responsibility: NoCrime
 Keywords:
 - 026110:Skyrim.esm
 Class: 10F71E:Skyrim.esm
 Name:
   TargetLanguage: English
-  Value: Horse
+  Value: Exmoor Pony
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 56
+    Value: 21
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 56
+    Value: 22
   - Key: Block
-    Value: 43
+    Value: 19
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -68,7 +56,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 57
+    Value: 22
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -122,8 +110,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 297
-  Stamina: 238
+  Health: 289
+  Stamina: 106
   GearedUpWeapons: 1
 CombatStyle: 01CF32:Skyrim.esm
 NAM5: 255

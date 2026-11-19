@@ -8,14 +8,26 @@ Configuration:
   Flags:
   - Respawn
   - AutoCalcStats
-  StaminaOffset: 100
+  - DoesntAffectStealthMeter
+  StaminaOffset: -180
   Level:
     MutagenObjectType: NpcLevel
-    Level: 3
-  SpeedMultiplier: 160
+    Level: 2
+  SpeedMultiplier: 150
   DispositionBase: 35
+  TemplateFlags:
+  - Stats
+  - AIData
+  - AIPackages
+  - Inventory
+  - Script
+  - DefPackList
+  - AttackData
+  - Keywords
 Factions:
-- Faction: 02E894:Skyrim.esm
+- Faction: 000835:ITB_Wildlife.esp
+  Fluff: 0x000000
+- Faction: 000013:Skyrim.esm
   Fluff: 0x000000
 - Faction: 03E093:Skyrim.esm
   Fluff: 0x000000
@@ -23,10 +35,9 @@ Factions:
   Fluff: 0x000000
 - Faction: 0F1ABC:Skyrim.esm
   Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
 DeathItem: 1072C4:Skyrim.esm
 Voice: 10F677:Skyrim.esm
+Template: 0829B3:Skyrim.esm
 Race: 109C7C:Skyrim.esm
 ActorEffect:
 - 10C042:Skyrim.esm
@@ -34,15 +45,10 @@ WornArmor: 0829B7:Skyrim.esm
 AttackRace: 01320A:Skyrim.esm
 AIData:
   EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsAllies
   AggroRadiusBehavior: True
   Attack: 1500
-Packages:
-- 0008D6:ITB_Wildlife.esp
-- 0008D3:ITB_Wildlife.esp
-- 0008D2:ITB_Wildlife.esp
-- 0008D0:ITB_Wildlife.esp
-- 0008D1:ITB_Wildlife.esp
-- 0008D4:ITB_Wildlife.esp
 Class: 0131E6:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -50,13 +56,13 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 18
+    Value: 17
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 18
+    Value: 17
   - Key: Block
-    Value: 20
+    Value: 17
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -68,7 +74,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 35
+    Value: 32
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -122,18 +128,18 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 30
-  Stamina: 140
+  Health: 22
+  Stamina: 25
   GearedUpWeapons: 1
 CombatStyle: 057BE8:Skyrim.esm
 NAM5: 255
-Height: 0.5
+Height: 0.6
 Weight: 50
 SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 0A85C7:Skyrim.esm
-DefaultPackageList: 10D483:Skyrim.esm
+DefaultPackageList: 000887:ITB_Wildlife.esp
 TextureLighting: '#00808080'
 MajorFlags:
 - 0x40000

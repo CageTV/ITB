@@ -1,0 +1,14 @@
+FormKey: 00082F:ITB_Wildlife.esp
+EditorID: ITB_durzog_faction
+Name:
+  TargetLanguage: English
+  Value: Predator Faction
+Relations:
+- Target: 00082F:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- HiddenFromPC
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

@@ -7,25 +7,22 @@ SkyrimMajorRecordFlags:
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   - DoesntAffectStealthMeter
   - SimpleActor
   MagickaOffset: -25
   Level:
     MutagenObjectType: NpcLevel
-    Level: 2
+    Level: 1
   SpeedMultiplier: 150
   DispositionBase: 35
 Factions:
+- Faction: 000826:ITB_Wildlife.esp
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0A3087:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0F1ABC:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 09A772:Skyrim.esm
 Voice: 0D78AD:Skyrim.esm
@@ -34,12 +31,11 @@ WornArmor: 06DC9B:Skyrim.esm
 AttackRace: 06DC99:Skyrim.esm
 AIData:
   EnergyLevel: 60
+  Responsibility: NoCrime
   AggroRadiusBehavior: True
+  Warn: 2048
+  WarnOrAttack: 2048
   Attack: 2048
-Packages:
-- 0008E3:ITB_Wildlife.esp
-- 0008E2:ITB_Wildlife.esp
-- 0008E1:ITB_Wildlife.esp
 Class: 01CE1D:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -47,13 +43,13 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 17
+    Value: 15
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 17
+    Value: 15
   - Key: Block
-    Value: 17
+    Value: 15
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -65,7 +61,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 17
+    Value: 15
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -102,7 +98,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 0
   - Key: Sneak
-    Value: 0
+    Value: 70
   - Key: Alchemy
     Value: 0
   - Key: Speech
@@ -119,16 +115,16 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 15
+  Health: 25
   Magicka: 65511
-  Stamina: 30
+  Stamina: 25
   GearedUpWeapons: 1
 CombatStyle: 06E27B:Skyrim.esm
 NAM5: 255
 Height: 1.3
 Weight: 1
 SoundLevel: Normal
-DefaultPackageList: 10D483:Skyrim.esm
+DefaultPackageList: 00089A:ITB_Wildlife.esp
 TextureLighting: '#007F7F7F'
 MajorFlags:
 - 0x40000

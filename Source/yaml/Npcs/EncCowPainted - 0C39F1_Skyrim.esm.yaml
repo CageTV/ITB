@@ -2,14 +2,16 @@ FormKey: 0C39F1:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncCowPainted
-Version2: 9
 SkyrimMajorRecordFlags:
 - Compressed
+ObjectBounds:
+  First: -25, -90, 0
+  Second: 25, 90, 100
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   - DoesntAffectStealthMeter
+  StaminaOffset: 175
   Level:
     MutagenObjectType: NpcLevel
     Level: 20
@@ -25,7 +27,10 @@ Configuration:
   - DefPackList
   - AttackData
   - Keywords
+  HealthOffset: 135
 Factions:
+- Faction: 000828:ITB_Wildlife.esp
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
@@ -33,12 +38,6 @@ Factions:
 - Faction: 04359A:Skyrim.esm
   Fluff: 0x000000
 - Faction: 04E849:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000813:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD7B:Skyrim.esm
 Voice: 01F15F:Skyrim.esm
@@ -49,8 +48,6 @@ AttackRace: 04E785:Skyrim.esm
 AIData:
   EnergyLevel: 50
   Responsibility: NoCrime
-Packages:
-- 054F98:Skyrim.esm
 Class: 01CE17:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -130,8 +127,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 259
-  Stamina: 102
+  Health: 629
+  Stamina: 286
   GearedUpWeapons: 1
 CombatStyle: 04DB9F:Skyrim.esm
 NAM5: 255
@@ -141,6 +138,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 04D2A8:Skyrim.esm
+DefaultPackageList: 00087D:ITB_Wildlife.esp
 TextureLighting: '#007F7F7F'
 MajorFlags:
 - 0x40000

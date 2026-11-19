@@ -1,0 +1,162 @@
+FormKey: 0008F8:ITB_Wildlife.esp
+EditorID: ITB_gouti_raceULTRA
+Name:
+  TargetLanguage: English
+  Value: Dog
+Description:
+  TargetLanguage: English
+  Value: ''
+Skin: 04B2C9:Skyrim.esm
+BodyTemplate:
+  ArmorType: Clothing
+  ActsLike44: True
+Keywords:
+- 013795:Skyrim.esm
+- 013798:Skyrim.esm
+- 0F23C5:Skyrim.esm
+SkillBoost0:
+  Skill: 255
+SkillBoost1:
+  Skill: 255
+SkillBoost2:
+  Skill: 255
+SkillBoost3:
+  Skill: 255
+SkillBoost4:
+  Skill: 255
+SkillBoost5:
+  Skill: 255
+SkillBoost6:
+  Skill: Sneak
+  Boost: 35
+Height:
+  Male: 0.8
+  Female: 0.8
+Weight:
+  Male: 1
+  Female: 1
+Flags:
+- TiltFrontBack
+- Walks
+- NoCombatInWater
+- CantOpenDoors
+- NoKnockdowns
+Starting:
+- Key: Health
+  Value: 75
+- Key: Magicka
+  Value: 0
+- Key: Stamina
+  Value: 100
+BaseCarryWeight: 200
+BaseMass: 1
+AccelerationRate: 3
+DecelerationRate: 3
+Size: Medium
+Regen:
+- Key: Health
+  Value: 0
+- Key: Magicka
+  Value: 0
+- Key: Stamina
+  Value: 10
+UnarmedDamage: 15
+UnarmedReach: 74
+AngularAccelerationRate: 0.25
+AngularTolerance: 5
+MountData:
+  MountOffset: -63.479, 0, 0
+  DismountOffset: -50, 0, 65
+  MountCameraOffset: 0, -300, 0
+SkeletalModel:
+  Male:
+    MutagenObjectType: SimpleModel
+    File: itb\fauna\wolf\wolf_334c32d9.nif
+    Data: 0x020000000000000000000000
+  Female:
+    MutagenObjectType: SimpleModel
+    File: itb\fauna\wolf\wolf_334c32d9.nif
+    Data: 0x020000000000000000000000
+MovementTypeNames:
+- BLDO
+- RUN1
+- SNEK
+- SWIM
+- WALK
+Voices:
+  Male: 011681:Dawnguard.esm
+  Female: 01F180:Skyrim.esm
+FacegenMainClamp: 5
+FacegenFaceClamp: 3
+Attacks:
+- AttackData:
+    DamageMult: 2
+    Chance: 1
+    StrikeAngle: 35
+    StaminaMult: 1
+  AttackEvent: attackStart_Attack1
+- AttackData:
+    DamageMult: 2
+    Chance: 1
+    Spell: 0B8781:Skyrim.esm
+    StrikeAngle: 35
+    StaminaMult: 1
+  AttackEvent: attackStart_Attack2
+- AttackData:
+    DamageMult: 3
+    Chance: 1
+    Spell: 0B877C:Skyrim.esm
+    StrikeAngle: 35
+    Stagger: 0.75
+    StaminaMult: 1
+  AttackEvent: attackStart_ForwardPower
+- AttackData:
+    DamageMult: 3
+    Chance: 1
+    StrikeAngle: 35
+    StaminaMult: 1
+  AttackEvent: attackStart_SkeeverLungeLong
+- AttackData:
+    DamageMult: 2.2
+    Chance: 1
+    StrikeAngle: 35
+    StaminaMult: 1
+  AttackEvent: attackStart_SkeeverLungeShort
+- AttackData:
+    DamageMult: 2
+    Chance: 0.1
+    Spell: 05AD5F:Skyrim.esm
+    StrikeAngle: 35
+    StaminaMult: 1
+  AttackEvent: attackStart_StandingPower
+BodyData:
+  Male:
+    Index: BodyTexture
+    Model:
+      File: Actors\Character\UpperBodyHumanMale.egt
+      Data: 0x020000000000000000000000
+  Female:
+    Index: BodyTexture
+    Model:
+      File: Actors\Character\UpperBodyHumanFemale.egt
+      Data: 0x020000000000000000000000
+BodyPartData: 04FBF5:Skyrim.esm
+BehaviorGraph:
+  Male:
+    File: Actors\Canine\WolfProject.hkx
+    Data: 0x020000000000000000000000
+  Female:
+    File: Actors\Canine\DogProject.hkx
+    Data: 0x020000000000000000000000
+MaterialType: 05A28F:Skyrim.esm
+ImpactDataSet: 01F272:Skyrim.esm
+OpenLootSound: 0A5013:Skyrim.esm
+CloseLootSound: 0A5014:Skyrim.esm
+BipedObjectNames:
+- Key: Body
+  Value: BODY
+EquipmentFlags:
+- HandToHand
+EquipmentSlots:
+- 013F42:Skyrim.esm
+UnarmedEquipSlot: 013F42:Skyrim.esm

@@ -1,0 +1,13 @@
+FormKey: 000812:ITB_Wildlife.esp
+EditorID: ITB_Goat_Run_MT
+ForwardWalk: 400
+ForwardRun: 400
+BackWalk: 40
+BackRun: 40
+RotateInPlaceWalk: 270.0001
+RotateInPlaceRun: 270.0001
+RotateWhileMovingRun: 270.0001
+AnimationChangeThresholds:
+  Directional: 3.4028235E+38
+  MovementSpeed: 3.4028235E+38
+  RotationSpeed: 3.4028235E+38

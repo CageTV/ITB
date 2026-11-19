@@ -2,22 +2,24 @@ FormKey: 0E4010:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncMudcrabMedium
-Version2: 2
 SkyrimMajorRecordFlags:
 - Compressed
+ObjectBounds:
+  First: -39, -41, 0
+  Second: 39, 41, 56
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   Level:
     MutagenObjectType: NpcLevel
     Level: 1
   SpeedMultiplier: 100
   DispositionBase: 35
+  HealthOffset: 75
 Factions:
-- Faction: 000824:ITB_Wildlife.esp
+- Faction: 000013:Skyrim.esm
   Fluff: 0x000000
-- Faction: 000826:ITB_Wildlife.esp
+- Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 DeathItem: 1017B8:Skyrim.esm
 Voice: 03E8A6:Skyrim.esm
@@ -27,14 +29,7 @@ AttackRace: 0BA545:Skyrim.esm
 AIData:
   Confidence: Cautious
   EnergyLevel: 50
-  AggroRadiusBehavior: True
-  Warn: 500
-  WarnOrAttack: 500
-  Attack: 500
-Packages:
-- 0C81D4:Skyrim.esm
-Keywords:
-- 000AB6:ITB_Wildlife.esp
+  Responsibility: NoCrime
 Class: 0BB4B0:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -42,41 +37,41 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 15
+    Value: 5
   - Key: TwoHanded
-    Value: 15
+    Value: 5
   - Key: Archery
-    Value: 15
+    Value: 5
   - Key: Block
-    Value: 15
+    Value: 5
   - Key: Smithing
-    Value: 15
+    Value: 5
   - Key: HeavyArmor
-    Value: 15
+    Value: 5
   - Key: LightArmor
-    Value: 15
+    Value: 5
   - Key: Pickpocket
-    Value: 15
+    Value: 5
   - Key: Lockpicking
-    Value: 15
+    Value: 5
   - Key: Sneak
-    Value: 15
+    Value: 5
   - Key: Alchemy
-    Value: 15
+    Value: 5
   - Key: Speech
-    Value: 15
+    Value: 5
   - Key: Alteration
-    Value: 15
+    Value: 5
   - Key: Conjuration
-    Value: 15
+    Value: 5
   - Key: Destruction
-    Value: 15
+    Value: 5
   - Key: Illusion
-    Value: 15
+    Value: 5
   - Key: Restoration
-    Value: 15
+    Value: 5
   - Key: Enchanting
-    Value: 15
+    Value: 5
   SkillOffsets:
   - Key: OneHanded
     Value: 0
@@ -114,7 +109,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 15
+  Health: 5
+  Magicka: 4
   Stamina: 25
   GearedUpWeapons: 1
 CombatStyle: 0BB4AF:Skyrim.esm
@@ -125,7 +121,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 03E8A1:Skyrim.esm
-DefaultPackageList: 021E81:Skyrim.esm
+DefaultPackageList: 000894:ITB_Wildlife.esp
 TextureLighting: '#007F7F7F'
 MajorFlags:
 - 0x40000

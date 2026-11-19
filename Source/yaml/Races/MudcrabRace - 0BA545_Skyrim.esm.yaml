@@ -1,7 +1,5 @@
 FormKey: 0BA545:Skyrim.esm
-VersionControl: 79128
 EditorID: MudcrabRace
-Version2: 8
 Name:
   TargetLanguage: English
   Value: MudCrab
@@ -11,16 +9,17 @@ Description:
 ActorEffect:
 - 08CACB:Skyrim.esm
 - 0B8781:Skyrim.esm
-- 000AC2:ITB_Wildlife.esp
-- 000ACD:ITB_Wildlife.esp
+- 10C042:Skyrim.esm
+- 000BA2:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 0BA546:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
-- 000894:ITB_Wildlife.esp
+- 013798:Skyrim.esm
+- 000800:ITB_Wildlife.esp
 SkillBoost0:
   Skill: 255
 SkillBoost1:
@@ -39,8 +38,8 @@ Height:
   Male: 0.75
   Female: 1
 Weight:
-  Male: 1
-  Female: 1
+  Male: 50
+  Female: 50
 Flags:
 - TiltFrontBack
 - TiltLeftRight
@@ -50,12 +49,12 @@ Flags:
 - UseAdvancedAvoidance
 Starting:
 - Key: Health
-  Value: 15
+  Value: 50
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 25
-BaseCarryWeight: 50
+  Value: 50
+BaseCarryWeight: 25
 BaseMass: 0.25
 AccelerationRate: 1
 DecelerationRate: 1
@@ -66,10 +65,10 @@ Regen:
   Value: 10
 - Key: Stamina
   Value: 10
-UnarmedDamage: 12
-UnarmedReach: 100
+UnarmedDamage: 10
+UnarmedReach: 60
 AimAngleTolerance: 30
-AngularAccelerationRate: 0.25
+AngularAccelerationRate: 0.45
 AngularTolerance: 5
 MountData:
   MountOffset: -63.479, 0, 0
@@ -85,11 +84,11 @@ SkeletalModel:
     File: Actors\Mudcrab\Character Assets\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 03E8A6:Skyrim.esm
   Female: 03E8A6:Skyrim.esm
@@ -99,51 +98,55 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.3
+    Spell: 09CD4D:Skyrim.esm
     Flags:
     - PowerAttack
-    StrikeAngle: 50
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: AttackStart_ComboChop
 - AttackData:
     DamageMult: 1
     Chance: 0.75
-    StrikeAngle: 50
+    Spell: 09CD4D:Skyrim.esm
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: AttackStart_LeftChop
 - AttackData:
     DamageMult: 1
     Chance: 1
+    Spell: 09CD4D:Skyrim.esm
     Flags:
     - RotatingAttack
     AttackAngle: -90
-    StrikeAngle: 50
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: AttackStart_LSide
 - AttackData:
     DamageMult: 1
     Chance: 0.75
     Spell: 0B8781:Skyrim.esm
-    StrikeAngle: 50
+    StrikeAngle: 25
     RecoveryTime: 0.1
     StaminaMult: 1
   AttackEvent: AttackStart_RightChop
 - AttackData:
     DamageMult: 1
     Chance: 1
+    Spell: 09CD4D:Skyrim.esm
     Flags:
     - RotatingAttack
     AttackAngle: 90
-    StrikeAngle: 50
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: AttackStart_RSide
 - AttackData:
-    DamageMult: 2
+    DamageMult: 1.5
     Chance: 0.15
     Flags:
     - PowerAttack
-    StrikeAngle: 45
+    StrikeAngle: 22
     RecoveryTime: 0.5
-    StaminaMult: 1
+    StaminaMult: 1.5
   AttackEvent: AttackStartLungeBite
 BodyData:
   Male:
@@ -176,29 +179,9 @@ EquipmentFlags:
 - Spell
 - Shield
 - Torch
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
-- 013F43:Skyrim.esm
 - 013F42:Skyrim.esm
+- 013F43:Skyrim.esm
 UnarmedEquipSlot: 013F45:Skyrim.esm
 BaseMovementDefaultWalk: 0BA555:Skyrim.esm
 BaseMovementDefaultRun: 0BA555:Skyrim.esm

@@ -2,7 +2,6 @@ FormKey: 09CE28:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: SummonFlamingThrall
-Version2: 14
 SkyrimMajorRecordFlags:
 - Compressed
 VirtualMachineAdapter:
@@ -59,10 +58,7 @@ Packages:
 - 09CE2A:Skyrim.esm
 Keywords:
 - 06F6FB:Skyrim.esm
-- 00089B:ITB_Wildlife.esp
-- 0D205E:Skyrim.esm
-- 0F23C5:Skyrim.esm
-- 000EDF:Skyrim.esm
+- 00080E:ITB_Wildlife.esp
 Class: 023C0C:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -142,9 +138,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 20
-  Magicka: 1
-  Stamina: 55
+  Health: 125
+  Stamina: 200
   GearedUpWeapons: 1
 CombatStyle: 000D0D:Skyrim.esm
 NAM5: 255

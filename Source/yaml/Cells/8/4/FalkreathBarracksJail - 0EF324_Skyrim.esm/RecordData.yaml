@@ -1,0 +1,80 @@
+FormKey: 0EF324:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: FalkreathBarracksJail
+Version2: 4
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00313032'
+    DirectionalXMinus: '#0028302D'
+    DirectionalYPlus: '#002D3230'
+    DirectionalYMinus: '#002D2D30'
+    DirectionalZPlus: '#00151615'
+    DirectionalZMinus: '#0044494A'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 0A1196:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 1033AF:Skyrim.esm
+Owner: 02EBEC:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\MineCube_e.dds
+SkyAndWeatherFromRegion: 02A72D:Skyrim.esm
+AcousticSpace: 0C5B6B:Skyrim.esm
+Music: 06D546:Skyrim.esm
+ImageSpace: 059B60:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012B2:ITB_Wildlife.esp
+  Base: 000FBC:ITB_Wildlife.esp
+  Placement:
+    Position: 1602.377, 3.206116, 0
+    Rotation: 0, 0, 5.483187
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012B3:ITB_Wildlife.esp
+  Base: 000FBC:ITB_Wildlife.esp
+  Placement:
+    Position: 1681.7136, 430.42236, 0.790534
+    Rotation: 0, 0, 2.0999992
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012B4:ITB_Wildlife.esp
+  Base: 000F38:ITB_Wildlife.esp
+  Placement:
+    Position: 1829.5946, -6.8950043, 0
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012B5:ITB_Wildlife.esp
+  Base: 000F38:ITB_Wildlife.esp
+  Placement:
+    Position: 1647.1262, 490.43857, 0
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012B6:ITB_Wildlife.esp
+  Base: 000F38:ITB_Wildlife.esp
+  Placement:
+    Position: 969.8126, -337.69885, 0

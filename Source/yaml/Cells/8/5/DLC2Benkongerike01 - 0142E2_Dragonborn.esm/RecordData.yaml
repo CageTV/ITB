@@ -1,0 +1,58 @@
+FormKey: 0142E2:Dragonborn.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DLC2Benkongerike01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Benkongerike
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#00202621'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00172116'
+  FogFar: 4500
+  FogPower: 0.6
+  AmbientColors:
+    DirectionalXPlus: '#00314F56'
+    DirectionalXMinus: '#00284F4F'
+    DirectionalYPlus: '#002D5253'
+    DirectionalYMinus: '#002D4B53'
+    DirectionalZPlus: '#00152525'
+    DirectionalZMinus: '#00447880'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00172116'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 01952F:Skyrim.esm
+WaterHeight: 0
+Location: 014298:Dragonborn.esm
+WaterEnvironmentMap: data\textures\cubemaps\glacierice_e.dds
+AcousticSpace: 02B3AE:Skyrim.esm
+EncounterZone: 014299:Dragonborn.esm
+Music: 05228A:Skyrim.esm
+ImageSpace: 000167:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012C9:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -9308.837, 565.13806, -1710.9426
+    Rotation: 0, 0, 3.2

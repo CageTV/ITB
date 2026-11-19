@@ -1,0 +1,80 @@
+FormKey: 0263EF:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: PotemasCatacombs03
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- ShowSky
+Lighting:
+  AmbientColor: '#00282417'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#004B6361'
+  FogFar: 5000
+  DirectionalRotationZ: 90
+  FogClipDistance: 12000
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#0030271C'
+    DirectionalXMinus: '#00272719'
+    DirectionalYPlus: '#002C281B'
+    DirectionalYMinus: '#002C251B'
+    DirectionalZPlus: '#0014120C'
+    DirectionalZMinus: '#002E291D'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#004B6361'
+  FogMax: 1
+  LightFadeBegin: 5000
+  LightFadeEnd: 7000
+LightingTemplate: 0300E2:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 01928C:Skyrim.esm
+SkyAndWeatherFromRegion: 02A72D:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 03EC54:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 02EDEB:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011FB:ITB_Wildlife.esp
+  Base: 000EF0:ITB_Wildlife.esp
+  Placement:
+    Position: -3508, 3952, 669
+    Rotation: 0, 0, 4.933189
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011FC:ITB_Wildlife.esp
+  Base: 000EF1:ITB_Wildlife.esp
+  Placement:
+    Position: -3508, 3952, 669
+    Rotation: 0, 0, 4.933189
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011FD:ITB_Wildlife.esp
+  Base: 000F5A:ITB_Wildlife.esp
+  Placement:
+    Position: -3804.8008, 6577.9404, 166.89514
+    Rotation: 0, 0, 0.3999998
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011FE:ITB_Wildlife.esp
+  Base: 000EF2:ITB_Wildlife.esp
+  Placement:
+    Position: -3508, 3952, 669
+    Rotation: 0, 0, 4.933189
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011FF:ITB_Wildlife.esp
+  Base: 000F5A:ITB_Wildlife.esp
+  Placement:
+    Position: -4035.1516, 7251.7993, 19.364746
+    Rotation: 0, 0, 1.6000009
+- MutagenObjectType: PlacedNpc
+  FormKey: 001200:ITB_Wildlife.esp
+  Base: 000F5A:ITB_Wildlife.esp
+  Placement:
+    Position: -4170.628, 6953.1514, -108.63574
+    Rotation: 0, 0, 1.4000001

@@ -1,0 +1,12 @@
+FormKey: 000837:ITB_Wildlife.esp
+EditorID: ITB_giantsnakefaction
+Name:
+  TargetLanguage: English
+  Value: Slaughterfish Faction
+Relations:
+- Target: 000837:ITB_Wildlife.esp
+  Reaction: Ally
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

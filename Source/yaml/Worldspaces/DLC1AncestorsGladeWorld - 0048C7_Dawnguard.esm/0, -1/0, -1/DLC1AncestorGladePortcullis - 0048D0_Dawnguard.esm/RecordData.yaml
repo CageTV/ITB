@@ -1,0 +1,28 @@
+FormKey: 0048D0:Dawnguard.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DLC1AncestorGladePortcullis
+SkyrimMajorRecordFlags:
+- Compressed
+Flags:
+- HasWater
+Grid:
+  Point: 0, -1
+  Flags: 62377984
+WaterHeight: 3.4028235E+38
+Regions:
+- 092C8E:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001308:ITB_Wildlife.esp
+  Base: 000F92:ITB_Wildlife.esp
+  Placement:
+    Position: 1482.5781, -4.438583, 1416.5151
+- MutagenObjectType: PlacedNpc
+  FormKey: 001309:ITB_Wildlife.esp
+  Base: 000F92:ITB_Wildlife.esp
+  Placement:
+    Position: 664.8872, -318.03564, 920.0297
+    Rotation: 0, 0, 5.183186

@@ -2,7 +2,6 @@ FormKey: 0ABEDF:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncElkFemale
-Version2: 13
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -13,56 +12,112 @@ Configuration:
   - Female
   - Respawn
   - AutoCalcStats
+  StaminaOffset: 475
   Level:
     MutagenObjectType: NpcLevel
-    Level: 8
-  SpeedMultiplier: 100
+    Level: 15
+  SpeedMultiplier: 150
   DispositionBase: 35
+  HealthOffset: 350
 Factions:
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0F1ABC:Skyrim.esm
   Fluff: 0x000000
-- Faction: 000818:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000819:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
-  Fluff: 0x000000
 DeathItem: 10FF79:Skyrim.esm
 Voice: 041FBA:Skyrim.esm
 Race: 0131ED:Skyrim.esm
 AttackRace: 0131ED:Skyrim.esm
+Attacks:
+- AttackData:
+    DamageMult: 1
+    Chance: 1
+    Flags:
+    - PowerAttack
+    - OverrideData
+    StrikeAngle: 35
+    Stagger: 1
+    Knockdown: 1
+    StaminaMult: 1
+  AttackEvent: attackStart_ForwardPower
+- AttackData:
+    DamageMult: 2
+    Chance: 1
+    Flags:
+    - PowerAttack
+    - OverrideData
+    StrikeAngle: 35
+    Stagger: 0.75
+    Knockdown: 1
+    StaminaMult: 1
+  AttackEvent: attackStart_ForwardPowerShort
+- AttackData:
+    DamageMult: 1
+    Chance: 1
+    Flags:
+    - OverrideData
+    StrikeAngle: 35
+    Stagger: 1
+    Knockdown: 1
+    StaminaMult: 1
+  AttackEvent: attackStart_SkeeverLungeLong
+- AttackData:
+    DamageMult: 1
+    Chance: 1
+    Flags:
+    - OverrideData
+    StrikeAngle: 35
+    Stagger: 1
+    Knockdown: 1
+    StaminaMult: 1
+  AttackEvent: attackStart_SkeeverLungeMedium
+- AttackData:
+    DamageMult: 1
+    Chance: 1
+    Flags:
+    - OverrideData
+    StrikeAngle: 35
+    Stagger: 1
+    Knockdown: 1
+    StaminaMult: 1
+  AttackEvent: attackStart_SkeeverLungeShort
+- AttackData:
+    DamageMult: 3
+    Chance: 1
+    Flags:
+    - OverrideData
+    StrikeAngle: 35
+    Stagger: 1
+    Knockdown: 1
+    StaminaMult: 1
+  AttackEvent: attackStart_StandingPower
 AIData:
   EnergyLevel: 50
+  Responsibility: NoCrime
   AggroRadiusBehavior: True
+  Warn: 1025
+  WarnOrAttack: 900
   Attack: 1700
 Packages:
-- 0008CD:ITB_Wildlife.esp
-- 0008CE:ITB_Wildlife.esp
-- 0008C8:ITB_Wildlife.esp
-- 0008C9:ITB_Wildlife.esp
-- 000913:ITB_Wildlife.esp
-Keywords:
-- 000AB7:ITB_Wildlife.esp
+- 01A733:Skyrim.esm
 Class: 01CE1D:Skyrim.esm
 Name:
   TargetLanguage: English
-  Value: Elk
+  Value: Deer
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 30
+    Value: 45
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 30
+    Value: 46
   - Key: Block
-    Value: 25
+    Value: 35
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -74,7 +129,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 31
+    Value: 46
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -128,8 +183,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 130
-  Stamina: 75
+  Health: 290
+  Stamina: 145
   GearedUpWeapons: 1
 CombatStyle: 093A60:Skyrim.esm
 NAM5: 255
@@ -139,6 +194,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 0FFA08:Skyrim.esm
+DefaultPackageList: 10D483:Skyrim.esm
 TextureLighting: '#007F7F7F'
 MajorFlags:
 - 0x40000

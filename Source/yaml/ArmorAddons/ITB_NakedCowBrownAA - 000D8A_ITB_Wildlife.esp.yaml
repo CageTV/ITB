@@ -1,0 +1,25 @@
+FormKey: 000D8A:ITB_Wildlife.esp
+EditorID: ITB_NakedCowBrownAA
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 04E785:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: itb\fauna\cow\cow_a297402a.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: itb\fauna\cow\cow_a297402a.nif
+    Data: 0x020000000000000000000000
+AdditionalRaces:
+- 000903:ITB_Wildlife.esp
+FootstepSound: 04E20F:Skyrim.esm

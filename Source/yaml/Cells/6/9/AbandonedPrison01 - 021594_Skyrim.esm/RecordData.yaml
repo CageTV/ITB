@@ -1,0 +1,68 @@
+FormKey: 021594:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: AbandonedPrison01
+Version2: 15
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#001E384F'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00213852'
+    DirectionalXMinus: '#001A384B'
+    DirectionalYPlus: '#001E3A4F'
+    DirectionalYMinus: '#001E354F'
+    DirectionalZPlus: '#000E1A23'
+    DirectionalZMinus: '#002D557A'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 08CDDA:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 0ECF4C:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\DunCaveRuinGreen_e.dds
+AcousticSpace: 04075D:Skyrim.esm
+EncounterZone: 0ECF4B:Skyrim.esm
+Music: 05615B:Skyrim.esm
+ImageSpace: 02EDEB:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001257:ITB_Wildlife.esp
+  Base: 000FF8:ITB_Wildlife.esp
+  Placement:
+    Position: 375.1323, -1515.3132, 1803.0526
+    Rotation: 0, 0, 2.9999993
+- MutagenObjectType: PlacedNpc
+  FormKey: 001258:ITB_Wildlife.esp
+  Base: 000FFA:ITB_Wildlife.esp
+  Placement:
+    Position: 1781.9238, -1176.4456, 1284.2406
+    Rotation: 0, 0, 3.3000004
+- MutagenObjectType: PlacedNpc
+  FormKey: 001259:ITB_Wildlife.esp
+  Base: 000FF8:ITB_Wildlife.esp
+  Placement:
+    Position: 1459.2279, -676.23303, 1272.3109
+    Rotation: 0, 0, 2.2000031

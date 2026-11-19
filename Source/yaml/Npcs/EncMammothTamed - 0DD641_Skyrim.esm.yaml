@@ -2,7 +2,6 @@ FormKey: 0DD641:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncMammothTamed
-Version2: 10
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -11,11 +10,10 @@ ObjectBounds:
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   StaminaOffset: 200
   Level:
     MutagenObjectType: NpcLevel
-    Level: 40
+    Level: 60
   SpeedMultiplier: 100
   DispositionBase: 35
   TemplateFlags:
@@ -28,6 +26,7 @@ Configuration:
   - DefPackList
   - AttackData
   - Keywords
+  HealthOffset: 2500
 Factions:
 - Faction: 000013:Skyrim.esm
   Fluff: 0x000000
@@ -41,12 +40,15 @@ Template: 023AB4:Skyrim.esm
 Race: 0131FF:Skyrim.esm
 WornArmor: 059254:Skyrim.esm
 AttackRace: 0131FF:Skyrim.esm
+Perks:
+- Perk: 0FAB0B:ccBGSSSE037-Curios.esl
+  Rank: 1
+  Fluff: 0x000000
 AIData:
-  Aggression: Aggressive
   Confidence: Average
   EnergyLevel: 50
+  Responsibility: NoCrime
   Assistance: HelpsAllies
-  AggroRadiusBehavior: True
   Warn: 1024
   WarnOrAttack: 750
   Attack: 325
@@ -126,8 +128,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 1455
-  Stamina: 830
+  Health: 5455
+  Stamina: 3324
   GearedUpWeapons: 1
 CombatStyle: 08F6C3:Skyrim.esm
 NAM5: 255
@@ -137,7 +139,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 01C060:Skyrim.esm
-DefaultPackageList: 0EB249:Skyrim.esm
+DefaultPackageList: 000890:ITB_Wildlife.esp
 TextureLighting: '#007F7F7F'
 MajorFlags:
 - 0x40000

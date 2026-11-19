@@ -1,0 +1,24 @@
+FormKey: 001006:ITB_Wildlife.esp
+EditorID: ITB_ExtraLCharGhostAny
+FormVersion: 40
+Entries:
+- Data:
+    Level: 1
+    Count: 1
+- Data:
+    Level: 1
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000EF8:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000EF8:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Count: 1
+- Data:
+    Level: 1
+    Count: 1

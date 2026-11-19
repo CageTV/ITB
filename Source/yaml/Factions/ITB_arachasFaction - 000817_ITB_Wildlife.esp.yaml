@@ -1,0 +1,9 @@
+FormKey: 000817:ITB_Wildlife.esp
+EditorID: ITB_arachasFaction
+Relations:
+- Target: 000817:ITB_Wildlife.esp
+  Reaction: Ally
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

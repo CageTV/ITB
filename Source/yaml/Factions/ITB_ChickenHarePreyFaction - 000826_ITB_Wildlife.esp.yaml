@@ -1,0 +1,9 @@
+FormKey: 000826:ITB_Wildlife.esp
+EditorID: ITB_ChickenHarePreyFaction
+Name:
+  TargetLanguage: English
+  Value: Chicken Hare Prey
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

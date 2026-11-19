@@ -1,0 +1,50 @@
+FormKey: 0371DE:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: BleakFallsBarrow01
+Version2: 13
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00423C28'
+  DirectionalColor: '#002C2F30'
+  FogNearColor: '#004B6361'
+  FogFar: 12000
+  DirectionalRotationXY: 270
+  DirectionalRotationZ: 240
+  FogClipDistance: 12000
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#00483C29'
+    DirectionalXMinus: '#003B3C26'
+    DirectionalYPlus: '#00423E28'
+    DirectionalYMinus: '#00423928'
+    DirectionalZPlus: '#001F1C12'
+    DirectionalZMinus: '#00696041'
+    Specular: '#004B6361'
+    Scale: 1
+  FogFarColor: '#004B6361'
+  FogMax: 1
+LightingTemplate: 03128D:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 018EE9:Skyrim.esm
+SkyAndWeatherFromRegion: 04D7FD:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 038AB1:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 02EDEB:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012C8:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -508.09583, -3237.977, -3189.742

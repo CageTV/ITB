@@ -2,7 +2,6 @@ FormKey: 0E662D:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: dunHunterWolfGuardian
-Version2: 8
 SkyrimMajorRecordFlags:
 - Compressed
 VirtualMachineAdapter:
@@ -60,13 +59,17 @@ Factions:
   Fluff: 0x000000
 - Faction: 03E691:Skyrim.esm
   Fluff: 0x000000
-DeathItem: 03AD9E:Skyrim.esm
+DeathItem: 03AD8B:Skyrim.esm
 Voice: 01F6A7:Skyrim.esm
 Race: 01320A:Skyrim.esm
 ActorEffect:
 - 05030B:Skyrim.esm
 WornArmor: 0C02F8:Skyrim.esm
 AttackRace: 01320A:Skyrim.esm
+Perks:
+- Perk: 031284:ccBGSSSE037-Curios.esl
+  Rank: 1
+  Fluff: 0x000000
 AIData:
   Confidence: Foolhardy
   EnergyLevel: 50
@@ -76,10 +79,11 @@ AIData:
   WarnOrAttack: 2000
   Attack: 500
 Keywords:
-- 00089B:ITB_Wildlife.esp
+- 000EDF:Skyrim.esm
+- 013796:Skyrim.esm
 - 0D205E:Skyrim.esm
 - 0F23C5:Skyrim.esm
-- 000EDF:Skyrim.esm
+- 00080E:ITB_Wildlife.esp
 Class: 0131E6:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -159,9 +163,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 30
-  Magicka: 1
-  Stamina: 60
+  Health: 127
+  Stamina: 203
   GearedUpWeapons: 1
 CombatStyle: 057BE8:Skyrim.esm
 NAM5: 255

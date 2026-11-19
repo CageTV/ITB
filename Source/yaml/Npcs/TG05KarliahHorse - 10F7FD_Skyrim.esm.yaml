@@ -2,7 +2,6 @@ FormKey: 10F7FD:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 537133056
 EditorID: TG05KarliahHorse
-Version2: 3
 SkyrimMajorRecordFlags:
 - Compressed
 - 0x20000000
@@ -19,11 +18,7 @@ Configuration:
   SpeedMultiplier: 100
   DispositionBase: 35
 Factions:
-- Faction: 02E894:Skyrim.esm
-  Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000820:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD94:Skyrim.esm
 Voice: 01F232:Skyrim.esm
@@ -122,8 +117,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 89
-  Stamina: 206
+  Health: 289
+  Stamina: 106
   GearedUpWeapons: 1
 CombatStyle: 01CF32:Skyrim.esm
 NAM5: 255
@@ -133,7 +128,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 0F9644:Skyrim.esm
-DefaultOutfit: 060798:Skyrim.esm
+DefaultOutfit: 000E3B:ITB_Wildlife.esp
 DefaultPackageList: 021E81:Skyrim.esm
 TextureLighting: '#007F7F7F'
 MajorFlags:

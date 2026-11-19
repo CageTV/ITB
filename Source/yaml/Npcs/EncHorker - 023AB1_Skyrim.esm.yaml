@@ -10,15 +10,17 @@ ObjectBounds:
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   MagickaOffset: -25
   StaminaOffset: 35
   Level:
     MutagenObjectType: NpcLevel
-    Level: 20
+    Level: 3
   SpeedMultiplier: 100
   DispositionBase: 35
+  HealthOffset: 550
 Factions:
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 04359F:Skyrim.esm
@@ -31,17 +33,12 @@ Race: 0131FC:Skyrim.esm
 AttackRace: 0131FC:Skyrim.esm
 AIData:
   Aggression: Aggressive
-  Confidence: Cautious
+  Confidence: Average
   EnergyLevel: 50
+  Assistance: HelpsAllies
   AggroRadiusBehavior: True
-  Warn: 850
-  WarnOrAttack: 640
-  Attack: 320
-Packages:
-- 0008E5:ITB_Wildlife.esp
-- 0008E4:ITB_Wildlife.esp
-- 0008E6:ITB_Wildlife.esp
-- 10F919:Skyrim.esm
+  WarnOrAttack: 1500
+  Attack: 750
 Class: 0EDD36:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -49,13 +46,13 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 56
+    Value: 19
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 56
+    Value: 19
   - Key: Block
-    Value: 43
+    Value: 18
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -67,7 +64,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 57
+    Value: 20
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -121,16 +118,16 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 313
+  Health: 192
   Magicka: 65511
-  Stamina: 127
+  Stamina: 193
   GearedUpWeapons: 1
 CombatStyle: 0CDE5E:Skyrim.esm
 NAM5: 255
 Height: 1
 Weight: 50
 SoundLevel: Normal
-DefaultPackageList: 10D483:Skyrim.esm
+DefaultPackageList: 00088D:ITB_Wildlife.esp
 TextureLighting: '#007F7F7F'
 MajorFlags:
 - 0x40000

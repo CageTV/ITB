@@ -1,0 +1,51 @@
+FormKey: 00084F:ITB_Wildlife.esp
+EditorID: ITB_Rabbit
+Name:
+  TargetLanguage: English
+  Value: Rabbit Faction
+Relations:
+- Target: 02997E:Skyrim.esm
+  Reaction: Friend
+- Target: 02997F:Skyrim.esm
+  Reaction: Enemy
+- Target: 0330B1:Skyrim.esm
+  Reaction: Enemy
+- Target: 03C9A8:Skyrim.esm
+  Reaction: Enemy
+- Target: 03E691:Skyrim.esm
+  Reaction: Enemy
+- Target: 043594:Skyrim.esm
+  Reaction: Friend
+- Target: 043596:Skyrim.esm
+  Reaction: Enemy
+- Target: 04359A:Skyrim.esm
+  Reaction: Friend
+- Target: 04359E:Skyrim.esm
+  Reaction: Friend
+- Target: 0435A1:Skyrim.esm
+  Reaction: Friend
+- Target: 0435A2:Skyrim.esm
+  Reaction: Enemy
+- Target: 0FBBF3:Skyrim.esm
+  Reaction: Friend
+- Target: 01D9C9:Dragonborn.esm
+  Reaction: Friend
+- Target: 000818:ITB_Wildlife.esp
+  Reaction: Enemy
+- Target: 000834:ITB_Wildlife.esp
+  Reaction: Enemy
+- Target: 00084F:ITB_Wildlife.esp
+  Reaction: Ally
+- Target: 00084C:ITB_Wildlife.esp
+  Reaction: Friend
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

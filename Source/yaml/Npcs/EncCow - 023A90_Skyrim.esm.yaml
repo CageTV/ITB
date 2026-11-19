@@ -10,25 +10,24 @@ ObjectBounds:
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   - DoesntAffectStealthMeter
+  StaminaOffset: 175
   Level:
     MutagenObjectType: NpcLevel
-    Level: 20
+    Level: 3
   SpeedMultiplier: 100
   DispositionBase: 35
+  HealthOffset: 135
 Factions:
+- Faction: 000827:ITB_Wildlife.esp
+  Fluff: 0x000000
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
   Fluff: 0x000000
 - Faction: 04E849:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000813:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD7B:Skyrim.esm
 Voice: 01F15F:Skyrim.esm
@@ -38,8 +37,6 @@ AttackRace: 04E785:Skyrim.esm
 AIData:
   EnergyLevel: 50
   Responsibility: NoCrime
-Packages:
-- 054F98:Skyrim.esm
 Class: 01CE17:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -47,41 +44,41 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 56
+    Value: 9
   - Key: TwoHanded
-    Value: 56
+    Value: 9
   - Key: Archery
-    Value: 15
+    Value: 5
   - Key: Block
-    Value: 43
+    Value: 8
   - Key: Smithing
-    Value: 15
+    Value: 5
   - Key: HeavyArmor
-    Value: 29
+    Value: 7
   - Key: LightArmor
-    Value: 43
+    Value: 8
   - Key: Pickpocket
-    Value: 15
+    Value: 5
   - Key: Lockpicking
-    Value: 15
+    Value: 5
   - Key: Sneak
-    Value: 15
+    Value: 5
   - Key: Alchemy
-    Value: 15
+    Value: 5
   - Key: Speech
-    Value: 15
+    Value: 5
   - Key: Alteration
-    Value: 15
+    Value: 5
   - Key: Conjuration
-    Value: 15
+    Value: 5
   - Key: Destruction
-    Value: 15
+    Value: 5
   - Key: Illusion
-    Value: 15
+    Value: 5
   - Key: Restoration
-    Value: 15
+    Value: 5
   - Key: Enchanting
-    Value: 15
+    Value: 5
   SkillOffsets:
   - Key: OneHanded
     Value: 0
@@ -119,8 +116,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 259
-  Stamina: 102
+  Health: 87
+  Stamina: 33
   GearedUpWeapons: 1
 CombatStyle: 04DB9F:Skyrim.esm
 NAM5: 255
@@ -130,6 +127,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 04D2A8:Skyrim.esm
+DefaultPackageList: 00087D:ITB_Wildlife.esp
 TextureLighting: '#007F7F7F'
 MajorFlags:
 - 0x40000

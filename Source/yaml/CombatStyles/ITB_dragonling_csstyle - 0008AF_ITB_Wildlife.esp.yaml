@@ -1,0 +1,34 @@
+FormKey: 0008AF:ITB_Wildlife.esp
+EditorID: ITB_dragonling_csstyle
+OffensiveMult: 0.85
+DefensiveMult: 0.05
+GroupOffensiveMult: 0.53
+EquipmentScoreMultMelee: 1.1
+EquipmentScoreMultMagic: 5.05
+EquipmentScoreMultRanged: 0.98
+EquipmentScoreMultShout: 1
+EquipmentScoreMultUnarmed: 1.3
+EquipmentScoreMultStaff: 1
+AvoidThreatChance: 0.2
+Melee:
+  AttackStaggeredMult: 0.93
+  PowerAttackStaggeredMult: 0.87
+  PowerAttackBlockingMult: 1.5
+  BashMult: 0.34
+  BashRecoilMult: 0.68
+  BashAttackMult: 0.17
+  BashPowerAttackMult: 0.13
+  SpecialAttackMult: 0.089999996
+CloseRange:
+  CircleMult: 1
+  FlankDistance: 0.32
+  StalkTime: 0.3
+LongRangeStrafeMult: 0.5
+Flight:
+  HoverTime: 0.5
+  GroundAttackTime: 0.5
+  PerchAttackChance: 0.5
+  PerchAttackTime: 0.5
+  FlyingAttackChance: 0.75
+Flags:
+- Flanking

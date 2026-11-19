@@ -1,0 +1,16 @@
+FormKey: 000830:ITB_Wildlife.esp
+EditorID: ITB_durzog_faction_2
+Name:
+  TargetLanguage: English
+  Value: Predator Faction
+Relations:
+- Target: 01D9C9:Dragonborn.esm
+  Reaction: Ally
+- Target: 000830:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- HiddenFromPC
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

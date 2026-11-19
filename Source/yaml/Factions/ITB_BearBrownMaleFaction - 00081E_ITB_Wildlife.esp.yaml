@@ -1,0 +1,20 @@
+FormKey: 00081E:ITB_Wildlife.esp
+EditorID: ITB_BearBrownMaleFaction
+Name:
+  TargetLanguage: English
+  Value: Bear Brown Male Faction
+Relations:
+- Target: 00081E:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

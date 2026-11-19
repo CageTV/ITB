@@ -1,0 +1,68 @@
+FormKey: 015261:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: HillgrundsTomb01
+Version2: 2
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#00253E4B'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00577371'
+  FogFar: 4000
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#0030271C'
+    DirectionalXMinus: '#00272719'
+    DirectionalYPlus: '#002C281B'
+    DirectionalYMinus: '#002C251B'
+    DirectionalZPlus: '#0014120C'
+    DirectionalZMinus: '#005C5238'
+    Specular: '#00374847'
+    Scale: 1
+  FogFarColor: '#00374847'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 03128B:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 019196:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 03EC36:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011E0:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: -5772.6504, 1133.1129, -1397.3324
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011E1:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: -6250.352, 1896.3247, -1785.6956
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011E2:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: 461.35992, 1140.9353, 52.71254

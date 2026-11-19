@@ -1,0 +1,18 @@
+FormKey: 000814:ITB_Wildlife.esp
+EditorID: ITB_TrollSprint_MT
+Name: TrollSprint
+LeftWalk: 102.7
+LeftRun: 320
+RightWalk: 102.7
+RightRun: 320
+ForwardWalk: 102.7
+ForwardRun: 350
+BackWalk: 83.11
+BackRun: 83.11
+RotateInPlaceWalk: 180.00006
+RotateInPlaceRun: 360.00012
+RotateWhileMovingRun: 350.0001
+AnimationChangeThresholds:
+  Directional: 3.4028235E+38
+  MovementSpeed: 3.4028235E+38
+  RotationSpeed: 3.4028235E+38

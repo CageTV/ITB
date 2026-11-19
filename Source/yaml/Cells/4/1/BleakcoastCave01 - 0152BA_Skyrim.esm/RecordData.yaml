@@ -1,0 +1,59 @@
+FormKey: 0152BA:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: BleakcoastCave01
+Version2: 13
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- ShowSky
+Lighting:
+  AmbientColor: '#00282828'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00B0DCF7'
+  FogNear: 340
+  FogFar: 14000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002C2829'
+    DirectionalXMinus: '#00232826'
+    DirectionalYPlus: '#00282928'
+    DirectionalYMinus: '#00282628'
+    DirectionalZPlus: '#00131312'
+    DirectionalZMinus: '#003C3C3D'
+    Specular: '#00B0DCF7'
+    Scale: 1
+  FogFarColor: '#00B0DCF7'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 0195D3:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 018EEA:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 03EBEE:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 089D4E:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011A9:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -250.87984, 1181.4343, -1006.562
+    Rotation: 0, 0, 2.1999996

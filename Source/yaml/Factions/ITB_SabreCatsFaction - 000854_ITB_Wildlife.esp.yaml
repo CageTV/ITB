@@ -1,0 +1,14 @@
+FormKey: 000854:ITB_Wildlife.esp
+EditorID: ITB_SabreCatsFaction
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

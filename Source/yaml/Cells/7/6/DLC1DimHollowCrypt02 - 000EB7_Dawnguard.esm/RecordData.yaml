@@ -1,0 +1,81 @@
+FormKey: 000EB7:Dawnguard.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DLC1DimHollowCrypt02
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Dimhollow Cavern
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#001C180D'
+  DirectionalColor: '#000F0F0F'
+  FogNearColor: '#00161E1F'
+  FogFar: 9000
+  DirectionalRotationZ: 90
+  FogClipDistance: 100000
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#001E180D'
+    DirectionalXMinus: '#0019180C'
+    DirectionalYPlus: '#001C190D'
+    DirectionalYMinus: '#001C160D'
+    DirectionalZPlus: '#000D0B05'
+    DirectionalZMinus: '#002A2414'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#003D4A4E'
+  FogMax: 0.6
+  LightFadeBegin: 15000
+  LightFadeEnd: 16000
+  Inherits:
+  - FogNear
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 006AE9:Dawnguard.esm
+WaterHeight: 0
+Location: 004EE8:Dawnguard.esm
+WaterEnvironmentMap: data\textures\cubemaps\cavegreencube_e.dds
+SkyAndWeatherFromRegion: 09C487:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 004EE7:Dawnguard.esm
+Music: 05228A:Skyrim.esm
+ImageSpace: 02EDEB:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001274:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: 528.61395, -379.26627, -4.756592
+- MutagenObjectType: PlacedNpc
+  FormKey: 001275:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: 430.36102, 162.9649, 55.28374
+    Rotation: 0, 0, 2.1999996
+- MutagenObjectType: PlacedNpc
+  FormKey: 001276:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: 7424.545, 1061.9987, -292.327
+- MutagenObjectType: PlacedNpc
+  FormKey: 001277:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: 8016.876, 897.7521, -221.90582
+    Rotation: 0, 0, 5.0831876
+- MutagenObjectType: PlacedNpc
+  FormKey: 001278:ITB_Wildlife.esp
+  Base: 000FEC:ITB_Wildlife.esp
+  Placement:
+    Position: 10401.021, 6795.1763, -310.74646
+    Rotation: 0, 0, 3.000001

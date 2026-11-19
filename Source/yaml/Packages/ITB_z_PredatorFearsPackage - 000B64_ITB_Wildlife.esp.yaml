@@ -1,0 +1,412 @@
+FormKey: 000B64:ITB_Wildlife.esp
+EditorID: ITB_z_PredatorFearsPackage
+Type: Package
+PreferredSpeed: Run
+Unknown: 115
+InterruptFlags:
+- HellosToPlayer
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- WorldInteractions
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInInteriorConditionData
+DataInputVersion: 7
+Data:
+- Key: 7
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: Flee Dragon
+    Flags:
+    - Public
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 032D9C:Skyrim.esm
+- Key: 23
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: Flee Giant
+    Flags:
+    - Public
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 04359A:Skyrim.esm
+- Key: 24
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: Flee Troll
+    Flags:
+    - Public
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 0435A1:Skyrim.esm
+- Key: 25
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: Flee Undead
+    Flags:
+    - Public
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 02430D:Skyrim.esm
+- Key: 27
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: Flee Daedra
+    Flags:
+    - Public
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 043597:Skyrim.esm
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Name: Found Dragon
+    Flags: []
+    Data: 768
+- Key: 29
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Name: Found Giant
+    Flags:
+    - Public
+    Data: 768
+- Key: 31
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Name: Found Troll
+    Flags:
+    - Public
+    Data: 768
+- Key: 33
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Name: Found Undead
+    Flags:
+    - Public
+    Data: 768
+- Key: 35
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Name: Found Daedra
+    Flags:
+    - Public
+    Data: 768
+- Key: 3
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: Flee To Location
+    Flags: []
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearPackageStart
+      Radius: 3000
+- Key: 10
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: SearchLocation
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearSelf
+      Radius: 1000
+- Key: 1
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: Distance to Flee
+    Flags:
+    - Public
+    Data: 3000
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: Avoid-node Radius
+    Flags: []
+    Data: 512
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Flee From?
+    Flags: []
+    Data: True
+- Key: 13
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: SearchOwnInventory
+    Flags: []
+- Key: 15
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Forget dead threats
+    Flags:
+    - Public
+- Key: 17
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Quiet
+    Flags:
+    - Public
+- Key: 19
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: False
+    Flags: []
+- Key: 8
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+- Key: 9
+  Value:
+    MutagenObjectType: APackageData
+    Name: RideHorseIfPossible
+    Flags:
+    - Public
+- Key: 11
+  Value:
+    MutagenObjectType: APackageData
+    Name: TargetSelector
+    Flags:
+    - Public
+- Key: 12
+  Value:
+    MutagenObjectType: APackageData
+    Name: ObjectList
+    Flags:
+    - Public
+XnamMarker: 0x24
+ProcedureTree:
+- BranchType: Sequence
+  Root:
+    BranchCount: 7
+  Unknown: []
+- BranchType: Simultaneous
+  Root:
+    BranchCount: 6
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Sandbox
+  Flags: []
+  DataInputIndices:
+  - 10
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 255
+  - 255
+  - 255
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Find
+  Flags: []
+  DataInputIndices:
+  - 10
+  - 7
+  - 6
+  - 19
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Find
+  Flags: []
+  DataInputIndices:
+  - 10
+  - 23
+  - 29
+  - 255
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Find
+  Flags: []
+  DataInputIndices:
+  - 10
+  - 25
+  - 33
+  - 255
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Find
+  Flags: []
+  DataInputIndices:
+  - 10
+  - 27
+  - 35
+  - 255
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Find
+  Flags: []
+  DataInputIndices:
+  - 10
+  - 24
+  - 31
+  - 255
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsNullPackageDataConditionData
+      PackageDataIndex: 6
+    ComparisonValue: 1
+  ProcedureType: Sandbox
+  Flags: []
+  DataInputIndices:
+  - 6
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 255
+  - 255
+  - 255
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsNullPackageDataConditionData
+      PackageDataIndex: 29
+    ComparisonValue: 1
+  ProcedureType: Sandbox
+  Flags: []
+  DataInputIndices:
+  - 29
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 255
+  - 255
+  - 255
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsNullPackageDataConditionData
+      PackageDataIndex: 31
+    ComparisonValue: 1
+  ProcedureType: Sandbox
+  Flags: []
+  DataInputIndices:
+  - 31
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 255
+  - 255
+  - 255
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsNullPackageDataConditionData
+      PackageDataIndex: 33
+    ComparisonValue: 1
+  ProcedureType: Sandbox
+  Flags: []
+  DataInputIndices:
+  - 33
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 255
+  - 255
+  - 255
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsNullPackageDataConditionData
+      PackageDataIndex: 35
+    ComparisonValue: 1
+  ProcedureType: Sandbox
+  Flags: []
+  DataInputIndices:
+  - 35
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 255
+  - 255
+  - 255
+  - 255
+  Unknown: []
+- BranchType: Sequence
+  Root:
+    BranchCount: 1
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Flee
+  Flags:
+  - SuccessCompletesPackage
+  DataInputIndices:
+  - 6
+  - 3
+  - 19
+  - 1
+  - 1
+  - 1
+  - 19
+  - 19
+  - 17
+  - 255
+  Unknown: []
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

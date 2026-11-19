@@ -1,0 +1,77 @@
+FormKey: 015201:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: TolvaldsCave01
+Version2: 6
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#002F281C'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#002F3C75'
+  FogNear: 340
+  FogFar: 14000
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#0033281D'
+    DirectionalXMinus: '#002A281A'
+    DirectionalYPlus: '#002F291C'
+    DirectionalYMinus: '#002F261C'
+    DirectionalZPlus: '#0016130C'
+    DirectionalZMinus: '#00473C2B'
+    Specular: '#002F3C75'
+    Scale: 1
+  FogFarColor: '#002F3C75'
+  FogMax: 1
+  Inherits:
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 034566:Skyrim.esm
+WaterHeight: 0
+Location: 0192BC:Skyrim.esm
+SkyAndWeatherFromRegion: 02A72D:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 03EC80:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012D4:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -2558.0347, 4145.2773, 350.4358
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012D5:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -2607.3264, 3693.7798, 235.43901
+    Rotation: 0, 0, 5.183188
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012D6:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -2519.8923, 1875.6176, 128.90683
+    Rotation: 0, 0, 4.7831864
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012D7:ITB_Wildlife.esp
+  Base: 000E4A:ITB_Wildlife.esp
+  Placement:
+    Position: 174.79576, 2956.098, -107.84285
+    Rotation: 0, 0, 1.6999996

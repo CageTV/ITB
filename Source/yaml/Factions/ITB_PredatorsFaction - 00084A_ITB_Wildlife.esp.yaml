@@ -1,0 +1,23 @@
+FormKey: 00084A:ITB_Wildlife.esp
+EditorID: ITB_PredatorsFaction
+Name:
+  TargetLanguage: English
+  Value: Predator Faction
+Relations:
+- Target: 0E0D58:Skyrim.esm
+  Reaction: Friend
+- Target: 00084A:ITB_Wildlife.esp
+- Target: 00084E:ITB_Wildlife.esp
+  Reaction: Friend
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

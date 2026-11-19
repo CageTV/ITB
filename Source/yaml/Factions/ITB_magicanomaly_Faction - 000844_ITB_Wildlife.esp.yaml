@@ -1,0 +1,12 @@
+FormKey: 000844:ITB_Wildlife.esp
+EditorID: ITB_magicanomaly_Faction
+Name:
+  TargetLanguage: English
+  Value: Ice Wraith Faction
+Relations:
+- Target: 000844:ITB_Wildlife.esp
+  Reaction: Ally
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

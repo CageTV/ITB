@@ -2,7 +2,6 @@ FormKey: 0D249A:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: TestEncReinDeer
-Version2: 6
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -19,15 +18,13 @@ Configuration:
   SpeedMultiplier: 100
   DispositionBase: 35
 Factions:
+- Faction: 00082C:ITB_Wildlife.esp
+  Fluff: 0x000000
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000815:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD7C:Skyrim.esm
 Voice: 041FBA:Skyrim.esm
@@ -120,8 +117,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 30
-  Stamina: 50
+  Health: 170
+  Stamina: 75
   GearedUpWeapons: 1
 CombatStyle: 093A60:Skyrim.esm
 NAM5: 255

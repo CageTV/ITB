@@ -1,0 +1,17 @@
+FormKey: 000825:ITB_Wildlife.esp
+EditorID: ITB_centaurfaction2
+Relations:
+- Target: 02BF9A:Skyrim.esm
+  Reaction: Enemy
+- Target: 02BF9B:Skyrim.esm
+  Reaction: Enemy
+- Target: 043599:Skyrim.esm
+  Reaction: Enemy
+- Target: 04359A:Skyrim.esm
+  Reaction: Enemy
+- Target: 04359E:Skyrim.esm
+  Reaction: Enemy
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

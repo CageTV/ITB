@@ -2,7 +2,6 @@ FormKey: 0CF79E:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 786432
 EditorID: HowlSummonWolf
-Version2: 8
 SkyrimMajorRecordFlags:
 - Compressed
 - CantWait
@@ -62,6 +61,7 @@ Packages:
 - 10ACD1:Skyrim.esm
 Keywords:
 - 015FD3:Dawnguard.esm
+- 00080E:ITB_Wildlife.esp
 Class: 0131E6:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -141,9 +141,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 35
-  Magicka: 1
-  Stamina: 55
+  Health: 115
+  Stamina: 200
   GearedUpWeapons: 1
 CombatStyle: 0B729C:Skyrim.esm
 NAM5: 255
@@ -153,7 +152,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 0A85C7:Skyrim.esm
-DefaultPackageList: 021E81:Skyrim.esm
+DefaultPackageList: 0008A6:ITB_Wildlife.esp
 TextureLighting: '#00808080'
 MajorFlags:
 - 0x40000

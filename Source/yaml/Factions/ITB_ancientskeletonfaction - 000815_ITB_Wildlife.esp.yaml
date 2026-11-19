@@ -1,0 +1,39 @@
+FormKey: 000815:ITB_Wildlife.esp
+EditorID: ITB_ancientskeletonfaction
+Name:
+  TargetLanguage: English
+  Value: Skeleton Faction
+Relations:
+- Target: 000DB1:Skyrim.esm
+  Reaction: Enemy
+- Target: 02430D:Skyrim.esm
+  Reaction: Enemy
+- Target: 026724:Skyrim.esm
+  Reaction: Enemy
+- Target: 027242:Skyrim.esm
+  Reaction: Enemy
+- Target: 02997F:Skyrim.esm
+- Target: 02D1DF:Skyrim.esm
+  Reaction: Enemy
+- Target: 02E893:Skyrim.esm
+- Target: 02E894:Skyrim.esm
+- Target: 02EB13:Skyrim.esm
+  Reaction: Enemy
+- Target: 032D9C:Skyrim.esm
+  Reaction: Enemy
+- Target: 0330B1:Skyrim.esm
+- Target: 034B74:Skyrim.esm
+  Reaction: Enemy
+- Target: 03E094:Skyrim.esm
+- Target: 04359A:Skyrim.esm
+- Target: 04359B:Skyrim.esm
+- Target: 0AA784:Skyrim.esm
+  Reaction: Friend
+- Target: 10BF8F:Skyrim.esm
+  Reaction: Friend
+- Target: 000815:ITB_Wildlife.esp
+  Reaction: Ally
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

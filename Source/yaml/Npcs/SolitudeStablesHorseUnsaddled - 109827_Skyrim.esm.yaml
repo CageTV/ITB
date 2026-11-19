@@ -2,7 +2,6 @@ FormKey: 109827:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 537133056
 EditorID: SolitudeStablesHorseUnsaddled
-Version2: 3
 SkyrimMajorRecordFlags:
 - Compressed
 - 0x20000000
@@ -13,13 +12,14 @@ Configuration:
   - BleedoutOverride
   Level:
     MutagenObjectType: NpcLevel
-    Level: 20
+    Level: 4
   SpeedMultiplier: 100
   DispositionBase: 35
   TemplateFlags:
   - Traits
   - Stats
   - SpellList
+  - AIData
   - BaseData
   - Inventory
   - Script
@@ -27,15 +27,9 @@ Configuration:
   - AttackData
   - Keywords
 Factions:
-- Faction: 02817C:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 02E894:Skyrim.esm
-  Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0C13F7:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000820:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD94:Skyrim.esm
 Voice: 01F232:Skyrim.esm
@@ -44,8 +38,10 @@ Race: 0131FD:Skyrim.esm
 WornArmor: 08650E:Skyrim.esm
 AttackRace: 0131FD:Skyrim.esm
 AIData:
+  Confidence: Cautious
   EnergyLevel: 50
-  Attack: 1500
+  Responsibility: NoCrime
+  Unused: 118
 Packages:
 - 109824:Skyrim.esm
 Keywords:
@@ -54,13 +50,13 @@ Class: 10F71E:Skyrim.esm
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 56
+    Value: 21
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 56
+    Value: 22
   - Key: Block
-    Value: 43
+    Value: 19
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -72,7 +68,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 57
+    Value: 22
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -126,8 +122,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 297
-  Stamina: 238
+  Health: 289
+  Stamina: 106
   GearedUpWeapons: 1
 CombatStyle: 01CF32:Skyrim.esm
 NAM5: 255

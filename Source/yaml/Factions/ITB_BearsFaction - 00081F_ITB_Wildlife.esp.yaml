@@ -1,0 +1,19 @@
+FormKey: 00081F:ITB_Wildlife.esp
+EditorID: ITB_BearsFaction
+Name:
+  TargetLanguage: English
+  Value: Bear Faction
+Relations:
+- Target: 00081F:ITB_Wildlife.esp
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

@@ -1,0 +1,31 @@
+FormKey: 000B77:ITB_Wildlife.esp
+EditorID: ITB_bundlereference_lurkerspitFFFireSHOCKRune
+Name:
+  TargetLanguage: English
+  Value: Bone Colossus Lightning
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Hostile
+- Detrimental
+- FXPersist
+- NoRecast
+- PowerAffectsMagnitude
+- NoDeathDispel
+BaseCost: 0.5
+ResistValue: ResistShock
+HitShader: 0D22FC:Skyrim.esm
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 0A9D92:Skyrim.esm
+Explosion: 1074FD:Skyrim.esm
+CastType: FireAndForget
+TargetType: Aimed
+ImpactData: 0592D0:Skyrim.esm
+DualCastScale: 1
+ImageSpaceModifier: 0A9D93:Skyrim.esm
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: <mag> points of damage for <dur> seconds.

@@ -1,0 +1,63 @@
+FormKey: 00285D:Dawnguard.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DLC1MolderingRuins01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Moldering Ruins
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00202621'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00172116'
+  FogFar: 4500
+  FogPower: 0.6
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00172116'
+    Scale: 1
+  FogFarColor: '#00172116'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 0300E2:Skyrim.esm
+WaterHeight: 0
+Location: 003CFD:Dawnguard.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 003CFC:Dawnguard.esm
+Music: 05615B:Skyrim.esm
+ImageSpace: 013B32:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001195:ITB_Wildlife.esp
+  Base: 000FEC:ITB_Wildlife.esp
+  Placement:
+    Position: 3527.4104, 3374.0303, 6628.2705
+    Rotation: 0, 0, 0.20000076
+- MutagenObjectType: PlacedNpc
+  FormKey: 001196:ITB_Wildlife.esp
+  Base: 000F5C:ITB_Wildlife.esp
+  Placement:
+    Position: 3513.9763, 5505.883, 7264
+    Rotation: 0, 0, 1.7453292E-06
+- MutagenObjectType: PlacedNpc
+  FormKey: 001197:ITB_Wildlife.esp
+  Base: 000F5C:ITB_Wildlife.esp
+  Placement:
+    Position: 3728.0374, 5771.918, 7389.545
+    Rotation: 0, 0, 5.5831876

@@ -1,0 +1,179 @@
+FormKey: 009659:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 682007
+EditorID: PelagiaFarmExterior
+FormVersion: 40
+Version2: 2
+SkyrimMajorRecordFlags:
+- Compressed
+Flags:
+- HasWater
+- HandChanged
+Grid:
+  Point: 4, -5
+  Flags: 5504256
+OcclusionData: 0x03000000000000000000000000000000000000000000000000000000000000000000000000000000000080010000000000000001880900000000000000000000040000CB023F0020AEFFAF01D81B0000FC3FD61B7C000000000000000000000000000000000000000000000000000000000000000000000000000000000000000E3AA8FFFC1F0000ACBFFEFFFFE30020FFEBEFE000308800ECFF7F0000000000FEEF470000F055502E3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000008001280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+MaxHeightData:
+  Offset: -4608
+  HeightMap:
+  - [3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [3, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1]
+  - [2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1]
+  - [2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 0]
+  - [2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 0, 0]
+  - [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 2, 2, 2, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 0, 0]
+  - [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 2, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 0]
+  - [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 4, 6, 5, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 4, 4, 6, 6, 4, 3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 4, 6, 6, 5, 4, 3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 4, 6, 6, 5, 4, 3, 3, 2, 2, 1, 1, 1, 1, 1, 1, 1, 0]
+  - [3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 3, 4, 5, 5, 5, 5, 4, 4, 3, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 4, 6, 6, 5, 4, 4, 5, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 3, 4, 5, 5, 4, 4, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 3, 4, 5, 4, 3, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [4, 4, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 3, 5, 5, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [4, 4, 4, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2]
+  - [4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1]
+  - [4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 4, 9, 9, 9, 2, 2, 2, 2, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1]
+  - [4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 10, 11, 11, 11, 9, 2, 2, 2, 3, 3, 2, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 10, 11, 11, 11, 9, 2, 2, 2, 2, 2, 3, 3, 2, 2, 1, 1, 2, 2, 2, 1, 1]
+  - [5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 10, 11, 11, 11, 9, 2, 2, 2, 2, 3, 3, 3, 2, 2, 1, 1, 2, 2, 2, 2, 2]
+  - [5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 3, 6, 9, 9, 9, 2, 2, 2, 2, 3, 3, 3, 2, 2, 1, 1, 1, 2, 1, 1, 2, 2]
+  - [5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 3, 3, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1]
+  - [5, 5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 2, 2, 2, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1]
+  - [5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1]
+  - [5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 1, 1, 1]
+  - [5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 2, 1, 1]
+  - [5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 2, 1]
+WaterHeight: 3.4028235E+38
+Regions:
+- 0CAD0A:Skyrim.esm
+- 0C5858:Skyrim.esm
+- 02E4EC:Skyrim.esm
+- 08EED7:Skyrim.esm
+- 0C5859:Skyrim.esm
+Location: 018E3F:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 00158C:ITB_Wildlife.esp
+  Base: 000E73:ITB_Wildlife.esp
+  EnableParent:
+    Reference: 045855:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Owner: 10DE9C:Skyrim.esm
+  Placement:
+    Position: 18382.145, -16819.652, -4550.232
+- MutagenObjectType: PlacedNpc
+  FormKey: 00158D:ITB_Wildlife.esp
+  Base: 000E75:ITB_Wildlife.esp
+  EnableParent:
+    Reference: 045855:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Owner: 10DE9C:Skyrim.esm
+  Placement:
+    Position: 18762.26, -16662.967, -4544
+- MutagenObjectType: PlacedNpc
+  FormKey: 00158E:ITB_Wildlife.esp
+  Base: 000E68:ITB_Wildlife.esp
+  EnableParent:
+    Reference: 045855:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Owner: 10DE9C:Skyrim.esm
+  Placement:
+    Position: 18358.318, -18253.422, -4502.2417
+- MutagenObjectType: PlacedNpc
+  FormKey: 00158F:ITB_Wildlife.esp
+  Base: 0A91A0:Skyrim.esm
+  EnableParent:
+    Reference: 045855:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Owner: 10DE9C:Skyrim.esm
+  Placement:
+    Position: 18394.139, -18230.799, -4502.2437
+- MutagenObjectType: PlacedNpc
+  FormKey: 001590:ITB_Wildlife.esp
+  Base: 0A91A0:Skyrim.esm
+  EnableParent:
+    Reference: 045855:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Owner: 10DE9C:Skyrim.esm
+  Placement:
+    Position: 18546.38, -18504.37, -4430.301
+- MutagenObjectType: PlacedNpc
+  FormKey: 001591:ITB_Wildlife.esp
+  Base: 000E69:ITB_Wildlife.esp
+  EnableParent:
+    Reference: 045855:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Owner: 10DE9C:Skyrim.esm
+  Placement:
+    Position: 18426.826, -18244.496, -4502.241
+- MutagenObjectType: PlacedNpc
+  FormKey: 001592:ITB_Wildlife.esp
+  Base: 000E6A:ITB_Wildlife.esp
+  EnableParent:
+    Reference: 045855:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Owner: 10DE9C:Skyrim.esm
+  Placement:
+    Position: 18442.514, -18173.744, -4518.686
+- MutagenObjectType: PlacedNpc
+  FormKey: 001593:ITB_Wildlife.esp
+  Base: 000F07:ITB_Wildlife.esp
+  Placement:
+    Position: 16942.828, -17668.61, -4535.712
+    Rotation: 0, -0, 0.8
+- MutagenObjectType: PlacedNpc
+  FormKey: 001594:ITB_Wildlife.esp
+  Base: 000F33:ITB_Wildlife.esp
+  Placement:
+    Position: 17529.475, -18107.273, -4492.886
+    Rotation: 0, -0, 5.7831864
+- MutagenObjectType: PlacedNpc
+  FormKey: 001595:ITB_Wildlife.esp
+  Base: 000F34:ITB_Wildlife.esp
+  Placement:
+    Position: 17388.744, -18337.543, -4469.9033
+- MutagenObjectType: PlacedNpc
+  FormKey: 001596:ITB_Wildlife.esp
+  Base: 000F3A:ITB_Wildlife.esp
+  Placement:
+    Position: 18886.266, -16662.16, -4548.3916
+- MutagenObjectType: PlacedNpc
+  FormKey: 001597:ITB_Wildlife.esp
+  Base: 000FA4:ITB_Wildlife.esp
+  LevelModifier: Easy
+  Placement:
+    Position: 19211.084, -18854.316, -4345.611
+- MutagenObjectType: PlacedNpc
+  FormKey: 001598:ITB_Wildlife.esp
+  Base: 000FA4:ITB_Wildlife.esp
+  LevelModifier: Easy
+  Placement:
+    Position: 17092.184, -18317.47, -4482.268
+- MutagenObjectType: PlacedNpc
+  FormKey: 001599:ITB_Wildlife.esp
+  Base: 000FA4:ITB_Wildlife.esp
+  LevelModifier: Easy
+  Placement:
+    Position: 17120.973, -17515.256, -4508.5103

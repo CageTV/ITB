@@ -1,0 +1,23 @@
+FormKey: 000D44:ITB_Wildlife.esp
+EditorID: ITB_crab_naked2
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0008C5:ITB_Wildlife.esp
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: itb\fauna\mudcrab\mudcrab_ee58293e.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: itb\fauna\mudcrab\mudcrab_4514afec.nif
+    Data: 0x020000000000000000000000
+FootstepSound: 0B97CC:Skyrim.esm

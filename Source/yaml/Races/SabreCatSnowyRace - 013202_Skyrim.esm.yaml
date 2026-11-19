@@ -1,7 +1,5 @@
 FormKey: 013202:Skyrim.esm
-VersionControl: 79128
 EditorID: SabreCatSnowyRace
-Version2: 14
 Name:
   TargetLanguage: English
   Value: Snowy Sabre Cat
@@ -9,23 +7,23 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 0F93DB:Skyrim.esm
 - 0B8783:Skyrim.esm
-- 000AC9:ITB_Wildlife.esp
-- 000ACD:ITB_Wildlife.esp
+- 0F93DB:Skyrim.esm
+- 000BAA:ITB_Wildlife.esp
+- 000BA5:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 09DA65:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
+- 013798:Skyrim.esm
+- 586728:ccBGSSSE037-Curios.esl
 SkillBoost0:
-  Skill: OneHanded
-  Boost: 10
+  Skill: 255
 SkillBoost1:
-  Skill: Sneak
-  Boost: 20
+  Skill: 255
 SkillBoost2:
   Skill: 255
 SkillBoost3:
@@ -33,43 +31,44 @@ SkillBoost3:
 SkillBoost4:
   Skill: 255
 SkillBoost5:
-  Skill: 255
+  Skill: OneHanded
+  Boost: 10
 SkillBoost6:
-  Skill: 255
+  Skill: Sneak
+  Boost: 20
 Height:
-  Male: 1.1
-  Female: 1.05
+  Male: 1.25
+  Female: 1.03
 Weight:
-  Male: 1
-  Female: 1
+  Male: 350
+  Female: 300
 Flags:
 - TiltFrontBack
-- Swims
 - Walks
 - NoCombatInWater
 - UsesHeadTrackAnims
 Starting:
 - Key: Health
-  Value: 100
+  Value: 400
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 100
-BaseCarryWeight: 100
+  Value: 175
+BaseCarryWeight: 175
 BaseMass: 3.5
 AccelerationRate: 1.8
 DecelerationRate: 4
 Size: Medium
 Regen:
 - Key: Health
-  Value: 0
+  Value: 0.1
 - Key: Magicka
   Value: 0
 - Key: Stamina
   Value: 10
-UnarmedDamage: 45
+UnarmedDamage: 55
 UnarmedReach: 85
-AngularAccelerationRate: 0.25
+AngularAccelerationRate: 0.55
 AngularTolerance: 5
 MountData:
   MountOffset: -63.479, 0, 0
@@ -85,11 +84,11 @@ SkeletalModel:
     File: Actors\SabreCat\Character Assets\Skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 01920C:Skyrim.esm
   Female: 01920C:Skyrim.esm
@@ -99,24 +98,24 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 0.25
-    Spell: 000AC5:ITB_Wildlife.esp
+    Spell: 000BA6:ITB_Wildlife.esp
     Flags:
     - PowerAttack
-    StrikeAngle: 45
-    RecoveryTime: 2
-    StaminaMult: 1
+    StrikeAngle: 30
     Stagger: 0.0375
+    RecoveryTime: 2
+    StaminaMult: 2
   AttackEvent: attackStart_Attack1
 - AttackData:
     DamageMult: 2
     Chance: 0.25
-    Spell: 000AC5:ITB_Wildlife.esp
+    Spell: 000BA6:ITB_Wildlife.esp
     Flags:
     - PowerAttack
-    StrikeAngle: 45
-    RecoveryTime: 2
-    StaminaMult: 1
+    StrikeAngle: 30
     Stagger: 0.0375
+    RecoveryTime: 2
+    StaminaMult: 2
   AttackEvent: attackStart_Attack2
 - AttackData:
     DamageMult: 1
@@ -124,14 +123,14 @@ Attacks:
     Flags:
     - RotatingAttack
     AttackAngle: -90
-    StrikeAngle: 45
+    StrikeAngle: 30
     StaminaMult: 1
   AttackEvent: attackStart_AttackLeft1
 - AttackData:
     DamageMult: 1
     Chance: 0.4
     Spell: 0B8783:Skyrim.esm
-    StrikeAngle: 50
+    StrikeAngle: 35
     RecoveryTime: 0.1
     StaminaMult: 1
   AttackEvent: attackStart_AttackLeft2
@@ -141,13 +140,13 @@ Attacks:
     Flags:
     - RotatingAttack
     AttackAngle: 90
-    StrikeAngle: 45
+    StrikeAngle: 30
     StaminaMult: 1
   AttackEvent: attackStart_AttackRight1
 - AttackData:
     DamageMult: 1
     Chance: 0.55
-    StrikeAngle: 50
+    StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackRight2
 - AttackData:
@@ -155,21 +154,21 @@ Attacks:
     Chance: 0.2
     Flags:
     - PowerAttack
-    StrikeAngle: 35
-    RecoveryTime: 2
-    StaminaMult: 1
+    StrikeAngle: 25
     Stagger: 0.0625
+    RecoveryTime: 2
+    StaminaMult: 2
   AttackEvent: attackStart_ForwardPower
 - AttackData:
     DamageMult: 2
     Chance: 1
-    Spell: 000AC5:ITB_Wildlife.esp
+    Spell: 09CD4D:Skyrim.esm
     Flags:
     - PowerAttack
-    StrikeAngle: 35
+    StrikeAngle: 25
+    Stagger: 0.3
     RecoveryTime: 2
-    StaminaMult: 1
-    Stagger: 0.0625
+    StaminaMult: 2
   AttackEvent: attackStart_ForwardPowerShort
 BodyData:
   Male:
@@ -199,30 +198,10 @@ BipedObjectNames:
   Value: BODY
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm
 BaseMovementDefaultWalk: 059657:Skyrim.esm
 BaseMovementDefaultRun: 059657:Skyrim.esm
-BaseMovementDefaultSwim: 000ABF:ITB_Wildlife.esp
+BaseMovementDefaultSwim: 000813:ITB_Wildlife.esp
 BaseMovementDefaultSneak: 059657:Skyrim.esm

@@ -1,25 +1,28 @@
 FormKey: 01320A:Skyrim.esm
-VersionControl: 79128
 EditorID: WolfRace
-Version2: 1
 Name:
   TargetLanguage: English
   Value: Wolf
 Description:
   TargetLanguage: English
   Value: ''
+ActorEffect:
+- 0B8782:Skyrim.esm
+- 10C042:Skyrim.esm
+- 000BA5:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 04E886:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
-- 000894:ITB_Wildlife.esp
-- 092A6C:Skyrim.esm
 - 013795:Skyrim.esm
+- 013798:Skyrim.esm
+- 092A6C:Skyrim.esm
+- 586728:ccBGSSSE037-Curios.esl
+- 000800:ITB_Wildlife.esp
 SkillBoost0:
-  Skill: Sneak
-  Boost: 15
+  Skill: 255
 SkillBoost1:
   Skill: 255
 SkillBoost2:
@@ -31,13 +34,14 @@ SkillBoost4:
 SkillBoost5:
   Skill: 255
 SkillBoost6:
-  Skill: 255
+  Skill: Sneak
+  Boost: 15
 Height:
-  Male: 1.2
-  Female: 1
-Weight:
   Male: 1
-  Female: 1
+  Female: 0.96999997
+Weight:
+  Male: 100
+  Female: 90
 Flags:
 - TiltFrontBack
 - TiltLeftRight
@@ -47,11 +51,11 @@ Flags:
 - CantOpenDoors
 Starting:
 - Key: Health
-  Value: 20
+  Value: 125
 - Key: Magicka
-  Value: 1
+  Value: 0
 - Key: Stamina
-  Value: 55
+  Value: 200
 BaseCarryWeight: 20
 BaseMass: 1
 AccelerationRate: 0.6
@@ -59,14 +63,14 @@ DecelerationRate: 2
 Size: Medium
 Regen:
 - Key: Health
-  Value: 0
+  Value: 0.1
 - Key: Magicka
-  Value: 0
+  Value: 10
 - Key: Stamina
   Value: 5
 UnarmedDamage: 10
-UnarmedReach: 64
-AngularAccelerationRate: 0.3
+UnarmedReach: 58
+AngularAccelerationRate: 0.625
 AngularTolerance: 5
 MountData:
   MountOffset: -63.479, 0, 0
@@ -82,11 +86,11 @@ SkeletalModel:
     File: Actors\Canine\Character Assets Wolf\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 01F6A7:Skyrim.esm
   Female: 01F6A7:Skyrim.esm
@@ -96,92 +100,98 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.5
-    StrikeAngle: 35
+    Spell: 09CD4D:Skyrim.esm
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: attackStart_Attack1
 - AttackData:
     DamageMult: 1
     Chance: 0.5
-    StrikeAngle: 35
+    Spell: 0B8782:Skyrim.esm
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: attackStart_Attack2
 - AttackData:
     DamageMult: 1
     Chance: 1
-    StrikeAngle: 35
+    Spell: 09CD4D:Skyrim.esm
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: attackStart_AttackLeft1
 - AttackData:
     DamageMult: 1
     Chance: 1
-    StrikeAngle: 35
+    Spell: 0B8782:Skyrim.esm
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: attackStart_AttackLeft2
 - AttackData:
     DamageMult: 1
     Chance: 1
-    StrikeAngle: 35
+    Spell: 09CD4D:Skyrim.esm
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: attackStart_AttackRight1
 - AttackData:
     DamageMult: 1
     Chance: 1
-    StrikeAngle: 35
+    Spell: 0B8782:Skyrim.esm
+    StrikeAngle: 25
     StaminaMult: 1
   AttackEvent: attackStart_AttackRight2
 - AttackData:
     DamageMult: 1.5
     Chance: 0.75
+    Spell: 09CD4D:Skyrim.esm
     Flags:
     - PowerAttack
-    StrikeAngle: 35
+    StrikeAngle: 25
+    Stagger: 0.1
     RecoveryTime: 2
-    StaminaMult: 1
-    Stagger: 0.0125
+    StaminaMult: 1.5
   AttackEvent: attackStart_ForwardPower
 - AttackData:
     DamageMult: 1.5
     Chance: 0.75
     Flags:
     - PowerAttack
-    StrikeAngle: 35
-    RecoveryTime: 2
-    StaminaMult: 1
+    StrikeAngle: 25
     Stagger: 0.0125
+    RecoveryTime: 2
+    StaminaMult: 1.5
   AttackEvent: attackStart_ForwardPowerShort
 - AttackData:
     DamageMult: 1.5
     Chance: 0.65
-    Spell: 000AC7:ITB_Wildlife.esp
-    StrikeAngle: 35
-    StaminaMult: 1
+    StrikeAngle: 23
     Stagger: 0.0125
+    StaminaMult: 1.5
   AttackEvent: attackStart_SkeeverLungeLong
 - AttackData:
     DamageMult: 1
     Chance: 0.25
-    StrikeAngle: 35
+    StrikeAngle: 23
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeMedium
 - AttackData:
     DamageMult: 1.5
     Chance: 0.25
     Spell: 0B8782:Skyrim.esm
-    StrikeAngle: 35
+    StrikeAngle: 23
+    Stagger: 0.025
     RecoveryTime: 0.1
-    StaminaMult: 1
-    Stagger: 0.0125
+    StaminaMult: 1.5
   AttackEvent: attackStart_SkeeverLungeShort
 - AttackData:
     DamageMult: 1.5
     Chance: 0.65
-    Spell: 000AC7:ITB_Wildlife.esp
+    Spell: 09CD4D:Skyrim.esm
     Flags:
     - PowerAttack
-    StrikeAngle: 35
+    StrikeAngle: 28
+    Stagger: 0.0625
     RecoveryTime: 2
-    StaminaMult: 1
-    Stagger: 0.0125
+    StaminaMult: 1.5
   AttackEvent: attackStart_StandingPower
 BodyData:
   Male:
@@ -211,28 +221,7 @@ BipedObjectNames:
   Value: BODY
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm
-ActorEffect:
-- 0B8782:Skyrim.esm
-- 000ACD:ITB_Wildlife.esp
-BaseMovementDefaultSwim: 000ABF:ITB_Wildlife.esp
+BaseMovementDefaultSwim: 000813:ITB_Wildlife.esp

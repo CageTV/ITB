@@ -1,0 +1,5 @@
+FormKey: 001098:ITB_Wildlife.esp
+EditorID: ITB_NPCSpiderSmallFootWalkFootStepSet
+WalkForwardFootsteps:
+- 00109C:ITB_Wildlife.esp
+- 001099:ITB_Wildlife.esp

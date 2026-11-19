@@ -1,0 +1,13 @@
+FormKey: 000E2D:ITB_Wildlife.esp
+EditorID: ITB_giantcentipede_loot_deathitem
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 02B04E:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 001070:ITB_Wildlife.esp
+    Count: 1

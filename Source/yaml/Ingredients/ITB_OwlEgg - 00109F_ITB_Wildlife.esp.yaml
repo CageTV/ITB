@@ -1,0 +1,24 @@
+FormKey: 00109F:ITB_Wildlife.esp
+EditorID: ITB_OwlEgg
+Name:
+  TargetLanguage: English
+  Value: Owl Egg
+Keywords:
+- 08CDEA:Skyrim.esm
+- 08CDEB:Skyrim.esm
+Model:
+  File: itb\fauna\incubateddodo\incubateddodo_5170b04b.nif
+  Data: 0x020000000000000000000000
+PickUpSound: 0BFB1F:Skyrim.esm
+PutDownSound: 0519D1:Skyrim.esm
+Value: 80
+Weight: 0.1
+IngredientValue: 230
+Effects:
+- BaseEffect: 039E51:Skyrim.esm
+  Data:
+    Magnitude: 1
+    Duration: 120
+- BaseEffect: 03AC2D:Skyrim.esm
+  Data:
+    Duration: 60

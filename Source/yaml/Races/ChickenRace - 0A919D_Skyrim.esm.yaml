@@ -1,8 +1,6 @@
 FormKey: 0A919D:Skyrim.esm
 MajorRecordFlagsRaw: 524288
-VersionControl: 79128
 EditorID: ChickenRace
-Version2: 14
 SkyrimMajorRecordFlags:
 - CantWait
 Name:
@@ -11,13 +9,19 @@ Name:
 Description:
   TargetLanguage: English
   Value: ''
+ActorEffect:
+- 000BA3:ITB_Wildlife.esp
+- 000BA5:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 0A919C:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
+- 013795:Skyrim.esm
 - 013798:Skyrim.esm
-- 000895:ITB_Wildlife.esp
+- 586728:ccBGSSSE037-Curios.esl
+- 000801:ITB_Wildlife.esp
 SkillBoost0:
   Skill: 255
 SkillBoost1:
@@ -36,8 +40,8 @@ Height:
   Male: 1
   Female: 1
 Weight:
-  Male: 0.5
-  Female: 1
+  Male: 5
+  Female: 5
 Flags:
 - TiltFrontBack
 - Walks
@@ -51,8 +55,8 @@ Starting:
   Value: 0
 - Key: Stamina
   Value: 25
-BaseCarryWeight: 5
-BaseMass: 3.5
+BaseCarryWeight: 1
+BaseMass: 0.2
 AccelerationRate: 1
 DecelerationRate: 1
 Size: Medium
@@ -63,7 +67,7 @@ Regen:
   Value: 10
 - Key: Stamina
   Value: 10
-UnarmedDamage: 5
+UnarmedDamage: 0.1
 UnarmedReach: 32
 BodyBipedObject: Body
 AngularAccelerationRate: 0.25
@@ -82,11 +86,11 @@ SkeletalModel:
     File: Actors\Ambient\Chicken\Character Assets\Skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 10AA5F:Skyrim.esm
   Female: 10AA5F:Skyrim.esm
@@ -123,31 +127,11 @@ MovementTypes:
   Overrides:
     ForwardWalk: 34.71
     ForwardRun: 300
-    RotateWalk: 6.2831855
-    RotateRun: 6.2831855
-    Unknown: 1.4727088
+    RotateWalk: 6.283185
+    RotateRun: 6.283185
+    Unknown: 1.472709
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm
@@ -155,6 +139,3 @@ BaseMovementDefaultWalk: 0B0B90:Skyrim.esm
 BaseMovementDefaultRun: 0B0B90:Skyrim.esm
 MajorFlags:
 - Critter
-ActorEffect:
-- 000AC3:ITB_Wildlife.esp
-- 000ACD:ITB_Wildlife.esp

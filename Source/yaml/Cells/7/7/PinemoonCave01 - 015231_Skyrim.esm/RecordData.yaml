@@ -1,0 +1,64 @@
+FormKey: 015231:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: PinemoonCave01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00162729'
+  DirectionalColor: '#001C7079'
+  FogNearColor: '#0046C2FF'
+  FogNear: 340
+  FogFar: 14000
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#0018272A'
+    DirectionalXMinus: '#00132727'
+    DirectionalYPlus: '#00162829'
+    DirectionalYMinus: '#00162529'
+    DirectionalZPlus: '#000A1212'
+    DirectionalZMinus: '#00213B3F'
+    Specular: '#001A86B5'
+    Scale: 1
+  FogFarColor: '#001A86B5'
+  FogMax: 0.8
+  Inherits:
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - LightFadeDistances
+LightingTemplate: 01952F:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 019288:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 03EC50:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 0A28E6:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 00127A:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -337.2344, 2162.7527, -531.56055
+- MutagenObjectType: PlacedNpc
+  FormKey: 00127B:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: 1383.9219, 2529.2021, -168.37183
+- MutagenObjectType: PlacedNpc
+  FormKey: 00127C:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: 2343.1555, 370.00754, -55.999954
+    Rotation: 0, 0, 4.7000003

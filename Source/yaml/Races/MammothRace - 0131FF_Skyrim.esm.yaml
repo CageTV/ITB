@@ -1,5 +1,4 @@
 FormKey: 0131FF:Skyrim.esm
-VersionControl: 79128
 EditorID: MammothRace
 Name:
   TargetLanguage: English
@@ -8,10 +7,13 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000AC3:ITB_Wildlife.esp
-- 000ACD:ITB_Wildlife.esp
-- 10C042:Skyrim.esm
 - 0B556B:Skyrim.esm
+- 10C042:Skyrim.esm
+- 0405CC:ccBGSSSE037-Curios.esl
+- 000B9E:ITB_Wildlife.esp
+- 000BA0:ITB_Wildlife.esp
+- 000BA5:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 059253:Skyrim.esm
 BodyTemplate:
   FirstPersonFlags:
@@ -19,9 +21,10 @@ BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
+- 013798:Skyrim.esm
 - 0F23C5:Skyrim.esm
+- 586728:ccBGSSSE037-Curios.esl
 SkillBoost0:
   Skill: 255
 SkillBoost1:
@@ -40,41 +43,40 @@ Height:
   Male: 1
   Female: 1
 Weight:
-  Male: 1
-  Female: 1
+  Male: 5000
+  Female: 4000
 Flags:
 - TiltFrontBack
 - TiltLeftRight
 - Walks
 - NoCombatInWater
 - UsesHeadTrackAnims
-- SpellsAlignWithMagicNode
 - CantOpenDoors
 - NoKnockdowns
 - AvoidsRoads
 Starting:
 - Key: Health
-  Value: 1000
+  Value: 5000
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 500
-BaseCarryWeight: 500
-BaseMass: 4
+  Value: 3000
+BaseCarryWeight: 1250
+BaseMass: 20
 AccelerationRate: 3
 DecelerationRate: 3
 Size: ExtraLarge
 Regen:
 - Key: Health
-  Value: 0
+  Value: 0.1
 - Key: Magicka
   Value: 0
 - Key: Stamina
   Value: 10
-UnarmedDamage: 65
-UnarmedReach: 128
+UnarmedDamage: 175
+UnarmedReach: 104
 AimAngleTolerance: 90
-AngularAccelerationRate: 0.5
+AngularAccelerationRate: 1.85
 AngularTolerance: 5
 MountData:
   MountOffset: -63.479, 0, 0
@@ -90,11 +92,11 @@ SkeletalModel:
     File: Actors\Mammoth\Character Assets\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 01F287:Skyrim.esm
   Female: 01F287:Skyrim.esm
@@ -104,56 +106,62 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.5
+    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     AttackAngle: 20
-    StrikeAngle: 60
-    StaminaMult: 1
+    StrikeAngle: 45
     Stagger: 1
+    StaminaMult: 1.5
   AttackEvent: attackStart_Attack1
 - AttackData:
     DamageMult: 1.5
     Chance: 0.5
+    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     AttackAngle: -20
-    StrikeAngle: 60
-    StaminaMult: 1
+    StrikeAngle: 45
     Stagger: 1
+    StaminaMult: 1.5
   AttackEvent: attackStart_Attack2
 - AttackData:
     DamageMult: 1.5
-    Chance: 0.5
+    Chance: 0.75
+    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     Flags:
     - RotatingAttack
     AttackAngle: -90
-    StrikeAngle: 90
-    StaminaMult: 1
+    StrikeAngle: 45
     Stagger: 1
+    StaminaMult: 1.5
   AttackEvent: attackStart_AttackLeft1
 - AttackData:
     DamageMult: 1.5
-    Chance: 0.5
+    Chance: 0.75
+    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     Flags:
     - RotatingAttack
     AttackAngle: 90
-    StrikeAngle: 90
-    StaminaMult: 1
+    StrikeAngle: 45
     Stagger: 1
+    StaminaMult: 1.5
   AttackEvent: attackStart_AttackRight1
 - AttackData:
     DamageMult: 2
     Chance: 0.7
+    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     Flags:
     - PowerAttack
-    StrikeAngle: 45
-    StaminaMult: 1
+    StrikeAngle: 30
     Stagger: 1.5
+    StaminaMult: 2
   AttackEvent: attackStart_ForwardPower
 - AttackData:
     DamageMult: 2
     Chance: 0.7
+    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     Flags:
     - PowerAttack
-    StrikeAngle: 45
-    StaminaMult: 1
+    StrikeAngle: 30
     Stagger: 1.5
+    StaminaMult: 2
   AttackEvent: attackStart_StandingPower
 BodyData:
   Male:
@@ -188,31 +196,11 @@ MovementTypes:
     ForwardRun: 400
     BackWalk: 61.84
     BackRun: 61.84
-    RotateWalk: 1.5707964
-    RotateRun: 1.5707964
-    Unknown: 0.7853982
+    RotateWalk: 1.570796
+    RotateRun: 1.570796
+    Unknown: 0.785398
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm

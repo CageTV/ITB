@@ -1,27 +1,29 @@
 FormKey: 013201:Skyrim.esm
-VersionControl: 79128
 EditorID: SkeeverRace
-Version2: 6
 Name:
   TargetLanguage: English
   Value: Skeever
 Description:
   TargetLanguage: English
   Value: ''
+ActorEffect:
+- 0B877C:Skyrim.esm
+- 000BA2:ITB_Wildlife.esp
+- 000BA5:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 016EE5:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
-- 000894:ITB_Wildlife.esp
+- 013798:Skyrim.esm
+- 586728:ccBGSSSE037-Curios.esl
+- 000800:ITB_Wildlife.esp
 SkillBoost0:
-  Skill: Sneak
-  Boost: 10
+  Skill: 255
 SkillBoost1:
-  Skill: OneHanded
-  Boost: 5
+  Skill: 255
 SkillBoost2:
   Skill: 255
 SkillBoost3:
@@ -29,15 +31,17 @@ SkillBoost3:
 SkillBoost4:
   Skill: 255
 SkillBoost5:
-  Skill: 255
+  Skill: OneHanded
+  Boost: 5
 SkillBoost6:
-  Skill: 255
+  Skill: Sneak
+  Boost: 10
 Height:
   Male: 1
   Female: 1
 Weight:
-  Male: 1
-  Female: 1
+  Male: 45
+  Female: 45
 Flags:
 - TiltFrontBack
 - Walks
@@ -46,13 +50,13 @@ Flags:
 - CantOpenDoors
 Starting:
 - Key: Health
-  Value: 10
+  Value: 45
 - Key: Magicka
-  Value: 0
+  Value: 1
 - Key: Stamina
-  Value: 15
+  Value: 50
 BaseCarryWeight: 10
-BaseMass: 0.1
+BaseMass: 0.25
 AccelerationRate: 0.85
 DecelerationRate: 1
 Regen:
@@ -62,9 +66,9 @@ Regen:
   Value: 0
 - Key: Stamina
   Value: 0
-UnarmedDamage: 11
+UnarmedDamage: 10
 UnarmedReach: 64
-AngularAccelerationRate: 0.25
+AngularAccelerationRate: 0.5
 AngularTolerance: 5
 MountData:
   MountOffset: -63.479, 0, 0
@@ -80,11 +84,11 @@ SkeletalModel:
     File: Actors\Skeever\Character Assets\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 019FE5:Skyrim.esm
   Female: 019FE5:Skyrim.esm
@@ -94,43 +98,45 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.33
-    StrikeAngle: 35
+    Spell: 0B877C:Skyrim.esm
+    StrikeAngle: 22
     StaminaMult: 1
   AttackEvent: attackStart_Attack1
 - AttackData:
     DamageMult: 1
     Chance: 0.33
-    StrikeAngle: 35
+    Spell: 0B877C:Skyrim.esm
+    StrikeAngle: 22
     StaminaMult: 1
   AttackEvent: attackStart_Attack2
 - AttackData:
     DamageMult: 1.5
-    Chance: 0.4
-    Spell: 000AC6:ITB_Wildlife.esp
+    Chance: 1
     Flags:
     - PowerAttack
-    StrikeAngle: 35
-    StaminaMult: 1
+    StrikeAngle: 22
     Stagger: 0.1
+    StaminaMult: 1.5
   AttackEvent: attackStart_ForwardPower
 - AttackData:
     DamageMult: 1.5
     Chance: 0.2
-    Spell: 000AC6:ITB_Wildlife.esp
-    StrikeAngle: 35
-    StaminaMult: 1
+    Spell: 000BA7:ITB_Wildlife.esp
+    StrikeAngle: 22
+    StaminaMult: 1.5
   AttackEvent: attackStart_SkeeverLungeLong
 - AttackData:
     DamageMult: 1.5
-    Chance: 0.25
-    StrikeAngle: 35
+    Chance: 1
+    Spell: 09CD4D:Skyrim.esm
+    StrikeAngle: 22
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeMedium
 - AttackData:
     DamageMult: 1.5
     Chance: 1
     Spell: 0B877C:Skyrim.esm
-    StrikeAngle: 35
+    StrikeAngle: 22
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeShort
 BodyData:
@@ -161,30 +167,6 @@ BipedObjectNames:
   Value: BODY
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm
-ActorEffect:
-- 0B877C:Skyrim.esm
-- 000AC2:ITB_Wildlife.esp
-- 000ACD:ITB_Wildlife.esp

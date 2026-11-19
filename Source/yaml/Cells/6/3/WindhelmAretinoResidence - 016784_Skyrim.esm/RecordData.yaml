@@ -1,0 +1,49 @@
+FormKey: 016784:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: WindhelmAretinoResidence
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#001B1810'
+  DirectionalColor: '#003A4345'
+  FogNearColor: '#00734931'
+  FogFar: 3000
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#001D1810'
+    DirectionalXMinus: '#0018180F'
+    DirectionalYPlus: '#001B1910'
+    DirectionalYMinus: '#001B1610'
+    DirectionalZPlus: '#000C0B07'
+    DirectionalZMinus: '#00292418'
+    Specular: '#0087795A'
+    Scale: 1
+  FogFarColor: '#0087795A'
+  FogMax: 1
+  Inherits:
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+LightingTemplate: 07BA87:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 0209CB:Skyrim.esm
+LockList: 09C757:Skyrim.esm
+AcousticSpace: 0C5B6B:Skyrim.esm
+Music: 01BA72:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 00122A:ITB_Wildlife.esp
+  Base: 000FBE:ITB_Wildlife.esp
+  Placement:
+    Position: -480, -2515, 449
+    Rotation: 0, 0, 2.18

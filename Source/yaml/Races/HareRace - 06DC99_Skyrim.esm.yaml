@@ -1,8 +1,6 @@
 FormKey: 06DC99:Skyrim.esm
 MajorRecordFlagsRaw: 524288
-VersionControl: 79128
 EditorID: HareRace
-Version2: 12
 SkyrimMajorRecordFlags:
 - CantWait
 Name:
@@ -11,13 +9,19 @@ Name:
 Description:
   TargetLanguage: English
   Value: ''
+ActorEffect:
+- 000BA2:ITB_Wildlife.esp
+- 000BA5:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 06DC9B:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
+- 013795:Skyrim.esm
 - 013798:Skyrim.esm
-- 000895:ITB_Wildlife.esp
+- 586728:ccBGSSSE037-Curios.esl
+- 000801:ITB_Wildlife.esp
 SkillBoost0:
   Skill: 255
 SkillBoost1:
@@ -36,8 +40,8 @@ Height:
   Male: 1
   Female: 1
 Weight:
-  Male: 0.5
-  Female: 1
+  Male: 5
+  Female: 5
 Flags:
 - TiltFrontBack
 - Walks
@@ -53,7 +57,7 @@ Starting:
 - Key: Stamina
   Value: 25
 BaseCarryWeight: 5
-BaseMass: 3.5
+BaseMass: 0.2
 AccelerationRate: 0.4
 DecelerationRate: 2
 Size: Medium
@@ -83,11 +87,11 @@ SkeletalModel:
     File: Actors\Ambient\Hare\Character Assets\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 0D78AD:Skyrim.esm
   Female: 0D78AD:Skyrim.esm
@@ -128,47 +132,24 @@ MovementTypes:
     BackRun: 40
     RotateWalk: 8.028515
     RotateRun: 8.028515
-    Unknown: 1.4727088
-- MovementType: 000ABF:ITB_Wildlife.esp
+    Unknown: 1.472709
+- MovementType: 000813:ITB_Wildlife.esp
   Overrides:
     ForwardWalk: 75
     ForwardRun: 75
-    RotateWalk: 3.1415927
-    RotateRun: 3.1415927
-    Unknown: 3.1415927
+    RotateWalk: 3.141593
+    RotateRun: 3.141593
+    Unknown: 3.141593
 EquipmentFlags:
 - HandToHand
 - Spell
 - Shield
 - Torch
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm
 BaseMovementDefaultWalk: 06E27A:Skyrim.esm
 BaseMovementDefaultRun: 06E27A:Skyrim.esm
+BaseMovementDefaultSwim: 000813:ITB_Wildlife.esp
 MajorFlags:
 - Critter
-ActorEffect:
-- 000ACD:ITB_Wildlife.esp
-- 000AC3:ITB_Wildlife.esp
-BaseMovementDefaultSwim: 000ABF:ITB_Wildlife.esp

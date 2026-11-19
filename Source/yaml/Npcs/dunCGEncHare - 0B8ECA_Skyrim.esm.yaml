@@ -2,7 +2,6 @@ FormKey: 0B8ECA:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: dunCGEncHare
-Version2: 5
 SkyrimMajorRecordFlags:
 - Compressed
 Configuration:
@@ -29,15 +28,13 @@ Configuration:
   - AttackData
   - Keywords
 Factions:
+- Faction: 000826:ITB_Wildlife.esp
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0A3087:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0F1ABC:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 09A772:Skyrim.esm
 Voice: 0D78AD:Skyrim.esm

@@ -1,0 +1,14 @@
+FormKey: 0010C3:ITB_Wildlife.esp
+EditorID: ITB_seagiant_NPC2_shield_spell_exp
+Model:
+  File: Magic\MAGIceSpikeVolleyExplosion.nif
+  Data: 0x020000000000000000000000
+Sound1: 092C90:Skyrim.esm
+Sound2: 0EA343:Skyrim.esm
+Force: 50
+Damage: 10
+Radius: 100
+Flags:
+- 0x1
+- IgnoreImageSpaceSwap
+SoundLevel: VeryLoud

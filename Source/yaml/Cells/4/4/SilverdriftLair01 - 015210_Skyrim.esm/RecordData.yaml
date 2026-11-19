@@ -1,0 +1,80 @@
+FormKey: 015210:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: SilverdriftLair01
+Version2: 13
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00323232'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00B0DCF7'
+  FogNear: 340
+  FogFar: 12000
+  DirectionalFade: 1
+  FogClipDistance: 12000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00B0DCF7'
+    Scale: 1
+  FogFarColor: '#00B0DCF7'
+  FogMax: 1
+  LightFadeBegin: 12000
+  LightFadeEnd: 13000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 01952F:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 0192AA:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 03EC70:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 0A28E6:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011B9:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: -167.61362, 5557.529, -828.6453
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011BA:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 411.1239, 5152.3945, -832
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011BB:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 842.26556, 2513.7378, -171.0095
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011BC:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: -1150.8976, 3238.5664, -296.47998
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011BD:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -5034.9683, 4388.888, -204.26889

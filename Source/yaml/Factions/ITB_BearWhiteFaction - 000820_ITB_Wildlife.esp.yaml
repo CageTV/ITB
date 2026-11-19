@@ -1,0 +1,20 @@
+FormKey: 000820:ITB_Wildlife.esp
+EditorID: ITB_BearWhiteFaction
+Name:
+  TargetLanguage: English
+  Value: Bear White Faction
+Relations:
+- Target: 000820:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

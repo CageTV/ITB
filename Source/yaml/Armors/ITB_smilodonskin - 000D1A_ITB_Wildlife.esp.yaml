@@ -1,0 +1,18 @@
+FormKey: 000D1A:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_smilodonskin
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000910:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000DFE:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

@@ -1,0 +1,73 @@
+FormKey: 0D9DC7:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: ShroudHearthBarrow02
+Version2: 6
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00212229'
+  DirectionalColor: '#00343841'
+  FogNearColor: '#0078745A'
+  FogFar: 8000
+  DirectionalRotationZ: 90
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#0024222A'
+    DirectionalXMinus: '#001D2227'
+    DirectionalYPlus: '#00212329'
+    DirectionalYMinus: '#00212029'
+    DirectionalZPlus: '#000F1012'
+    DirectionalZMinus: '#0032333F'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00858163'
+  FogMax: 1
+  LightFadeBegin: 9000
+  LightFadeEnd: 10000
+  Inherits:
+  - ClipDistance
+LightingTemplate: 098B91:Skyrim.esm
+WaterHeight: 0
+Location: 06CCC6:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\QuickSkyDark_e.dds
+SkyAndWeatherFromRegion: 0C5857:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 06CCC7:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 09F363:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012DB:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 1754.9869, -421.20874, -1823.7079
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012DC:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 1590.0952, 233.77501, -1836.1387
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012DD:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 2272.6492, 765.9826, -1831.1965
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012DE:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 1378.6304, 880.8194, -1831.1968
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012DF:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 1694.3394, 1447.9138, -1576.4226

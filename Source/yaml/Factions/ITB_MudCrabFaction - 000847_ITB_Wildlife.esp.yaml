@@ -1,0 +1,20 @@
+FormKey: 000847:ITB_Wildlife.esp
+EditorID: ITB_MudCrabFaction
+Name:
+  TargetLanguage: English
+  Value: MudCrab Faction
+Relations:
+- Target: 000847:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

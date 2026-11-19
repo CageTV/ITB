@@ -1,8 +1,6 @@
 FormKey: 109C7C:Skyrim.esm
 MajorRecordFlagsRaw: 524288
-VersionControl: 79128
 EditorID: FoxRace
-Version2: 5
 SkyrimMajorRecordFlags:
 - CantWait
 Name:
@@ -16,13 +14,12 @@ BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
+- 013798:Skyrim.esm
 - 092A6C:Skyrim.esm
-- 000895:ITB_Wildlife.esp
+- 586728:ccBGSSSE037-Curios.esl
 SkillBoost0:
-  Skill: Sneak
-  Boost: 15
+  Skill: 255
 SkillBoost1:
   Skill: 255
 SkillBoost2:
@@ -34,7 +31,8 @@ SkillBoost4:
 SkillBoost5:
   Skill: 255
 SkillBoost6:
-  Skill: 255
+  Skill: Sneak
+  Boost: 15
 Height:
   Male: 1.2
   Female: 1
@@ -43,24 +41,21 @@ Weight:
   Female: 1
 Flags:
 - TiltFrontBack
-- TiltLeftRight
 - Walks
 - NoCombatInWater
 - UsesHeadTrackAnims
 - CantOpenDoors
-- AvoidsRoads
-- UseAdvancedAvoidance
 - NonHostile
 Starting:
 - Key: Health
-  Value: 10
+  Value: 12
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 30
-BaseCarryWeight: 10
-BaseMass: 1
-AccelerationRate: 2
+  Value: 200
+BaseCarryWeight: 200
+BaseMass: 0.4
+AccelerationRate: 0.6
 DecelerationRate: 2
 Size: Medium
 Regen:
@@ -81,18 +76,18 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: Actors\Canine\Character Assets Wolf\skeleton.nif
+    File: itb\fauna\canine\canine_df8507fd.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
     File: Actors\Canine\Character Assets Wolf\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 10F677:Skyrim.esm
   Female: 10F677:Skyrim.esm
@@ -138,39 +133,44 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 0.75
+    Spell: 0B8782:Skyrim.esm
     Flags:
     - PowerAttack
     StrikeAngle: 35
+    Stagger: 0.25
     RecoveryTime: 2
     StaminaMult: 1
-    Stagger: 0.25
   AttackEvent: attackStart_ForwardPower
 - AttackData:
     DamageMult: 2
     Chance: 0.75
+    Spell: 0B8782:Skyrim.esm
     Flags:
     - PowerAttack
     StrikeAngle: 35
+    Stagger: 0.25
     RecoveryTime: 2
     StaminaMult: 1
-    Stagger: 0.25
   AttackEvent: attackStart_ForwardPowerShort
 - AttackData:
     DamageMult: 2
+    Spell: 0B8782:Skyrim.esm
     StrikeAngle: 35
-    StaminaMult: 1
     Stagger: 0.25
+    StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeLong
 - AttackData:
     DamageMult: 1
+    Spell: 0B8782:Skyrim.esm
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeMedium
 - AttackData:
     DamageMult: 2
+    Spell: 0B8782:Skyrim.esm
     StrikeAngle: 35
-    StaminaMult: 1
     Stagger: 0.25
+    StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeShort
 - AttackData:
     DamageMult: 2
@@ -179,9 +179,9 @@ Attacks:
     Flags:
     - PowerAttack
     StrikeAngle: 35
+    Stagger: 0.25
     RecoveryTime: 2
     StaminaMult: 1
-    Stagger: 0.25
   AttackEvent: attackStart_StandingPower
 BodyData:
   Male:
@@ -211,34 +211,9 @@ BipedObjectNames:
   Value: BODY
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
+- Crossbow
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm
 MajorFlags:
 - Critter
-ActorEffect:
-- 0B8782:Skyrim.esm
-- 000AC2:ITB_Wildlife.esp
-- 000ACD:ITB_Wildlife.esp
-BaseMovementDefaultRun: 0EA64B:Skyrim.esm
-BaseMovementDefaultWalk: 055D28:Skyrim.esm
-BaseMovementDefaultSprint: 0EA64B:Skyrim.esm
-BaseMovementDefaultSwim: 000ABF:ITB_Wildlife.esp

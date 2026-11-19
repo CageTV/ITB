@@ -1,0 +1,21 @@
+FormKey: 00100B:ITB_Wildlife.esp
+EditorID: ITB_LCharCrab
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+Entries:
+- Data:
+    Level: 1
+    Reference: 000E7B:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000E7C:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000E7D:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000E7A:ITB_Wildlife.esp
+    Count: 1

@@ -1,0 +1,202 @@
+FormKey: 0A1A61:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: ShriekwindBastion01
+Version2: 15
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00423C28'
+  DirectionalColor: '#00DB4FDB'
+  FogNearColor: '#001F2929'
+  FogFar: 9000
+  DirectionalRotationZ: 270
+  DirectionalFade: 0.2
+  FogClipDistance: 8000
+  FogPower: 0.6
+  AmbientColors:
+    DirectionalXPlus: '#002D291F'
+    DirectionalXMinus: '#0024291C'
+    DirectionalYPlus: '#00292A1E'
+    DirectionalYMinus: '#0029271E'
+    DirectionalZPlus: '#0013130D'
+    DirectionalZMinus: '#003E3E2E'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00646556'
+  FogMax: 1
+  LightFadeBegin: 10000
+  LightFadeEnd: 11000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 094E50:Skyrim.esm
+WaterHeight: 0
+Location: 0A0E30:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\Ore_Iron_e.dds
+SkyAndWeatherFromRegion: 02A72D:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 0A0E3C:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 09F363:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 00116C:ITB_Wildlife.esp
+  Base: 000E9C:ITB_Wildlife.esp
+  Placement:
+    Position: -1821, -560, 127
+    Rotation: 0, 0, 3.8531911
+- MutagenObjectType: PlacedNpc
+  FormKey: 00116D:ITB_Wildlife.esp
+  Base: 000EC6:ITB_Wildlife.esp
+  Placement:
+    Position: -1964, -985, 120
+    Rotation: 0, 0, 2.8500004
+- MutagenObjectType: PlacedNpc
+  FormKey: 00116E:ITB_Wildlife.esp
+  Base: 000EA8:ITB_Wildlife.esp
+  Placement:
+    Position: 175, 1359, 1503
+    Rotation: 0, 0, 2.9900002
+- MutagenObjectType: PlacedNpc
+  FormKey: 00116F:ITB_Wildlife.esp
+  Base: 000EDE:ITB_Wildlife.esp
+  Placement:
+    Position: -158, 860, 869
+    Rotation: 0, 0, 3.7900069
+- MutagenObjectType: PlacedNpc
+  FormKey: 001170:ITB_Wildlife.esp
+  Base: 000EE4:ITB_Wildlife.esp
+  Placement:
+    Position: -13, 426, 220
+    Rotation: 0, 0, 2.9299994
+- MutagenObjectType: PlacedNpc
+  FormKey: 001171:ITB_Wildlife.esp
+  Base: 000EB4:ITB_Wildlife.esp
+  Placement:
+    Position: 163, -435, 37
+    Rotation: 0, 0, 6.063188
+- MutagenObjectType: PlacedNpc
+  FormKey: 001172:ITB_Wildlife.esp
+  Base: 000EE4:ITB_Wildlife.esp
+  Placement:
+    Position: 602, -34, 37
+    Rotation: 0, 0, 4.9831944
+- MutagenObjectType: PlacedNpc
+  FormKey: 001173:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 3142.9958, -731.1391, 1026.6825
+- MutagenObjectType: PlacedNpc
+  FormKey: 001174:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 3493.6106, -1454.4363, 977.9391
+    Rotation: 0, 0, 5.183188
+- MutagenObjectType: PlacedNpc
+  FormKey: 001175:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 5355.3965, -2143.4807, 1235.2108
+- MutagenObjectType: PlacedNpc
+  FormKey: 001176:ITB_Wildlife.esp
+  Base: 000E9D:ITB_Wildlife.esp
+  Placement:
+    Position: -1821, -560, 127
+    Rotation: 0, 0, 3.8531911
+- MutagenObjectType: PlacedNpc
+  FormKey: 001177:ITB_Wildlife.esp
+  Base: 000EC7:ITB_Wildlife.esp
+  Placement:
+    Position: -1964, -985, 120
+    Rotation: 0, 0, 2.8500004
+- MutagenObjectType: PlacedNpc
+  FormKey: 001178:ITB_Wildlife.esp
+  Base: 000EA9:ITB_Wildlife.esp
+  Placement:
+    Position: 175, 1359, 1503
+    Rotation: 0, 0, 2.9900002
+- MutagenObjectType: PlacedNpc
+  FormKey: 001179:ITB_Wildlife.esp
+  Base: 000EDF:ITB_Wildlife.esp
+  Placement:
+    Position: -158, 860, 869
+    Rotation: 0, 0, 3.7900069
+- MutagenObjectType: PlacedNpc
+  FormKey: 00117A:ITB_Wildlife.esp
+  Base: 000EE5:ITB_Wildlife.esp
+  Placement:
+    Position: -13, 426, 220
+    Rotation: 0, 0, 2.9299994
+- MutagenObjectType: PlacedNpc
+  FormKey: 00117B:ITB_Wildlife.esp
+  Base: 000EB5:ITB_Wildlife.esp
+  Placement:
+    Position: 163, -435, 37
+    Rotation: 0, 0, 6.063188
+- MutagenObjectType: PlacedNpc
+  FormKey: 00117C:ITB_Wildlife.esp
+  Base: 000EE5:ITB_Wildlife.esp
+  Placement:
+    Position: 602, -34, 37
+    Rotation: 0, 0, 4.9831944
+- MutagenObjectType: PlacedNpc
+  FormKey: 00117D:ITB_Wildlife.esp
+  Base: 000E9E:ITB_Wildlife.esp
+  Placement:
+    Position: -1821, -560, 127
+    Rotation: 0, 0, 3.8531911
+- MutagenObjectType: PlacedNpc
+  FormKey: 00117E:ITB_Wildlife.esp
+  Base: 000EC8:ITB_Wildlife.esp
+  Placement:
+    Position: -1964, -985, 120
+    Rotation: 0, 0, 2.8500004
+- MutagenObjectType: PlacedNpc
+  FormKey: 00117F:ITB_Wildlife.esp
+  Base: 000EAA:ITB_Wildlife.esp
+  Placement:
+    Position: 175, 1359, 1503
+    Rotation: 0, 0, 2.9900002
+- MutagenObjectType: PlacedNpc
+  FormKey: 001180:ITB_Wildlife.esp
+  Base: 000EE0:ITB_Wildlife.esp
+  Placement:
+    Position: -158, 860, 869
+    Rotation: 0, 0, 3.7900069
+- MutagenObjectType: PlacedNpc
+  FormKey: 001181:ITB_Wildlife.esp
+  Base: 000EE6:ITB_Wildlife.esp
+  Placement:
+    Position: -13, 426, 220
+    Rotation: 0, 0, 2.9299994
+- MutagenObjectType: PlacedNpc
+  FormKey: 001182:ITB_Wildlife.esp
+  Base: 000EB6:ITB_Wildlife.esp
+  Placement:
+    Position: 163, -435, 37
+    Rotation: 0, 0, 6.063188
+- MutagenObjectType: PlacedNpc
+  FormKey: 001183:ITB_Wildlife.esp
+  Base: 000EE6:ITB_Wildlife.esp
+  Placement:
+    Position: 602, -34, 37
+    Rotation: 0, 0, 4.9831944

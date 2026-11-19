@@ -1,0 +1,23 @@
+FormKey: 00106A:ITB_Wildlife.esp
+EditorID: ITB_foodturkey
+ObjectBounds:
+  First: -5, -7, 0
+  Second: 5, 7, 3
+Name:
+  TargetLanguage: English
+  Value: Turkey Breast
+Keywords:
+- 0A0E56:Skyrim.esm
+Model:
+  File: Clutter\DeadAnimals\PheasantMeat01.nif
+  Data: 0x020000000000000000000000
+Weight: 0.2
+Value: 3
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound: 0CAF94:Skyrim.esm
+Effects:
+- BaseEffect: 0F33CB:Skyrim.esm
+  Data:
+    Magnitude: 3

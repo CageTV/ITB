@@ -1,0 +1,55 @@
+FormKey: 01BBFB:Dragonborn.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DLC2BristlebackCave01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Bristleback Cave
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00122E38'
+  DirectionalColor: '#001C6A84'
+  FogNearColor: '#001A5471'
+  FogFar: 5250
+  DirectionalRotationZ: 90
+  FogPower: 0.4
+  AmbientColors:
+    DirectionalXPlus: '#00132E3A'
+    DirectionalXMinus: '#00102E35'
+    DirectionalYPlus: '#00123038'
+    DirectionalYMinus: '#00122B38'
+    DirectionalZPlus: '#00081519'
+    DirectionalZMinus: '#001B4656'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#001C6584'
+  FogMax: 0.75
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 02BCA2:Dragonborn.esm
+WaterHeight: 0
+Location: 032892:Dragonborn.esm
+AcousticSpace: 02B3AE:Skyrim.esm
+EncounterZone: 032893:Dragonborn.esm
+Music: 05228A:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0012DA:ITB_Wildlife.esp
+  Base: 000E4A:ITB_Wildlife.esp
+  Placement:
+    Position: 813.71844, -3474.807, 4042.7441

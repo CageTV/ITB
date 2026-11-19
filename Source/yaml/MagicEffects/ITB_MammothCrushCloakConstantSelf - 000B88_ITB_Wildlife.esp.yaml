@@ -1,0 +1,18 @@
+FormKey: 000B88:ITB_Wildlife.esp
+EditorID: ITB_MammothCrushCloakConstantSelf
+Name:
+  TargetLanguage: English
+  Value: Mammoth Crush Cloak
+Flags:
+- NoDuration
+- FXPersist
+- PowerAffectsMagnitude
+Archetype:
+  MutagenObjectType: MagicEffectCloakArchetype
+  Association: 000B9F:ITB_Wildlife.esp
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

@@ -1,0 +1,18 @@
+FormKey: 00085F:ITB_Wildlife.esp
+EditorID: ITB_snowrayFaction
+Name:
+  TargetLanguage: English
+  Value: Ice Wraith Faction
+Relations:
+- Target: 02997E:Skyrim.esm
+  Reaction: Friend
+- Target: 03E094:Skyrim.esm
+  Reaction: Friend
+- Target: 0435A1:Skyrim.esm
+  Reaction: Friend
+- Target: 00085F:ITB_Wildlife.esp
+  Reaction: Ally
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

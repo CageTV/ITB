@@ -1,0 +1,11 @@
+FormKey: 000C03:ITB_Wildlife.esp
+EditorID: ITB_fledersound
+Type: Standard
+Category: 09F254:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\vampirebeasts\vampirebeasts_ec995225.wav
+OutputModel: 05A28A:Skyrim.esm
+LoopAndRumble:
+  Loop: Loop
+PercentFrequencyVariance: 7
+Priority: 1

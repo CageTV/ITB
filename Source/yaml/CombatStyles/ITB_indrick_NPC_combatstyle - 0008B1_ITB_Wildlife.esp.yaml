@@ -1,0 +1,30 @@
+FormKey: 0008B1:ITB_Wildlife.esp
+EditorID: ITB_indrick_NPC_combatstyle
+OffensiveMult: 1
+GroupOffensiveMult: 0.55
+EquipmentScoreMultMelee: 1
+EquipmentScoreMultMagic: 1
+EquipmentScoreMultRanged: 1
+EquipmentScoreMultShout: 1
+EquipmentScoreMultUnarmed: 1
+EquipmentScoreMultStaff: 1
+AvoidThreatChance: 0.2
+Melee:
+  AttackStaggeredMult: 8.95
+  PowerAttackStaggeredMult: 10
+  PowerAttackBlockingMult: 10
+  SpecialAttackMult: 0.1
+CloseRange:
+  CircleMult: 0.27
+  FallbackMult: 0.27
+  FlankDistance: 0.17
+  StalkTime: 0.2
+LongRangeStrafeMult: 0
+Flight:
+  HoverTime: 0.5
+  GroundAttackTime: 0.5
+  PerchAttackChance: 0.5
+  PerchAttackTime: 0.5
+  FlyingAttackChance: 0.75
+Flags:
+- Flanking

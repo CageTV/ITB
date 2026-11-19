@@ -1,0 +1,153 @@
+FormKey: 000FFC:ITB_Wildlife.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: ITB_zombie_npc_normal_headless_tutorial
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -33, -31, 0
+  Second: 33, 31, 145
+Configuration:
+  Flags:
+  - Female
+  - Respawn
+  - AutoCalcStats
+  StaminaOffset: 150
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 1
+  CalcMinLevel: 1
+  CalcMaxLevel: 17
+  SpeedMultiplier: 20
+Factions:
+- Faction: 003376:Dawnguard.esm
+  Fluff: 0x000000
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02430D:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 026724:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 027242:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02997F:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02D1DF:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0330B1:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 034B74:Skyrim.esm
+  Fluff: 0x000000
+Voice: 031DB8:Dragonborn.esm
+Race: 00091F:ITB_Wildlife.esp
+WornArmor: 000D2B:ITB_Wildlife.esp
+AttackRace: 00091F:ITB_Wildlife.esp
+Items:
+- Item:
+    Item: 0010ED:ITB_Wildlife.esp
+    Count: 1
+- Item:
+    Item: 0010E9:ITB_Wildlife.esp
+    Count: 1
+- Item:
+    Item: 04F78C:Skyrim.esm
+    Count: 1
+AIData:
+  Aggression: VeryAggressive
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  Mood: Angry
+Class: 023C0C:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Headless Zombie
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 15
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 15
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 15
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 20
+  - Key: Illusion
+    Value: 20
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 50
+  Stamina: 230
+  GearedUpWeapons: 1
+CombatStyle: 0559F5:Skyrim.esm
+NAM5: 255
+Height: 1.08
+Weight: 1
+SoundLevel: Normal
+Sound:
+  MutagenObjectType: NpcInheritSound
+  InheritsSoundsFrom: 000FFE:ITB_Wildlife.esp
+DefaultPackageList: 0EB249:Skyrim.esm
+TextureLighting: '#00808080'
+MajorFlags:
+- 0x40000

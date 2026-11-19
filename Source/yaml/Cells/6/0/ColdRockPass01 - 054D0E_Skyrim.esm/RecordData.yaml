@@ -1,0 +1,61 @@
+FormKey: 054D0E:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: ColdRockPass01
+Version2: 8
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#003F5367'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00172116'
+  FogFar: 4500
+  DirectionalRotationXY: 200
+  DirectionalRotationZ: 90
+  DirectionalFade: 1
+  FogPower: 0.6
+  AmbientColors:
+    DirectionalXPlus: '#0045536B'
+    DirectionalXMinus: '#00385362'
+    DirectionalYPlus: '#003F5667'
+    DirectionalYMinus: '#003F4F67'
+    DirectionalZPlus: '#001E272E'
+    DirectionalZMinus: '#005F7E9F'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00172116'
+  FogMax: 1
+  Inherits:
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 08E78E:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 0BC0A3:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\CaveIceCubeMap_e.dds
+SkyAndWeatherFromRegion: 0C5858:Skyrim.esm
+AcousticSpace: 02B961:Skyrim.esm
+EncounterZone: 0BC0A4:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 0F1CB8:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001219:ITB_Wildlife.esp
+  Base: 023ABB:Skyrim.esm
+  Placement:
+    Position: 1666.7648, 3614.0317, 6822.424
+    Rotation: 0, 0, 4.133189

@@ -2,7 +2,6 @@ FormKey: 000EB3:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: dunTransmogrifyHare
-Version2: 2
 SkyrimMajorRecordFlags:
 - Compressed
 VirtualMachineAdapter:
@@ -42,15 +41,13 @@ Configuration:
   - AttackData
   - Keywords
 Factions:
+- Faction: 000826:ITB_Wildlife.esp
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0A3087:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0F1ABC:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 09A772:Skyrim.esm
 Voice: 0D78AD:Skyrim.esm
@@ -60,12 +57,9 @@ WornArmor: 06DC9B:Skyrim.esm
 AttackRace: 06DC99:Skyrim.esm
 AIData:
   EnergyLevel: 60
+  Responsibility: NoCrime
   AggroRadiusBehavior: True
   Attack: 2048
-Packages:
-- 0008E3:ITB_Wildlife.esp
-- 0008E2:ITB_Wildlife.esp
-- 0008E1:ITB_Wildlife.esp
 Class: 01CE1D:Skyrim.esm
 PlayerSkills:
   SkillValues:

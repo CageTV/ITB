@@ -1,0 +1,12 @@
+FormKey: 0010E4:ITB_Wildlife.esp
+EditorID: ITB_WolfBlackPelt
+Name:
+  TargetLanguage: English
+  Value: Black Wolf Pelt
+Model:
+  File: itb\fauna\wolfpelts\wolfpelts_b748d85c.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0914EA:Skyrim.esm
+Value: 30
+Weight: 1

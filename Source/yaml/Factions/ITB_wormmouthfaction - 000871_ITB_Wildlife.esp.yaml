@@ -1,0 +1,14 @@
+FormKey: 000871:ITB_Wildlife.esp
+EditorID: ITB_wormmouthfaction
+Name:
+  TargetLanguage: English
+  Value: Predator Faction
+Relations:
+- Target: 000871:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- HiddenFromPC
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

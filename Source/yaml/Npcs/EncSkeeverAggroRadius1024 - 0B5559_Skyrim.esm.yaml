@@ -2,7 +2,6 @@ FormKey: 0B5559:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncSkeeverAggroRadius1024
-Version2: 7
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -31,28 +30,23 @@ Configuration:
   - AttackData
   - Keywords
 Factions:
-- Faction: 02E894:Skyrim.esm
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02E893:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0330B1:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000833:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD99:Skyrim.esm
 Voice: 019FE5:Skyrim.esm
 Template: 023AB7:Skyrim.esm
 Race: 013201:Skyrim.esm
 AIData:
-  Confidence: Brave
+  Confidence: Cautious
   EnergyLevel: 100
+  Responsibility: NoCrime
   AggroRadiusBehavior: True
   Warn: 2048
   Attack: 512
-Packages:
-- 000917:ITB_Wildlife.esp
-- 000916:ITB_Wildlife.esp
-- 000915:ITB_Wildlife.esp
 Class: 0131E6:Skyrim.esm
 PlayerSkills:
   SkillValues:
@@ -129,8 +123,9 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 40
-  Stamina: 30
+  Health: 75
+  Magicka: 1
+  Stamina: 60
   GearedUpWeapons: 1
 CombatStyle: 03CEDF:Skyrim.esm
 NAM5: 255
@@ -140,6 +135,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 017F3A:Skyrim.esm
+DefaultPackageList: 00089C:ITB_Wildlife.esp
 TextureLighting: '#00808080'
 MajorFlags:
 - 0x40000

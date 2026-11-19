@@ -1,23 +1,28 @@
 FormKey: 0CF89B:Skyrim.esm
 MajorRecordFlagsRaw: 524288
-VersionControl: 79128
 EditorID: DeerRace
 SkyrimMajorRecordFlags:
 - CantWait
 Name:
   TargetLanguage: English
-  Value: Deer
+  Value: Reindeer
 Description:
   TargetLanguage: English
   Value: ''
+ActorEffect:
+- 10C042:Skyrim.esm
+- 000BA2:ITB_Wildlife.esp
+- 000BA5:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 0CF89C:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
-- 000895:ITB_Wildlife.esp
+- 013798:Skyrim.esm
+- 586728:ccBGSSSE037-Curios.esl
+- 000801:ITB_Wildlife.esp
 SkillBoost0:
   Skill: 255
 SkillBoost1:
@@ -33,11 +38,11 @@ SkillBoost5:
 SkillBoost6:
   Skill: 255
 Height:
-  Male: 0.85
-  Female: 0.75
+  Male: 0.91
+  Female: 0.81
 Weight:
-  Male: 0.85
-  Female: 0.75
+  Male: 160
+  Female: 120
 Flags:
 - TiltFrontBack
 - Walks
@@ -48,24 +53,24 @@ Flags:
 - NonHostile
 Starting:
 - Key: Health
-  Value: 30
+  Value: 170
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 50
-BaseCarryWeight: 199
+  Value: 75
+BaseCarryWeight: 75
 BaseMass: 2
 AccelerationRate: 0.4
 DecelerationRate: 2
 Size: Medium
 Regen:
 - Key: Health
-  Value: 0
+  Value: 0.1
 - Key: Magicka
   Value: 0
 - Key: Stamina
   Value: 10
-UnarmedDamage: 11
+UnarmedDamage: 15
 UnarmedReach: 96
 AngularAccelerationRate: 0.25
 AngularTolerance: 5
@@ -83,11 +88,11 @@ SkeletalModel:
     File: Actors\Deer\Character Assets\Skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 041FBA:Skyrim.esm
   Female: 041FBA:Skyrim.esm
@@ -97,6 +102,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.5
+    Spell: 09CD4D:Skyrim.esm
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_Attack1
@@ -106,35 +112,41 @@ Attacks:
     Flags:
     - PowerAttack
     StrikeAngle: 35
-    StaminaMult: 1
     Stagger: 0.75
+    StaminaMult: 2
   AttackEvent: attackStart_Attack2
 - AttackData:
     DamageMult: 1
     Chance: 1
+    Spell: 09CD4D:Skyrim.esm
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackLeft1
 - AttackData:
     DamageMult: 1
     Chance: 1
+    Spell: 09CD4D:Skyrim.esm
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackLeft2
 - AttackData:
     DamageMult: 1
     Chance: 1
+    Spell: 09CD4D:Skyrim.esm
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackRight1
 - AttackData:
     DamageMult: 1
     Chance: 1
+    Spell: 09CD4D:Skyrim.esm
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackRight2
 - AttackData:
+    DamageMult: 0.5
     Chance: 0.6
+    Spell: 09CD4D:Skyrim.esm
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_ForwardPower
@@ -153,12 +165,14 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
+    Spell: 09CD4D:Skyrim.esm
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeMedium
 - AttackData:
     DamageMult: 1
     Chance: 1
+    Spell: 09CD4D:Skyrim.esm
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeShort
@@ -195,34 +209,11 @@ BipedObjectNames:
   Value: BODY
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm
 BaseMovementDefaultWalk: 059658:Skyrim.esm
 BaseMovementDefaultRun: 0B8F2E:Skyrim.esm
+BaseMovementDefaultSwim: 000813:ITB_Wildlife.esp
 MajorFlags:
 - Critter
-ActorEffect:
-- 000AC2:ITB_Wildlife.esp
-- 000ACD:ITB_Wildlife.esp
-BaseMovementDefaultSwim: 000ABF:ITB_Wildlife.esp

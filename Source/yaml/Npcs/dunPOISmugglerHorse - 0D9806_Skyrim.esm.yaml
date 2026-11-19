@@ -2,7 +2,6 @@ FormKey: 0D9806:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: dunPOISmugglerHorse
-Version2: 5
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -15,7 +14,7 @@ Configuration:
   - BleedoutOverride
   Level:
     MutagenObjectType: NpcLevel
-    Level: 20
+    Level: 4
   SpeedMultiplier: 100
   DispositionBase: 35
   TemplateFlags:
@@ -31,11 +30,7 @@ Configuration:
 Factions:
 - Faction: 01BCC0:Skyrim.esm
   Fluff: 0x000000
-- Faction: 02E894:Skyrim.esm
-  Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000820:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD94:Skyrim.esm
 Voice: 01F232:Skyrim.esm
@@ -52,13 +47,13 @@ Class: 10F71E:Skyrim.esm
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 56
+    Value: 21
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 56
+    Value: 22
   - Key: Block
-    Value: 43
+    Value: 19
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -70,7 +65,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 57
+    Value: 22
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -124,8 +119,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 297
-  Stamina: 238
+  Health: 289
+  Stamina: 106
   GearedUpWeapons: 1
 CombatStyle: 01CF32:Skyrim.esm
 NAM5: 255

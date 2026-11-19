@@ -1,0 +1,21 @@
+FormKey: 000C9B:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_PeacockTailskin
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Peacock
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0008FE:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000DF1:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

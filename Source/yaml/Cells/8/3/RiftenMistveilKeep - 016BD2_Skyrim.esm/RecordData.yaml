@@ -1,0 +1,54 @@
+FormKey: 016BD2:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: RiftenMistveilKeep
+Version2: 8
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- PublicArea
+Lighting:
+  AmbientColor: '#00635A3A'
+  DirectionalColor: '#00464646'
+  FogNearColor: '#00757782'
+  FogFar: 3500
+  DirectionalRotationZ: 90
+  FogClipDistance: 4000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#006D5A3C'
+    DirectionalXMinus: '#00585A37'
+    DirectionalYPlus: '#00635E3A'
+    DirectionalYMinus: '#0063553A'
+    DirectionalZPlus: '#002F2A1A'
+    DirectionalZMinus: '#00968959'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00A8A9B0'
+  FogMax: 1
+  Inherits:
+  - FogNear
+LightingTemplate: 0B2157:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 022646:Skyrim.esm
+Owner: 0A251F:Skyrim.esm
+LockList: 0C6FBD:Skyrim.esm
+AcousticSpace: 0C5B6D:Skyrim.esm
+Music: 06D542:Skyrim.esm
+ImageSpace: 0B215C:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 001294:ITB_Wildlife.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 0010A0:ITB_Wildlife.esp
+  Owner: 019DEF:Skyrim.esm
+  Placement:
+    Position: -2127.3418, 82.37298, 80

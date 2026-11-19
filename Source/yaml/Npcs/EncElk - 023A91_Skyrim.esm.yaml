@@ -10,26 +10,22 @@ ObjectBounds:
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
+  - DoesntAffectStealthMeter
+  StaminaOffset: 475
   Level:
     MutagenObjectType: NpcLevel
-    Level: 10
-  SpeedMultiplier: 100
+    Level: 1
+  SpeedMultiplier: 150
   DispositionBase: 35
+  HealthOffset: 350
 Factions:
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0F1ABC:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000818:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 00081A:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD7C:Skyrim.esm
 Voice: 041FBA:Skyrim.esm
@@ -38,13 +34,9 @@ AttackRace: 0131ED:Skyrim.esm
 AIData:
   EnergyLevel: 50
   AggroRadiusBehavior: True
-  Attack: 1700
+  Attack: 2000
 Packages:
-- 0008CD:ITB_Wildlife.esp
-- 0008CE:ITB_Wildlife.esp
-- 0008C8:ITB_Wildlife.esp
-- 0008CA:ITB_Wildlife.esp
-- 000913:ITB_Wildlife.esp
+- 01A733:Skyrim.esm
 Class: 01CE1D:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -52,13 +44,13 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 34
+    Value: 15
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 35
+    Value: 15
   - Key: Block
-    Value: 28
+    Value: 15
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -70,7 +62,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 35
+    Value: 15
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -107,7 +99,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 0
   - Key: Sneak
-    Value: 0
+    Value: 70
   - Key: Alchemy
     Value: 0
   - Key: Speech
@@ -124,8 +116,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 150
-  Stamina: 85
+  Health: 50
+  Stamina: 25
   GearedUpWeapons: 1
 CombatStyle: 093A60:Skyrim.esm
 NAM5: 255
@@ -135,6 +127,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 0FFA08:Skyrim.esm
+DefaultPackageList: 10D483:Skyrim.esm
 TextureLighting: '#007F7F7F'
 MajorFlags:
 - 0x40000

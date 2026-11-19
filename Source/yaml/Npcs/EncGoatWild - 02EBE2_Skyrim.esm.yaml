@@ -2,7 +2,6 @@ FormKey: 02EBE2:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncGoatWild
-Version2: 2
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -11,44 +10,31 @@ ObjectBounds:
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   - DoesntAffectStealthMeter
   MagickaOffset: -25
   Level:
     MutagenObjectType: NpcLevel
-    Level: 5
+    Level: 1
   SpeedMultiplier: 100
   DispositionBase: 35
-  HealthOffset: -25
+  HealthOffset: 50
 Factions:
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
   Fluff: 0x000000
 - Faction: 04359D:Skyrim.esm
   Fluff: 0x000000
-- Faction: 00081E:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
-  Fluff: 0x000000
 DeathItem: 03AD8D:Skyrim.esm
 Voice: 01F22A:Skyrim.esm
 Race: 0131FA:Skyrim.esm
-ActorEffect:
-- 000AC2:ITB_Wildlife.esp
 WornArmor: 06F278:Skyrim.esm
 AIData:
   EnergyLevel: 50
   AggroRadiusBehavior: True
-  Attack: 1500
-Packages:
-- 0008E0:ITB_Wildlife.esp
-- 0008DC:ITB_Wildlife.esp
-- 0008DF:ITB_Wildlife.esp
-- 0008DD:ITB_Wildlife.esp
-- 000913:ITB_Wildlife.esp
+  Attack: 1000
 Class: 01CE1D:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -56,13 +42,13 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 23
+    Value: 15
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 24
+    Value: 15
   - Key: Block
-    Value: 21
+    Value: 15
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -74,7 +60,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 24
+    Value: 15
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -111,7 +97,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 0
   - Key: Sneak
-    Value: 0
+    Value: 70
   - Key: Alchemy
     Value: 0
   - Key: Speech
@@ -128,15 +114,16 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 40
+  Health: 25
   Magicka: 65511
-  Stamina: 45
+  Stamina: 25
   GearedUpWeapons: 1
 CombatStyle: 0D750C:Skyrim.esm
 NAM5: 255
 Height: 1
 Weight: 50
 SoundLevel: Normal
+DefaultPackageList: 00088A:ITB_Wildlife.esp
 TextureLighting: '#007F7F7F'
 MajorFlags:
 - 0x40000

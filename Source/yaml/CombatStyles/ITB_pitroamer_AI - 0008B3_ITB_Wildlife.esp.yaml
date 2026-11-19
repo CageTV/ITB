@@ -1,0 +1,31 @@
+FormKey: 0008B3:ITB_Wildlife.esp
+EditorID: ITB_pitroamer_AI
+OffensiveMult: 1
+GroupOffensiveMult: 1
+EquipmentScoreMultMelee: 5.05
+EquipmentScoreMultUnarmed: 1
+Melee:
+  AttackStaggeredMult: 0.5
+  PowerAttackStaggeredMult: 0.41
+  PowerAttackBlockingMult: 2.55
+  BashMult: 0.75
+  BashRecoilMult: 0.75
+  BashAttackMult: 0.75
+  BashPowerAttackMult: 0.75
+  SpecialAttackMult: 0.1
+CloseRange:
+  FallbackMult: 1
+  FlankDistance: 0.5
+  StalkTime: 0.4
+LongRangeStrafeMult: 0
+Flight:
+  HoverChance: 0.33
+  DiveBombChance: 1
+  GroundAttackChance: 0.5
+  HoverTime: 0.5
+  GroundAttackTime: 0.5
+  PerchAttackChance: 0.5
+  PerchAttackTime: 0.5
+  FlyingAttackChance: 0.75
+Flags:
+- Dueling

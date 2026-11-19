@@ -1,0 +1,34 @@
+FormKey: 000B8E:ITB_Wildlife.esp
+EditorID: ITB_rockatronach_attack_fx
+Name:
+  TargetLanguage: English
+  Value: Rock Atronach Rune Explosion
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Hostile
+- Detrimental
+- FXPersist
+- HideInUI
+- PowerAffectsMagnitude
+BaseCost: 4
+MagicSkill: Destruction
+HitShader: 05D606:Skyrim.esm
+EnchantShader: 05D606:Skyrim.esm
+SpellmakingArea: 7
+SpellmakingCastingTime: 0.5
+SecondActorValueWeight: 2
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+  Type: DualValueModifier
+Projectile: 06F793:Skyrim.esm
+Explosion: 0010C0:ITB_Wildlife.esp
+CastType: FireAndForget
+TargetType: Touch
+SecondActorValue: Stamina
+DualCastScale: 1
+CastingSoundLevel: VeryLoud
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

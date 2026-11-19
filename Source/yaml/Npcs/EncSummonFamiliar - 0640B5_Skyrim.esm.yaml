@@ -2,36 +2,39 @@ FormKey: 0640B5:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 786432
 EditorID: EncSummonFamiliar
-Version2: 2
 SkyrimMajorRecordFlags:
 - Compressed
 - CantWait
+ObjectBounds:
+  First: -20, -74, 0
+  Second: 20, 74, 78
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   - Summonable
   - DoesNotBleed
   Level:
     MutagenObjectType: NpcLevel
     Level: 2
-  SpeedMultiplier: 100
+  SpeedMultiplier: 150
   DispositionBase: 35
   TemplateFlags:
-  - ModelAnimation
-  - Inventory
+  - Traits
+  - Stats
   - Script
-  - DefPackList
   - AttackData
-  HealthOffset: 10
+DeathItem: 03AD9E:Skyrim.esm
 Voice: 01F6A7:Skyrim.esm
 Template: 023ABE:Skyrim.esm
 Race: 01320A:Skyrim.esm
 ActorEffect:
+- 02291D:ccBGSSSE037-Curios.esl
+- 0405CC:ccBGSSSE037-Curios.esl
 - 0ED5F3:Skyrim.esm
-WornArmor: 0C02F8:Skyrim.esm
+WornArmor: 0C02FB:Skyrim.esm
 AttackRace: 01320A:Skyrim.esm
 AIData:
+  Aggression: VeryAggressive
   Confidence: Foolhardy
   EnergyLevel: 50
   Responsibility: NoCrime
@@ -39,17 +42,20 @@ AIData:
   AggroRadiusBehavior: True
   WarnOrAttack: 2000
   Attack: 500
+Packages:
+- 000958:ITB_Wildlife.esp
+- 00095C:ITB_Wildlife.esp
+- 000957:ITB_Wildlife.esp
+- 00095B:ITB_Wildlife.esp
 Keywords:
-- 10EAD7:Skyrim.esm
-- 013797:Skyrim.esm
-- 00089B:ITB_Wildlife.esp
-- 0D205E:Skyrim.esm
 - 000EDF:Skyrim.esm
-- 0F23C5:Skyrim.esm
+- 013797:Skyrim.esm
+- 10EAD7:Skyrim.esm
+- 00080E:ITB_Wildlife.esp
 Class: 0131E6:Skyrim.esm
 Name:
   TargetLanguage: English
-  Value: Familiar
+  Value: Spirit Wolf
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
@@ -125,9 +131,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 40
-  Magicka: 1
-  Stamina: 60
+  Health: 85
+  Stamina: 205
   GearedUpWeapons: 1
 CombatStyle: 0B729C:Skyrim.esm
 NAM5: 255
@@ -137,7 +142,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 0A85C7:Skyrim.esm
-DefaultPackageList: 021E81:Skyrim.esm
+DefaultOutfit: 000E41:ITB_Wildlife.esp
 TextureLighting: '#00808080'
 MajorFlags:
 - 0x40000

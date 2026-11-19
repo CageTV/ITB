@@ -1,0 +1,69 @@
+FormKey: 000834:ITB_Wildlife.esp
+EditorID: ITB_Fox
+Name:
+  TargetLanguage: English
+  Value: Fox Faction
+Relations:
+- Target: 02997E:Skyrim.esm
+  Reaction: Friend
+- Target: 02997F:Skyrim.esm
+  Reaction: Enemy
+- Target: 0330B1:Skyrim.esm
+  Reaction: Friend
+- Target: 0330B1:Skyrim.esm
+  Reaction: Enemy
+- Target: 03C9A8:Skyrim.esm
+  Reaction: Enemy
+- Target: 03E691:Skyrim.esm
+  Reaction: Friend
+- Target: 043594:Skyrim.esm
+  Reaction: Friend
+- Target: 04359A:Skyrim.esm
+  Reaction: Friend
+- Target: 04359B:Skyrim.esm
+  Reaction: Friend
+- Target: 04359D:Skyrim.esm
+  Reaction: Friend
+- Target: 04359E:Skyrim.esm
+  Reaction: Friend
+- Target: 04359F:Skyrim.esm
+  Reaction: Friend
+- Target: 0435A1:Skyrim.esm
+  Reaction: Friend
+- Target: 0435A2:Skyrim.esm
+  Reaction: Friend
+- Target: 0B2849:Skyrim.esm
+  Reaction: Friend
+- Target: 0FBBF3:Skyrim.esm
+  Reaction: Friend
+- Target: 01D9C9:Dragonborn.esm
+  Reaction: Friend
+- Target: 02507C:Dragonborn.esm
+  Reaction: Friend
+- Target: 000818:ITB_Wildlife.esp
+  Reaction: Enemy
+- Target: 000823:ITB_Wildlife.esp
+  Reaction: Friend
+- Target: 000846:ITB_Wildlife.esp
+  Reaction: Friend
+- Target: 00082B:ITB_Wildlife.esp
+  Reaction: Friend
+- Target: 000834:ITB_Wildlife.esp
+  Reaction: Ally
+- Target: 00084F:ITB_Wildlife.esp
+  Reaction: Friend
+- Target: 00083D:ITB_Wildlife.esp
+  Reaction: Friend
+- Target: 000827:ITB_Wildlife.esp
+  Reaction: Friend
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

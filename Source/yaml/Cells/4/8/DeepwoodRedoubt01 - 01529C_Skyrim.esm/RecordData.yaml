@@ -1,0 +1,69 @@
+FormKey: 01529C:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: DeepwoodRedoubt01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00B0DCF7'
+  FogNear: 340
+  FogFar: 14000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00B0DCF7'
+    Scale: 1
+  FogFarColor: '#00B0DCF7'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 08E78E:Skyrim.esm
+WaterHeight: 0
+Location: 019162:Skyrim.esm
+SkyAndWeatherFromRegion: 0C5858:Skyrim.esm
+AcousticSpace: 0FD942:Skyrim.esm
+EncounterZone: 03EC0C:Skyrim.esm
+Music: 05228A:Skyrim.esm
+ImageSpace: 0A28E6:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011C7:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: -1175.5575, 1196.8229, -201.06606
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011C8:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 676.56976, -2034.5809, 116.19987
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011C9:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: 936.67175, -2087.7131, 118.20354

@@ -1,0 +1,12 @@
+FormKey: 000835:ITB_Wildlife.esp
+EditorID: ITB_FoxFactionPredator
+Name:
+  TargetLanguage: English
+  Value: Fox FactionPredator
+Relations:
+- Target: 000826:ITB_Wildlife.esp
+  Reaction: Enemy
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

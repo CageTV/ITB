@@ -1,0 +1,14 @@
+FormKey: 000811:ITB_Wildlife.esp
+EditorID: ITB_Fox_Run_MT
+Name: Fox Run
+ForwardWalk: 500
+ForwardRun: 2000
+BackWalk: 74
+BackRun: 74
+RotateInPlaceWalk: 40.00001
+RotateInPlaceRun: 140.00005
+RotateWhileMovingRun: 140.00005
+AnimationChangeThresholds:
+  Directional: 0.7853982
+  MovementSpeed: 100
+  RotationSpeed: 3.4028235E+38

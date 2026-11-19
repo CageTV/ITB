@@ -1,0 +1,84 @@
+FormKey: 0A013B:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: GoldenglowEstate04
+Version2: 9
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 05C734:Skyrim.esm
+WaterHeight: 0
+Location: 018E32:Skyrim.esm
+AcousticSpace: 0C5B6B:Skyrim.esm
+EncounterZone: 03EC2B:Skyrim.esm
+Music: 06D546:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001201:ITB_Wildlife.esp
+  Base: 000FF8:ITB_Wildlife.esp
+  Placement:
+    Position: 194.41164, -2082.9248, 97.502075
+    Rotation: 0, 0, 0.5000002
+- MutagenObjectType: PlacedNpc
+  FormKey: 001202:ITB_Wildlife.esp
+  Base: 000FFA:ITB_Wildlife.esp
+  Placement:
+    Position: 736.58496, -1134.4982, 42.331646
+    Rotation: 0, 0, 3.3831916
+- MutagenObjectType: PlacedNpc
+  FormKey: 001203:ITB_Wildlife.esp
+  Base: 000FF3:ITB_Wildlife.esp
+  Placement:
+    Position: 1079.4807, -120.212944, -13.231514
+    Rotation: 0, 0, 3.88319
+- MutagenObjectType: PlacedNpc
+  FormKey: 001204:ITB_Wildlife.esp
+  Base: 000FF4:ITB_Wildlife.esp
+  Placement:
+    Position: 4207.832, 976.76025, 220.31421
+- MutagenObjectType: PlacedNpc
+  FormKey: 001205:ITB_Wildlife.esp
+  Base: 000FF8:ITB_Wildlife.esp
+  Placement:
+    Position: 5382.53, 1036.1554, 239.82358
+- MutagenObjectType: PlacedNpc
+  FormKey: 001206:ITB_Wildlife.esp
+  Base: 000FF6:ITB_Wildlife.esp
+  Placement:
+    Position: 5604.905, -545.1949, 495.9471

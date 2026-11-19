@@ -1,13 +1,17 @@
 FormKey: 0131E7:Skyrim.esm
-VersionControl: 79128
 EditorID: BearBrownRace
-Version2: 15
 Name:
   TargetLanguage: English
   Value: Bear
 Description:
   TargetLanguage: English
   Value: ''
+ActorEffect:
+- 0B877E:Skyrim.esm
+- 10C042:Skyrim.esm
+- 000BA9:ITB_Wildlife.esp
+- 000BA5:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 0868FD:Skyrim.esm
 BodyTemplate:
   FirstPersonFlags:
@@ -15,9 +19,11 @@ BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
-- 000894:ITB_Wildlife.esp
+- 013798:Skyrim.esm
+- 586728:ccBGSSSE037-Curios.esl
+- 5F367F:ccBGSSSE037-Curios.esl
+- 000800:ITB_Wildlife.esp
 SkillBoost0:
   Skill: 255
 SkillBoost1:
@@ -33,40 +39,41 @@ SkillBoost5:
 SkillBoost6:
   Skill: 255
 Height:
-  Male: 1
+  Male: 1.06
   Female: 1
 Weight:
-  Male: 1
-  Female: 1
+  Male: 800
+  Female: 600
 Flags:
 - TiltFrontBack
+- Swims
 - Walks
 - NoCombatInWater
 - UsesHeadTrackAnims
+- NoKnockdowns
 Starting:
 - Key: Health
-  Value: 80
+  Value: 800
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 150
-BaseCarryWeight: 200
+  Value: 400
+BaseCarryWeight: 400
 BaseMass: 3.5
-AccelerationRate: 2.5
+AccelerationRate: 3
 DecelerationRate: 2.5
 Size: Medium
 Regen:
 - Key: Health
-  Value: 0
+  Value: 0.1
 - Key: Magicka
   Value: 0
 - Key: Stamina
   Value: 10
-UnarmedDamage: 35
-UnarmedReach: 124
+UnarmedDamage: 60
+UnarmedReach: 80
 BodyBipedObject: Head
-AimAngleTolerance: 30
-AngularAccelerationRate: 0.25
+AngularAccelerationRate: 1.15
 AngularTolerance: 5
 MountData:
   MountOffset: -63.479, 0, 0
@@ -82,11 +89,11 @@ SkeletalModel:
     File: Actors\Bear\Character Assets\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 01F14E:Skyrim.esm
   Female: 01F14E:Skyrim.esm
@@ -102,7 +109,6 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.5
-    Spell: 0B877E:Skyrim.esm
     StrikeAngle: 45
     RecoveryTime: 0.1
     StaminaMult: 1
@@ -112,43 +118,43 @@ Attacks:
     Chance: 1
     Flags:
     - RotatingAttack
-    AttackAngle: -90
+    AttackAngle: -50
     StrikeAngle: 45
-    StaminaMult: 1
     Stagger: 0.025
+    StaminaMult: 1
   AttackEvent: attackStart_AttackLeft1
 - AttackData:
     DamageMult: 1
     Chance: 1
     Flags:
     - RotatingAttack
-    AttackAngle: 90
+    AttackAngle: 50
     StrikeAngle: 45
-    StaminaMult: 1
     Stagger: 0.025
+    StaminaMult: 1
   AttackEvent: attackStart_AttackRight1
 - AttackData:
     DamageMult: 1.5
-    Chance: 0.2
+    Chance: 0.65
+    Spell: 0B877E:Skyrim.esm
     Flags:
     - PowerAttack
     StrikeAngle: 35
+    Stagger: 0.3
     AttackType: 0914E6:Skyrim.esm
     RecoveryTime: 2
-    StaminaMult: 1
-    Stagger: 0.0625
+    StaminaMult: 1.5
   AttackEvent: attackStart_ForwardPower
 - AttackData:
     DamageMult: 1.5
     Chance: 0.5
-    Spell: 000AC4:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 35
+    Stagger: 0.0625
     AttackType: 0914E6:Skyrim.esm
     RecoveryTime: 2
-    StaminaMult: 1
-    Stagger: 0.0625
+    StaminaMult: 1.5
   AttackEvent: attackStart_ForwardPowerShort
 - AttackData:
     DamageMult: 1.5
@@ -156,10 +162,10 @@ Attacks:
     Flags:
     - PowerAttack
     StrikeAngle: 45
+    Stagger: 0.055
     AttackType: 0914E5:Skyrim.esm
     RecoveryTime: 2
-    StaminaMult: 1
-    Stagger: 0.055
+    StaminaMult: 1.5
   AttackEvent: attackStart_StandingPower
 BodyData:
   Male:
@@ -189,33 +195,9 @@ BipedObjectNames:
   Value: BODY
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm
 BaseMovementDefaultWalk: 059656:Skyrim.esm
 BaseMovementDefaultRun: 059656:Skyrim.esm
 BaseMovementDefaultSwim: 054B36:Skyrim.esm
-ActorEffect:
-- 0B877E:Skyrim.esm
-- 000AC8:ITB_Wildlife.esp
-- 000ACD:ITB_Wildlife.esp

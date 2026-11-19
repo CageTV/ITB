@@ -1,0 +1,20 @@
+FormKey: 00084B:ITB_Wildlife.esp
+EditorID: ITB_PreyFaction
+Name:
+  TargetLanguage: English
+  Value: Prey Faction
+Relations:
+- Target: 00084B:ITB_Wildlife.esp
+  Reaction: Friend
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

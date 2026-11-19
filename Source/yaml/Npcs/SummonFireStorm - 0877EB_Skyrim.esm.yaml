@@ -2,7 +2,6 @@ FormKey: 0877EB:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: SummonFireStorm
-Version2: 5
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -13,9 +12,10 @@ Configuration:
   - Respawn
   - AutoCalcStats
   - Summonable
+  StaminaOffset: 50
   Level:
     MutagenObjectType: NpcLevel
-    Level: 5
+    Level: 6
   SpeedMultiplier: 100
   DispositionBase: 35
   TemplateFlags:
@@ -23,19 +23,20 @@ Configuration:
   - Stats
   - Factions
   - AIData
+  - AIPackages
   - ModelAnimation
   - Inventory
   - Script
   - DefPackList
   - AttackData
 Factions:
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02E893:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 03E093:Skyrim.esm
   Fluff: 0x000000
 - Faction: 03E691:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000826:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000843:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD9E:Skyrim.esm
 Voice: 01F6A7:Skyrim.esm
@@ -45,18 +46,16 @@ WornArmor: 0C02FB:Skyrim.esm
 AttackRace: 01320A:Skyrim.esm
 AIData:
   Aggression: Aggressive
-  Confidence: Brave
+  Confidence: Average
   EnergyLevel: 50
+  Responsibility: NoCrime
   Assistance: HelpsAllies
   AggroRadiusBehavior: True
   Warn: 2000
   WarnOrAttack: 1000
   Attack: 800
 Keywords:
-- 00089B:ITB_Wildlife.esp
-- 0D205E:Skyrim.esm
-- 000EDF:Skyrim.esm
-- 0F23C5:Skyrim.esm
+- 00080E:ITB_Wildlife.esp
 Class: 0131E6:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -64,13 +63,13 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 21
+    Value: 23
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 21
+    Value: 23
   - Key: Block
-    Value: 25
+    Value: 27
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -82,7 +81,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 40
+    Value: 42
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -136,9 +135,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 60
-  Magicka: 1
-  Stamina: 75
+  Health: 150
+  Stamina: 275
   GearedUpWeapons: 1
 CombatStyle: 057BE8:Skyrim.esm
 NAM5: 255
@@ -148,7 +146,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 0A85C7:Skyrim.esm
-DefaultPackageList: 021E81:Skyrim.esm
+DefaultPackageList: 0008A6:ITB_Wildlife.esp
 TextureLighting: '#00808080'
 MajorFlags:
 - 0x40000

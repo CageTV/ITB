@@ -1,0 +1,13 @@
+FormKey: 000C11:ITB_Wildlife.esp
+EditorID: ITB_monster_snowray_voice
+Type: Standard
+Category: 0DDDC5:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\snowray\snowray_299de9f7.wav
+OutputModel: 099391:Skyrim.esm
+LoopAndRumble:
+  Loop: Loop
+PercentFrequencyVariance: 2
+Priority: 1
+Variance: 3
+StaticAttenuation: 15.86

@@ -1,0 +1,65 @@
+FormKey: 013A79:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: FalkreathJarlsLonghouse
+Version2: 1
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00211E29'
+    DirectionalXMinus: '#001A1E26'
+    DirectionalYPlus: '#001E1F28'
+    DirectionalYMinus: '#001E1C28'
+    DirectionalZPlus: '#000E0E12'
+    DirectionalZMinus: '#002D2D3D'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 0A1196:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 0200C9:Skyrim.esm
+Owner: 0C139B:Skyrim.esm
+SkyAndWeatherFromRegion: 02A72D:Skyrim.esm
+AcousticSpace: 0C5D0A:Skyrim.esm
+Music: 06D546:Skyrim.esm
+ImageSpace: 059B60:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 0011DA:ITB_Wildlife.esp
+  MajorRecordFlagsRaw: 1610612736
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  - 0x40000000
+  Base: 00108B:ITB_Wildlife.esp
+  Owner: 013653:Skyrim.esm
+  Placement:
+    Position: 568.2132, 90.64403, 324
+    Rotation: 0, 0, 4.7647486
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011DB:ITB_Wildlife.esp
+  Base: 000F98:ITB_Wildlife.esp
+  Placement:
+    Position: -101.95188, 115.3584, 1.639204
+    Rotation: 0, 0, 3.8831916

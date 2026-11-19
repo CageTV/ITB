@@ -1,0 +1,28 @@
+FormKey: 0008B2:ITB_Wildlife.esp
+EditorID: ITB_magicanomalycombat
+OffensiveMult: 1
+GroupOffensiveMult: 1
+EquipmentScoreMultMelee: 1
+EquipmentScoreMultMagic: 1
+EquipmentScoreMultRanged: 1
+EquipmentScoreMultShout: 1
+EquipmentScoreMultUnarmed: 1
+EquipmentScoreMultStaff: 1
+Melee:
+  AttackStaggeredMult: 10
+  PowerAttackStaggeredMult: 10
+  PowerAttackBlockingMult: 10
+  SpecialAttackMult: 0.1
+CloseRange:
+  CircleMult: 1
+  FlankDistance: 0.2
+  StalkTime: 0.91
+LongRangeStrafeMult: 0
+Flight:
+  HoverTime: 0.5
+  GroundAttackTime: 0.5
+  PerchAttackChance: 0.5
+  PerchAttackTime: 0.5
+  FlyingAttackChance: 0.75
+Flags:
+- Dueling

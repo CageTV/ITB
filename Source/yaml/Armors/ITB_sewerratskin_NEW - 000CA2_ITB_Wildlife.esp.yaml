@@ -1,0 +1,21 @@
+FormKey: 000CA2:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_sewerratskin_NEW
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Rabbit
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 00090A:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000DF7:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

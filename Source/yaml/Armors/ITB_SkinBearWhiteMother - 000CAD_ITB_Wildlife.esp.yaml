@@ -1,0 +1,22 @@
+FormKey: 000CAD:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_SkinBearWhiteMother
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Snow Bear
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131E9:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 0868FB:Skyrim.esm
+- 000D86:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

@@ -1,20 +1,22 @@
 FormKey: 013203:Skyrim.esm
-VersionControl: 79128
 EditorID: SlaughterfishRace
-Version2: 9
 Name:
   TargetLanguage: English
   Value: Slaughterfish
 Description:
   TargetLanguage: English
   Value: ''
+ActorEffect:
+- 10C042:Skyrim.esm
+- 665466:ccBGSSSE037-Curios.esl
 Skin: 04124A:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
+- 013798:Skyrim.esm
+- 586728:ccBGSSSE037-Curios.esl
 SkillBoost0:
   Skill: 255
 SkillBoost1:
@@ -33,19 +35,19 @@ Height:
   Male: 1
   Female: 1
 Weight:
-  Male: 1
-  Female: 1
+  Male: 140
+  Female: 140
 Flags:
 - Swims
 - CantOpenDoors
 Starting:
 - Key: Health
-  Value: 35
+  Value: 140
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 24
-BaseCarryWeight: 10
+  Value: 80
+BaseCarryWeight: 80
 BaseMass: 0.25
 AccelerationRate: 1
 DecelerationRate: 1
@@ -57,9 +59,9 @@ Regen:
   Value: 0
 - Key: Stamina
   Value: 10
-UnarmedDamage: 5
+UnarmedDamage: 15
 UnarmedReach: 64
-AngularAccelerationRate: 0.25
+AngularAccelerationRate: 0.4
 AngularTolerance: 5
 MountData:
   MountOffset: -63.479, 0, 0
@@ -75,11 +77,11 @@ SkeletalModel:
     File: Actors\Slaughterfish\Character Assets\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 041FBB:Skyrim.esm
   Female: 041FBB:Skyrim.esm
@@ -89,25 +91,29 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.25
-    StrikeAngle: 35
+    Spell: 000BA8:ITB_Wildlife.esp
+    StrikeAngle: 18
     StaminaMult: 1
   AttackEvent: AttackStart_LCross
 - AttackData:
     DamageMult: 1
     Chance: 0.25
-    StrikeAngle: 35
+    Spell: 000BA8:ITB_Wildlife.esp
+    StrikeAngle: 18
     StaminaMult: 1
   AttackEvent: AttackStart_LSlash
 - AttackData:
     DamageMult: 1
     Chance: 0.25
-    StrikeAngle: 35
+    Spell: 000BA8:ITB_Wildlife.esp
+    StrikeAngle: 18
     StaminaMult: 1
   AttackEvent: AttackStart_RCorss
 - AttackData:
     DamageMult: 1
     Chance: 0.25
-    StrikeAngle: 35
+    Spell: 000BA8:ITB_Wildlife.esp
+    StrikeAngle: 18
     StaminaMult: 1
   AttackEvent: AttackStart_RUppercut
 BodyData:
@@ -137,26 +143,6 @@ BipedObjectNames:
   Value: BODY
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm

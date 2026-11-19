@@ -2,7 +2,6 @@ FormKey: 023AB7:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncSkeever
-Version2: 14
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -11,36 +10,30 @@ ObjectBounds:
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   Level:
     MutagenObjectType: NpcLevel
-    Level: 4
+    Level: 1
   SpeedMultiplier: 100
   DispositionBase: 35
+  HealthOffset: 10
 Factions:
-- Faction: 02E894:Skyrim.esm
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02E893:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0330B1:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000833:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD99:Skyrim.esm
 Voice: 019FE5:Skyrim.esm
 Race: 013201:Skyrim.esm
 AIData:
   Aggression: Aggressive
-  Confidence: Brave
+  Confidence: Cautious
   EnergyLevel: 100
+  Assistance: HelpsAllies
   AggroRadiusBehavior: True
-  Warn: 1500
   WarnOrAttack: 1000
-  Attack: 800
-Packages:
-- 000917:ITB_Wildlife.esp
-- 000916:ITB_Wildlife.esp
-- 000915:ITB_Wildlife.esp
+  Attack: 500
 Class: 0131E6:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -48,41 +41,41 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 25
+    Value: 10
   - Key: TwoHanded
-    Value: 15
+    Value: 5
   - Key: Archery
-    Value: 20
+    Value: 5
   - Key: Block
-    Value: 22
+    Value: 5
   - Key: Smithing
-    Value: 15
+    Value: 5
   - Key: HeavyArmor
-    Value: 15
+    Value: 5
   - Key: LightArmor
-    Value: 15
+    Value: 5
   - Key: Pickpocket
-    Value: 15
+    Value: 5
   - Key: Lockpicking
-    Value: 15
+    Value: 5
   - Key: Sneak
-    Value: 32
+    Value: 15
   - Key: Alchemy
-    Value: 15
+    Value: 5
   - Key: Speech
-    Value: 15
+    Value: 5
   - Key: Alteration
-    Value: 15
+    Value: 5
   - Key: Conjuration
-    Value: 15
+    Value: 5
   - Key: Destruction
-    Value: 15
+    Value: 5
   - Key: Illusion
-    Value: 15
+    Value: 5
   - Key: Restoration
-    Value: 15
+    Value: 5
   - Key: Enchanting
-    Value: 15
+    Value: 5
   SkillOffsets:
   - Key: OneHanded
     Value: 0
@@ -120,8 +113,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 40
-  Stamina: 30
+  Health: 15
+  Stamina: 15
   GearedUpWeapons: 1
 CombatStyle: 03CEDF:Skyrim.esm
 NAM5: 255
@@ -131,6 +124,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 017F3A:Skyrim.esm
+DefaultPackageList: 00089C:ITB_Wildlife.esp
 TextureLighting: '#00808080'
 MajorFlags:
 - 0x40000

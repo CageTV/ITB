@@ -1,0 +1,95 @@
+FormKey: 0142FC:Dragonborn.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DLC2BloodskalBarrow01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Raven Rock Mine
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#00202621'
+  DirectionalColor: '#000E1212'
+  FogNearColor: '#001E1B11'
+  FogFar: 4000
+  FogPower: 0.6
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00172116'
+    Scale: 1
+  FogFarColor: '#00211F16'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 068B3E:Skyrim.esm
+WaterHeight: 0
+Location: 01429A:Dragonborn.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 01429B:Dragonborn.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 000167:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011CA:ITB_Wildlife.esp
+  EditorID: ambushred1
+  Base: 000E53:ITB_Wildlife.esp
+  Placement:
+    Position: 10400, 14672, -992
+    Rotation: 0, 0, 4.383192
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011CB:ITB_Wildlife.esp
+  EditorID: ambushsmallred1
+  Base: 000E5A:ITB_Wildlife.esp
+  Placement:
+    Position: 10304, 14784, -800
+    Rotation: 0, 0, 3.7831912
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011CC:ITB_Wildlife.esp
+  EditorID: ambushsmallred4
+  Base: 000E5A:ITB_Wildlife.esp
+  Placement:
+    Position: 10400, 14432, -784
+    Rotation: 0, 0, 5.2831883
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011CD:ITB_Wildlife.esp
+  Base: 000E5D:ITB_Wildlife.esp
+  Placement:
+    Position: 10158, 14988, -584
+    Rotation: 0, 0, 3.8831882
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011CE:ITB_Wildlife.esp
+  Base: 000E5E:ITB_Wildlife.esp
+  Placement:
+    Position: 10452.255, 14322.986, -583.5986
+    Rotation: 0, 0, 4.5231953
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011CF:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: 7893.9844, 2566.6746, 141.21826
+- MutagenObjectType: PlacedNpc
+  FormKey: 0011D0:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: 8924.493, 457.49817, -517.8336
+    Rotation: 0, 0, 4.7831864

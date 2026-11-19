@@ -1,0 +1,14 @@
+FormKey: 000845:ITB_Wildlife.esp
+EditorID: ITB_mountainlionfaction
+Name:
+  TargetLanguage: English
+  Value: Sabre Cat Faction
+Relations:
+- Target: 0AA784:Skyrim.esm
+  Reaction: Friend
+- Target: 000845:ITB_Wildlife.esp
+  Reaction: Friend
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

@@ -2,7 +2,6 @@ FormKey: 0B8F25:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: dunCGEncDeer
-Version2: 5
 SkyrimMajorRecordFlags:
 - Compressed
 ObjectBounds:
@@ -14,7 +13,7 @@ Configuration:
   - AutoCalcStats
   Level:
     MutagenObjectType: NpcLevel
-    Level: 8
+    Level: 13
   SpeedMultiplier: 100
   DispositionBase: 35
   TemplateFlags:
@@ -28,19 +27,15 @@ Configuration:
   - AttackData
   - Keywords
 Factions:
+- Faction: 00082B:ITB_Wildlife.esp
+  Fluff: 0x000000
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 02E894:Skyrim.esm
   Fluff: 0x000000
 - Faction: 03E095:Skyrim.esm
   Fluff: 0x000000
 - Faction: 0F1ABC:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000815:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000817:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000827:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000828:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 0D284C:Skyrim.esm
 Voice: 041FBA:Skyrim.esm
@@ -55,13 +50,13 @@ Class: 01CE1D:Skyrim.esm
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 30
+    Value: 41
   - Key: TwoHanded
     Value: 15
   - Key: Archery
-    Value: 30
+    Value: 41
   - Key: Block
-    Value: 25
+    Value: 33
   - Key: Smithing
     Value: 15
   - Key: HeavyArmor
@@ -73,7 +68,7 @@ PlayerSkills:
   - Key: Lockpicking
     Value: 15
   - Key: Sneak
-    Value: 31
+    Value: 41
   - Key: Alchemy
     Value: 15
   - Key: Speech
@@ -127,8 +122,8 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 100
-  Stamina: 85
+  Health: 290
+  Stamina: 135
   GearedUpWeapons: 1
 CombatStyle: 093A60:Skyrim.esm
 NAM5: 255

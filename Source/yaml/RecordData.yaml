@@ -4,6 +4,8 @@ SpriggitSource:
 ModKey: ITB_Wildlife.esp
 GameRelease: SkyrimSE
 ModHeader:
+  Stats:
+    Version: 1.7
   Author: CageTV
   MasterReferences:
   - Master: Skyrim.esm
@@ -12,6 +14,11 @@ ModHeader:
     FileSize: 0
   - Master: Dawnguard.esm
     FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
   - Master: Dragonborn.esm
     FileSize: 0
-  INTV: 1
+  - Master: ccBGSSSE037-Curios.esl
+    FileSize: 0
+  - Master: ccQDRSSE001-SurvivalMode.esl
+    FileSize: 0

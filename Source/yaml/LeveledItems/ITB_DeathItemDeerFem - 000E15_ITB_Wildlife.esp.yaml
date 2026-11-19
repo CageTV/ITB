@@ -1,0 +1,13 @@
+FormKey: 000E15:ITB_Wildlife.esp
+EditorID: ITB_DeathItemDeerFem
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 0669A2:Skyrim.esm
+    Count: 2
+- Data:
+    Level: 1
+    Reference: 0D284D:Skyrim.esm
+    Count: 1

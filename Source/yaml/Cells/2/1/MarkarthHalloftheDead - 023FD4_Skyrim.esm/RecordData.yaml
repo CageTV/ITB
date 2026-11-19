@@ -1,0 +1,81 @@
+FormKey: 023FD4:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: MarkarthHalloftheDead
+Version2: 12
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- PublicArea
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - LightFadeDistances
+LightingTemplate: 09F281:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 024016:Skyrim.esm
+Owner: 01338C:Skyrim.esm
+LockList: 01338C:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 09F282:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001141:ITB_Wildlife.esp
+  MajorRecordFlagsRaw: 512
+  SkyrimMajorRecordFlags:
+  - 0x200
+  Base: 000FF8:ITB_Wildlife.esp
+  Placement:
+    Position: 1979.7626, 2671.2334, -9.166875
+  MajorFlags:
+  - StartsDead
+- MutagenObjectType: PlacedNpc
+  FormKey: 001142:ITB_Wildlife.esp
+  MajorRecordFlagsRaw: 512
+  SkyrimMajorRecordFlags:
+  - 0x200
+  Base: 000FFA:ITB_Wildlife.esp
+  Placement:
+    Position: 1471.1411, 1290.2639, -20.932096
+  MajorFlags:
+  - StartsDead
+- MutagenObjectType: PlacedNpc
+  FormKey: 001143:ITB_Wildlife.esp
+  MajorRecordFlagsRaw: 512
+  SkyrimMajorRecordFlags:
+  - 0x200
+  Base: 000FF8:ITB_Wildlife.esp
+  Placement:
+    Position: 1406.0055, 737.1825, -6.580139
+  MajorFlags:
+  - StartsDead

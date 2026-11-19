@@ -1,8 +1,6 @@
 FormKey: 0131FA:Skyrim.esm
 MajorRecordFlagsRaw: 524288
-VersionControl: 79128
 EditorID: GoatRace
-Version2: 14
 SkyrimMajorRecordFlags:
 - CantWait
 Name:
@@ -13,16 +11,18 @@ Description:
   Value: ''
 ActorEffect:
 - 10C042:Skyrim.esm
-- 000ACD:ITB_Wildlife.esp
-- 000AC3:ITB_Wildlife.esp
+- 000BA2:ITB_Wildlife.esp
+- 000BA5:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 06F278:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
-- 013798:Skyrim.esm
 - 013795:Skyrim.esm
-- 000895:ITB_Wildlife.esp
+- 013798:Skyrim.esm
+- 586728:ccBGSSSE037-Curios.esl
+- 000801:ITB_Wildlife.esp
 SkillBoost0:
   Skill: 255
 SkillBoost1:
@@ -41,8 +41,8 @@ Height:
   Male: 1
   Female: 1
 Weight:
-  Male: 1
-  Female: 1
+  Male: 50
+  Female: 50
 Flags:
 - TiltFrontBack
 - Walks
@@ -52,24 +52,24 @@ Flags:
 - NonHostile
 Starting:
 - Key: Health
-  Value: 25
+  Value: 50
 - Key: Magicka
   Value: 0
 - Key: Stamina
-  Value: 25
-BaseCarryWeight: 25
+  Value: 50
+BaseCarryWeight: 50
 BaseMass: 0.75
 AccelerationRate: 1.2
 DecelerationRate: 1.2
 Size: Medium
 Regen:
 - Key: Health
-  Value: 0
+  Value: 0.1
 - Key: Magicka
   Value: 0
 - Key: Stamina
   Value: 10
-UnarmedDamage: 10
+UnarmedDamage: 7.5
 UnarmedReach: 45
 AngularAccelerationRate: 0.25
 AngularTolerance: 5
@@ -87,11 +87,11 @@ SkeletalModel:
     File: Actors\Goat\Character Assets\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- BLDO
-- RUN1
-- SNEK
-- SWIM
-- WALK
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
 Voices:
   Male: 01F22A:Skyrim.esm
   Female: 01F22A:Skyrim.esm
@@ -110,17 +110,18 @@ Attacks:
     Flags:
     - PowerAttack
     StrikeAngle: 35
-    StaminaMult: 1
     Stagger: 0.5
+    StaminaMult: 1
   AttackEvent: attackStart_ForwardPower
 - AttackData:
     DamageMult: 2
     Chance: 0.25
+    Spell: 09CD4D:Skyrim.esm
     Flags:
     - PowerAttack
     StrikeAngle: 35
-    StaminaMult: 1
     Stagger: 0.25
+    StaminaMult: 1
   AttackEvent: attackStart_StandingPower
 BodyData:
   Male:
@@ -155,36 +156,16 @@ MovementTypes:
     ForwardRun: 400
     BackWalk: 39.65
     BackRun: 39.65
-    RotateWalk: 6.981317
-    RotateRun: 8.726646
-    Unknown: 2.0943952
+    RotateWalk: 6.283185
+    RotateRun: 6.283185
+    Unknown: 2.094395
 EquipmentFlags:
 - HandToHand
-- 0x2000
-- 0x4000
-- 0x8000
-- 0x10000
-- 0x20000
-- 0x40000
-- 0x80000
-- 0x100000
-- 0x200000
-- 0x400000
-- 0x800000
-- 0x1000000
-- 0x2000000
-- 0x4000000
-- 0x8000000
-- 0x10000000
-- 0x20000000
-- 0x40000000
-- 0x80000000
-- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 UnarmedEquipSlot: 013F42:Skyrim.esm
 BaseMovementDefaultWalk: 059659:Skyrim.esm
 BaseMovementDefaultRun: 059659:Skyrim.esm
+BaseMovementDefaultSwim: 000813:ITB_Wildlife.esp
 MajorFlags:
 - Critter
-BaseMovementDefaultSwim: 000ABF:ITB_Wildlife.esp

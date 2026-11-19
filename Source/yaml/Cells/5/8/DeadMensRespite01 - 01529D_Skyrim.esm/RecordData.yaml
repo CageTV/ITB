@@ -1,0 +1,71 @@
+FormKey: 01529D:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: DeadMensRespite01
+Version2: 8
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#0035373C'
+  DirectionalColor: '#00526165'
+  FogNearColor: '#009C9B7C'
+  FogNear: 400
+  FogFar: 4500
+  DirectionalRotationZ: 90
+  FogClipDistance: 5000
+  FogPower: 0.9
+  AmbientColors:
+    DirectionalXPlus: '#003A373E'
+    DirectionalXMinus: '#002F3739'
+    DirectionalYPlus: '#0035393C'
+    DirectionalYMinus: '#0035343C'
+    DirectionalZPlus: '#00191A1B'
+    DirectionalZMinus: '#0050535C'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00485968'
+  FogMax: 1
+  LightFadeBegin: 12000
+  LightFadeEnd: 13000
+  Inherits:
+  - FogNear
+  - FogFar
+  - ClipDistance
+  - FogMax
+LightingTemplate: 08CDDA:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 019161:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\ShinyDullDS_e.dds
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 03EC0B:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 0B215C:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001207:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: -2639.1553, 9377.126, -258.88605
+- MutagenObjectType: PlacedNpc
+  FormKey: 001208:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: -3629.0603, 19.578033, -1055.7825
+- MutagenObjectType: PlacedNpc
+  FormKey: 001209:ITB_Wildlife.esp
+  Base: 000EF8:ITB_Wildlife.esp
+  Placement:
+    Position: -2750.3972, 202.91615, -1145.9462
+- MutagenObjectType: PlacedNpc
+  FormKey: 00120A:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -2650.6155, 10183.367, -9.21175

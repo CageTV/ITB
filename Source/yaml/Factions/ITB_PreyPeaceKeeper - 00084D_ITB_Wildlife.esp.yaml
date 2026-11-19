@@ -1,0 +1,17 @@
+FormKey: 00084D:ITB_Wildlife.esp
+EditorID: ITB_PreyPeaceKeeper
+Relations:
+- Target: 00084D:ITB_Wildlife.esp
+  Reaction: Friend
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

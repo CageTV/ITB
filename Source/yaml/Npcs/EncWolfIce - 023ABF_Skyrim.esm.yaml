@@ -2,47 +2,41 @@ FormKey: 023ABF:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
 EditorID: EncWolfIce
-Version2: 3
 SkyrimMajorRecordFlags:
 - Compressed
 Configuration:
   Flags:
   - Respawn
-  - AutoCalcStats
   StaminaOffset: 30
   Level:
     MutagenObjectType: NpcLevel
-    Level: 12
-  SpeedMultiplier: 100
+    Level: 6
+  SpeedMultiplier: 150
   DispositionBase: 35
-  HealthOffset: 75
+  HealthOffset: 25
 Factions:
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02E893:Skyrim.esm
+  Fluff: 0x000000
 - Faction: 03E093:Skyrim.esm
   Fluff: 0x000000
 - Faction: 03E691:Skyrim.esm
-  Fluff: 0x000000
-- Faction: 000826:ITB_Wildlife.esp
-  Fluff: 0x000000
-- Faction: 000843:ITB_Wildlife.esp
   Fluff: 0x000000
 DeathItem: 03AD9F:Skyrim.esm
 Voice: 01F6A7:Skyrim.esm
 Race: 01320A:Skyrim.esm
 ActorEffect:
 - 0B5569:Skyrim.esm
-- 000ACB:ITB_Wildlife.esp
 AIData:
-  Aggression: VeryAggressive
-  Confidence: Foolhardy
+  Aggression: Aggressive
+  Confidence: Cautious
   EnergyLevel: 50
+  Responsibility: NoCrime
   Assistance: HelpsAllies
-Packages:
-- 0008BF:ITB_Wildlife.esp
-- 0008C1:ITB_Wildlife.esp
-- 0008BE:ITB_Wildlife.esp
-- 0008C0:ITB_Wildlife.esp
-Keywords:
-- 013798:Skyrim.esm
+  AggroRadiusBehavior: True
+  WarnOrAttack: 1000
+  Attack: 500
 Class: 0131E6:Skyrim.esm
 Name:
   TargetLanguage: English
@@ -50,41 +44,41 @@ Name:
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
-    Value: 33
+    Value: 13
   - Key: TwoHanded
-    Value: 15
+    Value: 5
   - Key: Archery
-    Value: 33
+    Value: 13
   - Key: Block
-    Value: 41
+    Value: 17
   - Key: Smithing
-    Value: 15
+    Value: 5
   - Key: HeavyArmor
-    Value: 15
+    Value: 5
   - Key: LightArmor
-    Value: 15
+    Value: 5
   - Key: Pickpocket
-    Value: 15
+    Value: 5
   - Key: Lockpicking
-    Value: 15
+    Value: 5
   - Key: Sneak
-    Value: 56
+    Value: 32
   - Key: Alchemy
-    Value: 15
+    Value: 5
   - Key: Speech
-    Value: 15
+    Value: 5
   - Key: Alteration
-    Value: 15
+    Value: 5
   - Key: Conjuration
-    Value: 15
+    Value: 5
   - Key: Destruction
-    Value: 15
+    Value: 5
   - Key: Illusion
-    Value: 15
+    Value: 5
   - Key: Restoration
-    Value: 15
+    Value: 5
   - Key: Enchanting
-    Value: 15
+    Value: 5
   SkillOffsets:
   - Key: OneHanded
     Value: 0
@@ -122,19 +116,18 @@ PlayerSkills:
     Value: 0
   - Key: Enchanting
     Value: 0
-  Health: 205
-  Magicka: 1
-  Stamina: 140
+  Health: 200
+  Stamina: 255
   GearedUpWeapons: 1
 CombatStyle: 0E8C3D:Skyrim.esm
 NAM5: 255
-Height: 1.2
+Height: 1.15
 Weight: 50
 SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 0A85C7:Skyrim.esm
-DefaultPackageList: 021E81:Skyrim.esm
+DefaultPackageList: 0008A6:ITB_Wildlife.esp
 TextureLighting: '#00808080'
 MajorFlags:
 - 0x40000

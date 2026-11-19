@@ -1,0 +1,85 @@
+FormKey: 016786:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: WindhelmHalloftheDead
+Version2: 1
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- PublicArea
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#001D1810'
+    DirectionalXMinus: '#0018180F'
+    DirectionalYPlus: '#001B1910'
+    DirectionalYMinus: '#001B1610'
+    DirectionalZPlus: '#000C0B07'
+    DirectionalZMinus: '#00292418'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  LightFadeEnd: 2048
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 07BA87:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 0209EF:Skyrim.esm
+Owner: 045F66:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001295:ITB_Wildlife.esp
+  MajorRecordFlagsRaw: 512
+  SkyrimMajorRecordFlags:
+  - 0x200
+  Base: 000FFA:ITB_Wildlife.esp
+  Placement:
+    Position: -472.61554, -2677.3755, -342.36014
+    Rotation: 0, 0, 1.0000004
+  MajorFlags:
+  - StartsDead
+- MutagenObjectType: PlacedNpc
+  FormKey: 001296:ITB_Wildlife.esp
+  Base: 000FBE:ITB_Wildlife.esp
+  Placement:
+    Position: 1336.2583, -4072.0535, -342.36
+- MutagenObjectType: PlacedNpc
+  FormKey: 001297:ITB_Wildlife.esp
+  Base: 000FBE:ITB_Wildlife.esp
+  Placement:
+    Position: 1347.3235, -2889.959, -312.7906
+- MutagenObjectType: PlacedNpc
+  FormKey: 001298:ITB_Wildlife.esp
+  Base: 000FBE:ITB_Wildlife.esp
+  Placement:
+    Position: 1331.0724, -1160.7041, -146.0122
+- MutagenObjectType: PlacedNpc
+  FormKey: 001299:ITB_Wildlife.esp
+  Base: 000FBE:ITB_Wildlife.esp
+  Placement:
+    Position: 1437, -221, -128
+    Rotation: 0, 0, 5.8631854
+- MutagenObjectType: PlacedNpc
+  FormKey: 00129A:ITB_Wildlife.esp
+  Base: 000FBE:ITB_Wildlife.esp
+  Placement:
+    Position: 553, -2766, -390
+    Rotation: 0, 0, 5.8631854

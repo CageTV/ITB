@@ -1,0 +1,15 @@
+FormKey: 000BCF:ITB_Wildlife.esp
+EditorID: ITB_giantcentipede_NPC2_CALL_spell
+Name:
+  TargetLanguage: English
+  Value: Spriggan abilities
+MenuDisplayObject: 0435A5:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+Effects:
+- BaseEffect: 000B81:ITB_Wildlife.esp
+  Data:
+    Magnitude: 100

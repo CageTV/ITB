@@ -1,0 +1,12 @@
+FormKey: 000840:ITB_Wildlife.esp
+EditorID: ITB_indrick_ghost_spell_faction
+Name:
+  TargetLanguage: English
+  Value: Spriggan Faction
+Relations:
+- Target: 000840:ITB_Wildlife.esp
+  Reaction: Ally
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

@@ -1,0 +1,59 @@
+FormKey: 01521C:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+VersionControl: 79128
+EditorID: ShimmermistCave01
+Version2: 2
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#000A0A0A'
+  DirectionalColor: '#00315864'
+  FogNearColor: '#00234856'
+  FogNear: 250
+  FogFar: 4000
+  DirectionalRotationZ: 90
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#000B0A0A'
+    DirectionalXMinus: '#00080A09'
+    DirectionalYPlus: '#000A0A0A'
+    DirectionalYMinus: '#000A090A'
+    DirectionalZPlus: '#00040404'
+    DirectionalZMinus: '#000F0F0F'
+    Specular: '#003E8E95'
+    Scale: 1
+  FogFarColor: '#003E8E95'
+  FogMax: 0.6
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 0B9E23:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 01929D:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 03EC65:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 0B9E1E:Skyrim.esm
+MajorFlags:
+- 0x40000
+Temporary:
+- MutagenObjectType: PlacedNpc
+  FormKey: 001234:ITB_Wildlife.esp
+  Base: 000E49:ITB_Wildlife.esp
+  Placement:
+    Position: -105.90407, -211.34164, -419.4168
+    Rotation: 0, 0, 0.3000029

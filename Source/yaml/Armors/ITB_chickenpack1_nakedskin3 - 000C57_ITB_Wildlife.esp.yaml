@@ -1,0 +1,22 @@
+FormKey: 000C57:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_chickenpack1_nakedskin3
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Chicken
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0A919D:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 04E783:Skyrim.esm
+- 000D40:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable
