@@ -1,0 +1,44 @@
+FormKey: 000D9C:ITB_Wildlife.esp
+EditorID: ITB_NakedFeetbone
+BodyTemplate:
+  FirstPersonFlags:
+  - Feet
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0008BF:ITB_Wildlife.esp
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: True
+  Female: True
+Unknown: 2
+Unknown2: 23
+WorldModel:
+  Male:
+    File: Actors\Character\Character Assets\MaleFeet_1.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: Actors\Character\Character Assets\FemaleFeet_1.nif
+    Data: 0x020000000000000000000000
+SkinTexture:
+  Male: 03EDE8:Skyrim.esm
+  Female: 03EDE7:Skyrim.esm
+TextureSwapList:
+  Male: 07BBB1:Skyrim.esm
+  Female: 07BBB2:Skyrim.esm
+AdditionalRaces:
+- 013741:Skyrim.esm
+- 013744:Skyrim.esm
+- 013746:Skyrim.esm
+- 013747:Skyrim.esm
+- 013748:Skyrim.esm
+- 088794:Skyrim.esm
+- 08883C:Skyrim.esm
+- 088844:Skyrim.esm
+- 088846:Skyrim.esm
+- 097A3D:Skyrim.esm
+- 0A82B9:Skyrim.esm
+- 00E88A:Dawnguard.esm
+- 03CA97:Dragonborn.esm
+FootstepSound: 0BFB28:Skyrim.esm

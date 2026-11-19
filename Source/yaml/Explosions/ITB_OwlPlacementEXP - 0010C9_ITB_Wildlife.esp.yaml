@@ -1,0 +1,6 @@
+FormKey: 0010C9:ITB_Wildlife.esp
+EditorID: ITB_OwlPlacementEXP
+PlacedObject: 000FB5:ITB_Wildlife.esp
+Flags:
+- 0x1
+SoundLevel: Silent

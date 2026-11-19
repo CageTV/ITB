@@ -1,0 +1,21 @@
+FormKey: 0010CE:ITB_Wildlife.esp
+EditorID: ITB_PenguinEggIncubated
+Name:
+  TargetLanguage: English
+  Value: Incubated Penguin Egg
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: The egg can hatch with the heat of the forge.
+Model:
+  File: itb\fauna\incubateddodo\incubateddodo_b2b44497.nif
+  Data: 0x020000000000000000000000
+Value: 150
+Weight: 0.2
+Flags:
+- NoAbsorbOrReflect
+CastType: 3
+TargetType: Aimed
+Effects:
+- BaseEffect: 000B8B:ITB_Wildlife.esp
+  Data: {}

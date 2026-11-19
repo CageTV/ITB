@@ -8,9 +8,9 @@ Description:
   Value: ''
 ActorEffect:
 - 0B877C:Skyrim.esm
+- 000BA2:ITB_Wildlife.esp
 - 000BA5:ITB_Wildlife.esp
-- 000BA8:ITB_Wildlife.esp
-- 000BA7:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
 Skin: 016EE5:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
@@ -120,7 +120,7 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.2
-    Spell: 000BAA:ITB_Wildlife.esp
+    Spell: 000BA7:ITB_Wildlife.esp
     StrikeAngle: 22
     StaminaMult: 1.5
   AttackEvent: attackStart_SkeeverLungeLong

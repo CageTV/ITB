@@ -1,0 +1,18 @@
+FormKey: 001039:ITB_Wildlife.esp
+EditorID: ITB_batlootnormal
+ObjectBounds:
+  First: -36, -14, 0
+  Second: 21, 15, 6
+Name:
+  TargetLanguage: English
+  Value: Bat Wing
+Model:
+  File: itb\fauna\chaurus_hunter\chaurus_hunter_123cd173.nif
+  Data: 0x020000000000000000000000
+Value: 30
+Weight: 0.2
+Effects:
+- BaseEffect: 06B10C:Skyrim.esm
+  Data:
+    Magnitude: 50
+    Duration: 10

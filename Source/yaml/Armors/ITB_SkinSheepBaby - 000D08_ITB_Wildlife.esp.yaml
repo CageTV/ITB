@@ -1,0 +1,21 @@
+FormKey: 000D08:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_SkinSheepBaby
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Sheep
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 00090F:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000DDE:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

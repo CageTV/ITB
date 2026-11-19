@@ -7,8 +7,8 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BB5:ITB_Wildlife.esp
-- 000BB6:ITB_Wildlife.esp
+- 000BB2:ITB_Wildlife.esp
+- 000BB3:ITB_Wildlife.esp
 Skin: 014497:Dragonborn.esm
 BodyTemplate:
   ArmorType: Clothing
@@ -109,7 +109,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BC0:ITB_Wildlife.esp
+    Spell: 000BBD:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 180
@@ -137,7 +137,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BC0:ITB_Wildlife.esp
+    Spell: 000BBD:ITB_Wildlife.esp
     StrikeAngle: 65
     StaminaMult: 1
   AttackEvent: attackStart_HandSwipeAttack

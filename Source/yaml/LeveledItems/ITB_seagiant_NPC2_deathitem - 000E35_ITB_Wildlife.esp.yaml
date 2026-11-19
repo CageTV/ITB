@@ -1,0 +1,65 @@
+FormKey: 000E35:ITB_Wildlife.esp
+EditorID: ITB_seagiant_NPC2_deathitem
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 00000F:Skyrim.esm
+    Count: 560
+- Data:
+    Level: 1
+    Reference: 03133B:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 034CDF:Skyrim.esm
+    Count: 2
+- Data:
+    Level: 1
+    Reference: 037C2B:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 03AD70:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 03AD75:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0424EB:Skyrim.esm
+    Count: 5
+- Data:
+    Level: 1
+    Reference: 06AC4A:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 06BC00:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 085500:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0AA02C:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0D0700:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0D0701:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 003540:HearthFires.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0010F1:ITB_Wildlife.esp
+    Count: 1

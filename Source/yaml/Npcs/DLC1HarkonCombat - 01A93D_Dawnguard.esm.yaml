@@ -11,7 +11,7 @@ VirtualMachineAdapter:
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: DLC2EncSeekerMirror
-      Object: 001007:ITB_Wildlife.esp
+      Object: 001004:ITB_Wildlife.esp
     - MutagenObjectType: ScriptIntProperty
       Name: MirrorCount
       Data: 4

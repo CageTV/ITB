@@ -7465,79 +7465,79 @@
  ],
  "ingestible_effects": [
   {
-   "form": "ITB Wildlife.esp|001092",
+   "form": "ITB Wildlife.esp|00108F",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001093",
+   "form": "ITB Wildlife.esp|001090",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001094",
+   "form": "ITB Wildlife.esp|001091",
    "effects": [
     "Update.esm|002EE4"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001084",
+   "form": "ITB Wildlife.esp|001081",
    "effects": [
     "Update.esm|002EE2"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001085",
+   "form": "ITB Wildlife.esp|001082",
    "effects": [
     "Update.esm|002EE4"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00108D",
+   "form": "ITB Wildlife.esp|00108A",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00104A",
+   "form": "ITB Wildlife.esp|001047",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00104B",
+   "form": "ITB Wildlife.esp|001048",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00104C",
+   "form": "ITB Wildlife.esp|001049",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00108E",
+   "form": "ITB Wildlife.esp|00108B",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00108F",
+   "form": "ITB Wildlife.esp|00108C",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|0010D5",
+   "form": "ITB Wildlife.esp|0010D2",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|0010D4",
+   "form": "ITB Wildlife.esp|0010D1",
    "effects": [
     "Update.esm|002EE3"
    ]
@@ -7547,12 +7547,12 @@
   {
    "list": "ccQDRSSE001-SurvivalMode.esl|0008B0",
    "items": [
-    "ITB Wildlife.esp|001092",
-    "ITB Wildlife.esp|001084",
-    "ITB Wildlife.esp|00104A",
-    "ITB Wildlife.esp|00104B",
-    "ITB Wildlife.esp|00108E",
-    "ITB Wildlife.esp|0010D5"
+    "ITB Wildlife.esp|00108F",
+    "ITB Wildlife.esp|001081",
+    "ITB Wildlife.esp|001047",
+    "ITB Wildlife.esp|001048",
+    "ITB Wildlife.esp|00108B",
+    "ITB Wildlife.esp|0010D2"
    ]
   }
  ]

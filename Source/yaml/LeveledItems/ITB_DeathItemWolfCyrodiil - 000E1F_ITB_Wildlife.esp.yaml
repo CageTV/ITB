@@ -1,0 +1,13 @@
+FormKey: 000E1F:ITB_Wildlife.esp
+EditorID: ITB_DeathItemWolfCyrodiil
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 0F961F:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00108F:ITB_Wildlife.esp
+    Count: 1

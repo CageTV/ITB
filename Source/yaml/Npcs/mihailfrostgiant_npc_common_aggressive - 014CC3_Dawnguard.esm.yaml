@@ -52,7 +52,7 @@ AIData:
   AggroRadiusBehavior: True
   Attack: 800
 Packages:
-- 000983:ITB_Wildlife.esp
+- 000980:ITB_Wildlife.esp
 Keywords:
 - 10E984:Skyrim.esm
 Class: 0ABB44:Skyrim.esm

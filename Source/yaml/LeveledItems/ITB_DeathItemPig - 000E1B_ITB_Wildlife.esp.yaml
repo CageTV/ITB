@@ -1,0 +1,21 @@
+FormKey: 000E1B:ITB_Wildlife.esp
+EditorID: ITB_DeathItemPig
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 001084:ITB_Wildlife.esp
+    Count: 2
+- Data:
+    Level: 1
+    Reference: 001086:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000E31:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000E32:ITB_Wildlife.esp
+    Count: 1

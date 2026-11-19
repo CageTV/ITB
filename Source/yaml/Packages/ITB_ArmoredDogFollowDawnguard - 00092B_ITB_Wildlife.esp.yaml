@@ -35,7 +35,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Data:
     MutagenObjectType: IsInInteriorConditionData
-PackageTemplate: 0009B1:ITB_Wildlife.esp
+PackageTemplate: 0009AE:ITB_Wildlife.esp
 DataInputVersion: 6
 Data:
 - Key: 15

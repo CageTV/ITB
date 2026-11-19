@@ -1,0 +1,21 @@
+FormKey: 000D0E:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_Skinturkeywild
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Turkey
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000917:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000E05:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

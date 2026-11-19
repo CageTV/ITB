@@ -1,0 +1,18 @@
+FormKey: 00109A:ITB_Wildlife.esp
+EditorID: ITB_giantcentipede_NPC1_CALL_spell_fx_spell_fx_explosion
+Model:
+  File: itb\fauna\chaurus\chaurus_1cbac857.nif
+  Data: 0x020000000000000000000000
+ObjectEffect: 072674:Skyrim.esm
+Sound1: 06CB40:Skyrim.esm
+Sound2: 06CB40:Skyrim.esm
+ImpactDataSet: 03F819:Skyrim.esm
+PlacedObject: 000F6C:ITB_Wildlife.esp
+Force: 1740
+Damage: 10
+Radius: 520
+ISRadius: 1024
+Flags:
+- 0x1
+- IgnoreImageSpaceSwap
+SoundLevel: VeryLoud

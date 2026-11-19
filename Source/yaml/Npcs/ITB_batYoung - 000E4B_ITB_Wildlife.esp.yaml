@@ -1,0 +1,133 @@
+FormKey: 000E4B:ITB_Wildlife.esp
+EditorID: ITB_batYoung
+ObjectBounds:
+  First: -9, 7, 33
+  Second: 9, 37, 54
+Configuration:
+  Flags:
+  - Respawn
+  - AutoCalcStats
+  MagickaOffset: -50
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 1
+  CalcMinLevel: 1
+  CalcMaxLevel: 3
+  SpeedMultiplier: 100
+  DispositionBase: 35
+  HealthOffset: -120
+Factions:
+- Faction: 01D9C9:Dragonborn.esm
+  Fluff: 0x000000
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0330B1:Skyrim.esm
+  Fluff: 0x000000
+Voice: 0D78AD:Skyrim.esm
+Race: 0008B6:ITB_Wildlife.esp
+Height: 0.55
+WornArmor: 000C48:ITB_Wildlife.esp
+AttackRace: 0008B6:ITB_Wildlife.esp
+Items:
+- Item:
+    Item: 001039:ITB_Wildlife.esp
+    Count: 1
+AIData:
+  Aggression: Unaggressive
+  Confidence: Cowardly
+  EnergyLevel: 100
+  Assistance: HelpsNobody
+Class: 005206:Dawnguard.esm
+Name:
+  TargetLanguage: English
+  Value: Bat Pup
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 15
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 15
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 15
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 5
+  Stamina: 100
+  GearedUpWeapons: 1
+CombatStyle: 005AA2:Dawnguard.esm
+NAM5: 255
+Weight: 50
+SoundLevel: Normal
+Sound:
+  MutagenObjectType: NpcInheritSound
+Packages:
+- 0009B3:ITB_Wildlife.esp
+DefaultPackageList: 0EB249:Skyrim.esm
+TextureLighting: '#007F7F7F'
+MajorFlags:
+- 0x40000

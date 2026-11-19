@@ -8,7 +8,7 @@ Description:
   Value: ''
 ActorEffect:
 - 02068F:Dragonborn.esm
-- 000BA6:ITB_Wildlife.esp
+- 000BA3:ITB_Wildlife.esp
 Skin: 019B0A:Dragonborn.esm
 BodyTemplate:
   FirstPersonFlags:

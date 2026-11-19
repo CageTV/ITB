@@ -1,0 +1,28 @@
+FormKey: 000B6A:ITB_Wildlife.esp
+EditorID: ITB_AB_Animal_InjuredSpeed
+Name:
+  TargetLanguage: English
+  Value: Injured Animal Speed Loss
+Keywords:
+- 0B729E:Skyrim.esm
+Flags:
+- Recover
+- Detrimental
+- NoDuration
+- NoArea
+- FXPersist
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: SpeedMult
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 013798:Skyrim.esm
+  ComparisonValue: 1

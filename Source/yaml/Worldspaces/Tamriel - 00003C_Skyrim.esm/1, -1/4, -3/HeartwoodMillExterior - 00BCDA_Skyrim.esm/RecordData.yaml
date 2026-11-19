@@ -61,48 +61,48 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001996:ITB_Wildlife.esp
-  Base: 000E78:ITB_Wildlife.esp
+  FormKey: 001993:ITB_Wildlife.esp
+  Base: 000E75:ITB_Wildlife.esp
   Owner: 06BBB1:Skyrim.esm
   Placement:
     Position: 133069.88, -96710.75, 10691.133
 - MutagenObjectType: PlacedNpc
-  FormKey: 001997:ITB_Wildlife.esp
-  Base: 000E77:ITB_Wildlife.esp
+  FormKey: 001994:ITB_Wildlife.esp
+  Base: 000E74:ITB_Wildlife.esp
   Owner: 06BBB1:Skyrim.esm
   Placement:
     Position: 133491.64, -96717.57, 10668.848
 - MutagenObjectType: PlacedNpc
-  FormKey: 001998:ITB_Wildlife.esp
-  Base: 000F9B:ITB_Wildlife.esp
+  FormKey: 001995:ITB_Wildlife.esp
+  Base: 000F98:ITB_Wildlife.esp
   Placement:
     Position: 133763.89, -95135.47, 10805.381
 - MutagenObjectType: PlacedNpc
-  FormKey: 001999:ITB_Wildlife.esp
-  Base: 000F46:ITB_Wildlife.esp
+  FormKey: 001996:ITB_Wildlife.esp
+  Base: 000F43:ITB_Wildlife.esp
   Placement:
     Position: 133082.3, -96590.41, 10687.257
     Rotation: 0, -0, 1
 - MutagenObjectType: PlacedNpc
-  FormKey: 00199A:ITB_Wildlife.esp
-  Base: 000F14:ITB_Wildlife.esp
+  FormKey: 001997:ITB_Wildlife.esp
+  Base: 000F11:ITB_Wildlife.esp
   LinkedReferences:
   - Reference: 10672E:Skyrim.esm
   Placement:
     Position: 133224.78, -96721.79, 10688
 - MutagenObjectType: PlacedNpc
-  FormKey: 00199B:ITB_Wildlife.esp
-  Base: 000F14:ITB_Wildlife.esp
+  FormKey: 001998:ITB_Wildlife.esp
+  Base: 000F11:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001997:ITB_Wildlife.esp
+  - Reference: 001994:ITB_Wildlife.esp
   Placement:
     Position: 133343.141, -96696.402, 10676.848
     Rotation: 0, 0, 3.0000
 - MutagenObjectType: PlacedNpc
-  FormKey: 00199C:ITB_Wildlife.esp
-  Base: 000F14:ITB_Wildlife.esp
+  FormKey: 001999:ITB_Wildlife.esp
+  Base: 000F11:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001999:ITB_Wildlife.esp
+  - Reference: 001996:ITB_Wildlife.esp
   Placement:
     Position: 133124.849, -96734.249, 10695.257
     Rotation: 0, 0, 5.0000

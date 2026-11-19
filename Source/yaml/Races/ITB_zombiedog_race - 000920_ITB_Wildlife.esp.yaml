@@ -8,7 +8,7 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BF6:ITB_Wildlife.esp
+- 000BF3:ITB_Wildlife.esp
 Skin: 04B2C9:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
@@ -95,21 +95,21 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BF7:ITB_Wildlife.esp
+    Spell: 000BF4:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_Attack1
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BF7:ITB_Wildlife.esp
+    Spell: 000BF4:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_Attack2
 - AttackData:
     DamageMult: 2
     Chance: 1
-    Spell: 000BF7:ITB_Wildlife.esp
+    Spell: 000BF4:ITB_Wildlife.esp
     StrikeAngle: 35
     Stagger: 0.5
     StaminaMult: 1
@@ -117,14 +117,14 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 1
-    Spell: 000BF7:ITB_Wildlife.esp
+    Spell: 000BF4:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeLong
 - AttackData:
     DamageMult: 2
     Chance: 1
-    Spell: 000BF7:ITB_Wildlife.esp
+    Spell: 000BF4:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeShort

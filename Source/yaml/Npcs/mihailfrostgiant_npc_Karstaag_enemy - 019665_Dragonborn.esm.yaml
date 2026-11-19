@@ -31,7 +31,7 @@ VirtualMachineAdapter:
       Object: 101727:Skyrim.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: pGhostFXShader
-      Object: 001095:ITB_Wildlife.esp
+      Object: 001092:ITB_Wildlife.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: pGhostResistsAbility
       Object: 0D2060:Skyrim.esm

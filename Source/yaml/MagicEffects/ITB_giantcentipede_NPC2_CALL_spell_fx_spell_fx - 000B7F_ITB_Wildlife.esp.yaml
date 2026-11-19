@@ -1,0 +1,30 @@
+FormKey: 000B7F:ITB_Wildlife.esp
+EditorID: ITB_giantcentipede_NPC2_CALL_spell_fx_spell_fx
+Name:
+  TargetLanguage: English
+  Value: Giant Centipede Appears
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Hostile
+- Detrimental
+- NoArea
+- FXPersist
+- NoRecast
+- PowerAffectsMagnitude
+- NoDeathDispel
+BaseCost: 0.5
+ResistValue: PoisonResist
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 00109B:ITB_Wildlife.esp
+Explosion: 001098:ITB_Wildlife.esp
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 001097:ITB_Wildlife.esp
+DualCastScale: 1
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

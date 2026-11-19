@@ -41,10 +41,10 @@ AIData:
   WarnOrAttack: 2000
   Attack: 500
 Packages:
+- 000955:ITB_Wildlife.esp
+- 000959:ITB_Wildlife.esp
+- 000954:ITB_Wildlife.esp
 - 000958:ITB_Wildlife.esp
-- 00095C:ITB_Wildlife.esp
-- 000957:ITB_Wildlife.esp
-- 00095B:ITB_Wildlife.esp
 Keywords:
 - 000EDF:Skyrim.esm
 - 013797:Skyrim.esm
@@ -140,7 +140,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 0A85C7:Skyrim.esm
-DefaultOutfit: 000E44:ITB_Wildlife.esp
+DefaultOutfit: 000E41:ITB_Wildlife.esp
 TextureLighting: '#00808080'
 MajorFlags:
 - 0x40000

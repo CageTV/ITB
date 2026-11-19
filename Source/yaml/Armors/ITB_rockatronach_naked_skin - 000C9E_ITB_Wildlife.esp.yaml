@@ -1,0 +1,18 @@
+FormKey: 000C9E:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_rockatronach_naked_skin
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000905:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000DF4:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

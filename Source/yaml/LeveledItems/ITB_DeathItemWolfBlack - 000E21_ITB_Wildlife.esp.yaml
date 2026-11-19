@@ -1,9 +1,0 @@
-FormKey: 000E21:ITB_Wildlife.esp
-EditorID: ITB_DeathItemWolfBlack
-Flags:
-- UseAll
-Entries:
-- Data:
-    Level: 1
-    Reference: 00111C:ITB_Wildlife.esp
-    Count: 1

@@ -1,0 +1,23 @@
+FormKey: 000B8A:ITB_Wildlife.esp
+EditorID: ITB_OwlEggMGEF
+Name:
+  TargetLanguage: English
+  Value: Hatch Owl
+Flags:
+- NoDuration
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 0010C8:ITB_Wildlife.esp
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 0010C6:ITB_Wildlife.esp
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

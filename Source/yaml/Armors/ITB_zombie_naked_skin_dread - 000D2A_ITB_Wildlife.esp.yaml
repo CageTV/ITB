@@ -1,0 +1,18 @@
+FormKey: 000D2A:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_zombie_naked_skin_dread
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 00091E:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000E10:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

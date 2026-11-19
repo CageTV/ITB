@@ -1,0 +1,6 @@
+FormKey: 000C2C:ITB_Wildlife.esp
+EditorID: ITB_Dog_Dark_Grey
+Diffuse: itb\fauna\dog\dog_ec18e207.dds
+NormalOrGloss: itb\fauna\dog\dog_e4fccd15_n.dds
+EnvironmentMaskOrSubsurfaceTint: itb\fauna\dog\dog_81483cb3_s.dds
+Flags: []

@@ -1,0 +1,21 @@
+FormKey: 00110D:ITB_Wildlife.esp
+EditorID: ITB_vampirepushprojectile
+Model:
+  File: itb\fauna\vampire_lord\vampire_lord_32fec5a1.nif
+  Data: 0x020000000000000000000000
+Flags:
+- Supersonic
+- PassThroughSmallTransparent
+Type: Cone
+Speed: 1536
+Range: 10180
+Light: 007CBD:Dawnguard.esm
+Sound: 07F8E5:Skyrim.esm
+MuzzleFlashDuration: 1
+FadeDuration: 0.5
+ImpactForce: 85
+ConeSpread: 10
+CollisionRadius: 32
+RelaunchInterval: 0.125
+MuzzleFlashModel: ''
+SoundLevel: 3

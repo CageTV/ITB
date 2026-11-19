@@ -1,0 +1,459 @@
+FormKey: 0010B9:ITB_Wildlife.esp
+EditorID: ITB_MAGWindExpertHitIMod
+Animatable: True
+Duration: 3
+RadialBlurUseTarget: True
+RadialBlurCenter: 0.5, 0.5
+BlurRadius:
+- {}
+- Time: 0.02
+  Value: 3
+- Time: 0.04
+  Value: 1
+- Time: 0.103333
+  Value: 0.849
+- Time: 0.105
+  Value: 0.849
+- Time: 0.105
+  Value: 0.972
+- Time: 0.13
+  Value: 0.786
+- Time: 0.23
+  Value: 0.548
+- Time: 0.38
+  Value: 0.191
+- Time: 0.4
+  Value: 0.143
+- Time: 0.46
+- Time: 1
+DoubleVisionStrength:
+- {}
+- Time: 1
+TintColor:
+- Color: '#00595959'
+- Time: 0.003333
+  Color: '#19393939'
+- Time: 0.02
+  Color: '#96939393'
+- Time: 0.04
+  Color: '#888C8C8C'
+- Time: 0.06
+  Color: '#7A858585'
+- Time: 0.07
+  Color: '#73828282'
+- Time: 0.08
+  Color: '#6C7F7F7F'
+- Time: 0.089999996
+  Color: '#657C7C7C'
+- Time: 0.1
+  Color: '#5F787878'
+- Time: 0.103333
+  Color: '#5E777777'
+- Time: 0.12
+  Color: '#52727272'
+- Time: 0.13
+  Color: '#4C6E6E6E'
+- Time: 0.23
+  Color: '#0A4E4E4E'
+- Time: 0.34
+  Color: '#084E4E4E'
+- Time: 0.38
+  Color: '#08707070'
+- Time: 0.4
+  Color: '#07757575'
+- Time: 0.46
+  Color: '#07828282'
+- Time: 0.5
+  Color: '#06797979'
+- Time: 1
+  Color: '#00FFFFFF'
+FadeColor:
+- Color: '#00FFFFFF'
+- Time: 0.003333
+  Color: '#0DF5F5F5'
+- Time: 0.02
+  Color: '#50D7D7D7'
+- Time: 0.04
+  Color: '#4CD1D1D1'
+- Time: 0.06
+  Color: '#48CBCBCB'
+- Time: 0.07
+  Color: '#46C8C8C8'
+- Time: 0.08
+  Color: '#44C5C5C5'
+- Time: 0.089999996
+  Color: '#43C1C1C1'
+- Time: 0.1
+  Color: '#42BFBFBF'
+- Time: 0.103333
+  Color: '#42BDBDBD'
+- Time: 0.105
+  Color: '#42BDBDBD'
+- Time: 0.105
+  Color: '#00A0A0A0'
+- Time: 0.12
+  Color: '#3FB8B8B8'
+- Time: 0.13
+  Color: '#3DB6B6B6'
+- Time: 0.23
+  Color: '#2C979797'
+- Time: 0.38
+  Color: '#146B6B6B'
+- Time: 1
+  Color: '#00FFFFFF'
+RadialBlurStrength:
+- Value: 0.9
+- Time: 0.02
+  Value: 0.6
+- Time: 0.04
+  Value: 0.5091
+- Time: 0.103333
+  Value: 0.2212
+- Time: 0.105
+  Value: 0.2212
+- Time: 0.105
+  Value: 0.5496
+- Time: 0.13
+  Value: 0.1
+- Time: 0.23
+  Value: 0.063
+- Time: 0.38
+  Value: 0.0074
+- Time: 0.4
+- Time: 0.5
+- Time: 1
+RadialBlurRampUp:
+- Value: 0.2
+- Time: 0.02
+  Value: 0.2
+- Time: 0.04
+  Value: 0.1818
+- Time: 0.103333
+  Value: 0.1242
+- Time: 0.105
+  Value: 0.1242
+- Time: 0.105
+  Value: 0.1
+- Time: 0.13
+  Value: 0.1
+- Time: 0.23
+  Value: 0.063
+- Time: 0.38
+  Value: 0.0074
+- Time: 0.4
+- Time: 0.46
+  Value: 0.1
+- Time: 0.5
+  Value: 0.1667
+- Time: 1
+RadialBlurStart:
+- {}
+- Time: 0.02
+  Value: 0.05
+- Time: 0.04
+  Value: 0.049
+- Time: 0.103333
+  Value: 0.0457
+- Time: 0.105
+  Value: 0.0457
+- Time: 0.105
+  Value: 0.1608
+- Time: 0.13
+  Value: 0.0444
+- Time: 0.23
+  Value: 0.0393
+- Time: 0.38
+  Value: 0.0316
+- Time: 0.4
+  Value: 0.0306
+- Time: 0.46
+  Value: 0.0276
+- Time: 0.5
+  Value: 0.0255
+- Time: 1
+  Value: 1
+RadialBlurRampDown:
+- Value: 0.6
+- Time: 0.02
+- Time: 0.04
+  Value: 0.0727
+- Time: 0.103333
+  Value: 0.303
+- Time: 0.105
+  Value: 0.303
+- Time: 0.105
+  Value: 0.2
+- Time: 0.13
+  Value: 0.4
+- Time: 0.23
+  Value: 0.354
+- Time: 0.34
+  Value: 0.3034
+- Time: 0.38
+  Value: 0.2851
+- Time: 0.4
+  Value: 0.2759
+- Time: 0.46
+  Value: 0.2483
+- Time: 0.5
+  Value: 0.229
+- Time: 1
+RadialBlurDownStart:
+- Value: 0.2
+- Time: 0.02
+- Time: 0.04
+  Value: 0.1455
+- Time: 0.103333
+  Value: 0.6061
+- Time: 0.105
+  Value: 0.6061
+- Time: 0.105
+  Value: 0.427
+- Time: 0.13
+  Value: 0.8
+- Time: 0.23
+  Value: 0.708
+- Time: 0.38
+  Value: 0.5701
+- Time: 0.4
+  Value: 0.5517
+- Time: 0.46
+  Value: 0.4966
+- Time: 0.5
+  Value: 0.4598
+- Time: 1
+DepthOfFieldStrength:
+- {}
+- Time: 1
+DepthOfFieldDistance:
+- {}
+- Time: 1
+DepthOfFieldRange:
+- {}
+- Time: 1
+MotionBlurStrength:
+- {}
+- Time: 1
+HdrEyeAdaptSpeedMult:
+- Value: 1
+- Time: 1
+  Value: 1
+HdrEyeAdaptSpeedAdd:
+- {}
+- Time: 1
+HdrBloomBlurRadiusMult:
+- Value: 1
+- Time: 1
+  Value: 1
+HdrBloomBlurRadiusAdd:
+- {}
+- Time: 1
+HdrBloomThresholdMult:
+- Value: 1
+- Time: 1
+  Value: 1
+HdrBloomThresholdAdd:
+- {}
+- Time: 1
+HdrBloomScaleMult:
+- Value: 1
+- Time: 1
+  Value: 1
+HdrBloomScaleAdd:
+- {}
+- Time: 1
+HdrTargetLumMinMult:
+- Value: 1
+- Time: 1
+  Value: 1
+HdrTargetLumMinAdd:
+- {}
+- Time: 1
+HdrTargetLumMaxMult:
+- Value: 1
+- Time: 1
+  Value: 1
+HdrTargetLumMaxAdd:
+- {}
+- Time: 1
+HdrSunlightScaleMult:
+- Value: 1
+- Time: 1
+  Value: 1
+HdrSunlightScaleAdd:
+- {}
+- Time: 1
+HdrSkyScaleMult:
+- Value: 1
+- Time: 1
+  Value: 1
+HdrSkyScaleAdd:
+- {}
+- Time: 1
+Unknown08:
+- Value: 1
+- Time: 1
+  Value: 1
+Unknown48:
+- {}
+- Time: 1
+Unknown09:
+- Value: 1
+- Time: 1
+  Value: 1
+Unknown49:
+- {}
+- Time: 1
+Unknown0A:
+- Value: 1
+- Time: 1
+  Value: 1
+Unknown4A:
+- {}
+- Time: 1
+Unknown0B:
+- Value: 1
+- Time: 1
+  Value: 1
+Unknown4B:
+- {}
+- Time: 1
+Unknown0C:
+- Value: 1
+- Time: 1
+  Value: 1
+Unknown4C:
+- {}
+- Time: 1
+Unknown0D:
+- Value: 1
+- Time: 1
+  Value: 1
+Unknown4D:
+- {}
+- Time: 1
+Unknown0E:
+- Value: 1
+- Time: 1
+  Value: 1
+Unknown4E:
+- {}
+- Time: 1
+Unknown0F:
+- Value: 1
+- Time: 1
+  Value: 1
+Unknown4F:
+- {}
+- Time: 1
+Unknown10:
+- Value: 1
+- Time: 1
+  Value: 1
+Unknown50:
+- {}
+- Time: 1
+CinematicSaturationMult:
+- Value: 1
+- Time: 0.02
+  Value: 1
+- Time: 0.04
+  Value: 1
+- Time: 0.103333
+  Value: 1
+- Time: 0.105
+  Value: 1
+- Time: 0.105
+  Value: 0.914
+- Time: 0.13
+  Value: 1
+- Time: 0.23
+  Value: 1
+- Time: 0.38
+  Value: 1
+- Time: 0.4
+  Value: 1
+- Time: 0.46
+  Value: 1
+- Time: 0.5
+  Value: 1
+- Time: 1
+  Value: 1
+CinematicSaturationAdd:
+- {}
+- Time: 0.02
+  Value: 0.2
+- Time: 0.04
+  Value: 0.2
+- Time: 0.13
+  Value: 0.2
+- Time: 1
+CinematicBrightnessMult:
+- Value: 1
+- Time: 1
+  Value: 1
+CinematicBrightnessAdd:
+- {}
+- Time: 0.02
+  Value: 1
+- Time: 0.04
+  Value: 0.75
+- Time: 0.103333
+  Value: 0.363
+- Time: 0.105
+  Value: 0.363
+- Time: 0.105
+  Value: 0.086
+- Time: 0.13
+  Value: 0.2
+- Time: 0.23
+  Value: 0.177
+- Time: 0.34
+  Value: 0.152
+- Time: 0.38
+  Value: 0.142
+- Time: 0.4
+  Value: 0.138
+- Time: 0.46
+  Value: 0.124
+- Time: 0.5
+  Value: 0.115
+- Time: 1
+CinematicContrastMult:
+- Value: 1
+- Time: 1
+  Value: 1
+CinematicContrastAdd:
+- {}
+- Time: 0.02
+  Value: 0.5
+- Time: 0.04
+  Value: 0.445
+- Time: 0.103333
+  Value: 0.273
+- Time: 0.105
+  Value: 0.273
+- Time: 0.105
+  Value: 0.431
+- Time: 0.13
+  Value: 0.2
+- Time: 0.23
+  Value: 0.177
+- Time: 0.34
+  Value: 0.152
+- Time: 0.38
+  Value: 0.142
+- Time: 0.4
+  Value: 0.138
+- Time: 0.46
+  Value: 0.124
+- Time: 0.5
+  Value: 0.115
+- Time: 1
+Unknown14:
+- Value: 1
+- Time: 1
+  Value: 1
+Unknown54:
+- {}
+- Time: 1

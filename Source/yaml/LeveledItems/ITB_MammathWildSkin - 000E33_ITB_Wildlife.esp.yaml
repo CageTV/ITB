@@ -1,0 +1,44 @@
+FormKey: 000E33:ITB_Wildlife.esp
+EditorID: ITB_MammathWildSkin
+ChanceNone: 0.5
+Entries:
+- Data:
+    Level: 1
+    Reference: 000CF3:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CF4:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CF5:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CF6:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CF7:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CF8:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CF9:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CFA:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CFB:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CFC:ITB_Wildlife.esp
+    Count: 1

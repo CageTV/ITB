@@ -1,0 +1,10 @@
+FormKey: 000E30:ITB_Wildlife.esp
+EditorID: ITB_LItemIngredientTurkeyEgg75
+ChanceNone: 0.25
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+Entries:
+- Data:
+    Level: 1
+    Reference: 001108:ITB_Wildlife.esp
+    Count: 1

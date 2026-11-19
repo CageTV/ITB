@@ -1,0 +1,17 @@
+FormKey: 001035:ITB_Wildlife.esp
+EditorID: ITB_LCharSpiderSmall
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+Entries:
+- Data:
+    Level: 1
+    Reference: 000F4E:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F4F:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F50:ITB_Wildlife.esp
+    Count: 1

@@ -1,0 +1,101 @@
+FormKey: 0009BF:ITB_Wildlife.esp
+EditorID: ITB_HuntPreyTEST
+Flags:
+- AllowSwimming
+Type: Package
+PreferredSpeed: Run
+InterruptFlags:
+- HellosToPlayer
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- 0x100
+- WorldInteractions
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetDeadConditionData
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInInteriorConditionData
+PackageTemplate: 0009BE:ITB_Wildlife.esp
+DataInputVersion: 8
+Data:
+- Key: 15
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearSelf
+      Radius: 12000
+- Key: 16
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 02E894:Skyrim.esm
+- Key: 18
+  Value:
+    MutagenObjectType: PackageDataInt
+    Data: 1
+- Key: 21
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Data: 12000
+- Key: 22
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 50
+- Key: 24
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 26
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 28
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 30
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 32
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 34
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 58
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 10
+- Key: 60
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+XnamMarker: 0x29
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

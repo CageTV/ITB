@@ -1,0 +1,18 @@
+FormKey: 000BF0:ITB_Wildlife.esp
+EditorID: ITB_zombie_AB_deranged
+Name:
+  TargetLanguage: English
+  Value: Draugr Abilities
+MenuDisplayObject: 0435A5:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 134
+Type: Ability
+Effects:
+- BaseEffect: 053124:Skyrim.esm
+  Data:
+    Magnitude: 20
+- BaseEffect: 000B9C:ITB_Wildlife.esp
+  Data: {}

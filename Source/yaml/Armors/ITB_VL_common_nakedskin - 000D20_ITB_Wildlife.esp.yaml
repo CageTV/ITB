@@ -1,0 +1,18 @@
+FormKey: 000D20:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_VL_common_nakedskin
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 00283A:Dawnguard.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000E06:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

@@ -7,7 +7,7 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BDF:ITB_Wildlife.esp
+- 000BDC:ITB_Wildlife.esp
 Skin: 05B2E7:Skyrim.esm
 BodyTemplate:
   FirstPersonFlags:
@@ -103,7 +103,7 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 1
-    Spell: 000BE0:ITB_Wildlife.esp
+    Spell: 000BDD:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 35
@@ -122,7 +122,7 @@ Attacks:
   AttackEvent: attackPowerStart_PowerAttack_L1
 - AttackData:
     DamageMult: 1
-    Spell: 000BE0:ITB_Wildlife.esp
+    Spell: 000BDD:ITB_Wildlife.esp
     StrikeAngle: 35
     Stagger: 1
     StaminaMult: 1
@@ -130,14 +130,14 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BE0:ITB_Wildlife.esp
+    Spell: 000BDD:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_Attack_R1
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BE0:ITB_Wildlife.esp
+    Spell: 000BDD:ITB_Wildlife.esp
     Flags:
     - BashAttack
     - PowerAttack
@@ -148,7 +148,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BE0:ITB_Wildlife.esp
+    Spell: 000BDD:ITB_Wildlife.esp
     Flags:
     - BashAttack
     StrikeAngle: 35

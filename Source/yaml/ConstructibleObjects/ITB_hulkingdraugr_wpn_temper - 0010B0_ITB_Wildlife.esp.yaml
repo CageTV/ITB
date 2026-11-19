@@ -1,0 +1,22 @@
+FormKey: 0010B0:ITB_Wildlife.esp
+EditorID: ITB_hulkingdraugr_wpn_temper
+Items:
+- Item:
+    Item: 05ACE5:Skyrim.esm
+    Count: 2
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: EPTemperingItemIsEnchantedConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 05218E:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 0010AE:ITB_Wildlife.esp
+WorkbenchKeyword: 088108:Skyrim.esm
+CreatedObjectCount: 1

@@ -1,0 +1,271 @@
+FormKey: 0009FB:ITB_Wildlife.esp
+EditorID: ITB_MammothFearsNoTorchPackage
+Flags:
+- PreferredSpeed
+- AllowSwimming
+Type: Package
+PreferredSpeed: Run
+Unknown: 99
+InterruptFlags:
+- AggroRadiusBehavior
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInCombatConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 028347:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 032D9C:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 04359A:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 0435A1:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 02B0E5:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 027242:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 02430D:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 02D1DF:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 034B74:Skyrim.esm
+  ComparisonValue: 1
+DataInputVersion: 7
+Data:
+- Key: 7
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: Flee From Target
+    Flags:
+    - Public
+    Target:
+      MutagenObjectType: PackageTargetSelf
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Name: Flee From Target(s) Object List
+    Flags: []
+    Data: 1000
+- Key: 1
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: Distance to Flee
+    Flags:
+    - Public
+    Data: 5000
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Flee From?
+    Flags: []
+    Data: True
+- Key: 3
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: Flee To Location
+    Flags: []
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearPackageStart
+      Radius: 10000
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: Avoid-node Radius
+    Flags: []
+    Data: 512
+- Key: 10
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: SearchLocation
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearSelf
+      Radius: 2000
+- Key: 13
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: SearchOwnInventory
+    Flags: []
+- Key: 15
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Forget dead threats
+    Flags:
+    - Public
+- Key: 17
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Quiet
+    Flags:
+    - Public
+- Key: 19
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: False
+    Flags: []
+- Key: 8
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+- Key: 9
+  Value:
+    MutagenObjectType: APackageData
+    Name: RideHorseIfPossible
+    Flags:
+    - Public
+- Key: 11
+  Value:
+    MutagenObjectType: APackageData
+    Name: TargetSelector
+    Flags:
+    - Public
+- Key: 12
+  Value:
+    MutagenObjectType: APackageData
+    Name: ObjectList
+    Flags:
+    - Public
+XnamMarker: 0x14
+ProcedureTree:
+- BranchType: Sequence
+  Root:
+    BranchCount: 2
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Find
+  Flags: []
+  DataInputIndices:
+  - 10
+  - 7
+  - 6
+  - 13
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 00080E:ITB_Wildlife.esp
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 01CEAD:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      RunOnType: CombatTarget
+      Faction: 032D9C:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      RunOnType: CombatTarget
+      Faction: 106643:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      RunOnType: CombatTarget
+      Faction: 043594:Skyrim.esm
+    ComparisonValue: 1
+  ProcedureType: Flee
+  Flags:
+  - SuccessCompletesPackage
+  DataInputIndices:
+  - 6
+  - 3
+  - 0
+  - 4
+  - 4
+  - 1
+  - 19
+  - 15
+  - 17
+  - 255
+  Unknown: []
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

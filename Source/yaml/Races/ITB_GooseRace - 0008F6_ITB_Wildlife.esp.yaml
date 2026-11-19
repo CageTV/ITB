@@ -10,9 +10,9 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BB2:ITB_Wildlife.esp
-- 000BA6:ITB_Wildlife.esp
-Skin: 000CCE:ITB_Wildlife.esp
+- 000BAF:ITB_Wildlife.esp
+- 000BA3:ITB_Wildlife.esp
+Skin: 000CCB:ITB_Wildlife.esp
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True

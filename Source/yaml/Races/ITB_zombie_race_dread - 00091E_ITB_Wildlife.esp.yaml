@@ -7,7 +7,7 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BF2:ITB_Wildlife.esp
+- 000BEF:ITB_Wildlife.esp
 Skin: 016EE3:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
@@ -101,14 +101,14 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     StrikeAngle: 60
     StaminaMult: 1
   AttackEvent: attackStart1HMBackSlash
 - AttackData:
     DamageMult: 1.5
     Chance: 1
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 60
@@ -118,7 +118,7 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.75
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 60
@@ -138,7 +138,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     StrikeAngle: 60
     StaminaMult: 1
   AttackEvent: attackStart1HMSwipe
@@ -151,13 +151,13 @@ Attacks:
   AttackEvent: attackStart1HMX2
 - AttackData:
     DamageMult: 1
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     StrikeAngle: 60
     StaminaMult: 1
   AttackEvent: attackStart2HMBackSwipe
 - AttackData:
     DamageMult: 1.5
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 60
@@ -166,13 +166,13 @@ Attacks:
   AttackEvent: attackStart2HMForwardPowerChop
 - AttackData:
     DamageMult: 1
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     StrikeAngle: 60
     StaminaMult: 1
   AttackEvent: attackStart2HMForwardSwipe
 - AttackData:
     DamageMult: 1.5
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 60
@@ -181,19 +181,19 @@ Attacks:
   AttackEvent: attackStart2HMPowerChop
 - AttackData:
     DamageMult: 1
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     StrikeAngle: 60
     StaminaMult: 1
   AttackEvent: attackStart2HMSlash
 - AttackData:
     DamageMult: 1
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     StrikeAngle: 60
     StaminaMult: 1
   AttackEvent: attackStartGSBackSlash
 - AttackData:
     DamageMult: 1.5
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 60
@@ -202,7 +202,7 @@ Attacks:
   AttackEvent: attackStartGSChop
 - AttackData:
     DamageMult: 1.5
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 60
@@ -211,13 +211,13 @@ Attacks:
   AttackEvent: attackStartGSForwardPowerB
 - AttackData:
     DamageMult: 1
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     StrikeAngle: 60
     StaminaMult: 1
   AttackEvent: attackStartGSX2
 - AttackData:
     DamageMult: 1
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     Flags:
     - LeftAttack
     StrikeAngle: 60
@@ -225,13 +225,13 @@ Attacks:
   AttackEvent: AttackStartH2HLeft
 - AttackData:
     DamageMult: 1
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     StrikeAngle: 60
     StaminaMult: 1
   AttackEvent: AttackStartH2HRight
 - AttackData:
     DamageMult: 0.5
-    Spell: 000BF4:ITB_Wildlife.esp
+    Spell: 000BF1:ITB_Wildlife.esp
     Flags:
     - BashAttack
     StrikeAngle: 60

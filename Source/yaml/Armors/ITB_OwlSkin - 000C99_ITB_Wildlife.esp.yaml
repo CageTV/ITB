@@ -1,0 +1,19 @@
+FormKey: 000C99:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_OwlSkin
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0008FC:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000DF2:ITB_Wildlife.esp
+- 000DEF:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

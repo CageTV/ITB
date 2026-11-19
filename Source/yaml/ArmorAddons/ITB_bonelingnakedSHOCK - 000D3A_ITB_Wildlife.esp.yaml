@@ -1,0 +1,22 @@
+FormKey: 000D3A:ITB_Wildlife.esp
+EditorID: ITB_bonelingnakedSHOCK
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0008BE:ITB_Wildlife.esp
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: itb\fauna\lurker\lurker_28ee3fd1.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: Actors\DLC02\Riekling\Character Assets\RieklingBlueV01.nif
+    Data: 0x020000000000000000000000
+FootstepSound: 0BFB28:Skyrim.esm

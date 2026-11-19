@@ -1,0 +1,6 @@
+FormKey: 000C3F:ITB_Wildlife.esp
+EditorID: ITB_SkinHorseBlacknWhite_02
+Diffuse: itb\fauna\horse\horse_a2719bd2.dds
+NormalOrGloss: Actors\Horse\Horse01_n.dds
+GlowOrDetailMap: Actors\Horse\Horse01_sk.dds
+Flags: []

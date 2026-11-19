@@ -11,7 +11,7 @@ ActorEffect:
 - 10FB30:Skyrim.esm
 - 0071E2:Dawnguard.esm
 - 01462A:Dawnguard.esm
-Skin: 000D23:ITB_Wildlife.esp
+Skin: 000D20:ITB_Wildlife.esp
 BodyTemplate:
   FirstPersonFlags:
   - Body

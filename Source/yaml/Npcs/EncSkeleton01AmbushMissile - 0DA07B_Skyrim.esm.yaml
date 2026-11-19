@@ -21,7 +21,7 @@ Configuration:
   - Inventory
   - DefPackList
   - AttackData
-Template: 001037:ITB_Wildlife.esp
+Template: 001034:ITB_Wildlife.esp
 Race: 109C7C:Skyrim.esm
 AIData:
   Confidence: Average

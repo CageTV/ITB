@@ -22,7 +22,7 @@ Configuration:
   - Inventory
   - Script
   - AttackData
-Template: 001037:ITB_Wildlife.esp
+Template: 001034:ITB_Wildlife.esp
 Race: 109C7C:Skyrim.esm
 CombatOverridePackageList: 09FF6E:Skyrim.esm
 AIData:

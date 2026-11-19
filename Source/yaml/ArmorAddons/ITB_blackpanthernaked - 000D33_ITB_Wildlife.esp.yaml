@@ -1,0 +1,20 @@
+FormKey: 000D33:ITB_Wildlife.esp
+EditorID: ITB_blackpanthernaked
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0008B8:ITB_Wildlife.esp
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: itb\fauna\sabrecat\sabrecat_c5a8e2d4.nif
+    Data: 0x020000000000000000000000
+FootstepSound: 01F26F:Skyrim.esm

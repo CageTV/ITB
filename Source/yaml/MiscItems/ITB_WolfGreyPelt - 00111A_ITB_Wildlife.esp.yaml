@@ -1,0 +1,12 @@
+FormKey: 00111A:ITB_Wildlife.esp
+EditorID: ITB_WolfGreyPelt
+Name:
+  TargetLanguage: English
+  Value: Grey Wolf Pelt
+Model:
+  File: itb\fauna\wolfpelts\wolfpelts_959e6864.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0914EA:Skyrim.esm
+Value: 30
+Weight: 1

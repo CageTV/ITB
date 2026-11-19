@@ -1,0 +1,134 @@
+FormKey: 000F9C:ITB_Wildlife.esp
+EditorID: ITB_hummingbirdYoung
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DLC2HMDaedraDeathScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC2HMDaedraAshPile
+      Object: 00103F:ITB_Wildlife.esp
+ObjectBounds:
+  First: -31, -31, 0
+  Second: 31, 31, 109
+Configuration:
+  Flags:
+  - Respawn
+  - AutoCalcStats
+  - DoesntAffectStealthMeter
+  - SimpleActor
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 1
+  SpeedMultiplier: 150
+  DispositionBase: 35
+  HealthOffset: -124
+Factions:
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 03E095:Skyrim.esm
+  Fluff: 0x000000
+Voice: 0D78AD:Skyrim.esm
+Race: 0008F9:ITB_Wildlife.esp
+Height: 0.55
+WornArmor: 000C93:ITB_Wildlife.esp
+Items:
+- Item:
+    Item: 00105D:ITB_Wildlife.esp
+    Count: 1
+AIData:
+  EnergyLevel: 50
+  Responsibility: NoCrime
+Class: 017008:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Chick
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 15
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 15
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 15
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 1
+  Magicka: 50
+  Stamina: 100
+  GearedUpWeapons: 1
+NAM5: 255
+Weight: 50
+SoundLevel: Normal
+Sound:
+  MutagenObjectType: NpcInheritSound
+Packages:
+- 0009B3:ITB_Wildlife.esp
+DefaultPackageList: 10D483:Skyrim.esm
+TextureLighting: '#00000000'
+MajorFlags:
+- 0x40000

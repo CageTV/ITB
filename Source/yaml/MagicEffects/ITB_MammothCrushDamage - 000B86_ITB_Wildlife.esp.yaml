@@ -1,0 +1,22 @@
+FormKey: 000B86:ITB_Wildlife.esp
+EditorID: ITB_MammothCrushDamage
+Name:
+  TargetLanguage: English
+  Value: Mammoth Crush Damage
+Flags:
+- Recover
+- Detrimental
+- NoArea
+- HideInUI
+- PowerAffectsMagnitude
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: Health
+CastType: Concentration
+TargetType: Aimed
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

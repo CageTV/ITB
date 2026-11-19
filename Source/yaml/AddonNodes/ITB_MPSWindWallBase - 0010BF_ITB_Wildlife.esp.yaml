@@ -1,7 +1,0 @@
-FormKey: 0010BF:ITB_Wildlife.esp
-EditorID: ITB_MPSWindWallBase
-Model:
-  File: itb\fauna\mps\mps_fd92c7ff.nif
-  Data: 0x020000000000000000000000
-NodeIndex: 885
-Flags: MasterParticleSystem

@@ -60,92 +60,92 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001927:ITB_Wildlife.esp
-  Base: 000F5A:ITB_Wildlife.esp
+  FormKey: 001924:ITB_Wildlife.esp
+  Base: 000F57:ITB_Wildlife.esp
   Placement:
     Position: 71394.84, 85829.7, -7802.93
 - MutagenObjectType: PlacedNpc
-  FormKey: 001928:ITB_Wildlife.esp
-  Base: 000F5A:ITB_Wildlife.esp
+  FormKey: 001925:ITB_Wildlife.esp
+  Base: 000F57:ITB_Wildlife.esp
   Placement:
     Position: 71679.37, 85674.25, -7826.7188
 - MutagenObjectType: PlacedNpc
-  FormKey: 001929:ITB_Wildlife.esp
-  Base: 00100A:ITB_Wildlife.esp
+  FormKey: 001926:ITB_Wildlife.esp
+  Base: 001007:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001927:ITB_Wildlife.esp
+  - Reference: 001924:ITB_Wildlife.esp
   Placement:
     Position: 71535.319, 86048.482, -7794.930
     Rotation: 0, 0, 1.0000
 - MutagenObjectType: PlacedNpc
-  FormKey: 00192A:ITB_Wildlife.esp
-  Base: 00100A:ITB_Wildlife.esp
+  FormKey: 001927:ITB_Wildlife.esp
+  Base: 001007:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001927:ITB_Wildlife.esp
+  - Reference: 001924:ITB_Wildlife.esp
   Placement:
     Position: 71135.130, 85841.967, -7794.930
     Rotation: 0, 0, 3.0944
 - MutagenObjectType: PlacedNpc
-  FormKey: 00192B:ITB_Wildlife.esp
-  Base: 00100A:ITB_Wildlife.esp
+  FormKey: 001928:ITB_Wildlife.esp
+  Base: 001007:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001927:ITB_Wildlife.esp
+  - Reference: 001924:ITB_Wildlife.esp
   Placement:
     Position: 71514.072, 85598.651, -7794.930
     Rotation: 0, 0, 5.1888
 - MutagenObjectType: PlacedNpc
-  FormKey: 00192C:ITB_Wildlife.esp
-  Base: 00100B:ITB_Wildlife.esp
+  FormKey: 001929:ITB_Wildlife.esp
+  Base: 001008:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001927:ITB_Wildlife.esp
+  - Reference: 001924:ITB_Wildlife.esp
   Placement:
     Position: 71330.638, 85954.111, -7794.930
     Rotation: 0, 0, 2.0472
 - MutagenObjectType: PlacedNpc
-  FormKey: 00192D:ITB_Wildlife.esp
-  Base: 00100B:ITB_Wildlife.esp
+  FormKey: 00192A:ITB_Wildlife.esp
+  Base: 001008:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001927:ITB_Wildlife.esp
+  - Reference: 001924:ITB_Wildlife.esp
   Placement:
     Position: 71319.859, 85711.472, -7794.930
     Rotation: 0, 0, 4.1472
 - MutagenObjectType: PlacedNpc
-  FormKey: 00192E:ITB_Wildlife.esp
-  Base: 00100A:ITB_Wildlife.esp
+  FormKey: 00192B:ITB_Wildlife.esp
+  Base: 001007:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001928:ITB_Wildlife.esp
+  - Reference: 001925:ITB_Wildlife.esp
   Placement:
     Position: 71571.172, 85910.667, -7818.719
     Rotation: 0, 0, 2.0000
 - MutagenObjectType: PlacedNpc
-  FormKey: 00192F:ITB_Wildlife.esp
-  Base: 00100A:ITB_Wildlife.esp
+  FormKey: 00192C:ITB_Wildlife.esp
+  Base: 001007:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001928:ITB_Wildlife.esp
+  - Reference: 001925:ITB_Wildlife.esp
   Placement:
     Position: 71442.953, 85566.052, -7818.719
     Rotation: 0, 0, 3.5708
 - MutagenObjectType: PlacedNpc
-  FormKey: 001930:ITB_Wildlife.esp
-  Base: 00100A:ITB_Wildlife.esp
+  FormKey: 00192D:ITB_Wildlife.esp
+  Base: 001007:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001928:ITB_Wildlife.esp
+  - Reference: 001925:ITB_Wildlife.esp
   Placement:
     Position: 71787.568, 85437.833, -7818.719
     Rotation: 0, 0, 5.1416
 - MutagenObjectType: PlacedNpc
-  FormKey: 001931:ITB_Wildlife.esp
-  Base: 00100A:ITB_Wildlife.esp
+  FormKey: 00192E:ITB_Wildlife.esp
+  Base: 001007:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001928:ITB_Wildlife.esp
+  - Reference: 001925:ITB_Wildlife.esp
   Placement:
     Position: 71915.787, 85782.448, -7818.719
     Rotation: 0, 0, 6.7124
 - MutagenObjectType: PlacedNpc
-  FormKey: 001932:ITB_Wildlife.esp
-  Base: 00100B:ITB_Wildlife.esp
+  FormKey: 00192F:ITB_Wildlife.esp
+  Base: 001008:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001928:ITB_Wildlife.esp
+  - Reference: 001925:ITB_Wildlife.esp
   Placement:
     Position: 71539.993, 85687.446, -7818.719
     Rotation: 0, 0, 3.0472

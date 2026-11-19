@@ -1,0 +1,27 @@
+FormKey: 000BDC:ITB_Wildlife.esp
+EditorID: ITB_rockatronach_AB
+Name:
+  TargetLanguage: English
+  Value: Spriggan abilities
+MenuDisplayObject: 0435A5:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+Effects:
+- BaseEffect: 000B8C:ITB_Wildlife.esp
+  Data:
+    Magnitude: 100
+- BaseEffect: 02431E:Skyrim.esm
+  Data:
+    Magnitude: 13
+- BaseEffect: 0AA01C:Skyrim.esm
+  Data:
+    Duration: 86313600
+- BaseEffect: 0AA024:Skyrim.esm
+  Data:
+    Magnitude: 100
+- BaseEffect: 0E40D3:Skyrim.esm
+  Data:
+    Magnitude: 100

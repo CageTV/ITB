@@ -1,0 +1,6 @@
+FormKey: 0010D0:ITB_Wildlife.esp
+EditorID: ITB_PenguinPlacementEXP
+PlacedObject: 000FBC:ITB_Wildlife.esp
+Flags:
+- 0x1
+SoundLevel: Silent

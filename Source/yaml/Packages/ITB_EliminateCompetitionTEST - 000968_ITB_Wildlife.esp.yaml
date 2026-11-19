@@ -1,0 +1,90 @@
+FormKey: 000968:ITB_Wildlife.esp
+EditorID: ITB_EliminateCompetitionTEST
+Type: Package
+PreferredSpeed: Run
+InterruptFlags:
+- HellosToPlayer
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- 0x100
+- WorldInteractions
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetDeadConditionData
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInInteriorConditionData
+PackageTemplate: 000967:ITB_Wildlife.esp
+DataInputVersion: 2
+Data:
+- Key: 15
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearSelf
+      Radius: 12000
+- Key: 16
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+- Key: 18
+  Value:
+    MutagenObjectType: PackageDataInt
+    Data: 1
+- Key: 21
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Data: 12000
+- Key: 22
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 100
+- Key: 24
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 26
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 28
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 30
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 32
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 34
+  Value:
+    MutagenObjectType: PackageDataBool
+XnamMarker: 0x27
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference
