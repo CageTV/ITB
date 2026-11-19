@@ -57,7 +57,7 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 0017FE:ITB_Wildlife.esp
+  FormKey: 00183B:ITB_Wildlife.esp
   MajorRecordFlagsRaw: 512
   SkyrimMajorRecordFlags:
   - 0x200
@@ -68,7 +68,7 @@ Temporary:
   MajorFlags:
   - StartsDead
 - MutagenObjectType: PlacedNpc
-  FormKey: 0017FF:ITB_Wildlife.esp
+  FormKey: 00183C:ITB_Wildlife.esp
   MajorRecordFlagsRaw: 512
   SkyrimMajorRecordFlags:
   - 0x200
@@ -80,10 +80,10 @@ Temporary:
   MajorFlags:
   - StartsDead
 - MutagenObjectType: PlacedNpc
-  FormKey: 001800:ITB_Wildlife.esp
+  FormKey: 00183D:ITB_Wildlife.esp
   Base: 000F61:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 0017FF:ITB_Wildlife.esp
+  - Reference: 00183C:ITB_Wildlife.esp
   Placement:
     Position: 85062.971, -64565.672, 10738.430
     Rotation: 0, 0, 3.0000

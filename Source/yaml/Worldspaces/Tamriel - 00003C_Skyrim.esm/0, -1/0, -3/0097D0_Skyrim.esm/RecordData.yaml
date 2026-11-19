@@ -58,32 +58,32 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001758:ITB_Wildlife.esp
+  FormKey: 00178A:ITB_Wildlife.esp
   Base: 000FEB:ITB_Wildlife.esp
   Placement:
     Position: 7948.778, -66669.516, 4521.683
 - MutagenObjectType: PlacedNpc
-  FormKey: 001759:ITB_Wildlife.esp
+  FormKey: 00178B:ITB_Wildlife.esp
   Base: 000FEC:ITB_Wildlife.esp
   Placement:
     Position: 7077.7734, -67600.445, 4530.4087
 - MutagenObjectType: PlacedNpc
-  FormKey: 00175A:ITB_Wildlife.esp
+  FormKey: 00178C:ITB_Wildlife.esp
   Base: 0422AF:Skyrim.esm
   LevelModifier: Medium
   Placement:
     Position: 6807.7007, -66274.96, 4281.2207
 - MutagenObjectType: PlacedNpc
-  FormKey: 00175B:ITB_Wildlife.esp
+  FormKey: 00178D:ITB_Wildlife.esp
   Base: 0422AF:Skyrim.esm
   LevelModifier: Medium
   Placement:
     Position: 4303.0234, -66844.47, 3709.6338
 - MutagenObjectType: PlacedNpc
-  FormKey: 00175C:ITB_Wildlife.esp
+  FormKey: 00178E:ITB_Wildlife.esp
   Base: 000F61:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 00175B:ITB_Wildlife.esp
+  - Reference: 00178D:ITB_Wildlife.esp
   Placement:
     Position: 4154.525, -66823.302, 3717.634
     Rotation: 0, 0, 3.0000

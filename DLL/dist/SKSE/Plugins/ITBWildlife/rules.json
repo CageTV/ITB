@@ -7254,6 +7254,20 @@
    "confidence": 1,
    "assistance": 0,
    "aggroRadius": false
+  },
+  {
+   "race": "ITB Wildlife.esp|000917",
+   "_name": "turkey",
+   "aggression": 0,
+   "confidence": 0,
+   "assistance": 0
+  },
+  {
+   "race": "ITB Wildlife.esp|0008FF",
+   "_name": "peacock",
+   "aggression": 0,
+   "confidence": 0,
+   "assistance": 0
   }
  ],
  "package_list_by_race": [

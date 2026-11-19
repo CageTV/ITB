@@ -55,42 +55,42 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A50:ITB_Wildlife.esp
+  FormKey: 001AB7:ITB_Wildlife.esp
   Base: 000FCD:ITB_Wildlife.esp
   Placement:
     Position: 134379, 37181, -12101
     Rotation: 0, 0, 5.453187
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A51:ITB_Wildlife.esp
+  FormKey: 001AB8:ITB_Wildlife.esp
   Base: 000FCD:ITB_Wildlife.esp
   Placement:
     Position: 134040, 37221, -12259.823
     Rotation: 0, 0, 2.5000007
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A52:ITB_Wildlife.esp
+  FormKey: 001AB9:ITB_Wildlife.esp
   Base: 000FB9:ITB_Wildlife.esp
   Placement:
     Position: 135164.5, 38370.004, -12259.823
     Rotation: 0, 0, 4.700002
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A53:ITB_Wildlife.esp
+  FormKey: 001ABA:ITB_Wildlife.esp
   Base: 000FB9:ITB_Wildlife.esp
   Placement:
     Position: 134375.5, 38353.97, -12259.823
     Rotation: 0, 0, 1.5999992
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A54:ITB_Wildlife.esp
+  FormKey: 001ABB:ITB_Wildlife.esp
   Base: 000FCF:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001A51:ITB_Wildlife.esp
+  - Reference: 001AB8:ITB_Wildlife.esp
   Placement:
     Position: 133891.501, 37242.168, -12251.823
     Rotation: 0, 0, 3.0000
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A55:ITB_Wildlife.esp
+  FormKey: 001ABC:ITB_Wildlife.esp
   Base: 000FBA:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001A53:ITB_Wildlife.esp
+  - Reference: 001ABA:ITB_Wildlife.esp
   Placement:
     Position: 134418.049, 38210.131, -12251.823
     Rotation: 0, 0, 5.0000
