@@ -16,7 +16,7 @@ Unknown2: 24
 WeaponAdjust: 0.1
 WorldModel:
   Male:
-    File: itb\fauna\vampire_lord\vampire_lord_b54acd0d.nif
+    File: itb\fauna\vampire_lords\vampire_lords_b54acd0d.nif
     Data: 0x020000000000000000000000
   Female:
     File: Actors\VampireLord\Character Assets\VampireLordFemaleQueenArmor.nif

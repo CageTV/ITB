@@ -7,7 +7,7 @@ Name:
   TargetLanguage: English
   Value: Mort Flesh
 Model:
-  File: itb\fauna\draugr\draugr_170999eb.nif
+  File: itb\fauna\zombies\zombies_170999eb.nif
   Data: 0x020000000000000000000000
 Value: 2
 Weight: 2

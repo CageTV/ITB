@@ -17,6 +17,6 @@ WeightSliderEnabled:
 Unknown2: 17
 WorldModel:
   Male:
-    File: itb\fauna\lurker\lurker_99f837e6.nif
+    File: itb\fauna\bone_colossus\bone_colossus_99f837e6.nif
     Data: 0x020000000000000000000000
 FootstepSound: 05DD87:Skyrim.esm

@@ -72,11 +72,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\monster_and_animals\monster_and_animals_ce849395.nif
+    File: itb\fauna\cyrodilic_troll\cyrodilic_troll_ce849395.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\monster_and_animals\monster_and_animals_ce849395.nif
+    File: itb\fauna\cyrodilic_troll\cyrodilic_troll_ce849395.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - BLDO

@@ -15,7 +15,7 @@ WeightSliderEnabled:
 Unknown2: 17
 WorldModel:
   Male:
-    File: itb\fauna\wolf\wolf_ab3446f9.nif
+    File: itb\fauna\truewolves\truewolves_ab3446f9.nif
     Data: 0x020000000000000000000000
 AdditionalRaces:
 - 106C10:Skyrim.esm

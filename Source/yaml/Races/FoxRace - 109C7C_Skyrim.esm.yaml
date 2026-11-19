@@ -75,7 +75,7 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\canine\canine_df8507fd.nif
+    File: itb\fauna\fox\fox_df8507fd.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel

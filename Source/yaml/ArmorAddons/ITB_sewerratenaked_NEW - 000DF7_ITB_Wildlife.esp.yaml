@@ -15,9 +15,9 @@ WeightSliderEnabled:
 Unknown2: 17
 WorldModel:
   Male:
-    File: itb\fauna\rabbit\rabbit_30e9990f.nif
+    File: itb\fauna\sewer_rat\sewer_rat_30e9990f.nif
     Data: 0x020000000000000000000000
   Female:
-    File: itb\fauna\rabbit\rabbit_92261188.nif
+    File: itb\fauna\sewer_rat\sewer_rat_92261188.nif
     Data: 0x020000000000000000000000
 FootstepSound: 0D3AD8:Skyrim.esm

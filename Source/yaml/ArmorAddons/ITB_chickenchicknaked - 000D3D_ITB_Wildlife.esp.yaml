@@ -15,8 +15,8 @@ WeightSliderEnabled:
 Unknown2: 17
 WorldModel:
   Male:
-    File: itb\fauna\chicken\chicken_92c187b7.nif
+    File: itb\fauna\chicks\chicks_92c187b7.nif
     Data: 0x020000000000000000000000
   Female:
-    File: itb\fauna\chicken\chicken_92c187b7.nif
+    File: itb\fauna\chicks\chicks_92c187b7.nif
     Data: 0x020000000000000000000000

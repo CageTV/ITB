@@ -72,11 +72,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\mudcrab\mudcrab_b4bd4b4b.nif
+    File: itb\fauna\crab\crab_b4bd4b4b.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\mudcrab\mudcrab_b4bd4b4b.nif
+    File: itb\fauna\crab\crab_b4bd4b4b.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - "BLDO\0"

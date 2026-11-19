@@ -81,7 +81,7 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\draugr\draugr_79791a77.nif
+    File: itb\fauna\sithis\sithis_79791a77.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel

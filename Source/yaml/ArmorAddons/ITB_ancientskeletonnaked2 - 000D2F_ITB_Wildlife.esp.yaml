@@ -16,10 +16,10 @@ Unknown: 2
 Unknown2: 23
 WorldModel:
   Male:
-    File: itb\fauna\human\human_f4b4bddc.nif
+    File: itb\fauna\ancient_skeleton\ancient_skeleton_f4b4bddc.nif
     Data: 0x020000000000000000000000
   Female:
-    File: itb\fauna\human\human_c638d753.nif
+    File: itb\fauna\ancient_skeleton\ancient_skeleton_c638d753.nif
     Data: 0x020000000000000000000000
 FirstPersonModel:
   Male:

@@ -78,7 +78,7 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\ice_wraith\ice_wraith_baf8863d.nif
+    File: itb\fauna\snakes\snakes_baf8863d.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel

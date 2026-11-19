@@ -73,11 +73,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\giant\giant_7c14e5a9.nif
+    File: itb\fauna\sea_giant\sea_giant_7c14e5a9.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\giant\giant_7c14e5a9.nif
+    File: itb\fauna\sea_giant\sea_giant_7c14e5a9.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - BLDO

@@ -75,11 +75,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\rabbit\rabbit_3ba36250.nif
+    File: itb\fauna\sewer_rat\sewer_rat_3ba36250.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\rabbit\rabbit_3ba36250.nif
+    File: itb\fauna\sewer_rat\sewer_rat_3ba36250.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - "BLDO\0"

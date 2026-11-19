@@ -74,7 +74,7 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\lurker\lurker_392d5e9a.nif
+    File: itb\fauna\bone_colossus\bone_colossus_392d5e9a.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel

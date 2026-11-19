@@ -2,5 +2,5 @@ FormKey: 000C2B:ITB_Wildlife.esp
 EditorID: ITB_Dog_Dark_Brown
 Diffuse: itb\fauna\dog\dog_288ad797.dds
 NormalOrGloss: itb\fauna\dog\dog_6d291fc2_n.dds
-EnvironmentMaskOrSubsurfaceTint: itb\fauna\dog\dog_81483cb3_s.dds
+EnvironmentMaskOrSubsurfaceTint: itb\fauna\default\default_81483cb3_s.dds
 Flags: []

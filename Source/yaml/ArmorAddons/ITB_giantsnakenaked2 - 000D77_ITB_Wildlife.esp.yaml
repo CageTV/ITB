@@ -14,8 +14,8 @@ WeightSliderEnabled:
   Female: False
 WorldModel:
   Male:
-    File: itb\fauna\dragon\dragon_3365f300.nif
+    File: itb\fauna\giant_snake\giant_snake_3365f300.nif
     Data: 0x020000000000000000000000
   Female:
-    File: itb\fauna\dragon\dragon_ea038d5a.nif
+    File: itb\fauna\giant_snake\giant_snake_ea038d5a.nif
     Data: 0x020000000000000000000000

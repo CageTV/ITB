@@ -70,11 +70,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\dog\dog_5686e7a5.nif
+    File: itb\fauna\draugulf\draugulf_5686e7a5.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\dog\dog_5686e7a5.nif
+    File: itb\fauna\draugulf\draugulf_5686e7a5.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - "BLDO\0"

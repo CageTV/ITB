@@ -71,7 +71,7 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\sabrecat\sabrecat_a8ceaf8d.nif
+    File: itb\fauna\mountain_lion\mountain_lion_a8ceaf8d.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel

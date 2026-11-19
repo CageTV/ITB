@@ -72,11 +72,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\chicken\chicken_f6e94c45.nif
+    File: itb\fauna\chicks\chicks_f6e94c45.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\chicken\chicken_f6e94c45.nif
+    File: itb\fauna\chicks\chicks_f6e94c45.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - BLDO

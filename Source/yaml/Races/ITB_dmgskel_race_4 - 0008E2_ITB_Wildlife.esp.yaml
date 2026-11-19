@@ -78,7 +78,7 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\skeleton\skeleton_bb368fcb.nif
+    File: itb\fauna\damaged_skeletons\damaged_skeletons_bb368fcb.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel

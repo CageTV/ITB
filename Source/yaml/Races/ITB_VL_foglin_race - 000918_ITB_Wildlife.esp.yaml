@@ -68,7 +68,7 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\vampire_lord\vampire_lord_6235c2dc.nif
+    File: itb\fauna\vampire_lords\vampire_lords_6235c2dc.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel

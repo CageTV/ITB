@@ -1,7 +1,7 @@
 FormKey: 001068:ITB_Wildlife.esp
 EditorID: ITB_dragonling_spell_proj
 Model:
-  File: itb\fauna\chaurus_hunter\chaurus_hunter_688fc450.nif
+  File: itb\fauna\dragonling\dragonling_688fc450.nif
   Data: 0x020000000000000000000000
 Type: Missile
 Gravity: 1

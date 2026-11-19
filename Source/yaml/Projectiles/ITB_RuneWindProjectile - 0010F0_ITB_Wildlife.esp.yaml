@@ -1,7 +1,7 @@
 FormKey: 0010F0:ITB_Wildlife.esp
 EditorID: ITB_RuneWindProjectile
 Model:
-  File: itb\fauna\magic\magic_8b3bcdbf.nif
+  File: itb\fauna\misc\misc_8b3bcdbf.nif
   Data: 0x020000000000000000000000
 Flags:
 - Explosion

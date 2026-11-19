@@ -72,11 +72,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\wolf\wolf_9ec5b2ba.nif
+    File: itb\fauna\cyrodiilian_wolf\cyrodiilian_wolf_9ec5b2ba.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\wolf\wolf_9ec5b2ba.nif
+    File: itb\fauna\cyrodiilian_wolf\cyrodiilian_wolf_9ec5b2ba.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - "BLDO\0"

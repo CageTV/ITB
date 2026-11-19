@@ -84,11 +84,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\vampire_lord\vampire_lord_2cdeff5c.nif
+    File: itb\fauna\vampire_lords\vampire_lords_2cdeff5c.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\vampire_lord\vampire_lord_2cdeff5c.nif
+    File: itb\fauna\vampire_lords\vampire_lords_2cdeff5c.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - BLDO

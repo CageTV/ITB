@@ -7,7 +7,7 @@ Name:
   TargetLanguage: English
   Value: Giant Snake Broodmother Hide
 Model:
-  File: itb\fauna\dragon\dragon_e0c0bcf9.nif
+  File: itb\fauna\giant_snake\giant_snake_e0c0bcf9.nif
   Data: 0x020000000000000000000000
 Keywords:
 - 0914EA:Skyrim.esm

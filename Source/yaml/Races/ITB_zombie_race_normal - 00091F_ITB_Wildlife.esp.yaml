@@ -80,11 +80,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\draugr\draugr_6cd8dbe9.nif
+    File: itb\fauna\zombies\zombies_6cd8dbe9.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\draugr\draugr_c036c703.nif
+    File: itb\fauna\zombies\zombies_c036c703.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - "BLDO\0"

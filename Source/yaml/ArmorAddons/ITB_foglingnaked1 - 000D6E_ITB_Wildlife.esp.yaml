@@ -14,7 +14,7 @@ WeightSliderEnabled:
   Female: False
 WorldModel:
   Male:
-    File: itb\fauna\riekling\riekling_5c5eaca8.nif
+    File: itb\fauna\foglings\foglings_5c5eaca8.nif
     Data: 0x020000000000000000000000
   Female:
     File: Actors\DLC02\Riekling\Character Assets\Riekling01.nif

@@ -82,11 +82,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\chaurus\chaurus_c11ee984.nif
+    File: itb\fauna\giant_centipede\giant_centipede_c11ee984.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\chaurus\chaurus_c11ee984.nif
+    File: itb\fauna\giant_centipede\giant_centipede_c11ee984.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - BLDO

@@ -15,10 +15,10 @@ WeightSliderEnabled:
 Unknown2: 17
 WorldModel:
   Male:
-    File: itb\fauna\monster_and_animals\monster_and_animals_262a7d74.nif
+    File: itb\fauna\cyrodilic_troll\cyrodilic_troll_262a7d74.nif
     Data: 0x020000000000000000000000
   Female:
-    File: itb\fauna\monster_and_animals\monster_and_animals_c26741ed.nif
+    File: itb\fauna\cyrodilic_troll\cyrodilic_troll_c26741ed.nif
     Data: 0x020000000000000000000000
 AdditionalRaces:
 - 0117F5:Dawnguard.esm

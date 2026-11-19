@@ -73,7 +73,7 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\giant\giant_5b92bc8c.nif
+    File: itb\fauna\giant_youngling\giant_youngling_5b92bc8c.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel

@@ -75,11 +75,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\giant\giant_77dc697e.nif
+    File: itb\fauna\weapon\weapon_77dc697e.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\giant\giant_77dc697e.nif
+    File: itb\fauna\weapon\weapon_77dc697e.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - BLDO

@@ -74,7 +74,7 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\chaurus_hunter\chaurus_hunter_b9b0daf6.nif
+    File: itb\fauna\hummingbird\hummingbird_b9b0daf6.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel

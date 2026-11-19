@@ -74,7 +74,7 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\chaurus_hunter\chaurus_hunter_40d8f74a.nif
+    File: itb\fauna\bat\bat_40d8f74a.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel

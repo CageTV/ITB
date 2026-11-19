@@ -4,7 +4,7 @@ Name:
   TargetLanguage: English
   Value: Snowhills Smilodon Pelt
 Model:
-  File: itb\fauna\sabre_cat\sabre_cat_3af66993.nif
+  File: itb\fauna\smilodon\smilodon_3af66993.nif
   Data: 0x020000000000000000000000
 Keywords:
 - 0914EA:Skyrim.esm

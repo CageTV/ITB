@@ -16,7 +16,7 @@ Unknown2: 23
 WeaponAdjust: 0.35
 WorldModel:
   Male:
-    File: itb\fauna\lurker\lurker_aaeff825.nif
+    File: itb\fauna\bone_colossus\bone_colossus_aaeff825.nif
     Data: 0x020000000000000000000000
   Female:
     File: Armor\Daedric\DaedricTorsoF_1.nif

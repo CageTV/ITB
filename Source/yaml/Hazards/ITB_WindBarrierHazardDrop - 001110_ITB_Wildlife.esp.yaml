@@ -1,7 +1,7 @@
 FormKey: 001110:ITB_Wildlife.esp
 EditorID: ITB_WindBarrierHazardDrop
 Model:
-  File: itb\fauna\magic\magic_0338d298.nif
+  File: itb\fauna\misc\misc_0338d298.nif
   Data: 0x020000000000000000000000
 Limit: 10
 Radius: 3

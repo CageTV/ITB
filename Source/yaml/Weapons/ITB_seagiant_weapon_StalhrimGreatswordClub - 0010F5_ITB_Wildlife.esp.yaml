@@ -10,7 +10,7 @@ Name:
   TargetLanguage: English
   Value: Giant Club
 Model:
-  File: itb\fauna\human\human_0d1cf807.nif
+  File: itb\fauna\ice_tribes\ice_tribes_0d1cf807.nif
   Data: 0x020000000000000000000000
 ObjectEffect: 045D56:Skyrim.esm
 EquipmentType: 013F45:Skyrim.esm

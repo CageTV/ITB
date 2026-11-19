@@ -4,7 +4,7 @@ ObjectBounds:
   First: -5, 5, 0
   Second: 5, 9, 4
 Model:
-  File: itb\fauna\draugr\draugr_bd44ca5e.nif
+  File: itb\fauna\hulking_draugr\hulking_draugr_bd44ca5e.nif
   Data: 0x020000000000000000000000
 Type:
 - MagicCasting

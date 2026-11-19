@@ -7,7 +7,7 @@ Name:
   TargetLanguage: English
   Value: Elder Bat Wing
 Model:
-  File: itb\fauna\chaurus_hunter\chaurus_hunter_48f1aa63.nif
+  File: itb\fauna\bat\bat_48f1aa63.nif
   Data: 0x020000000000000000000000
 Value: 60
 Weight: 0.45

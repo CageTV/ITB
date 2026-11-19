@@ -76,11 +76,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\draugr\draugr_bc0f944b.nif
+    File: itb\fauna\hulking_draugr\hulking_draugr_bc0f944b.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\draugr\draugr_96082e18.nif
+    File: itb\fauna\hulking_draugr\hulking_draugr_96082e18.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - "BLDO\0"

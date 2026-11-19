@@ -1,7 +1,7 @@
 FormKey: 0010B5:ITB_Wildlife.esp
 EditorID: ITB_MAGWindBarrierDropImpact
 Model:
-  File: itb\fauna\impacteffects\impacteffects_ca119c58.nif
+  File: itb\fauna\misc\misc_ca119c58.nif
   Data: 0x020000000000000000000000
 Duration: 1
 AngleThreshold: 80

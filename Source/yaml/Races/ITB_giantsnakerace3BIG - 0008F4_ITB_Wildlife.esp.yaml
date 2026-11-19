@@ -76,11 +76,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\dragon\dragon_022b79fc.nif
+    File: itb\fauna\giant_snake\giant_snake_022b79fc.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\dragon\dragon_022b79fc.nif
+    File: itb\fauna\giant_snake\giant_snake_022b79fc.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - BLDO

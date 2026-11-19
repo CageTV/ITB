@@ -16,10 +16,10 @@ Unknown2: 24
 WeaponAdjust: 0.1
 WorldModel:
   Male:
-    File: itb\fauna\vampire_lord\vampire_lord_da3feaf5.nif
+    File: itb\fauna\vampire_lords\vampire_lords_da3feaf5.nif
     Data: 0x020000000000000000000000
   Female:
-    File: itb\fauna\vampire_lord\vampire_lord_c02dc8f2.nif
+    File: itb\fauna\vampire_lords\vampire_lords_c02dc8f2.nif
     Data: 0x020000000000000000000000
 AdditionalRaces:
 - 00091A:ITB_Wildlife.esp

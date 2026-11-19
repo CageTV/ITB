@@ -87,11 +87,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\human\human_e52659ae.nif
+    File: itb\fauna\ancient_skeleton\ancient_skeleton_e52659ae.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\human\human_e52659ae.nif
+    File: itb\fauna\ancient_skeleton\ancient_skeleton_e52659ae.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - BLDO

@@ -71,11 +71,11 @@ MountData:
 SkeletalModel:
   Male:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\wolf\wolf_334c32d9.nif
+    File: itb\fauna\fanged_gouti\fanged_gouti_334c32d9.nif
     Data: 0x020000000000000000000000
   Female:
     MutagenObjectType: SimpleModel
-    File: itb\fauna\wolf\wolf_334c32d9.nif
+    File: itb\fauna\fanged_gouti\fanged_gouti_334c32d9.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
 - BLDO

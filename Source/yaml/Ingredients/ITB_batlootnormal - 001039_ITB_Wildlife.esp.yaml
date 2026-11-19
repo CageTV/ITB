@@ -7,7 +7,7 @@ Name:
   TargetLanguage: English
   Value: Bat Wing
 Model:
-  File: itb\fauna\chaurus_hunter\chaurus_hunter_123cd173.nif
+  File: itb\fauna\bat\bat_123cd173.nif
   Data: 0x020000000000000000000000
 Value: 30
 Weight: 0.2
