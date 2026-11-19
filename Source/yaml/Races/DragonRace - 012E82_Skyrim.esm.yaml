@@ -9,8 +9,6 @@ Description:
 ActorEffect:
 - 057B48:Skyrim.esm
 - 0D7D56:Skyrim.esm
-- 0405CC:ccBGSSSE037-Curios.esl
-- 04516C:ccBGSSSE037-Curios.esl
 Skin: 086810:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing

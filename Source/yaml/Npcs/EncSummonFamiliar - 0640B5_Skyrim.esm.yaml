@@ -28,8 +28,6 @@ Voice: 01F6A7:Skyrim.esm
 Template: 023ABE:Skyrim.esm
 Race: 01320A:Skyrim.esm
 ActorEffect:
-- 02291D:ccBGSSSE037-Curios.esl
-- 0405CC:ccBGSSSE037-Curios.esl
 - 0ED5F3:Skyrim.esm
 WornArmor: 0C02FB:Skyrim.esm
 AttackRace: 01320A:Skyrim.esm

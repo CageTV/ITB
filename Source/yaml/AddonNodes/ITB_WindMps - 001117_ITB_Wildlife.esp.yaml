@@ -1,0 +1,7 @@
+FormKey: 001117:ITB_Wildlife.esp
+EditorID: ITB_WindMps
+Model:
+  File: itb\fauna\mps\mps_c22124be.nif
+  Data: 0x020000000000000000000000
+NodeIndex: 884
+Flags: MasterParticleSystem

@@ -38,10 +38,6 @@ DeathItem: 03AD79:Skyrim.esm
 Voice: 01F14E:Skyrim.esm
 Template: 023A8A:Skyrim.esm
 Race: 0131E9:Skyrim.esm
-Perks:
-- Perk: 0FAB0A:ccBGSSSE037-Curios.esl
-  Rank: 1
-  Fluff: 0x000000
 AIData:
   Confidence: Cautious
   EnergyLevel: 50

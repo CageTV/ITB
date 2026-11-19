@@ -19,8 +19,6 @@ BodyTemplate:
 Keywords:
 - 013795:Skyrim.esm
 - 013798:Skyrim.esm
-- 586728:ccBGSSSE037-Curios.esl
-- 5F367F:ccBGSSSE037-Curios.esl
 - 000800:ITB_Wildlife.esp
 SkillBoost0:
   Skill: 255
@@ -99,48 +97,8 @@ FacegenMainClamp: 5
 FacegenFaceClamp: 3
 Attacks:
 - AttackData:
-    DamageMult: 1
-    Chance: 0.5
-    Spell: 0B877E:Skyrim.esm
-    StrikeAngle: 40
-    AttackType: AD3954:ccBGSSSE037-Curios.esl
-    StaminaMult: 1
-  AttackEvent: attackStart_Attack1
-- AttackData:
-    DamageMult: 1
-    Chance: 0.5
-    Spell: 0B877E:Skyrim.esm
-    StrikeAngle: 40
-    AttackType: AD3954:ccBGSSSE037-Curios.esl
-    RecoveryTime: 0.1
-    StaminaMult: 1
-  AttackEvent: attackStart_Attack2
-- AttackData:
-    DamageMult: 1
-    Chance: 1
-    Spell: 0B877E:Skyrim.esm
-    Flags:
-    - RotatingAttack
-    AttackAngle: -50
-    StrikeAngle: 45
-    AttackType: AD3954:ccBGSSSE037-Curios.esl
-    StaminaMult: 1
-  AttackEvent: attackStart_AttackLeft1
-- AttackData:
-    DamageMult: 1
-    Chance: 1
-    Spell: 0B877E:Skyrim.esm
-    Flags:
-    - RotatingAttack
-    AttackAngle: 50
-    StrikeAngle: 45
-    AttackType: AD3954:ccBGSSSE037-Curios.esl
-    StaminaMult: 1
-  AttackEvent: attackStart_AttackRight1
-- AttackData:
     DamageMult: 1.5
     Chance: 0.65
-    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     Flags:
     - PowerAttack
     StrikeAngle: 35
@@ -152,7 +110,6 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.65
-    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     Flags:
     - PowerAttack
     StrikeAngle: 35
@@ -164,7 +121,6 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.65
-    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     Flags:
     - PowerAttack
     StrikeAngle: 45

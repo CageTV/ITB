@@ -31,7 +31,7 @@ VirtualMachineAdapter:
       Object: 101727:Skyrim.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: pGhostFXShader
-      Object: 00109D:ITB_Wildlife.esp
+      Object: 001095:ITB_Wildlife.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: pGhostHalfDamagePerk
       Object: 0D205B:Skyrim.esm

@@ -113,22 +113,6 @@
    "race": "Skyrim.esm|0131E8",
    "_name": "BearBlackRace",
    "caps": {
-    "attackStart_Attack1": [
-     0.0,
-     0.0
-    ],
-    "attackStart_Attack2": [
-     0.0,
-     0.0
-    ],
-    "attackStart_AttackLeft1": [
-     0.0,
-     0.0
-    ],
-    "attackStart_AttackRight1": [
-     0.0,
-     0.0
-    ],
     "attackStart_ForwardPower": [
      0.4,
      0.0
@@ -181,22 +165,6 @@
    "race": "Skyrim.esm|0131E9",
    "_name": "BearSnowRace",
    "caps": {
-    "attackStart_Attack1": [
-     0.0,
-     0.0
-    ],
-    "attackStart_Attack2": [
-     0.0,
-     0.0
-    ],
-    "attackStart_AttackLeft1": [
-     0.0,
-     0.0
-    ],
-    "attackStart_AttackRight1": [
-     0.0,
-     0.0
-    ],
     "attackStart_ForwardPower": [
      0.4,
      0.0
@@ -7497,79 +7465,79 @@
  ],
  "ingestible_effects": [
   {
-   "form": "ITB Wildlife.esp|00109A",
+   "form": "ITB Wildlife.esp|001092",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00109B",
+   "form": "ITB Wildlife.esp|001093",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00109C",
+   "form": "ITB Wildlife.esp|001094",
    "effects": [
     "Update.esm|002EE4"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00108C",
+   "form": "ITB Wildlife.esp|001084",
    "effects": [
     "Update.esm|002EE2"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00108D",
+   "form": "ITB Wildlife.esp|001085",
    "effects": [
     "Update.esm|002EE4"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001095",
+   "form": "ITB Wildlife.esp|00108D",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001052",
+   "form": "ITB Wildlife.esp|00104A",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001053",
+   "form": "ITB Wildlife.esp|00104B",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001054",
+   "form": "ITB Wildlife.esp|00104C",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001096",
+   "form": "ITB Wildlife.esp|00108E",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001097",
+   "form": "ITB Wildlife.esp|00108F",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|0010DD",
+   "form": "ITB Wildlife.esp|0010D5",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|0010DC",
+   "form": "ITB Wildlife.esp|0010D4",
    "effects": [
     "Update.esm|002EE3"
    ]
@@ -7579,12 +7547,12 @@
   {
    "list": "ccQDRSSE001-SurvivalMode.esl|0008B0",
    "items": [
-    "ITB Wildlife.esp|00109A",
-    "ITB Wildlife.esp|00108C",
-    "ITB Wildlife.esp|001052",
-    "ITB Wildlife.esp|001053",
-    "ITB Wildlife.esp|001096",
-    "ITB Wildlife.esp|0010DD"
+    "ITB Wildlife.esp|001092",
+    "ITB Wildlife.esp|001084",
+    "ITB Wildlife.esp|00104A",
+    "ITB Wildlife.esp|00104B",
+    "ITB Wildlife.esp|00108E",
+    "ITB Wildlife.esp|0010D5"
    ]
   }
  ]

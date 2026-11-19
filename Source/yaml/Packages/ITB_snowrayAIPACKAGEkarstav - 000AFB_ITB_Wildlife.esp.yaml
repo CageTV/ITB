@@ -26,12 +26,6 @@ Unknown3: 0x000000
 PackageTemplate: 017723:Skyrim.esm
 DataInputVersion: 3
 Data:
-- Key: 0
-  Value:
-    MutagenObjectType: PackageDataTarget
-    Type: SingleRef
-    Target:
-      MutagenObjectType: PackageTargetSpecificReference
 - Key: 1
   Value:
     MutagenObjectType: PackageDataFloat

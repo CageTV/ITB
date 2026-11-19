@@ -32,7 +32,7 @@ WornArmor: 000C4D:ITB_Wildlife.esp
 AttackRace: 0008B8:ITB_Wildlife.esp
 Items:
 - Item:
-    Item: 0010D5:ITB_Wildlife.esp
+    Item: 0010CD:ITB_Wildlife.esp
     Count: 1
 AIData:
   Aggression: Aggressive
@@ -129,7 +129,7 @@ Weight: 100
 SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
-  InheritsSoundsFrom: 000E7F:ITB_Wildlife.esp
+  InheritsSoundsFrom: 000E7D:ITB_Wildlife.esp
 DefaultPackageList: 021E81:Skyrim.esm
 CrimeFaction: 10A794:Skyrim.esm
 TextureLighting: '#00808080'

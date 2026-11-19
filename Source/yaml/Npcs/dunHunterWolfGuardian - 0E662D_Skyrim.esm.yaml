@@ -66,10 +66,6 @@ ActorEffect:
 - 05030B:Skyrim.esm
 WornArmor: 0C02F8:Skyrim.esm
 AttackRace: 01320A:Skyrim.esm
-Perks:
-- Perk: 031284:ccBGSSSE037-Curios.esl
-  Rank: 1
-  Fluff: 0x000000
 AIData:
   Confidence: Foolhardy
   EnergyLevel: 50

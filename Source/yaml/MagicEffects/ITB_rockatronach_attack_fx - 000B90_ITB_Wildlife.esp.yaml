@@ -22,7 +22,7 @@ Archetype:
   ActorValue: Health
   Type: DualValueModifier
 Projectile: 06F793:Skyrim.esm
-Explosion: 0010FA:ITB_Wildlife.esp
+Explosion: 0010F2:ITB_Wildlife.esp
 CastType: FireAndForget
 TargetType: Touch
 SecondActorValue: Stamina

@@ -49,10 +49,10 @@ Perks:
   Fluff: 0x000000
 Items:
 - Item:
-    Item: 001107:ITB_Wildlife.esp
+    Item: 0010FF:ITB_Wildlife.esp
     Count: 1
 - Item:
-    Item: 001108:ITB_Wildlife.esp
+    Item: 001100:ITB_Wildlife.esp
     Count: 1
 - Item:
     Item: 034CDD:Skyrim.esm

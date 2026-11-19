@@ -39,10 +39,6 @@ Voice: 02AFD9:Skyrim.esm
 Template: 023AAB:Skyrim.esm
 Race: 04E507:Skyrim.esm
 AttackRace: 04E507:Skyrim.esm
-Perks:
-- Perk: 03DFD0:ccBGSSSE037-Curios.esl
-  Rank: 1
-  Fluff: 0x000000
 AIData:
   Confidence: Foolhardy
   EnergyLevel: 50

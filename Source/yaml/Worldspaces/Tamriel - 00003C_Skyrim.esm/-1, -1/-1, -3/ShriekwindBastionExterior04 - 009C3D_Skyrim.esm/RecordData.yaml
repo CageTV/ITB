@@ -62,8 +62,8 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 0014AD:ITB_Wildlife.esp
-  Base: 000EFE:ITB_Wildlife.esp
+  FormKey: 0014A5:ITB_Wildlife.esp
+  Base: 000EFC:ITB_Wildlife.esp
   Placement:
     Position: -25333, -78193, 1343
     Rotation: 0, 0, 4.043193

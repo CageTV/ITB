@@ -63,91 +63,91 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001674:ITB_Wildlife.esp
-  Base: 000FF7:ITB_Wildlife.esp
+  FormKey: 00166C:ITB_Wildlife.esp
+  Base: 000FEF:ITB_Wildlife.esp
   Placement:
     Position: -76916.586, 94599.29, -11747.483
 - MutagenObjectType: PlacedNpc
-  FormKey: 001675:ITB_Wildlife.esp
-  Base: 000E78:ITB_Wildlife.esp
+  FormKey: 00166D:ITB_Wildlife.esp
+  Base: 000E76:ITB_Wildlife.esp
   Owner: 0C13F7:Skyrim.esm
   Placement:
     Position: -74460.14, 96679.69, -11498.241
 - MutagenObjectType: PlacedNpc
-  FormKey: 001676:ITB_Wildlife.esp
-  Base: 000E7B:ITB_Wildlife.esp
+  FormKey: 00166E:ITB_Wildlife.esp
+  Base: 000E79:ITB_Wildlife.esp
   Owner: 0C13F7:Skyrim.esm
   Placement:
     Position: -74867.33, 96638.37, -11464.792
 - MutagenObjectType: PlacedNpc
-  FormKey: 001677:ITB_Wildlife.esp
-  Base: 000E7A:ITB_Wildlife.esp
+  FormKey: 00166F:ITB_Wildlife.esp
+  Base: 000E78:ITB_Wildlife.esp
   Owner: 0C13F7:Skyrim.esm
   Placement:
     Position: -75417.19, 96438.96, -11410.946
 - MutagenObjectType: PlacedNpc
-  FormKey: 001678:ITB_Wildlife.esp
-  Base: 000E6E:ITB_Wildlife.esp
+  FormKey: 001670:ITB_Wildlife.esp
+  Base: 000E6C:ITB_Wildlife.esp
   Owner: 0C13F7:Skyrim.esm
   Placement:
     Position: -74508.6, 96305.016, -11489.651
 - MutagenObjectType: PlacedNpc
-  FormKey: 001679:ITB_Wildlife.esp
-  Base: 000E6E:ITB_Wildlife.esp
+  FormKey: 001671:ITB_Wildlife.esp
+  Base: 000E6C:ITB_Wildlife.esp
   Owner: 0C13F7:Skyrim.esm
   Placement:
     Position: -74899.875, 98079.99, -11366.003
 - MutagenObjectType: PlacedNpc
-  FormKey: 00167A:ITB_Wildlife.esp
-  Base: 000F27:ITB_Wildlife.esp
+  FormKey: 001672:ITB_Wildlife.esp
+  Base: 000F25:ITB_Wildlife.esp
   Placement:
     Position: -74413.6, 97639.3, -11485.149
 - MutagenObjectType: PlacedNpc
-  FormKey: 00167B:ITB_Wildlife.esp
-  Base: 000F16:ITB_Wildlife.esp
+  FormKey: 001673:ITB_Wildlife.esp
+  Base: 000F14:ITB_Wildlife.esp
   Placement:
     Position: -74585.98, 97367.49, -11492.753
 - MutagenObjectType: PlacedNpc
-  FormKey: 00167C:ITB_Wildlife.esp
-  Base: 000F48:ITB_Wildlife.esp
+  FormKey: 001674:ITB_Wildlife.esp
+  Base: 000F46:ITB_Wildlife.esp
   Placement:
     Position: -74847.39, 96711.5, -11468.076
     Rotation: 0, -0, 1.9000001
 - MutagenObjectType: PlacedNpc
-  FormKey: 00167D:ITB_Wildlife.esp
-  Base: 000F42:ITB_Wildlife.esp
+  FormKey: 001675:ITB_Wildlife.esp
+  Base: 000F40:ITB_Wildlife.esp
   Placement:
     Position: -74362.51, 96009.8, -11504.343
     Rotation: 0, -0, 3.6000001
 - MutagenObjectType: PlacedNpc
-  FormKey: 00167E:ITB_Wildlife.esp
-  Base: 000F16:ITB_Wildlife.esp
+  FormKey: 001676:ITB_Wildlife.esp
+  Base: 000F14:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001676:ITB_Wildlife.esp
+  - Reference: 00166E:ITB_Wildlife.esp
   Placement:
     Position: -75015.829, 96659.538, -11456.792
     Rotation: 0, 0, 3.0000
 - MutagenObjectType: PlacedNpc
-  FormKey: 00167F:ITB_Wildlife.esp
-  Base: 000E68:ITB_Wildlife.esp
+  FormKey: 001677:ITB_Wildlife.esp
+  Base: 000E66:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001678:ITB_Wildlife.esp
+  - Reference: 001670:ITB_Wildlife.esp
   Placement:
     Position: -74466.051, 96161.177, -11481.651
     Rotation: 0, 0, 5.0000
 - MutagenObjectType: PlacedNpc
-  FormKey: 001680:ITB_Wildlife.esp
-  Base: 000F27:ITB_Wildlife.esp
+  FormKey: 001678:ITB_Wildlife.esp
+  Base: 000F25:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 00167A:ITB_Wildlife.esp
+  - Reference: 001672:ITB_Wildlife.esp
   Placement:
     Position: -74300.515, 97737.848, -11477.149
     Rotation: 0, 0, 7.0000
 - MutagenObjectType: PlacedNpc
-  FormKey: 001681:ITB_Wildlife.esp
-  Base: 000F16:ITB_Wildlife.esp
+  FormKey: 001679:ITB_Wildlife.esp
+  Base: 000F14:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 00167C:ITB_Wildlife.esp
+  - Reference: 001674:ITB_Wildlife.esp
   Placement:
     Position: -74984.060, 96773.318, -11460.076
     Rotation: 0, 0, 9.0000

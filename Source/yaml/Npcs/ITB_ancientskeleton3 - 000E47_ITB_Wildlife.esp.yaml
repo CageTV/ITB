@@ -52,7 +52,7 @@ Perks:
   Fluff: 0x000000
 Items:
 - Item:
-    Item: 001107:ITB_Wildlife.esp
+    Item: 0010FF:ITB_Wildlife.esp
     Count: 1
 - Item:
     Item: 000CAB:ITB_Wildlife.esp

@@ -40,10 +40,6 @@ Template: 023AB4:Skyrim.esm
 Race: 0131FF:Skyrim.esm
 WornArmor: 059253:Skyrim.esm
 AttackRace: 0131FF:Skyrim.esm
-Perks:
-- Perk: 0FAB0B:ccBGSSSE037-Curios.esl
-  Rank: 1
-  Fluff: 0x000000
 AIData:
   Confidence: Brave
   EnergyLevel: 50

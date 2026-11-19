@@ -41,10 +41,6 @@ Template: 0DD641:Skyrim.esm
 Race: 0131FF:Skyrim.esm
 WornArmor: 059254:Skyrim.esm
 AttackRace: 0131FF:Skyrim.esm
-Perks:
-- Perk: 0FAB0B:ccBGSSSE037-Curios.esl
-  Rank: 1
-  Fluff: 0x000000
 AIData:
   Confidence: Average
   EnergyLevel: 50

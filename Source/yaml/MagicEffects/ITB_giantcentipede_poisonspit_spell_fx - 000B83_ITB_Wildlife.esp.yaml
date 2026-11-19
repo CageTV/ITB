@@ -30,10 +30,10 @@ SpellmakingCastingTime: 0.5
 Archetype:
   MutagenObjectType: MagicEffectArchetype
   ActorValue: Health
-Projectile: 0010A8:ITB_Wildlife.esp
+Projectile: 0010A0:ITB_Wildlife.esp
 CastType: FireAndForget
 TargetType: Aimed
-CastingArt: 0010A2:ITB_Wildlife.esp
+CastingArt: 00109A:ITB_Wildlife.esp
 ImpactData: 046008:Skyrim.esm
 DualCastScale: 1
 Sounds: []

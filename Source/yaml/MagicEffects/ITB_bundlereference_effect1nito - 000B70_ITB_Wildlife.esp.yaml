@@ -15,7 +15,7 @@ BaseCost: 2
 CastingLight: 03BA90:Skyrim.esm
 Archetype:
   MutagenObjectType: MagicEffectSummonCreatureArchetype
-  Association: 000F9A:ITB_Wildlife.esp
+  Association: 000F92:ITB_Wildlife.esp
 CastType: FireAndForget
 TargetType: TargetLocation
 CastingArt: 03CDFC:Skyrim.esm

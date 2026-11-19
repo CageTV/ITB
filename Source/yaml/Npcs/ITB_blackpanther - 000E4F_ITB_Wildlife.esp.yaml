@@ -127,7 +127,7 @@ Weight: 100
 SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
-  InheritsSoundsFrom: 000E7E:ITB_Wildlife.esp
+  InheritsSoundsFrom: 000E7C:ITB_Wildlife.esp
 DefaultPackageList: 095F47:Skyrim.esm
 TextureLighting: '#00808080'
 MajorFlags:

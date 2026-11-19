@@ -27,13 +27,6 @@ ScheduleMinute: -1
 Unknown3: 0x000000
 PackageTemplate: 0283F0:Skyrim.esm
 DataInputVersion: 1
-Data:
-- Key: 1
-  Value:
-    MutagenObjectType: PackageDataTarget
-    Type: SingleRef
-    Target:
-      MutagenObjectType: PackageTargetSpecificReference
 XnamMarker: 0x02
 OnBegin:
   Topics:

@@ -9,7 +9,7 @@
   {
    "id": "pt-0000",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E91",
+   "form": "000E8F",
    "world": "001DB8",
    "worldPlugin": "Dawnguard.esm",
    "pos": [
@@ -24,7 +24,7 @@
   {
    "id": "pt-0001",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8D",
+   "form": "000E8B",
    "world": "001DB8",
    "worldPlugin": "Dawnguard.esm",
    "pos": [
@@ -39,7 +39,7 @@
   {
    "id": "pt-0002",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "001DB8",
    "worldPlugin": "Dawnguard.esm",
    "pos": [
@@ -54,7 +54,7 @@
   {
    "id": "pt-0003",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8E",
+   "form": "000E8C",
    "world": "001DB8",
    "worldPlugin": "Dawnguard.esm",
    "pos": [
@@ -69,7 +69,7 @@
   {
    "id": "pt-0004",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E92",
+   "form": "000E90",
    "world": "001DB8",
    "worldPlugin": "Dawnguard.esm",
    "pos": [
@@ -84,7 +84,7 @@
   {
    "id": "pt-0005",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "001DB8",
    "worldPlugin": "Dawnguard.esm",
    "pos": [
@@ -99,7 +99,7 @@
   {
    "id": "pt-0006",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "001DB8",
    "worldPlugin": "Dawnguard.esm",
    "pos": [
@@ -114,7 +114,7 @@
   {
    "id": "pt-0007",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FF2",
+   "form": "000FEA",
    "world": "000800",
    "worldPlugin": "Dragonborn.esm",
    "pos": [
@@ -129,7 +129,7 @@
   {
    "id": "pt-0008",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016D71",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -144,7 +144,7 @@
   {
    "id": "pt-0009",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016D71",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -159,7 +159,7 @@
   {
    "id": "pt-0010",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016D71",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -174,7 +174,7 @@
   {
    "id": "pt-0011",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016D71",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -189,7 +189,7 @@
   {
    "id": "pt-0012",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016D71",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -204,7 +204,7 @@
   {
    "id": "pt-0013",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016D71",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -219,7 +219,7 @@
   {
    "id": "pt-0014",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016D71",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -234,7 +234,7 @@
   {
    "id": "pt-0015",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016BB4",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -249,7 +249,7 @@
   {
    "id": "pt-0016",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016BB4",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -264,7 +264,7 @@
   {
    "id": "pt-0017",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016BB4",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -279,7 +279,7 @@
   {
    "id": "pt-0018",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016BB4",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -294,7 +294,7 @@
   {
    "id": "pt-0019",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016BB4",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -309,7 +309,7 @@
   {
    "id": "pt-0020",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016BB4",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -324,7 +324,7 @@
   {
    "id": "pt-0021",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016BB4",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -339,7 +339,7 @@
   {
    "id": "pt-0022",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016BB4",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -354,7 +354,7 @@
   {
    "id": "pt-0023",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "016BB4",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -369,7 +369,7 @@
   {
    "id": "pt-0024",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "037EDF",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -384,7 +384,7 @@
   {
    "id": "pt-0025",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "037EDF",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -399,7 +399,7 @@
   {
    "id": "pt-0026",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "037EDF",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -414,7 +414,7 @@
   {
    "id": "pt-0027",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "037EDF",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -429,7 +429,7 @@
   {
    "id": "pt-0028",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "037EDF",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -444,7 +444,7 @@
   {
    "id": "pt-0029",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "037EDF",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -459,7 +459,7 @@
   {
    "id": "pt-0030",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "037EDF",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -474,7 +474,7 @@
   {
    "id": "pt-0031",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "037EDF",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -489,7 +489,7 @@
   {
    "id": "pt-0032",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "037EDF",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -639,7 +639,7 @@
   {
    "id": "pt-0042",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E91",
+   "form": "000E8F",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -654,7 +654,7 @@
   {
    "id": "pt-0043",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -669,7 +669,7 @@
   {
    "id": "pt-0044",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -684,7 +684,7 @@
   {
    "id": "pt-0045",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -699,7 +699,7 @@
   {
    "id": "pt-0046",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -714,7 +714,7 @@
   {
    "id": "pt-0047",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -729,7 +729,7 @@
   {
    "id": "pt-0048",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -744,7 +744,7 @@
   {
    "id": "pt-0049",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -759,7 +759,7 @@
   {
    "id": "pt-0050",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -774,7 +774,7 @@
   {
    "id": "pt-0051",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -864,7 +864,7 @@
   {
    "id": "pt-0057",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E7C",
+   "form": "000E7A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -879,7 +879,7 @@
   {
    "id": "pt-0058",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -894,7 +894,7 @@
   {
    "id": "pt-0059",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8D",
+   "form": "000E8B",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -909,7 +909,7 @@
   {
    "id": "pt-0060",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8D",
+   "form": "000E8B",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -924,7 +924,7 @@
   {
    "id": "pt-0061",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E90",
+   "form": "000E8E",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -984,7 +984,7 @@
   {
    "id": "pt-0065",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FE8",
+   "form": "000FE0",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1314,7 +1314,7 @@
   {
    "id": "pt-0087",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E7C",
+   "form": "000E7A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1374,7 +1374,7 @@
   {
    "id": "pt-0091",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E7C",
+   "form": "000E7A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1554,7 +1554,7 @@
   {
    "id": "pt-0103",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1569,7 +1569,7 @@
   {
    "id": "pt-0104",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1584,7 +1584,7 @@
   {
    "id": "pt-0105",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E93",
+   "form": "000E91",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1599,7 +1599,7 @@
   {
    "id": "pt-0106",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1674,7 +1674,7 @@
   {
    "id": "pt-0111",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E7C",
+   "form": "000E7A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1734,7 +1734,7 @@
   {
    "id": "pt-0115",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E7C",
+   "form": "000E7A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1749,7 +1749,7 @@
   {
    "id": "pt-0116",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1809,7 +1809,7 @@
   {
    "id": "pt-0120",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E91",
+   "form": "000E8F",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1824,7 +1824,7 @@
   {
    "id": "pt-0121",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1839,7 +1839,7 @@
   {
    "id": "pt-0122",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8D",
+   "form": "000E8B",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1854,7 +1854,7 @@
   {
    "id": "pt-0123",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1959,7 +1959,7 @@
   {
    "id": "pt-0130",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E90",
+   "form": "000E8E",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1974,7 +1974,7 @@
   {
    "id": "pt-0131",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -1989,7 +1989,7 @@
   {
    "id": "pt-0132",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8D",
+   "form": "000E8B",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2004,7 +2004,7 @@
   {
    "id": "pt-0133",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2124,7 +2124,7 @@
   {
    "id": "pt-0141",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FE8",
+   "form": "000FE0",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2139,7 +2139,7 @@
   {
    "id": "pt-0142",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FE8",
+   "form": "000FE0",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2154,7 +2154,7 @@
   {
    "id": "pt-0143",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2169,7 +2169,7 @@
   {
    "id": "pt-0144",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2184,7 +2184,7 @@
   {
    "id": "pt-0145",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2214,7 +2214,7 @@
   {
    "id": "pt-0147",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2229,7 +2229,7 @@
   {
    "id": "pt-0148",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2244,7 +2244,7 @@
   {
    "id": "pt-0149",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2289,7 +2289,7 @@
   {
    "id": "pt-0152",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FF2",
+   "form": "000FEA",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2304,7 +2304,7 @@
   {
    "id": "pt-0153",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FF2",
+   "form": "000FEA",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2319,7 +2319,7 @@
   {
    "id": "pt-0154",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FF2",
+   "form": "000FEA",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2349,7 +2349,7 @@
   {
    "id": "pt-0156",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2364,7 +2364,7 @@
   {
    "id": "pt-0157",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2379,7 +2379,7 @@
   {
    "id": "pt-0158",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2439,7 +2439,7 @@
   {
    "id": "pt-0162",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E92",
+   "form": "000E90",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2454,7 +2454,7 @@
   {
    "id": "pt-0163",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2469,7 +2469,7 @@
   {
    "id": "pt-0164",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8D",
+   "form": "000E8B",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2484,7 +2484,7 @@
   {
    "id": "pt-0165",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8E",
+   "form": "000E8C",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2544,7 +2544,7 @@
   {
    "id": "pt-0169",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8E",
+   "form": "000E8C",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2559,7 +2559,7 @@
   {
    "id": "pt-0170",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E92",
+   "form": "000E90",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2574,7 +2574,7 @@
   {
    "id": "pt-0171",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2589,7 +2589,7 @@
   {
    "id": "pt-0172",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2604,7 +2604,7 @@
   {
    "id": "pt-0173",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2619,7 +2619,7 @@
   {
    "id": "pt-0174",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8D",
+   "form": "000E8B",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2679,7 +2679,7 @@
   {
    "id": "pt-0178",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E90",
+   "form": "000E8E",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2694,7 +2694,7 @@
   {
    "id": "pt-0179",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2709,7 +2709,7 @@
   {
    "id": "pt-0180",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8E",
+   "form": "000E8C",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2724,7 +2724,7 @@
   {
    "id": "pt-0181",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2799,7 +2799,7 @@
   {
    "id": "pt-0186",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E7C",
+   "form": "000E7A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2814,7 +2814,7 @@
   {
    "id": "pt-0187",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E93",
+   "form": "000E91",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2829,7 +2829,7 @@
   {
    "id": "pt-0188",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2844,7 +2844,7 @@
   {
    "id": "pt-0189",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2859,7 +2859,7 @@
   {
    "id": "pt-0190",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8D",
+   "form": "000E8B",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2874,7 +2874,7 @@
   {
    "id": "pt-0191",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E7C",
+   "form": "000E7A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2889,7 +2889,7 @@
   {
    "id": "pt-0192",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2904,7 +2904,7 @@
   {
    "id": "pt-0193",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E91",
+   "form": "000E8F",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2919,7 +2919,7 @@
   {
    "id": "pt-0194",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2934,7 +2934,7 @@
   {
    "id": "pt-0195",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2949,7 +2949,7 @@
   {
    "id": "pt-0196",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8D",
+   "form": "000E8B",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2964,7 +2964,7 @@
   {
    "id": "pt-0197",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E93",
+   "form": "000E91",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2979,7 +2979,7 @@
   {
    "id": "pt-0198",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -2994,7 +2994,7 @@
   {
    "id": "pt-0199",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E93",
+   "form": "000E91",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3009,7 +3009,7 @@
   {
    "id": "pt-0200",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3024,7 +3024,7 @@
   {
    "id": "pt-0201",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3039,7 +3039,7 @@
   {
    "id": "pt-0202",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8D",
+   "form": "000E8B",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3054,7 +3054,7 @@
   {
    "id": "pt-0203",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E7C",
+   "form": "000E7A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3084,7 +3084,7 @@
   {
    "id": "pt-0205",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FE8",
+   "form": "000FE0",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3114,7 +3114,7 @@
   {
    "id": "pt-0207",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FE8",
+   "form": "000FE0",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3129,7 +3129,7 @@
   {
    "id": "pt-0208",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FE9",
+   "form": "000FE1",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3144,7 +3144,7 @@
   {
    "id": "pt-0209",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FE9",
+   "form": "000FE1",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3159,7 +3159,7 @@
   {
    "id": "pt-0210",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FE9",
+   "form": "000FE1",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3174,7 +3174,7 @@
   {
    "id": "pt-0211",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3189,7 +3189,7 @@
   {
    "id": "pt-0212",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3204,7 +3204,7 @@
   {
    "id": "pt-0213",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3219,7 +3219,7 @@
   {
    "id": "pt-0214",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3234,7 +3234,7 @@
   {
    "id": "pt-0215",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FE9",
+   "form": "000FE1",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3249,7 +3249,7 @@
   {
    "id": "pt-0216",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FE9",
+   "form": "000FE1",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3264,7 +3264,7 @@
   {
    "id": "pt-0217",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FE9",
+   "form": "000FE1",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3279,7 +3279,7 @@
   {
    "id": "pt-0218",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3294,7 +3294,7 @@
   {
    "id": "pt-0219",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3309,7 +3309,7 @@
   {
    "id": "pt-0220",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3324,7 +3324,7 @@
   {
    "id": "pt-0221",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E94",
+   "form": "000E92",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3339,7 +3339,7 @@
   {
    "id": "pt-0222",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3354,7 +3354,7 @@
   {
    "id": "pt-0223",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E91",
+   "form": "000E8F",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3369,7 +3369,7 @@
   {
    "id": "pt-0224",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3384,7 +3384,7 @@
   {
    "id": "pt-0225",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8E",
+   "form": "000E8C",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3399,7 +3399,7 @@
   {
    "id": "pt-0226",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E92",
+   "form": "000E90",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3414,7 +3414,7 @@
   {
    "id": "pt-0227",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8F",
+   "form": "000E8D",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3429,7 +3429,7 @@
   {
    "id": "pt-0228",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3444,7 +3444,7 @@
   {
    "id": "pt-0229",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E7C",
+   "form": "000E7A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3459,7 +3459,7 @@
   {
    "id": "pt-0230",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E7C",
+   "form": "000E7A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3474,7 +3474,7 @@
   {
    "id": "pt-0231",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E90",
+   "form": "000E8E",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3489,7 +3489,7 @@
   {
    "id": "pt-0232",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8C",
+   "form": "000E8A",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3504,7 +3504,7 @@
   {
    "id": "pt-0233",
    "plugin": "ITB Wildlife.esp",
-   "form": "000E8D",
+   "form": "000E8B",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3519,7 +3519,7 @@
   {
    "id": "pt-0234",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD8",
+   "form": "000FD0",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3534,7 +3534,7 @@
   {
    "id": "pt-0235",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD8",
+   "form": "000FD0",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3549,7 +3549,7 @@
   {
    "id": "pt-0236",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD8",
+   "form": "000FD0",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3564,7 +3564,7 @@
   {
    "id": "pt-0237",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD8",
+   "form": "000FD0",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3579,7 +3579,7 @@
   {
    "id": "pt-0238",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "01A26F",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3594,7 +3594,7 @@
   {
    "id": "pt-0239",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "01A26F",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3609,7 +3609,7 @@
   {
    "id": "pt-0240",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "01A26F",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3624,7 +3624,7 @@
   {
    "id": "pt-0241",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "01A26F",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3639,7 +3639,7 @@
   {
    "id": "pt-0242",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "01A26F",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3654,7 +3654,7 @@
   {
    "id": "pt-0243",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "01A26F",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3669,7 +3669,7 @@
   {
    "id": "pt-0244",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "01A26F",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3684,7 +3684,7 @@
   {
    "id": "pt-0245",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "01A26F",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3699,7 +3699,7 @@
   {
    "id": "pt-0246",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "01A26F",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3714,7 +3714,7 @@
   {
    "id": "pt-0247",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "01A26F",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3729,7 +3729,7 @@
   {
    "id": "pt-0248",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD8",
+   "form": "000FD0",
    "world": "01691D",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3744,7 +3744,7 @@
   {
    "id": "pt-0249",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD8",
+   "form": "000FD0",
    "world": "01691D",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3759,7 +3759,7 @@
   {
    "id": "pt-0250",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD8",
+   "form": "000FD0",
    "world": "01691D",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3774,7 +3774,7 @@
   {
    "id": "pt-0251",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD8",
+   "form": "000FD0",
    "world": "01691D",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3789,7 +3789,7 @@
   {
    "id": "pt-0252",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD8",
+   "form": "000FD0",
    "world": "01691D",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3804,7 +3804,7 @@
   {
    "id": "pt-0253",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD8",
+   "form": "000FD0",
    "world": "01691D",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3819,7 +3819,7 @@
   {
    "id": "pt-0254",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD6",
+   "form": "000FCE",
    "world": "01691D",
    "worldPlugin": "Skyrim.esm",
    "pos": [
@@ -3834,7 +3834,7 @@
   {
    "id": "pt-0255",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FD8",
+   "form": "000FD0",
    "world": "01691D",
    "worldPlugin": "Skyrim.esm",
    "pos": [

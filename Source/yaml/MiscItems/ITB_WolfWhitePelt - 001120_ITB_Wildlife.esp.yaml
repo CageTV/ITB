@@ -1,0 +1,12 @@
+FormKey: 001120:ITB_Wildlife.esp
+EditorID: ITB_WolfWhitePelt
+Name:
+  TargetLanguage: English
+  Value: White Wolf Pelt
+Model:
+  File: itb\fauna\wolfpelts\wolfpelts_b8456e70.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0914EA:Skyrim.esm
+Value: 30
+Weight: 1

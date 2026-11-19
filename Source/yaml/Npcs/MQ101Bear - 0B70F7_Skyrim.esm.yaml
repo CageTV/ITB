@@ -42,9 +42,6 @@ Perks:
 - Perk: 109C1B:Skyrim.esm
   Rank: 1
   Fluff: 0x000000
-- Perk: 0FAB0A:ccBGSSSE037-Curios.esl
-  Rank: 1
-  Fluff: 0x000000
 AIData:
   Aggression: Aggressive
   Confidence: Foolhardy

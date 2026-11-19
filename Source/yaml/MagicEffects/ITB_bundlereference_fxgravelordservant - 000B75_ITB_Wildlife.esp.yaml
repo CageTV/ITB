@@ -10,8 +10,8 @@ Flags:
 - NoArea
 - FXPersist
 - PowerAffectsMagnitude
-HitShader: 001067:ITB_Wildlife.esp
-EnchantShader: 001067:ITB_Wildlife.esp
+HitShader: 00105F:ITB_Wildlife.esp
+EnchantShader: 00105F:ITB_Wildlife.esp
 Archetype:
   MutagenObjectType: MagicEffectArchetype
   Type: Script

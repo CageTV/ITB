@@ -8,15 +8,12 @@ Description:
   Value: ''
 ActorEffect:
 - 0F2595:Skyrim.esm
-- 0405CC:ccBGSSSE037-Curios.esl
 Skin: 048D94:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
 Keywords:
 - 013795:Skyrim.esm
-- 586728:ccBGSSSE037-Curios.esl
-- 5F367F:ccBGSSSE037-Curios.esl
 SkillBoost0:
   Skill: 255
 SkillBoost1:

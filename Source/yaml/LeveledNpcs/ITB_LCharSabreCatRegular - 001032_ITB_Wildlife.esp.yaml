@@ -1,0 +1,33 @@
+FormKey: 001032:ITB_Wildlife.esp
+EditorID: ITB_LCharSabreCatRegular
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+Entries:
+- Data:
+    Level: 1
+    Reference: 023AB5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023AB5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023AB5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023AB5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F47:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F47:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F49:ITB_Wildlife.esp
+    Count: 1

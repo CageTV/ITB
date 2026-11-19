@@ -146,7 +146,7 @@ BehaviorGraph:
     File: Actors\IceWraith\IceWraithProject.hkx
     Data: 0x020000000000000000000000
 MaterialType: 012F3F:Skyrim.esm
-ImpactDataSet: 0010AA:ITB_Wildlife.esp
+ImpactDataSet: 0010A2:ITB_Wildlife.esp
 OpenLootSound: 0A5013:Skyrim.esm
 CloseLootSound: 0A5014:Skyrim.esm
 BipedObjectNames:

@@ -9,8 +9,6 @@ Description:
 ActorEffect:
 - 04CCF9:Skyrim.esm
 - 10C042:Skyrim.esm
-- 03281A:ccBGSSSE037-Curios.esl
-- 0405CC:ccBGSSSE037-Curios.esl
 - 000BA5:ITB_Wildlife.esp
 Skin: 03636F:Skyrim.esm
 BodyTemplate:
@@ -19,7 +17,6 @@ BodyTemplate:
 Keywords:
 - 013795:Skyrim.esm
 - 013798:Skyrim.esm
-- 5F367F:ccBGSSSE037-Curios.esl
 SkillBoost0:
   Skill: 255
 SkillBoost1:

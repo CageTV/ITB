@@ -41,10 +41,6 @@ ActorEffect:
 - 0E0FBD:Skyrim.esm
 WornArmor: 048C0E:Skyrim.esm
 AttackRace: 04E507:Skyrim.esm
-Perks:
-- Perk: 03DFD0:ccBGSSSE037-Curios.esl
-  Rank: 1
-  Fluff: 0x000000
 AIData:
   Aggression: VeryAggressive
   Confidence: Brave

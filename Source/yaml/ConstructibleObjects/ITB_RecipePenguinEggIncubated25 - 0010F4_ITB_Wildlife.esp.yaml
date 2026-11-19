@@ -1,9 +1,0 @@
-FormKey: 0010F4:ITB_Wildlife.esp
-EditorID: ITB_RecipePenguinEggIncubated25
-Items:
-- Item:
-    Item: 0010D7:ITB_Wildlife.esp
-    Count: 12
-CreatedObject: 0010D9:ITB_Wildlife.esp
-WorkbenchKeyword: 088105:Skyrim.esm
-CreatedObjectCount: 25

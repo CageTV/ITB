@@ -1,0 +1,22 @@
+FormKey: 001036:ITB_Wildlife.esp
+EditorID: ITB_LCharSkeleton2H
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 02D1E0:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000EB0:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000ECE:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000EE0:ITB_Wildlife.esp
+    Count: 1

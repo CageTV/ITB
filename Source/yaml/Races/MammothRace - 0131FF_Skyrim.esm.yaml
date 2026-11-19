@@ -9,7 +9,6 @@ Description:
 ActorEffect:
 - 0B556B:Skyrim.esm
 - 10C042:Skyrim.esm
-- 0405CC:ccBGSSSE037-Curios.esl
 - 000BA1:ITB_Wildlife.esp
 - 000BA3:ITB_Wildlife.esp
 - 000BA8:ITB_Wildlife.esp
@@ -24,7 +23,6 @@ Keywords:
 - 013795:Skyrim.esm
 - 013798:Skyrim.esm
 - 0F23C5:Skyrim.esm
-- 586728:ccBGSSSE037-Curios.esl
 SkillBoost0:
   Skill: 255
 SkillBoost1:
@@ -106,7 +104,6 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.5
-    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     AttackAngle: 20
     StrikeAngle: 45
     Stagger: 1
@@ -115,7 +112,6 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.5
-    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     AttackAngle: -20
     StrikeAngle: 45
     Stagger: 1
@@ -124,7 +120,6 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.75
-    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     Flags:
     - RotatingAttack
     AttackAngle: -90
@@ -135,7 +130,6 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.75
-    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     Flags:
     - RotatingAttack
     AttackAngle: 90
@@ -146,7 +140,6 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 0.7
-    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     Flags:
     - PowerAttack
     StrikeAngle: 30
@@ -156,7 +149,6 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 0.7
-    Spell: 75CD1F:ccBGSSSE037-Curios.esl
     Flags:
     - PowerAttack
     StrikeAngle: 30

@@ -64,48 +64,48 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 0018AE:ITB_Wildlife.esp
-  Base: 000E79:ITB_Wildlife.esp
+  FormKey: 0018A4:ITB_Wildlife.esp
+  Base: 000E77:ITB_Wildlife.esp
   Owner: 0284B8:Skyrim.esm
   Placement:
     Position: 32232.557, 26397.79, -6702.535
 - MutagenObjectType: PlacedNpc
-  FormKey: 0018AF:ITB_Wildlife.esp
-  Base: 000E7B:ITB_Wildlife.esp
+  FormKey: 0018A5:ITB_Wildlife.esp
+  Base: 000E79:ITB_Wildlife.esp
   Owner: 0284B8:Skyrim.esm
   Placement:
     Position: 32077.484, 26509.197, -6693.668
 - MutagenObjectType: PlacedNpc
-  FormKey: 0018B0:ITB_Wildlife.esp
-  Base: 000E6E:ITB_Wildlife.esp
+  FormKey: 0018A6:ITB_Wildlife.esp
+  Base: 000E6C:ITB_Wildlife.esp
   Owner: 0284B8:Skyrim.esm
   Placement:
     Position: 32308.775, 26853.5, -6666.127
 - MutagenObjectType: PlacedNpc
-  FormKey: 0018B1:ITB_Wildlife.esp
-  Base: 000E6F:ITB_Wildlife.esp
+  FormKey: 0018A7:ITB_Wildlife.esp
+  Base: 000E6D:ITB_Wildlife.esp
   Owner: 0284B8:Skyrim.esm
   Placement:
     Position: 32216.84, 26921.648, -6677.5522
 - MutagenObjectType: PlacedNpc
-  FormKey: 0018B2:ITB_Wildlife.esp
-  Base: 000E70:ITB_Wildlife.esp
+  FormKey: 0018A8:ITB_Wildlife.esp
+  Base: 000E6E:ITB_Wildlife.esp
   Owner: 0284B8:Skyrim.esm
   Placement:
     Position: 32259.496, 26924.133, -6680
 - MutagenObjectType: PlacedNpc
-  FormKey: 0018B3:ITB_Wildlife.esp
-  Base: 000F16:ITB_Wildlife.esp
+  FormKey: 0018A9:ITB_Wildlife.esp
+  Base: 000F14:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 0018AF:ITB_Wildlife.esp
+  - Reference: 0018A5:ITB_Wildlife.esp
   Placement:
     Position: 31928.985, 26530.365, -6685.668
     Rotation: 0, 0, 3.0000
 - MutagenObjectType: PlacedNpc
-  FormKey: 0018B4:ITB_Wildlife.esp
-  Base: 000E68:ITB_Wildlife.esp
+  FormKey: 0018AA:ITB_Wildlife.esp
+  Base: 000E66:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 0018B1:ITB_Wildlife.esp
+  - Reference: 0018A7:ITB_Wildlife.esp
   Placement:
     Position: 32259.389, 26777.809, -6669.552
     Rotation: 0, 0, 5.0000

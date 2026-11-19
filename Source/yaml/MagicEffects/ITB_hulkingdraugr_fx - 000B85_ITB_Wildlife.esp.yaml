@@ -6,10 +6,10 @@ VirtualMachineAdapter:
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: DraugrFemaleEyeGlowFX
-      Object: 0010B5:ITB_Wildlife.esp
+      Object: 0010AD:ITB_Wildlife.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: DraugrMaleEyeGlowFX
-      Object: 0010B6:ITB_Wildlife.esp
+      Object: 0010AE:ITB_Wildlife.esp
 Name:
   TargetLanguage: English
   Value: Draugr Glow Eyes

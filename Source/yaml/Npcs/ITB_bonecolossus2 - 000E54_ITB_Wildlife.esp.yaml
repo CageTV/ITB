@@ -1,0 +1,143 @@
+FormKey: 000E54:ITB_Wildlife.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: ITB_bonecolossus2
+SkyrimMajorRecordFlags:
+- Compressed
+Configuration:
+  Flags:
+  - Respawn
+  - AutoCalcStats
+  - Protected
+  - LoopedAudio
+  StaminaOffset: 100
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 1
+  CalcMinLevel: 35
+  CalcMaxLevel: 44
+  SpeedMultiplier: 130
+  DispositionBase: 35
+Factions:
+- Faction: 02430D:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02D1DF:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 04359E:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 106643:Skyrim.esm
+  Fluff: 0x000000
+Voice: 0BFB2B:Skyrim.esm
+Race: 0008B9:ITB_Wildlife.esp
+WornArmor: 000C4F:ITB_Wildlife.esp
+AttackRace: 0008B9:ITB_Wildlife.esp
+Items:
+- Item:
+    Item: 00103E:ITB_Wildlife.esp
+    Count: 5
+- Item:
+    Item: 00000F:Skyrim.esm
+    Count: 120
+- Item:
+    Item: 03AD5B:Skyrim.esm
+    Count: 1
+AIData:
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  AggroRadiusBehavior: True
+  Attack: 1500
+Class: 03183A:Dragonborn.esm
+Name:
+  TargetLanguage: English
+  Value: The Guardian of the Tower
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 15
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 47
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 100
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 61
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 33
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 61
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 47
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 946
+  Magicka: 15
+  Stamina: 314
+  GearedUpWeapons: 1
+CombatStyle: 01E113:Dragonborn.esm
+NAM5: 255
+Height: 0.7
+Weight: 50
+SoundLevel: Normal
+Sound:
+  MutagenObjectType: NpcInheritSound
+  InheritsSoundsFrom: 000E5B:ITB_Wildlife.esp
+DefaultPackageList: 021E81:Skyrim.esm
+TextureLighting: '#007E7E7E'
+MajorFlags:
+- 0x40000
