@@ -1,0 +1,284 @@
+FormKey: 000975:ITB_Wildlife.esp
+EditorID: ITB_GroupUpTemplate
+Type: PackageTemplate
+Unknown: 49
+InterruptFlags:
+- HellosToPlayer
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- WorldInteractions
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetDeadConditionData
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInInteriorConditionData
+DataInputVersion: 6
+Data:
+- Key: 15
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: Destination
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearSelf
+      Radius: 8192
+- Key: 16
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: TargetSelector
+    Flags:
+    - Public
+    Target:
+      MutagenObjectType: PackageTargetObjectID
+      Reference: 000013:Skyrim.esm
+- Key: 18
+  Value:
+    MutagenObjectType: PackageDataInt
+    Name: Int
+    Flags:
+    - Public
+    Data: 1
+- Key: 21
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Name: target
+    Flags:
+    - Public
+    Data: 4096
+- Key: 22
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: MinRadius
+    Flags:
+    - Public
+    Data: 300
+- Key: 24
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Randomize
+    Flags:
+    - Public
+    Data: True
+- Key: 26
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: SearchInventory
+    Flags:
+    - Public
+- Key: 28
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: RideHorse?
+    Flags:
+    - Public
+- Key: 30
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: PrefferedPath?
+    Flags:
+    - Public
+- Key: 32
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Leader?
+    Flags:
+    - Public
+- Key: 34
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: LOS?
+    Flags:
+    - Public
+- Key: 48
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: Minimum Distance
+    Flags:
+    - Public
+    Data: 2048
+- Key: 0
+  Value:
+    MutagenObjectType: APackageData
+    Name: Target to Follow
+    Flags:
+    - Public
+- Key: 1
+  Value:
+    MutagenObjectType: APackageData
+    Name: 'Min Radius:'
+    Flags:
+    - Public
+- Key: 2
+  Value:
+    MutagenObjectType: APackageData
+    Name: 'Max Radius:'
+    Flags:
+    - Public
+- Key: 4
+  Value:
+    MutagenObjectType: APackageData
+    Name: Accompany?
+    Flags:
+    - Public
+- Key: 6
+  Value:
+    MutagenObjectType: APackageData
+    Name: Ride Horse?
+    Flags:
+    - Public
+- Key: 8
+  Value:
+    MutagenObjectType: APackageData
+    Name: Need LOS?
+    Flags:
+    - Public
+- Key: 9
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+- Key: 10
+  Value:
+    MutagenObjectType: APackageData
+    Name: TargetSelector
+    Flags:
+    - Public
+- Key: 12
+  Value:
+    MutagenObjectType: APackageData
+    Name: MinRadius
+    Flags:
+    - Public
+- Key: 13
+  Value:
+    MutagenObjectType: APackageData
+    Name: target
+    Flags:
+    - Public
+- Key: 14
+  Value:
+    MutagenObjectType: APackageData
+    Name: <none>
+    Flags:
+    - Public
+- Key: 20
+  Value:
+    MutagenObjectType: APackageData
+    Name: MinRadius
+    Flags:
+    - Public
+- Key: 36
+  Value:
+    MutagenObjectType: APackageData
+    Name: StopMovement
+    Flags:
+    - Public
+- Key: 38
+  Value:
+    MutagenObjectType: APackageData
+    Name: ActualSeconds
+    Flags:
+    - Public
+- Key: 40
+  Value:
+    MutagenObjectType: APackageData
+    Name: MinimumWander
+    Flags:
+    - Public
+- Key: 42
+  Value:
+    MutagenObjectType: APackageData
+    Name: SandboxTrue
+    Flags:
+    - Public
+- Key: 44
+  Value:
+    MutagenObjectType: APackageData
+    Name: SandboxFalse
+    Flags:
+    - Public
+- Key: 46
+  Value:
+    MutagenObjectType: APackageData
+    Name: Energy
+    Flags:
+    - Public
+XnamMarker: 0x31
+ProcedureTree:
+- BranchType: Sequence
+  Root:
+    BranchCount: 3
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Travel
+  Flags: []
+  DataInputIndices:
+  - 15
+  - 28
+  - 30
+  Unknown: []
+- BranchType: Simultaneous
+  Root:
+    BranchCount: 2
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Find
+  Flags: []
+  DataInputIndices:
+  - 15
+  - 16
+  - 21
+  - 26
+  - 24
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Wander
+  Flags: []
+  DataInputIndices:
+  - 15
+  - 30
+  - 28
+  - 48
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Follow
+  Flags: []
+  DataInputIndices:
+  - 21
+  - 22
+  - 22
+  - 32
+  - 28
+  - 34
+  Unknown: []
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

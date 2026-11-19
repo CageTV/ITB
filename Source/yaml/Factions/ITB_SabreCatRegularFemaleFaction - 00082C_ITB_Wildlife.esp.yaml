@@ -1,0 +1,20 @@
+FormKey: 00082C:ITB_Wildlife.esp
+EditorID: ITB_SabreCatRegularFemaleFaction
+Name:
+  TargetLanguage: English
+  Value: SabreCat Female Faction
+Relations:
+- Target: 00082C:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

@@ -1,0 +1,22 @@
+FormKey: 000821:ITB_Wildlife.esp
+EditorID: ITB_HorseWildFaction
+Name:
+  TargetLanguage: English
+  Value: Horse Wild Faction
+Relations:
+- Target: 000820:ITB_Wildlife.esp
+  Reaction: Friend
+- Target: 000821:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

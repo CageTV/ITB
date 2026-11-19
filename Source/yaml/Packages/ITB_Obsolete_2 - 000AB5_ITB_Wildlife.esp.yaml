@@ -1,0 +1,403 @@
+FormKey: 000AB5:ITB_Wildlife.esp
+EditorID: ITB_Obsolete_2
+Type: Package
+PreferredSpeed: Run
+Unknown: 121
+InterruptFlags:
+- ObserveCombatBehavior
+- AggroRadiusBehavior
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInInteriorConditionData
+DataInputVersion: 7
+Data:
+- Key: 54
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Name: Fear Monster
+    Flags:
+    - Public
+    Data: 768
+- Key: 49
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: Flee Location
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationCell
+        Link: 0151F6:Skyrim.esm
+- Key: 60
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: Flee Location2
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationCell
+        Link: 0AC5D2:Skyrim.esm
+- Key: 52
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: Fear Distance
+    Flags:
+    - Public
+    Data: 512
+- Key: 51
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: False
+    Flags:
+    - Public
+- Key: 56
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: TRUE
+    Flags:
+    - Public
+    Data: True
+- Key: 0
+  Value:
+    MutagenObjectType: APackageData
+    Name: Flee From?
+    Flags: []
+- Key: 1
+  Value:
+    MutagenObjectType: APackageData
+    Name: Distance to Flee
+    Flags:
+    - Public
+- Key: 3
+  Value:
+    MutagenObjectType: APackageData
+    Name: Flee To Location
+    Flags: []
+- Key: 4
+  Value:
+    MutagenObjectType: APackageData
+    Name: Avoid-node Radius
+    Flags: []
+- Key: 6
+  Value:
+    MutagenObjectType: APackageData
+    Name: Found Dragon
+    Flags: []
+- Key: 7
+  Value:
+    MutagenObjectType: APackageData
+    Name: Flee Undead
+    Flags:
+    - Public
+- Key: 8
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+- Key: 9
+  Value:
+    MutagenObjectType: APackageData
+    Name: RideHorseIfPossible
+    Flags:
+    - Public
+- Key: 10
+  Value:
+    MutagenObjectType: APackageData
+    Name: SearchLocation
+    Flags:
+    - Public
+- Key: 11
+  Value:
+    MutagenObjectType: APackageData
+    Name: TargetSelector
+    Flags:
+    - Public
+- Key: 12
+  Value:
+    MutagenObjectType: APackageData
+    Name: ObjectList
+    Flags:
+    - Public
+- Key: 13
+  Value:
+    MutagenObjectType: APackageData
+    Name: SearchOwnInventory
+    Flags: []
+- Key: 15
+  Value:
+    MutagenObjectType: APackageData
+    Name: Forget dead threats
+    Flags:
+    - Public
+- Key: 17
+  Value:
+    MutagenObjectType: APackageData
+    Name: Quiet
+    Flags:
+    - Public
+- Key: 19
+  Value:
+    MutagenObjectType: APackageData
+    Name: False
+    Flags: []
+- Key: 21
+  Value:
+    MutagenObjectType: APackageData
+    Name: Flee Dragon
+    Flags:
+    - Public
+- Key: 23
+  Value:
+    MutagenObjectType: APackageData
+    Name: Flee Troll
+    Flags:
+    - Public
+- Key: 25
+  Value:
+    MutagenObjectType: APackageData
+    Name: Flee Giant
+    Flags:
+    - Public
+- Key: 27
+  Value:
+    MutagenObjectType: APackageData
+    Name: Flee Spells
+    Flags:
+    - Public
+- Key: 29
+  Value:
+    MutagenObjectType: APackageData
+    Name: Flee Torch
+    Flags:
+    - Public
+- Key: 31
+  Value:
+    MutagenObjectType: APackageData
+    Name: Flee Daedra
+    Flags:
+    - Public
+- Key: 34
+  Value:
+    MutagenObjectType: APackageData
+    Name: Found Giant
+    Flags:
+    - Public
+- Key: 36
+  Value:
+    MutagenObjectType: APackageData
+    Name: Found Troll
+    Flags:
+    - Public
+- Key: 38
+  Value:
+    MutagenObjectType: APackageData
+    Name: Found Undead
+    Flags:
+    - Public
+- Key: 40
+  Value:
+    MutagenObjectType: APackageData
+    Name: Found Dremora
+    Flags:
+    - Public
+- Key: 42
+  Value:
+    MutagenObjectType: APackageData
+    Name: Found Spells
+    Flags:
+    - Public
+- Key: 44
+  Value:
+    MutagenObjectType: APackageData
+    Name: Found Torch
+    Flags:
+    - Public
+- Key: 46
+  Value:
+    MutagenObjectType: APackageData
+    Name: TRUE
+    Flags:
+    - Public
+- Key: 47
+  Value:
+    MutagenObjectType: APackageData
+    Name: SearchLocation
+    Flags:
+    - Public
+- Key: 48
+  Value:
+    MutagenObjectType: APackageData
+    Name: TargetSelector
+    Flags:
+    - Public
+- Key: 50
+  Value:
+    MutagenObjectType: APackageData
+    Name: TargetSelector
+    Flags:
+    - Public
+- Key: 58
+  Value:
+    MutagenObjectType: APackageData
+    Name: Flee Location 2
+    Flags:
+    - Public
+XnamMarker: 0x3D
+ProcedureTree:
+- BranchType: Sequence
+  Root:
+    BranchCount: 1
+  Unknown: []
+- BranchType: Sequence
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 0C44B6:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 02482B:Skyrim.esm
+  Root:
+    BranchCount: 1
+  Unknown: []
+- BranchType: Random
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      RunOnType: CombatTarget
+      Race: 012E82:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      RunOnType: CombatTarget
+      Race: 0131F9:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      RunOnType: CombatTarget
+      Race: 013205:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      RunOnType: CombatTarget
+      Race: 013206:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      RunOnType: CombatTarget
+      Race: 0131F0:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      RunOnType: CombatTarget
+      Race: 000D53:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      RunOnType: CombatTarget
+      Race: 0F71DC:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      RunOnType: CombatTarget
+      Race: 0EB872:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      RunOnType: CombatTarget
+      Race: 0B7998:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      RunOnType: CombatTarget
+      Race: 0EBE18:Skyrim.esm
+    ComparisonValue: 1
+  Root:
+    BranchCount: 2
+  Unknown: []
+- BranchType: Sequence
+  Root:
+    BranchCount: 1
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Flee
+  Flags: []
+  DataInputIndices:
+  - 54
+  - 49
+  - 51
+  - 52
+  - 52
+  - 52
+  - 51
+  - 56
+  - 51
+  - 56
+  Unknown: []
+- BranchType: Sequence
+  Root:
+    BranchCount: 1
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Flee
+  Flags: []
+  DataInputIndices:
+  - 54
+  - 60
+  - 51
+  - 52
+  - 52
+  - 52
+  - 51
+  - 56
+  - 51
+  - 56
+  Unknown: []
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

@@ -1,0 +1,11 @@
+FormKey: 000820:ITB_Wildlife.esp
+EditorID: ITB_HorseCivFaction
+Relations:
+- Target: 000820:ITB_Wildlife.esp
+  Reaction: Ally
+- Target: 000821:ITB_Wildlife.esp
+  Reaction: Friend
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

@@ -1,0 +1,20 @@
+FormKey: 000809:ITB_Wildlife.esp
+EditorID: ITB_BearBlackFaction
+Name:
+  TargetLanguage: English
+  Value: Bear Black Faction
+Relations:
+- Target: 000809:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

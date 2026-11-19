@@ -1,0 +1,17 @@
+FormKey: 000808:ITB_Wildlife.esp
+EditorID: ITB_AnimalsFaction
+Name:
+  TargetLanguage: English
+  Value: Animal Faction
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

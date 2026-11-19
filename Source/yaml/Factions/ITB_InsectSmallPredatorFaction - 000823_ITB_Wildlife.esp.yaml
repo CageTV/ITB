@@ -1,0 +1,14 @@
+FormKey: 000823:ITB_Wildlife.esp
+EditorID: ITB_InsectSmallPredatorFaction
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

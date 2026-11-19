@@ -1,0 +1,63 @@
+FormKey: 000849:ITB_Wildlife.esp
+EditorID: ITB_Boar
+Name:
+  TargetLanguage: English
+  Value: Boar Faction
+Relations:
+- Target: 02997E:Skyrim.esm
+  Reaction: Enemy
+- Target: 02997F:Skyrim.esm
+  Reaction: Friend
+- Target: 0330B1:Skyrim.esm
+  Reaction: Friend
+- Target: 03C9A8:Skyrim.esm
+  Reaction: Enemy
+- Target: 03E691:Skyrim.esm
+  Reaction: Friend
+- Target: 043594:Skyrim.esm
+  Reaction: Enemy
+- Target: 04359A:Skyrim.esm
+  Reaction: Enemy
+- Target: 04359D:Skyrim.esm
+  Reaction: Enemy
+- Target: 04359E:Skyrim.esm
+  Reaction: Enemy
+- Target: 04359F:Skyrim.esm
+  Reaction: Enemy
+- Target: 0435A1:Skyrim.esm
+  Reaction: Enemy
+- Target: 0435A2:Skyrim.esm
+  Reaction: Enemy
+- Target: 0B2849:Skyrim.esm
+  Reaction: Friend
+- Target: 0FBBF3:Skyrim.esm
+  Reaction: Enemy
+- Target: 01D9C9:Dragonborn.esm
+  Reaction: Ally
+- Target: 02507C:Dragonborn.esm
+  Reaction: Friend
+- Target: 000848:ITB_Wildlife.esp
+  Reaction: Enemy
+- Target: 000849:ITB_Wildlife.esp
+  Reaction: Ally
+- Target: 000850:ITB_Wildlife.esp
+  Reaction: Friend
+- Target: 00084C:ITB_Wildlife.esp
+  Reaction: Enemy
+- Target: 00084D:ITB_Wildlife.esp
+  Reaction: Friend
+- Target: 000851:ITB_Wildlife.esp
+  Reaction: Friend
+- Target: 00084A:ITB_Wildlife.esp
+  Reaction: Enemy
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

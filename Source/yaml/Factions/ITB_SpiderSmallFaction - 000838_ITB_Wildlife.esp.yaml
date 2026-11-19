@@ -1,0 +1,20 @@
+FormKey: 000838:ITB_Wildlife.esp
+EditorID: ITB_SpiderSmallFaction
+Name:
+  TargetLanguage: English
+  Value: Spider Small Faction
+Relations:
+- Target: 000838:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- DoNotReportCrimesAgainstMembers
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

@@ -1,0 +1,19 @@
+FormKey: 00084B:ITB_Wildlife.esp
+EditorID: ITB_DeathHound
+Name:
+  TargetLanguage: English
+  Value: Death Hound Faction
+Relations:
+- Target: 00084B:ITB_Wildlife.esp
+  Reaction: Ally
+Flags:
+- IgnoreMurder
+- IgnoreAssault
+- IgnoreStealing
+- IgnoreTrespass
+- IgnorePickpocket
+- IgnoreWerewolf
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}
