@@ -1,0 +1,13 @@
+FormKey: 000E1C:ITB_Wildlife.esp
+EditorID: ITB_DeathItemPenguin
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 000E32:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00106B:ITB_Wildlife.esp
+    Count: 1

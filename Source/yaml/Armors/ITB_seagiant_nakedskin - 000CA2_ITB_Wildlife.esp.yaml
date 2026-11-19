@@ -1,0 +1,18 @@
+FormKey: 000CA2:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_seagiant_nakedskin
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000906:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000DF8:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

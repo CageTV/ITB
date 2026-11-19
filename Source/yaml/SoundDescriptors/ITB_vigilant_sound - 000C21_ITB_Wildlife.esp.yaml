@@ -1,0 +1,11 @@
+FormKey: 000C21:ITB_Wildlife.esp
+EditorID: ITB_vigilant_sound
+Type: Standard
+Category: 0DDDC5:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\watcher\watcher_22282011.wav
+OutputModel: 0E322C:Skyrim.esm
+LoopAndRumble:
+  Loop: Loop
+PercentFrequencyVariance: 3
+Priority: 1

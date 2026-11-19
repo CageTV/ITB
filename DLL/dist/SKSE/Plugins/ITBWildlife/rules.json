@@ -7494,5 +7494,98 @@
    "list": "ITB Wildlife.esp|0008A6",
    "_name": "ITB_Wolf"
   }
+ ],
+ "ingestible_effects": [
+  {
+   "form": "ITB Wildlife.esp|001077",
+   "effects": [
+    "Update.esm|002EE1"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|001078",
+   "effects": [
+    "Update.esm|002EE3"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|001079",
+   "effects": [
+    "Update.esm|002EE4"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|001069",
+   "effects": [
+    "Update.esm|002EE2"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|00106A",
+   "effects": [
+    "Update.esm|002EE4"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|001072",
+   "effects": [
+    "Update.esm|002EE3"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|00102F",
+   "effects": [
+    "Update.esm|002EE1"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|001030",
+   "effects": [
+    "Update.esm|002EE1"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|001031",
+   "effects": [
+    "Update.esm|002EE3"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|001073",
+   "effects": [
+    "Update.esm|002EE1"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|001074",
+   "effects": [
+    "Update.esm|002EE3"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|0010BA",
+   "effects": [
+    "Update.esm|002EE1"
+   ]
+  },
+  {
+   "form": "ITB Wildlife.esp|0010B9",
+   "effects": [
+    "Update.esm|002EE3"
+   ]
+  }
+ ],
+ "formlist_add": [
+  {
+   "list": "ccQDRSSE001-SurvivalMode.esl|0008B0",
+   "items": [
+    "ITB Wildlife.esp|001077",
+    "ITB Wildlife.esp|001069",
+    "ITB Wildlife.esp|00102F",
+    "ITB Wildlife.esp|001030",
+    "ITB Wildlife.esp|001073",
+    "ITB Wildlife.esp|0010BA"
+   ]
+  }
  ]
 }

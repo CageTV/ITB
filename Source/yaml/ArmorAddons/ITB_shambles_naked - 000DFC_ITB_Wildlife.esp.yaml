@@ -1,0 +1,23 @@
+FormKey: 000DFC:ITB_Wildlife.esp
+EditorID: ITB_shambles_naked
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 00090B:ITB_Wildlife.esp
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: itb\fauna\frost_atronach\frost_atronach_3e364e7e.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: itb\fauna\frost_atronach\frost_atronach_8440a174.nif
+    Data: 0x020000000000000000000000
+FootstepSound: 0BFB28:Skyrim.esm

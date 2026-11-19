@@ -28,7 +28,7 @@ DeathItem: 03AD8D:Skyrim.esm
 Voice: 01F22A:Skyrim.esm
 Race: 0131FA:Skyrim.esm
 ActorEffect:
-- 000BA2:ITB_Wildlife.esp
+- 000BA5:ITB_Wildlife.esp
 WornArmor: 06F278:Skyrim.esm
 AIData:
   EnergyLevel: 50

@@ -6,7 +6,7 @@ Name:
 Description:
   TargetLanguage: English
   Value: ''
-Skin: 000D00:ITB_Wildlife.esp
+Skin: 000D03:ITB_Wildlife.esp
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True

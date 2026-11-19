@@ -1,0 +1,5 @@
+FormKey: 001051:ITB_Wildlife.esp
+EditorID: ITB_dragonling_wings_art
+EffectArt: 001052:ITB_Wildlife.esp
+Flags:
+- RotateToFaceTarget

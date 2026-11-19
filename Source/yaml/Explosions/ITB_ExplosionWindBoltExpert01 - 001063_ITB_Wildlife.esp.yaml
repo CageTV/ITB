@@ -1,0 +1,15 @@
+FormKey: 001063:ITB_Wildlife.esp
+EditorID: ITB_ExplosionWindBoltExpert01
+Model:
+  File: Effects\FXEmptyExplosionArt.nif
+  Data: 0x020000000000000000000000
+ImageSpaceModifier: 0010A0:ITB_Wildlife.esp
+Sound2: 02518F:Skyrim.esm
+Force: 7
+Radius: 100
+ISRadius: 1280
+Flags:
+- 0x1
+- KnockDownByFormula
+- IgnoreLosCheck
+- IgnoreImageSpaceSwap

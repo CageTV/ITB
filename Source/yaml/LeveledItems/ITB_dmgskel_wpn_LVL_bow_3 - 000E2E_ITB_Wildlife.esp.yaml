@@ -1,0 +1,22 @@
+FormKey: 000E2E:ITB_Wildlife.esp
+EditorID: ITB_dmgskel_wpn_LVL_bow_3
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 01397D:Skyrim.esm
+    Count: 15
+- Data:
+    Level: 1
+    Reference: 013985:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0302CA:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 034182:Skyrim.esm
+    Count: 20

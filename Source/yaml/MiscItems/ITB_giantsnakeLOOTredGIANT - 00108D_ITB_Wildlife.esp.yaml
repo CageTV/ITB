@@ -1,0 +1,15 @@
+FormKey: 00108D:ITB_Wildlife.esp
+EditorID: ITB_giantsnakeLOOTredGIANT
+ObjectBounds:
+  First: -54, -57, -2
+  Second: 58, 43, 4
+Name:
+  TargetLanguage: English
+  Value: Giant Snake Broodmother Hide
+Model:
+  File: itb\fauna\dragon\dragon_e02a3176.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0914EA:Skyrim.esm
+Value: 100
+Weight: 2

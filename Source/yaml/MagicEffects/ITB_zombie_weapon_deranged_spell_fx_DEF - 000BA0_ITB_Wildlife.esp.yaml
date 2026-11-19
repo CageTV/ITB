@@ -1,0 +1,49 @@
+FormKey: 000BA0:ITB_Wildlife.esp
+EditorID: ITB_zombie_weapon_deranged_spell_fx_DEF
+VirtualMachineAdapter:
+  Scripts:
+  - Name: MagicImodOnPlayerHitScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OnFinishImodFX
+      Object: 10E3D3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OnStartImodFX
+      Object: 10E3D2:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Putrefaction
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- 042509:Skyrim.esm
+- 1093BB:Skyrim.esm
+Flags:
+- Hostile
+- Detrimental
+- DispelWithKeywords
+- NoArea
+- FXPersist
+- PowerAffectsMagnitude
+- Painless
+- NoDeathDispel
+ResistValue: PoisonResist
+TaperWeight: 0.2
+HitShader: 10CC64:Skyrim.esm
+TaperCurve: 2
+TaperDuration: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+CastType: FireAndForget
+TargetType: Touch
+DualCastScale: 1
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Causes <mag> points of poison damage for <dur> seconds.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasMagicEffectConditionData
+    RunOnType: Target
+    MagicEffect: 101931:Skyrim.esm

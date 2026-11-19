@@ -49,49 +49,49 @@ Regions:
 - 0D3ADE:Skyrim.esm
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001340:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 00135D:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -175831.84, 3991.7488, -2732
 - MutagenObjectType: PlacedNpc
-  FormKey: 001341:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 00135E:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -175062.7, 4068.5237, -2169.5
 - MutagenObjectType: PlacedNpc
-  FormKey: 001342:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 00135F:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -175877.72, 3513.5513, -2991.6758
 - MutagenObjectType: PlacedNpc
-  FormKey: 001343:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 001360:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -176002.62, 1734.841, -3312.0166
 - MutagenObjectType: PlacedNpc
-  FormKey: 001344:ITB_Wildlife.esp
-  Base: 000FBC:ITB_Wildlife.esp
+  FormKey: 001361:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
   Placement:
     Position: -173833.52, 2415.5898, -3898.0852
 - MutagenObjectType: PlacedNpc
-  FormKey: 001345:ITB_Wildlife.esp
-  Base: 000FBC:ITB_Wildlife.esp
+  FormKey: 001362:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
   Placement:
     Position: -174298.55, 2198.7957, -3746.7412
 - MutagenObjectType: PlacedNpc
-  FormKey: 001346:ITB_Wildlife.esp
-  Base: 000FBC:ITB_Wildlife.esp
+  FormKey: 001363:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
   Placement:
     Position: -173555.05, 2748.0645, -3838.5881
     Rotation: 0, 0, 4.7831883
 - MutagenObjectType: PlacedNpc
-  FormKey: 001347:ITB_Wildlife.esp
-  Base: 000FBC:ITB_Wildlife.esp
+  FormKey: 001364:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
   Placement:
     Position: -172851.2, 3359.9932, -3862.541
     Rotation: 0, 0, 0.10000038
 - MutagenObjectType: PlacedNpc
-  FormKey: 001348:ITB_Wildlife.esp
-  Base: 000FBC:ITB_Wildlife.esp
+  FormKey: 001365:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
   Placement:
     Position: -172908.81, 3719.7832, -3652.7278

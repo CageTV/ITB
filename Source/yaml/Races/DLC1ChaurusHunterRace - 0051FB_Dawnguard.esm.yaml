@@ -9,7 +9,7 @@ Description:
 ActorEffect:
 - 002996:Dawnguard.esm
 - 009D3C:Dawnguard.esm
-- 000BA2:ITB_Wildlife.esp
+- 000BA5:ITB_Wildlife.esp
 Skin: 0051FE:Dawnguard.esm
 BodyTemplate:
   ArmorType: Clothing

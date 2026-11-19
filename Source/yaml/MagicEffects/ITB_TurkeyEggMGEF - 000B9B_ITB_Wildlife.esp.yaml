@@ -1,0 +1,23 @@
+FormKey: 000B9B:ITB_Wildlife.esp
+EditorID: ITB_TurkeyEggMGEF
+Name:
+  TargetLanguage: English
+  Value: Hatch Turkey
+Flags:
+- NoDuration
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 0010F3:ITB_Wildlife.esp
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 0010F1:ITB_Wildlife.esp
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

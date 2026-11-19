@@ -1,9 +1,0 @@
-FormKey: 000E1C:ITB_Wildlife.esp
-EditorID: ITB_DeathItemSheep
-Flags:
-- UseAll
-Entries:
-- Data:
-    Level: 1
-    Reference: 001067:ITB_Wildlife.esp
-    Count: 2

@@ -40,7 +40,7 @@ Voice: 01F6A7:Skyrim.esm
 Template: 023ABE:Skyrim.esm
 Race: 01320A:Skyrim.esm
 ActorEffect:
-- 000BAB:ITB_Wildlife.esp
+- 000BAE:ITB_Wildlife.esp
 WornArmor: 0C02F8:Skyrim.esm
 AttackRace: 01320A:Skyrim.esm
 AIData:

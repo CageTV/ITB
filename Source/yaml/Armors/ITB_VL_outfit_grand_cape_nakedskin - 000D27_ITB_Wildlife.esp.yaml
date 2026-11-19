@@ -1,0 +1,21 @@
+FormKey: 000D27:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_VL_outfit_grand_cape_nakedskin
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: DLC1VampireLordCape
+BodyTemplate:
+  FirstPersonFlags:
+  - Amulet
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 00283A:Dawnguard.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000E0D:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

@@ -12,17 +12,17 @@ AcousticSpace: 01989F:Skyrim.esm
 Music: 094BDD:Skyrim.esm
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 00134E:ITB_Wildlife.esp
-  Base: 000F93:ITB_Wildlife.esp
+  FormKey: 00136B:ITB_Wildlife.esp
+  Base: 000F96:ITB_Wildlife.esp
   Placement:
     Position: -54440.945, -57080.145, 2014.0198
 - MutagenObjectType: PlacedNpc
-  FormKey: 00134F:ITB_Wildlife.esp
-  Base: 000F93:ITB_Wildlife.esp
+  FormKey: 00136C:ITB_Wildlife.esp
+  Base: 000F96:ITB_Wildlife.esp
   Placement:
     Position: -54448.254, -56615.6, 2014.0198
 - MutagenObjectType: PlacedNpc
-  FormKey: 001350:ITB_Wildlife.esp
-  Base: 000F91:ITB_Wildlife.esp
+  FormKey: 00136D:ITB_Wildlife.esp
+  Base: 000F94:ITB_Wildlife.esp
   Placement:
     Position: -55836.09, -55785.695, 2060.9053

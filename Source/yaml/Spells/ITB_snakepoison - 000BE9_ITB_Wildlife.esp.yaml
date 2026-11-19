@@ -1,0 +1,20 @@
+FormKey: 000BE9:ITB_Wildlife.esp
+EditorID: ITB_snakepoison
+Name:
+  TargetLanguage: English
+  Value: Snake Poison
+MenuDisplayObject: 0435A5:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- ManualCostCalc
+Type: Poison
+CastType: FireAndForget
+TargetType: Touch
+Effects:
+- BaseEffect: 000B99:ITB_Wildlife.esp
+  Data:
+    Magnitude: 1
+    Duration: 20

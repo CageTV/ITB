@@ -12,8 +12,8 @@ ActorEffect:
 - 078AA8:ccBGSSSE037-Curios.esl
 - 0CB37E:ccBGSSSE037-Curios.esl
 - 609AF0:ccBGSSSE037-Curios.esl
-- 000BA3:ITB_Wildlife.esp
-- 000BA4:ITB_Wildlife.esp
+- 000BA6:ITB_Wildlife.esp
+- 000BA7:ITB_Wildlife.esp
 Skin: 060715:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing

@@ -9,6 +9,10 @@
 
 #include <nlohmann/json.hpp>
 
+#ifdef AddForm
+#	undef AddForm  // winspool.h macro
+#endif
+
 // rules.json:
 //   package_list_by_race : [ { "race": "Plugin|ID", "list": "Plugin|ID", "_name": "..." } ]
 //       every non-unique, non-templated NPC of the race that has no schedule list from the list's own plugin gets the list
@@ -196,6 +200,81 @@ namespace Rules
 			SKSE::log::info("  attack_caps: {} attack(s) lowered in total", total);
 		}
 
+		std::vector<std::string> Strings(const nlohmann::json& a_j, const char* a_key)
+		{
+			std::vector<std::string> out;
+			if (a_j.contains(a_key) && a_j[a_key].is_array()) {
+				for (const auto& v : a_j[a_key]) {
+					if (v.is_string()) {
+						out.push_back(v.get<std::string>());
+					}
+				}
+			}
+			return out;
+		}
+
+		// Foods keep their survival hunger effect even when another mod overwrote the food.
+		void IngestibleEffects(const nlohmann::json& a_r, Tally& t)
+		{
+			auto* f0 = Find(a_r.value("form", ""));
+			auto* alch = f0 ? f0->As<RE::AlchemyItem>() : nullptr;
+			if (!alch) {
+				++t.missing;
+				return;
+			}
+			for (const auto& ref : Strings(a_r, "effects")) {
+				auto* f1 = Find(ref);
+				auto* base = f1 ? f1->As<RE::EffectSetting>() : nullptr;
+				if (!base) {
+					++t.missing;
+					continue;
+				}
+				bool has = false;
+				for (auto* e : alch->effects) {
+					if (e && e->baseEffect == base) {
+						has = true;
+						break;
+					}
+				}
+				if (has) {
+					++t.already;
+					continue;
+				}
+				auto* e = new RE::Effect();
+				e->baseEffect = base;
+				e->effectItem.magnitude = 0.0f;
+				e->effectItem.area = 0;
+				e->effectItem.duration = 0;
+				e->cost = base->data.baseCost;
+				alch->effects.push_back(e);
+				++t.changed;
+			}
+		}
+
+		// Raw meats join the game's raw-meat list so the survival food rules see them.
+		void FormListAdd(const nlohmann::json& a_r, Tally& t)
+		{
+			auto* f0 = Find(a_r.value("list", ""));
+			auto* list = f0 ? f0->As<RE::BGSListForm>() : nullptr;
+			if (!list) {
+				++t.missing;
+				return;
+			}
+			for (const auto& ref : Strings(a_r, "items")) {
+				auto* f = Find(ref);
+				if (!f) {
+					++t.missing;
+					continue;
+				}
+				if (list->HasForm(f)) {
+					++t.already;
+					continue;
+				}
+				list->AddForm(f);
+				++t.changed;
+			}
+		}
+
 		nlohmann::json Load()
 		{
 			std::ifstream in(ConfigPath());
@@ -214,6 +293,20 @@ namespace Rules
 			return;
 		}
 		Tally t;
+		const auto run = [&](const char* a_key, auto a_fn) {
+			if (j.contains(a_key) && j[a_key].is_array()) {
+				for (const auto& r : j[a_key]) {
+					++t.rules;
+					try {
+						a_fn(r, t);
+					} catch (const std::exception& e) {
+						SKSE::log::error("rule in {} failed: {}", a_key, e.what());
+					}
+				}
+			}
+		};
+		run("ingestible_effects", IngestibleEffects);
+		run("formlist_add", FormListAdd);
 		if (j.contains("attack_caps") && j["attack_caps"].is_array()) {
 			++t.rules;
 			AttackCaps(j["attack_caps"], t);

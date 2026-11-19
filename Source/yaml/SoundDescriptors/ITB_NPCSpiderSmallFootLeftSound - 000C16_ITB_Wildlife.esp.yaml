@@ -1,0 +1,13 @@
+FormKey: 000C16:ITB_Wildlife.esp
+EditorID: ITB_NPCSpiderSmallFootLeftSound
+Type: Standard
+Category: 0172A1:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\misc\misc_27b9aad3.wav
+- data\sound\fx\itb\misc\misc_27b9aad3.wav
+- data\sound\fx\itb\misc\misc_27b9aad3.wav
+OutputModel: 05A28A:Skyrim.esm
+LoopAndRumble: {}
+PercentFrequencyVariance: 3
+Priority: 128
+StaticAttenuation: 7.93

@@ -1,0 +1,10 @@
+FormKey: 000C10:ITB_Wildlife.esp
+EditorID: ITB_icetitansound
+Type: Standard
+Category: 09F254:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\icetitan\icetitan_c313c721.wav
+OutputModel: 0ABEF3:Skyrim.esm
+LoopAndRumble:
+  Loop: Loop
+Priority: 1

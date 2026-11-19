@@ -1,0 +1,46 @@
+FormKey: 000B95:ITB_Wildlife.esp
+EditorID: ITB_shambles_AB_fx
+VirtualMachineAdapter:
+  Scripts:
+  - Name: FlameAtronachEffectScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AtronachFlameDeadSkin
+      Object: 000CA9:ITB_Wildlife.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AtronachFlameDeathExplosion
+      Object: 073271:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AtronachFlameDeathFXS
+      Object: 05FB82:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AtronachFlameTrail
+      Object: 002AE9:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AtronachUnsummonDeathFXS
+      Object: 0EA8FF:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Shamblesscripts
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- NoArea
+- PowerAffectsMagnitude
+BaseCost: 5
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+Sounds:
+- Sound: 03E957:Skyrim.esm
+- Type: Charge
+  Sound: 056622:Skyrim.esm
+- Type: Ready
+  Sound: 03F363:Skyrim.esm
+- Type: Release
+  Sound: 03F361:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''

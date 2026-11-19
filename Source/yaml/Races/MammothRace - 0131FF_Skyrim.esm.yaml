@@ -10,10 +10,10 @@ ActorEffect:
 - 0B556B:Skyrim.esm
 - 10C042:Skyrim.esm
 - 0405CC:ccBGSSSE037-Curios.esl
-- 000B9E:ITB_Wildlife.esp
-- 000BA0:ITB_Wildlife.esp
-- 000BA5:ITB_Wildlife.esp
-- 000BA4:ITB_Wildlife.esp
+- 000BA1:ITB_Wildlife.esp
+- 000BA3:ITB_Wildlife.esp
+- 000BA8:ITB_Wildlife.esp
+- 000BA7:ITB_Wildlife.esp
 Skin: 059253:Skyrim.esm
 BodyTemplate:
   FirstPersonFlags:

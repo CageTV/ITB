@@ -7,8 +7,8 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BD1:ITB_Wildlife.esp
-- 000BCC:ITB_Wildlife.esp
+- 000BD4:ITB_Wildlife.esp
+- 000BCF:ITB_Wildlife.esp
 Skin: 058E2A:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
@@ -114,7 +114,7 @@ Attacks:
 - AttackData:
     DamageMult: 2.5
     Chance: 1
-    Spell: 000BD1:ITB_Wildlife.esp
+    Spell: 000BD4:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     AttackAngle: 35
@@ -148,7 +148,7 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 1
-    Spell: 000BD2:ITB_Wildlife.esp
+    Spell: 000BD5:ITB_Wildlife.esp
     Flags:
     - BashAttack
     AttackAngle: 45
@@ -165,7 +165,7 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 1
-    Spell: 000BD2:ITB_Wildlife.esp
+    Spell: 000BD5:ITB_Wildlife.esp
     Flags:
     - BashAttack
     AttackAngle: 45

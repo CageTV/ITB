@@ -1,0 +1,21 @@
+FormKey: 000C86:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_dragonling_nakedskin
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: ChaurusFlyer
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0008E9:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000D6F:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

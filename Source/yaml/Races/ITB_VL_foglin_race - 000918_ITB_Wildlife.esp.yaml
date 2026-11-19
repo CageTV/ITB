@@ -4,7 +4,7 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BB6:ITB_Wildlife.esp
+- 000BB9:ITB_Wildlife.esp
 Skin: 0354E2:Dragonborn.esm
 BodyTemplate:
   ArmorType: Clothing

@@ -1,7 +1,0 @@
-FormKey: 00104E:ITB_Wildlife.esp
-EditorID: ITB_dragonling_wings_art_entrance
-Model:
-  File: itb\fauna\chaurus_hunter\chaurus_hunter_f447ad0d.nif
-  Data: 0x020000000000000000000000
-Type:
-- MagicCasting

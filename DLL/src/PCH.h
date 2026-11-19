@@ -14,9 +14,15 @@
 #include <Windows.h>
 
 #include <algorithm>
+#include <atomic>
+#include <chrono>
+#include <cmath>
 #include <filesystem>
 #include <fstream>
+#include <random>
 #include <string>
+#include <string_view>
+#include <thread>
 #include <vector>
 
 using namespace std::literals;

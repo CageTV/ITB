@@ -1,0 +1,9 @@
+FormKey: 000E1A:ITB_Wildlife.esp
+EditorID: ITB_DeathItemOwl
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 0010AD:ITB_Wildlife.esp
+    Count: 1

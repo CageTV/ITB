@@ -7,7 +7,7 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BB7:ITB_Wildlife.esp
+- 000BBA:ITB_Wildlife.esp
 Skin: 0B799A:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing

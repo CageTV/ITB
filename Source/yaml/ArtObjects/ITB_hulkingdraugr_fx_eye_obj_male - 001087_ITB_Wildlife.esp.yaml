@@ -1,7 +1,0 @@
-FormKey: 001087:ITB_Wildlife.esp
-EditorID: ITB_hulkingdraugr_fx_eye_obj_male
-Model:
-  File: itb\fauna\draugr\draugr_aa814a50.nif
-  Data: 0x020000000000000000000000
-Type:
-- MagicCasting

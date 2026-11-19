@@ -1,0 +1,18 @@
+FormKey: 000D37:ITB_Wildlife.esp
+EditorID: ITB_bolganboarnaked
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: itb\fauna\dwarven_centurion\dwarven_centurion_88fe6d50.nif
+    Data: 0x020000000000000000000000
+FootstepSound: 025C69:Dragonborn.esm

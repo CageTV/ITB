@@ -1,0 +1,22 @@
+FormKey: 000D73:ITB_Wildlife.esp
+EditorID: ITB_foglingnaked4
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0008EB:ITB_Wildlife.esp
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: itb\fauna\riekling\riekling_a96821b4.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: Actors\DLC02\Riekling\Character Assets\Riekling01.nif
+    Data: 0x020000000000000000000000
+FootstepSound: 028B91:Dragonborn.esm

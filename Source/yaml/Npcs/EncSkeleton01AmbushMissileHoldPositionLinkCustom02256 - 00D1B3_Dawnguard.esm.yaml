@@ -20,7 +20,7 @@ Configuration:
   - BaseData
   - Inventory
   - AttackData
-Template: 001019:ITB_Wildlife.esp
+Template: 00101C:ITB_Wildlife.esp
 Race: 109C7C:Skyrim.esm
 CombatOverridePackageList: 09D74D:Skyrim.esm
 AIData:

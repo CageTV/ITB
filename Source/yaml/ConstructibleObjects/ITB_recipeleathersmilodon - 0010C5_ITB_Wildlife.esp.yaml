@@ -1,0 +1,18 @@
+FormKey: 0010C5:ITB_Wildlife.esp
+EditorID: ITB_recipeleathersmilodon
+Items:
+- Item:
+    Item: 0010E6:ITB_Wildlife.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 03AD6D:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 0DB5D2:Skyrim.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 4

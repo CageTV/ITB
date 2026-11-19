@@ -1,0 +1,25 @@
+FormKey: 000D75:ITB_Wildlife.esp
+EditorID: ITB_giantcentipede_naked2
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0008EE:ITB_Wildlife.esp
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: itb\fauna\chaurus\chaurus_6a9d8900.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: itb\fauna\chaurus\chaurus_12bc603c.nif
+    Data: 0x020000000000000000000000
+AdditionalRaces:
+- 0A5601:Skyrim.esm
+FootstepSound: 04401A:Skyrim.esm

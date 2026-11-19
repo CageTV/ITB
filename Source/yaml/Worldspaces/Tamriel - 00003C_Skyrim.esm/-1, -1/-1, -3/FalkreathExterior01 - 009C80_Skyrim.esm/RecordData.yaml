@@ -64,81 +64,81 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013B7:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 0013D4:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -31160.863, -87785.88, -3139.0713
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013B8:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 0013D5:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -31132.188, -86937.945, -3123.3052
     Rotation: 0, 0, 3.583187
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013B9:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 0013D6:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -30185.178, -86111.75, -3105.2358
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013BA:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 0013D7:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -31468.697, -88255.85, -3092.816
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013BB:ITB_Wildlife.esp
-  Base: 000FBC:ITB_Wildlife.esp
+  FormKey: 0013D8:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
   Placement:
     Position: -31976.834, -88212.57, -3151.134
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013BC:ITB_Wildlife.esp
-  Base: 000FBC:ITB_Wildlife.esp
+  FormKey: 0013D9:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
   Placement:
     Position: -32254.762, -88554.49, -3111.3865
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013BD:ITB_Wildlife.esp
-  Base: 000E73:ITB_Wildlife.esp
+  FormKey: 0013DA:ITB_Wildlife.esp
+  Base: 000E76:ITB_Wildlife.esp
   Owner: 0C1393:Skyrim.esm
   Placement:
     Position: -31878.213, -86165.55, -3113.3467
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013BE:ITB_Wildlife.esp
-  Base: 000E68:ITB_Wildlife.esp
+  FormKey: 0013DB:ITB_Wildlife.esp
+  Base: 000E6B:ITB_Wildlife.esp
   Owner: 0C1393:Skyrim.esm
   Placement:
     Position: -31855.729, -86358.96, -3123.9143
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013BF:ITB_Wildlife.esp
-  Base: 000E69:ITB_Wildlife.esp
+  FormKey: 0013DC:ITB_Wildlife.esp
+  Base: 000E6C:ITB_Wildlife.esp
   Owner: 0C1393:Skyrim.esm
   Placement:
     Position: -31885.248, -86271.48, -3119.8103
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013C0:ITB_Wildlife.esp
-  Base: 000E6A:ITB_Wildlife.esp
+  FormKey: 0013DD:ITB_Wildlife.esp
+  Base: 000E6D:ITB_Wildlife.esp
   Owner: 0C1393:Skyrim.esm
   Placement:
     Position: -31885.432, -86330.484, -3117.7197
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013C1:ITB_Wildlife.esp
-  Base: 000E63:ITB_Wildlife.esp
+  FormKey: 0013DE:ITB_Wildlife.esp
+  Base: 000E66:ITB_Wildlife.esp
   Owner: 0C1393:Skyrim.esm
   Placement:
     Position: -29626.465, -87679.79, -3026.0254
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013C2:ITB_Wildlife.esp
-  Base: 000E62:ITB_Wildlife.esp
+  FormKey: 0013DF:ITB_Wildlife.esp
+  Base: 000E65:ITB_Wildlife.esp
   Owner: 0C1393:Skyrim.esm
   Placement:
     Position: -29680.791, -87678.97, -3029.4856
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013C3:ITB_Wildlife.esp
-  Base: 000E64:ITB_Wildlife.esp
+  FormKey: 0013E0:ITB_Wildlife.esp
+  Base: 000E67:ITB_Wildlife.esp
   Owner: 0C1393:Skyrim.esm
   Placement:
     Position: -29646.725, -87641.07, -3006.909
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013C4:ITB_Wildlife.esp
-  Base: 000F93:ITB_Wildlife.esp
+  FormKey: 0013E1:ITB_Wildlife.esp
+  Base: 000F96:ITB_Wildlife.esp
   Placement:
     Position: -30419.533, -87544.86, -3115.3342
     Rotation: 0, 0, 4.8831887

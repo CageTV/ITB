@@ -49,7 +49,7 @@ Template: 023ABF:Skyrim.esm
 Race: 01320A:Skyrim.esm
 ActorEffect:
 - 0B5569:Skyrim.esm
-- 000BAC:ITB_Wildlife.esp
+- 000BAF:ITB_Wildlife.esp
 AIData:
   Confidence: Foolhardy
   EnergyLevel: 50

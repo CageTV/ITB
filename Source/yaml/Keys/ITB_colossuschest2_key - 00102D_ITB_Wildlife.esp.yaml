@@ -1,0 +1,10 @@
+FormKey: 00102D:ITB_Wildlife.esp
+EditorID: ITB_colossuschest2_key
+Name:
+  TargetLanguage: English
+  Value: Chest Key
+Model:
+  File: Clutter\Key02.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0914EF:Skyrim.esm

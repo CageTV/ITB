@@ -1,0 +1,23 @@
+FormKey: 000B8E:ITB_Wildlife.esp
+EditorID: ITB_PenguinEggMGEF
+Name:
+  TargetLanguage: English
+  Value: Hatch Penguin
+Flags:
+- NoDuration
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 0010B7:ITB_Wildlife.esp
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 0010B5:ITB_Wildlife.esp
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

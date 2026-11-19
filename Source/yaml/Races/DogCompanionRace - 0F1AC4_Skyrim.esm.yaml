@@ -9,7 +9,7 @@ Description:
 ActorEffect:
 - 0F8754:Skyrim.esm
 - 10C042:Skyrim.esm
-- 000BA3:ITB_Wildlife.esp
+- 000BA6:ITB_Wildlife.esp
 Skin: 04B2C9:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing

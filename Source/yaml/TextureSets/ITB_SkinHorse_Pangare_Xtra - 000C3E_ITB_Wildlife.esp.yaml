@@ -1,0 +1,6 @@
+FormKey: 000C3E:ITB_Wildlife.esp
+EditorID: ITB_SkinHorse_Pangare_Xtra
+Diffuse: itb\fauna\horse\horse_c1c228ff.dds
+NormalOrGloss: Actors\Horse\Horse01_n.dds
+GlowOrDetailMap: Actors\Horse\Horse01_sk.dds
+Flags: []

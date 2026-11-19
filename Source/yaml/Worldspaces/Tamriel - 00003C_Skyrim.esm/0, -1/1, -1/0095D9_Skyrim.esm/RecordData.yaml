@@ -59,48 +59,48 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 0015F3:ITB_Wildlife.esp
-  Base: 000E75:ITB_Wildlife.esp
+  FormKey: 001610:ITB_Wildlife.esp
+  Base: 000E78:ITB_Wildlife.esp
   Owner: 093B1B:Skyrim.esm
   Placement:
     Position: 34632.95, -3664.2898, -4347.6377
 - MutagenObjectType: PlacedNpc
-  FormKey: 0015F4:ITB_Wildlife.esp
-  Base: 000E71:ITB_Wildlife.esp
+  FormKey: 001611:ITB_Wildlife.esp
+  Base: 000E74:ITB_Wildlife.esp
   Owner: 093B1B:Skyrim.esm
   Placement:
     Position: 34605.97, -3543.3057, -4332.66
 - MutagenObjectType: PlacedNpc
-  FormKey: 0015F5:ITB_Wildlife.esp
-  Base: 000E68:ITB_Wildlife.esp
+  FormKey: 001612:ITB_Wildlife.esp
+  Base: 000E6B:ITB_Wildlife.esp
   Owner: 093B1B:Skyrim.esm
   Placement:
     Position: 34754.965, -3772.7258, -4363.7954
 - MutagenObjectType: PlacedNpc
-  FormKey: 0015F6:ITB_Wildlife.esp
-  Base: 000E69:ITB_Wildlife.esp
+  FormKey: 001613:ITB_Wildlife.esp
+  Base: 000E6C:ITB_Wildlife.esp
   Owner: 093B1B:Skyrim.esm
   Placement:
     Position: 34608.273, -3587.2852, -4340.6885
 - MutagenObjectType: PlacedNpc
-  FormKey: 0015F7:ITB_Wildlife.esp
-  Base: 000E6A:ITB_Wildlife.esp
+  FormKey: 001614:ITB_Wildlife.esp
+  Base: 000E6D:ITB_Wildlife.esp
   Owner: 093B1B:Skyrim.esm
   Placement:
     Position: 34641.824, -3667.2476, -4349.676
 - MutagenObjectType: PlacedNpc
-  FormKey: 0015F8:ITB_Wildlife.esp
-  Base: 000F26:ITB_Wildlife.esp
+  FormKey: 001615:ITB_Wildlife.esp
+  Base: 000F29:ITB_Wildlife.esp
   Placement:
     Position: 34778.234, -3752.5247, -4362.5327
     Rotation: 0, -0, 4.383191
 - MutagenObjectType: PlacedNpc
-  FormKey: 0015F9:ITB_Wildlife.esp
-  Base: 000F3A:ITB_Wildlife.esp
+  FormKey: 001616:ITB_Wildlife.esp
+  Base: 000F3D:ITB_Wildlife.esp
   Placement:
     Position: 34995.832, -3756.3882, -4370.309
 - MutagenObjectType: PlacedNpc
-  FormKey: 0015FA:ITB_Wildlife.esp
-  Base: 000F08:ITB_Wildlife.esp
+  FormKey: 001617:ITB_Wildlife.esp
+  Base: 000F0B:ITB_Wildlife.esp
   Placement:
     Position: 34848.48, -3720.629, -4362.5693

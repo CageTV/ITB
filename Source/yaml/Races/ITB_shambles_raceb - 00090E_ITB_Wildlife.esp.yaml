@@ -7,8 +7,8 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BE3:ITB_Wildlife.esp
-- 000BE4:ITB_Wildlife.esp
+- 000BE6:ITB_Wildlife.esp
+- 000BE7:ITB_Wildlife.esp
 Skin: 05B2E7:Skyrim.esm
 BodyTemplate:
   FirstPersonFlags:

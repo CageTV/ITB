@@ -59,48 +59,48 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 00168D:ITB_Wildlife.esp
-  Base: 000F8D:ITB_Wildlife.esp
+  FormKey: 0016AA:ITB_Wildlife.esp
+  Base: 000F90:ITB_Wildlife.esp
   Placement:
     Position: 43560.000, 17584.000, -4800.000
     Rotation: 0, 0, 2.8409
 - MutagenObjectType: PlacedNpc
-  FormKey: 00168E:ITB_Wildlife.esp
-  Base: 000F90:ITB_Wildlife.esp
+  FormKey: 0016AB:ITB_Wildlife.esp
+  Base: 000F93:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 00168D:ITB_Wildlife.esp
+  - Reference: 0016AA:ITB_Wildlife.esp
   Placement:
     Position: 43820.000, 17744.000, -4771.750
     Rotation: 0, 0, 3.5154
 - MutagenObjectType: PlacedNpc
-  FormKey: 00168F:ITB_Wildlife.esp
-  Base: 000F8E:ITB_Wildlife.esp
+  FormKey: 0016AC:ITB_Wildlife.esp
+  Base: 000F91:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 00168D:ITB_Wildlife.esp
+  - Reference: 0016AA:ITB_Wildlife.esp
   Placement:
     Position: 43300.000, 17694.000, -4887.055
     Rotation: 0, 0, 5.8040
 - MutagenObjectType: PlacedNpc
-  FormKey: 001690:ITB_Wildlife.esp
-  Base: 000F8F:ITB_Wildlife.esp
+  FormKey: 0016AD:ITB_Wildlife.esp
+  Base: 000F92:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 00168D:ITB_Wildlife.esp
+  - Reference: 0016AA:ITB_Wildlife.esp
   Placement:
     Position: 43670.000, 17324.000, -4766.348
     Rotation: 0, 0, 2.9243
 - MutagenObjectType: PlacedNpc
-  FormKey: 001691:ITB_Wildlife.esp
-  Base: 000F8B:ITB_Wildlife.esp
+  FormKey: 0016AE:ITB_Wildlife.esp
+  Base: 000F8E:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 00168F:ITB_Wildlife.esp
+  - Reference: 0016AC:ITB_Wildlife.esp
   Placement:
     Position: 43220.000, 17774.000, -4928.250
     Rotation: 0, 0, 3.1892
 - MutagenObjectType: PlacedNpc
-  FormKey: 001692:ITB_Wildlife.esp
-  Base: 000F8C:ITB_Wildlife.esp
+  FormKey: 0016AF:ITB_Wildlife.esp
+  Base: 000F8F:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001690:ITB_Wildlife.esp
+  - Reference: 0016AD:ITB_Wildlife.esp
   Placement:
     Position: 43750.000, 17244.000, -4750.875
     Rotation: 0, 0, 3.6888

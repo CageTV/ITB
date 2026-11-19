@@ -1,9 +1,0 @@
-FormKey: 000E20:ITB_Wildlife.esp
-EditorID: ITB_DeathItemWolfGrey
-Flags:
-- UseAll
-Entries:
-- Data:
-    Level: 1
-    Reference: 0010E5:ITB_Wildlife.esp
-    Count: 1

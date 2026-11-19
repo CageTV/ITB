@@ -1,0 +1,25 @@
+FormKey: 000BD6:ITB_Wildlife.esp
+EditorID: ITB_giantsnakeAB
+Name:
+  TargetLanguage: English
+  Value: Dragon abilities
+MenuDisplayObject: 0435A5:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: >2+
+
+Type: Ability
+HalfCostPerk: 1046BD:Skyrim.esm
+Effects:
+- BaseEffect: 024315:Skyrim.esm
+  Data:
+    Magnitude: 20
+- BaseEffect: 0E40D3:Skyrim.esm
+  Data:
+    Magnitude: 100
+- BaseEffect: 0AA024:Skyrim.esm
+  Data:
+    Magnitude: 100
+- BaseEffect: 0AA01C:Skyrim.esm
+  Data: {}

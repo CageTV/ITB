@@ -64,47 +64,47 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 0014C9:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 0014E6:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -38276.562, 64204.992, -13888.285
 - MutagenObjectType: PlacedNpc
-  FormKey: 0014CA:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 0014E7:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -37748.195, 63190.266, -13938.4
     Rotation: 0, 0, 5.0831876
 - MutagenObjectType: PlacedNpc
-  FormKey: 0014CB:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 0014E8:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -39052.727, 65359.832, -13941.7
     Rotation: 0, 0, 4.183186
 - MutagenObjectType: PlacedNpc
-  FormKey: 0014CC:ITB_Wildlife.esp
-  Base: 000FB4:ITB_Wildlife.esp
+  FormKey: 0014E9:ITB_Wildlife.esp
+  Base: 000FB7:ITB_Wildlife.esp
   Placement:
     Position: -38799.582, 64817.25, -13942.413
 - MutagenObjectType: PlacedNpc
-  FormKey: 0014CD:ITB_Wildlife.esp
-  Base: 000FBC:ITB_Wildlife.esp
+  FormKey: 0014EA:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
   Placement:
     Position: -38468.266, 63959.13, -13901.027
 - MutagenObjectType: PlacedNpc
-  FormKey: 0014CE:ITB_Wildlife.esp
-  Base: 000FBC:ITB_Wildlife.esp
+  FormKey: 0014EB:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
   Placement:
     Position: -38285.527, 64232.08, -13888.846
     Rotation: 0, 0, 0.29999942
 - MutagenObjectType: PlacedNpc
-  FormKey: 0014CF:ITB_Wildlife.esp
-  Base: 000FBC:ITB_Wildlife.esp
+  FormKey: 0014EC:ITB_Wildlife.esp
+  Base: 000FBF:ITB_Wildlife.esp
   Placement:
     Position: -38737.707, 64481.863, -13920
     Rotation: 0, 0, 5.6831865
 - MutagenObjectType: PlacedNpc
-  FormKey: 0014D0:ITB_Wildlife.esp
-  Base: 000E72:ITB_Wildlife.esp
+  FormKey: 0014ED:ITB_Wildlife.esp
+  Base: 000E75:ITB_Wildlife.esp
   Owner: 02816D:Skyrim.esm
   Placement:
     Position: -39145.277, 63916.965, -13897.852

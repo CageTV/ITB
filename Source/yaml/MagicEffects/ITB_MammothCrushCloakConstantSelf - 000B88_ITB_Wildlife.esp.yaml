@@ -9,7 +9,7 @@ Flags:
 - PowerAffectsMagnitude
 Archetype:
   MutagenObjectType: MagicEffectCloakArchetype
-  Association: 000B9F:ITB_Wildlife.esp
+  Association: 000BA2:ITB_Wildlife.esp
 DualCastScale: 1
 CastingSoundLevel: Silent
 Sounds: []

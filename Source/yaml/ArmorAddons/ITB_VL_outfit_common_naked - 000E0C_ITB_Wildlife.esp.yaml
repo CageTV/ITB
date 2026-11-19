@@ -1,0 +1,26 @@
+FormKey: 000E0C:ITB_Wildlife.esp
+EditorID: ITB_VL_outfit_common_naked
+BodyTemplate:
+  FirstPersonFlags:
+  - Ring
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 00283A:Dawnguard.esm
+Priority:
+  Male: 5
+  Female: 5
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 24
+WeaponAdjust: 0.1
+WorldModel:
+  Male:
+    File: itb\fauna\vampire_lord\vampire_lord_3a98a43d.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: itb\fauna\vampire_lord\vampire_lord_6b3ed08e.nif
+    Data: 0x020000000000000000000000
+AdditionalRaces:
+- 00091A:ITB_Wildlife.esp
+- 000919:ITB_Wildlife.esp

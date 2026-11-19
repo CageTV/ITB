@@ -7,7 +7,7 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BA3:ITB_Wildlife.esp
+- 000BA6:ITB_Wildlife.esp
 Skin: 018B31:Dawnguard.esm
 BodyTemplate:
   ArmorType: Clothing

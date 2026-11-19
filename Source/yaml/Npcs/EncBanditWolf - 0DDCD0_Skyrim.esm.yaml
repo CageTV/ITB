@@ -31,7 +31,7 @@ DeathItem: 03AD9E:Skyrim.esm
 Voice: 01F6A7:Skyrim.esm
 Race: 01320A:Skyrim.esm
 ActorEffect:
-- 000BAE:ITB_Wildlife.esp
+- 000BB1:ITB_Wildlife.esp
 WornArmor: 0C02FB:Skyrim.esm
 AttackRace: 01320A:Skyrim.esm
 AIData:

@@ -6,6 +6,7 @@
  */
 #include "PCH.h"
 #include "Rules.h"
+#include "Spawner.h"
 
 namespace
 {
@@ -30,6 +31,11 @@ namespace
 				Rules::Apply();
 			} catch (const std::exception& e) {
 				SKSE::log::error("rules failed: {}", e.what());
+			}
+			try {
+				Spawner::Init();
+			} catch (const std::exception& e) {
+				SKSE::log::error("spawner failed: {}", e.what());
 			}
 		}
 	}

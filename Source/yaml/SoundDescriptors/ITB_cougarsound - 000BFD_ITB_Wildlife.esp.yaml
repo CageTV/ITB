@@ -1,0 +1,12 @@
+FormKey: 000BFD:ITB_Wildlife.esp
+EditorID: ITB_cougarsound
+Type: Standard
+Category: 09F254:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\mountainlion\mountainlion_1b8b6df8.wav
+OutputModel: 05A28A:Skyrim.esm
+LoopAndRumble:
+  Unknown: 1
+  Loop: Loop
+Priority: 116
+StaticAttenuation: 7.05

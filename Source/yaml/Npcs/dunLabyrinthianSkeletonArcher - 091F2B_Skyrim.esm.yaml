@@ -20,7 +20,7 @@ Configuration:
   - Script
   - AttackData
   - Keywords
-Template: 001019:ITB_Wildlife.esp
+Template: 00101C:ITB_Wildlife.esp
 Race: 109C7C:Skyrim.esm
 AIData:
   Confidence: Average

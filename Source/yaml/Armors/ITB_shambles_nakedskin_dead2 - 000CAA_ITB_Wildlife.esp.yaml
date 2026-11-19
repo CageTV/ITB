@@ -1,0 +1,18 @@
+FormKey: 000CAA:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_shambles_nakedskin_dead2
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 00090B:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000DFF:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

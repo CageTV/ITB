@@ -1,0 +1,9 @@
+FormKey: 000E25:ITB_Wildlife.esp
+EditorID: ITB_DeathItemWolfWhite
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 001105:ITB_Wildlife.esp
+    Count: 1

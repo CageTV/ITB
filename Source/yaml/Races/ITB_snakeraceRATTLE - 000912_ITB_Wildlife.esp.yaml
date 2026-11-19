@@ -7,7 +7,7 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BB8:ITB_Wildlife.esp
+- 000BBB:ITB_Wildlife.esp
 Skin: 0538F8:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
@@ -98,7 +98,7 @@ FacegenFaceClamp: 3
 Attacks:
 - AttackData:
     DamageMult: 1.5
-    Spell: 000BE6:ITB_Wildlife.esp
+    Spell: 000BE9:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 35
@@ -107,7 +107,7 @@ Attacks:
   AttackEvent: attackPowerStart_GroundDive
 - AttackData:
     DamageMult: 1.5
-    Spell: 000BE6:ITB_Wildlife.esp
+    Spell: 000BE9:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 35
@@ -117,14 +117,14 @@ Attacks:
 - AttackData:
     DamageMult: 0.5
     Chance: 1
-    Spell: 000BE7:ITB_Wildlife.esp
+    Spell: 000BEA:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackLtoR
 - AttackData:
     DamageMult: 0.5
     Chance: 1
-    Spell: 000BE7:ITB_Wildlife.esp
+    Spell: 000BEA:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackRtoL

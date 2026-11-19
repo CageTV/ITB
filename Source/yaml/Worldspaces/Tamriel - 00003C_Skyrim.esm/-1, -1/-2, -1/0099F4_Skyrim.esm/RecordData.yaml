@@ -57,48 +57,48 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013E0:ITB_Wildlife.esp
-  Base: 000F8D:ITB_Wildlife.esp
+  FormKey: 0013FD:ITB_Wildlife.esp
+  Base: 000F90:ITB_Wildlife.esp
   Placement:
     Position: -64336.000, -6992.000, -5295.750
     Rotation: 0, 0, 0.5694
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013E1:ITB_Wildlife.esp
-  Base: 000F90:ITB_Wildlife.esp
+  FormKey: 0013FE:ITB_Wildlife.esp
+  Base: 000F93:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 0013E0:ITB_Wildlife.esp
+  - Reference: 0013FD:ITB_Wildlife.esp
   Placement:
     Position: -64076.000, -6832.000, -5276.688
     Rotation: 0, 0, 5.0846
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013E2:ITB_Wildlife.esp
-  Base: 000F8E:ITB_Wildlife.esp
+  FormKey: 0013FF:ITB_Wildlife.esp
+  Base: 000F91:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 0013E0:ITB_Wildlife.esp
+  - Reference: 0013FD:ITB_Wildlife.esp
   Placement:
     Position: -64596.000, -6882.000, -5313.645
     Rotation: 0, 0, 4.3548
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013E3:ITB_Wildlife.esp
-  Base: 000F8F:ITB_Wildlife.esp
+  FormKey: 001400:ITB_Wildlife.esp
+  Base: 000F92:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 0013E0:ITB_Wildlife.esp
+  - Reference: 0013FD:ITB_Wildlife.esp
   Placement:
     Position: -64226.000, -7252.000, -5267.875
     Rotation: 0, 0, 0.2630
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013E4:ITB_Wildlife.esp
-  Base: 000F8B:ITB_Wildlife.esp
+  FormKey: 001401:ITB_Wildlife.esp
+  Base: 000F8E:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 0013E2:ITB_Wildlife.esp
+  - Reference: 0013FF:ITB_Wildlife.esp
   Placement:
     Position: -64676.000, -6802.000, -5295.434
     Rotation: 0, 0, 6.1682
 - MutagenObjectType: PlacedNpc
-  FormKey: 0013E5:ITB_Wildlife.esp
-  Base: 000F8C:ITB_Wildlife.esp
+  FormKey: 001402:ITB_Wildlife.esp
+  Base: 000F8F:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 0013E3:ITB_Wildlife.esp
+  - Reference: 001400:ITB_Wildlife.esp
   Placement:
     Position: -64146.000, -7332.000, -5275.125
     Rotation: 0, 0, 6.0587

@@ -8,7 +8,7 @@ Description:
   Value: ''
 ActorEffect:
 - 0271F9:Dragonborn.esm
-- 000BA3:ITB_Wildlife.esp
+- 000BA6:ITB_Wildlife.esp
 Skin: 01FEBB:Dragonborn.esm
 BodyTemplate:
   ArmorType: Clothing

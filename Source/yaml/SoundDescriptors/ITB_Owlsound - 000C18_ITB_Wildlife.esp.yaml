@@ -1,0 +1,11 @@
+FormKey: 000C18:ITB_Wildlife.esp
+EditorID: ITB_Owlsound
+Type: Standard
+Category: 09F254:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\owl\owl_3fcce343.wav
+OutputModel: 07F80C:Skyrim.esm
+LoopAndRumble:
+  Loop: Loop
+PercentFrequencyVariance: 6
+Priority: 1

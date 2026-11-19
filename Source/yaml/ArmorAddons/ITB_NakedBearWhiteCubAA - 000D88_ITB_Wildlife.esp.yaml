@@ -1,0 +1,19 @@
+FormKey: 000D88:ITB_Wildlife.esp
+EditorID: ITB_NakedBearWhiteCubAA
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131E9:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: itb\fauna\bear\bear_4aa93590.nif
+    Data: 0x020000000000000000000000
+FootstepSound: 10F896:Skyrim.esm

@@ -1,0 +1,17 @@
+FormKey: 000C1F:ITB_Wildlife.esp
+EditorID: ITB_snakesoundRATTLE
+Type: Standard
+Category: 09F254:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\snakes\snakes_2be872b6.wav
+OutputModel: 05A28A:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetSleepingConditionData
+  ComparisonValue: 3
+LoopAndRumble:
+  Loop: Loop
+PercentFrequencyVariance: 10
+Priority: 1

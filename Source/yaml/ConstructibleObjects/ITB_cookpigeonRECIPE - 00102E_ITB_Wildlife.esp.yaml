@@ -1,0 +1,12 @@
+FormKey: 00102E:ITB_Wildlife.esp
+EditorID: ITB_cookpigeonRECIPE
+Items:
+- Item:
+    Item: 034CDF:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0010BA:ITB_Wildlife.esp
+    Count: 1
+CreatedObject: 0010B9:ITB_Wildlife.esp
+WorkbenchKeyword: 0A5CB3:Skyrim.esm
+CreatedObjectCount: 1
