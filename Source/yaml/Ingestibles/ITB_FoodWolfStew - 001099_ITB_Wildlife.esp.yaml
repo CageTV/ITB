@@ -1,0 +1,33 @@
+FormKey: 001099:ITB_Wildlife.esp
+EditorID: ITB_FoodWolfStew
+ObjectBounds:
+  First: -6, -7, -3
+  Second: 6, 6, 6
+Name:
+  TargetLanguage: English
+  Value: Wolf Stew
+Keywords:
+- 08CDEA:Skyrim.esm
+Model:
+  File: itb\fauna\misc\misc_efc3b5cb.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: Stew:10
+    NewTexture: 003551:HearthFires.esm
+    Index: 1
+PickUpSound: 0FC21F:Skyrim.esm
+Weight: 0.5
+Value: 9
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound: 10E2EA:Skyrim.esm
+Effects:
+- BaseEffect: 0F33CB:Skyrim.esm
+  Data:
+    Magnitude: 15
+- BaseEffect: 0F33CC:Skyrim.esm
+  Data:
+    Magnitude: 15
+- BaseEffect: 002EE4:Update.esm
+  Data: {}

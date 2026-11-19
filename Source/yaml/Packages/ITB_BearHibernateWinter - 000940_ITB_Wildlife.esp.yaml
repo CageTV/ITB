@@ -1,0 +1,45 @@
+FormKey: 000940:ITB_Wildlife.esp
+EditorID: ITB_BearHibernateWinter
+Flags:
+- MustComplete
+- IgnoreCombat
+- NoCombatAlert
+Type: Package
+PreferredSpeed: Run
+InterruptFlags:
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: 15
+ScheduleDayOfWeek: Any
+ScheduleMinute: -1
+Unknown3: 0x000000
+ScheduleDurationInMinutes: 120960
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInInteriorConditionData
+PackageTemplate: 0654E2:Skyrim.esm
+Data:
+- Key: 3
+  Value:
+    MutagenObjectType: PackageDataFloat
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+XnamMarker: 0x05
+OnBegin:
+  Idle: 10D502:Skyrim.esm
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Idle: 10D502:Skyrim.esm
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

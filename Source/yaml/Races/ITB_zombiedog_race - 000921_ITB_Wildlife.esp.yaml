@@ -1,0 +1,166 @@
+FormKey: 000921:ITB_Wildlife.esp
+EditorID: ITB_zombiedog_race
+FormVersion: 43
+Name:
+  TargetLanguage: English
+  Value: Dog
+Description:
+  TargetLanguage: English
+  Value: ''
+ActorEffect:
+- 000BF5:ITB_Wildlife.esp
+Skin: 04B2C9:Skyrim.esm
+BodyTemplate:
+  ArmorType: Clothing
+  ActsLike44: True
+Keywords:
+- 013795:Skyrim.esm
+- 013796:Skyrim.esm
+SkillBoost0:
+  Skill: 255
+SkillBoost1:
+  Skill: 255
+SkillBoost2:
+  Skill: 255
+SkillBoost3:
+  Skill: 255
+SkillBoost4:
+  Skill: 255
+SkillBoost5:
+  Skill: 255
+SkillBoost6:
+  Skill: Sneak
+  Boost: 35
+Height:
+  Male: 1
+  Female: 1
+Weight:
+  Male: 1
+  Female: 1
+Flags:
+- TiltFrontBack
+- Swims
+- Walks
+- NoCombatInWater
+- UsesHeadTrackAnims
+- CantOpenDoors
+Starting:
+- Key: Health
+  Value: 10
+- Key: Magicka
+  Value: 0
+- Key: Stamina
+  Value: 20
+BaseCarryWeight: 200
+BaseMass: 1
+AccelerationRate: 0.4
+DecelerationRate: 0.4
+Size: Medium
+Regen:
+- Key: Health
+  Value: 0.02
+- Key: Magicka
+  Value: 0
+- Key: Stamina
+  Value: 10
+UnarmedDamage: 6
+UnarmedReach: 64
+AngularAccelerationRate: 0.05
+AngularTolerance: 5
+MountData:
+  MountOffset: -63.479, 0, 0
+  DismountOffset: -50, 0, 65
+  MountCameraOffset: 0, -300, 0
+SkeletalModel:
+  Male:
+    MutagenObjectType: SimpleModel
+    File: itb\fauna\skinned_hound\skinned_hound_78db2bc2.nif
+    Data: 0x020000000000000000000000
+  Female:
+    MutagenObjectType: SimpleModel
+    File: itb\fauna\skinned_hound\skinned_hound_78db2bc2.nif
+    Data: 0x020000000000000000000000
+MovementTypeNames:
+- "BLDO\0"
+- "RUN1\0"
+- "SNEK\0"
+- "SWIM\0"
+- "WALK\0"
+Voices:
+  Male: 01F180:Skyrim.esm
+  Female: 01F180:Skyrim.esm
+FacegenMainClamp: 5
+FacegenFaceClamp: 3
+Attacks:
+- AttackData:
+    DamageMult: 1
+    Chance: 1
+    Spell: 000BF6:ITB_Wildlife.esp
+    StrikeAngle: 35
+    StaminaMult: 1
+  AttackEvent: attackStart_Attack1
+- AttackData:
+    DamageMult: 1
+    Chance: 1
+    Spell: 000BF6:ITB_Wildlife.esp
+    StrikeAngle: 35
+    StaminaMult: 1
+  AttackEvent: attackStart_Attack2
+- AttackData:
+    DamageMult: 2
+    Chance: 1
+    Spell: 000BF6:ITB_Wildlife.esp
+    StrikeAngle: 35
+    Stagger: 0.5
+    StaminaMult: 1
+  AttackEvent: attackStart_ForwardPower
+- AttackData:
+    DamageMult: 2
+    Chance: 1
+    Spell: 000BF6:ITB_Wildlife.esp
+    StrikeAngle: 35
+    StaminaMult: 1
+  AttackEvent: attackStart_SkeeverLungeLong
+- AttackData:
+    DamageMult: 2
+    Chance: 1
+    Spell: 000BF6:ITB_Wildlife.esp
+    StrikeAngle: 35
+    StaminaMult: 1
+  AttackEvent: attackStart_SkeeverLungeShort
+- AttackData:
+    DamageMult: 2
+    StrikeAngle: 35
+    StaminaMult: 1
+  AttackEvent: attackStart_StandingPower
+BodyData:
+  Male:
+    Index: BodyTexture
+    Model:
+      File: Actors\Character\UpperBodyHumanMale.egt
+      Data: 0x020000000000000000000000
+  Female:
+    Index: BodyTexture
+    Model:
+      File: Actors\Character\UpperBodyHumanFemale.egt
+      Data: 0x020000000000000000000000
+BodyPartData: 04FBF5:Skyrim.esm
+BehaviorGraph:
+  Male:
+    File: Actors\Canine\DogProject.hkx
+    Data: 0x020000000000000000000000
+  Female:
+    File: Actors\Canine\DogProject.hkx
+    Data: 0x020000000000000000000000
+MaterialType: 05A28F:Skyrim.esm
+ImpactDataSet: 0A956F:Skyrim.esm
+OpenLootSound: 0A5013:Skyrim.esm
+CloseLootSound: 0A5014:Skyrim.esm
+BipedObjectNames:
+- Key: Body
+  Value: BODY
+EquipmentFlags:
+- HandToHand
+EquipmentSlots:
+- 013F42:Skyrim.esm
+UnarmedEquipSlot: 013F42:Skyrim.esm

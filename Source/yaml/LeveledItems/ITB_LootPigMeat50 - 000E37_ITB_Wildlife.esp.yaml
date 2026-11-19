@@ -1,0 +1,10 @@
+FormKey: 000E37:ITB_Wildlife.esp
+EditorID: ITB_LootPigMeat50
+ChanceNone: 0.5
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 00108C:ITB_Wildlife.esp
+    Count: 3

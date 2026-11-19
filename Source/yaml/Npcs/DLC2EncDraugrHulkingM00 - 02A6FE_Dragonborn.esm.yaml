@@ -38,7 +38,7 @@ Items:
     Item: 03399C:Dragonborn.esm
     Count: 1
 - Item:
-    Item: 0010AE:ITB_Wildlife.esp
+    Item: 0010B6:ITB_Wildlife.esp
     Count: 1
 AIData:
   Aggression: VeryAggressive

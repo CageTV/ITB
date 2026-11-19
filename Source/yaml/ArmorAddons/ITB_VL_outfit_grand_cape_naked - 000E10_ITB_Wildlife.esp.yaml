@@ -1,0 +1,22 @@
+FormKey: 000E10:ITB_Wildlife.esp
+EditorID: ITB_VL_outfit_grand_cape_naked
+BodyTemplate:
+  FirstPersonFlags:
+  - Amulet
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 00283A:Dawnguard.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: itb\fauna\vampire_lords\vampire_lords_586c00bb.nif
+    Data: 0x020000000000000000000000
+AdditionalRaces:
+- 00091B:ITB_Wildlife.esp
+- 00091A:ITB_Wildlife.esp
+- 00091C:ITB_Wildlife.esp

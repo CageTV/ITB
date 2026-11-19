@@ -28,7 +28,7 @@ Factions:
   Fluff: 0x000000
 - Faction: 02D1DF:Skyrim.esm
   Fluff: 0x000000
-Template: 001034:ITB_Wildlife.esp
+Template: 00103B:ITB_Wildlife.esp
 Race: 109C7C:Skyrim.esm
 AIData:
   Confidence: Foolhardy

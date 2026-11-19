@@ -10,9 +10,9 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BA3:ITB_Wildlife.esp
-- 000BAF:ITB_Wildlife.esp
-Skin: 000CFE:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
+- 000BB0:ITB_Wildlife.esp
+Skin: 000D00:ITB_Wildlife.esp
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True
@@ -92,8 +92,8 @@ MovementTypeNames:
 - SWIM
 - WALK
 Voices:
-  Male: 001056:ITB_Wildlife.esp
-  Female: 001056:ITB_Wildlife.esp
+  Male: 00105E:ITB_Wildlife.esp
+  Female: 00105E:ITB_Wildlife.esp
 FacegenMainClamp: 5
 FacegenFaceClamp: 3
 Attacks:

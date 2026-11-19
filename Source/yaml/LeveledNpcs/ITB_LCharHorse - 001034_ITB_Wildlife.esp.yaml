@@ -1,0 +1,21 @@
+FormKey: 001034:ITB_Wildlife.esp
+EditorID: ITB_LCharHorse
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+Entries:
+- Data:
+    Level: 1
+    Reference: 000F3B:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F3A:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F3C:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F3E:ITB_Wildlife.esp
+    Count: 1

@@ -1,0 +1,28 @@
+FormKey: 000BF1:ITB_Wildlife.esp
+EditorID: ITB_zombie_AB
+Name:
+  TargetLanguage: English
+  Value: Draugr Abilities
+MenuDisplayObject: 0435A5:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+Effects:
+- BaseEffect: 024315:Skyrim.esm
+  Data:
+    Magnitude: 30
+- BaseEffect: 0AA024:Skyrim.esm
+  Data:
+    Magnitude: 100
+- BaseEffect: 0AA01C:Skyrim.esm
+  Data: {}
+- BaseEffect: 02431E:Skyrim.esm
+  Data:
+    Magnitude: 60
+- BaseEffect: 0E40D3:Skyrim.esm
+  Data:
+    Magnitude: 100
+- BaseEffect: 052FF3:Skyrim.esm
+  Data: {}

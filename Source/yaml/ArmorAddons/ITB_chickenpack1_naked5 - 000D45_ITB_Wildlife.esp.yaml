@@ -1,0 +1,25 @@
+FormKey: 000D45:ITB_Wildlife.esp
+EditorID: ITB_chickenpack1_naked5
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0A919D:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: Actors\Ambient\Chicken\Character Assets\Chicken.nif
+    Data: 0x020000000000000000000000
+    AlternateTextures:
+    - Name: grp020
+      NewTexture: 000C28:ITB_Wildlife.esp
+    - Name: grp021
+      NewTexture: 000C28:ITB_Wildlife.esp
+      Index: 1

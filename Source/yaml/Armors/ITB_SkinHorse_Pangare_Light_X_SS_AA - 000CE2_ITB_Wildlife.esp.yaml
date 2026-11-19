@@ -1,0 +1,19 @@
+FormKey: 000CE2:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_SkinHorse_Pangare_Light_X_SS_AA
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131FD:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 04B2CA:Skyrim.esm
+- 000DC6:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

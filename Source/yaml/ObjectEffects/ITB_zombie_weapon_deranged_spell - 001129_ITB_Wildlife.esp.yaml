@@ -1,0 +1,14 @@
+FormKey: 001129:ITB_Wildlife.esp
+EditorID: ITB_zombie_weapon_deranged_spell
+Name:
+  TargetLanguage: English
+  Value: Putrefaction
+CastType: FireAndForget
+TargetType: Touch
+EnchantType: Enchantment
+BaseEnchantment: 001129:ITB_Wildlife.esp
+Effects:
+- BaseEffect: 000B9E:ITB_Wildlife.esp
+  Data:
+    Magnitude: 5
+    Duration: 5

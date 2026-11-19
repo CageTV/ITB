@@ -1,0 +1,20 @@
+FormKey: 0010A3:ITB_Wildlife.esp
+EditorID: ITB_giantcentipede_NPC2_CALL_projectile
+Model:
+  File: itb\fauna\giant_centipede\giant_centipede_5689555d.nif
+  Data: 0x020000000000000000000000
+Flags:
+- Explosion
+Type: Missile
+Gravity: 1
+Speed: 2500
+Range: 1000
+Explosion: 0010A4:ITB_Wildlife.esp
+Sound: 06CB40:Skyrim.esm
+FadeDuration: 0.5
+ImpactForce: 1.5
+CountdownSound: 06CB40:Skyrim.esm
+CollisionRadius: 10
+RelaunchInterval: 0.25
+MuzzleFlashModel: ''
+SoundLevel: 1

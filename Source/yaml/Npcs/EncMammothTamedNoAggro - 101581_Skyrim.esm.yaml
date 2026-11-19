@@ -133,7 +133,7 @@ SoundLevel: Normal
 Sound:
   MutagenObjectType: NpcInheritSound
   InheritsSoundsFrom: 01C060:Skyrim.esm
-DefaultOutfit: 000E3C:ITB_Wildlife.esp
+DefaultOutfit: 000E42:ITB_Wildlife.esp
 DefaultPackageList: 0EB249:Skyrim.esm
 TextureLighting: '#007F7F7F'
 MajorFlags:

@@ -9,9 +9,9 @@ Description:
 ActorEffect:
 - 0B8783:Skyrim.esm
 - 0F93DB:Skyrim.esm
-- 000BAA:ITB_Wildlife.esp
+- 000BAB:ITB_Wildlife.esp
+- 000BA6:ITB_Wildlife.esp
 - 000BA5:ITB_Wildlife.esp
-- 000BA4:ITB_Wildlife.esp
 Skin: 09DA65:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
@@ -97,7 +97,7 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 0.25
-    Spell: 000BA6:ITB_Wildlife.esp
+    Spell: 000BA7:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 30
@@ -108,7 +108,7 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 0.25
-    Spell: 000BA6:ITB_Wildlife.esp
+    Spell: 000BA7:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 30

@@ -1,0 +1,15 @@
+FormKey: 00110C:ITB_Wildlife.esp
+EditorID: ITB_snowleopardpelt
+ObjectBounds:
+  First: -24, -30, 0
+  Second: 24, 36, 6
+Name:
+  TargetLanguage: English
+  Value: Snow Leopard Pelt
+Model:
+  File: itb\fauna\mountain_lion\mountain_lion_9b231b47.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0914EA:Skyrim.esm
+Value: 120
+Weight: 1.9

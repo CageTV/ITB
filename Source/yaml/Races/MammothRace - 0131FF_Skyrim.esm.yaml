@@ -9,10 +9,10 @@ Description:
 ActorEffect:
 - 0B556B:Skyrim.esm
 - 10C042:Skyrim.esm
-- 000B9E:ITB_Wildlife.esp
-- 000BA0:ITB_Wildlife.esp
+- 000B9F:ITB_Wildlife.esp
+- 000BA1:ITB_Wildlife.esp
+- 000BA6:ITB_Wildlife.esp
 - 000BA5:ITB_Wildlife.esp
-- 000BA4:ITB_Wildlife.esp
 Skin: 059253:Skyrim.esm
 BodyTemplate:
   FirstPersonFlags:

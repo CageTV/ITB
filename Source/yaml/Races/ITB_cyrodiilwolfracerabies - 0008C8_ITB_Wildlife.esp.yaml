@@ -93,49 +93,49 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.5
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_Attack1
 - AttackData:
     DamageMult: 1
     Chance: 0.5
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_Attack2
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackLeft1
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackLeft2
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackRight1
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackRight2
 - AttackData:
     DamageMult: 1.5
     Chance: 0.75
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 35
@@ -146,7 +146,7 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.75
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 35
@@ -156,20 +156,20 @@ Attacks:
   AttackEvent: attackStart_ForwardPowerShort
 - AttackData:
     DamageMult: 1.5
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     StrikeAngle: 35
     Stagger: 0.0125
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeLong
 - AttackData:
     DamageMult: 1
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeMedium
 - AttackData:
     DamageMult: 1.5
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     StrikeAngle: 35
     Stagger: 0.0125
     StaminaMult: 1
@@ -177,7 +177,7 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.25
-    Spell: 000BBF:ITB_Wildlife.esp
+    Spell: 000BC0:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 35

@@ -17,3 +17,6 @@ Not play-tested yet. Design rules: `SPEC.md`.
 - `Plugin/ITB Wildlife.esp`: built plugin.
 - `Source/yaml/`: the plugin as Spriggit YAML (Spriggit 0.41, Skyrim SE).
 - `DLL/`: DLL source (`src/`, `ng.cmake`, `LICENSE`) and the built DLL with its rules in `DLL/dist/`.
+
+## Credits
+See `CREDITS.md`.

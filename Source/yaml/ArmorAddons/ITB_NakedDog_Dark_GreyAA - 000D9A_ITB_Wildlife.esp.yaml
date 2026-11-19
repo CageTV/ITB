@@ -1,0 +1,29 @@
+FormKey: 000D9A:ITB_Wildlife.esp
+EditorID: ITB_NakedDog_Dark_GreyAA
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131EE:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: Actors\Canine\Character Assets Dog\dog.nif
+    Data: 0x020000000000000000000000
+    AlternateTextures:
+    - Name: DOG_NewUV:0
+      NewTexture: 000C2E:ITB_Wildlife.esp
+    - Name: DOG_NewUV:1
+      NewTexture: 000C2E:ITB_Wildlife.esp
+      Index: 1
+AdditionalRaces:
+- 0CD657:Skyrim.esm
+- 0F1AC4:Skyrim.esm
+FootstepSound: 04E86E:Skyrim.esm

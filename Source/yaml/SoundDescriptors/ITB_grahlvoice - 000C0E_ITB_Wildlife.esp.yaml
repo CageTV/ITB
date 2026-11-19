@@ -1,0 +1,11 @@
+FormKey: 000C0E:ITB_Wildlife.esp
+EditorID: ITB_grahlvoice
+Type: Standard
+Category: 09F254:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\grahl\grahl_77109e8f.wav
+OutputModel: 07F80C:Skyrim.esm
+LoopAndRumble:
+  Loop: Loop
+PercentFrequencyVariance: 6
+Priority: 1

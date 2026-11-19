@@ -1,0 +1,19 @@
+FormKey: 000D31:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_zombiedog_nakedskin2
+FormVersion: 43
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000921:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000E19:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

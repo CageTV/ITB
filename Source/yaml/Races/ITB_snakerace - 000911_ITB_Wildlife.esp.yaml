@@ -7,7 +7,7 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BB8:ITB_Wildlife.esp
+- 000BB9:ITB_Wildlife.esp
 Skin: 0538F8:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
@@ -85,11 +85,11 @@ SkeletalModel:
     File: Actors\IceWraith\Character Assets\skeleton.nif
     Data: 0x020000000000000000000000
 MovementTypeNames:
-- "BLDO\0"
-- "RUN1\0"
-- "SNEK\0"
-- "SWIM\0"
-- "WALK\0"
+- BLDO
+- RUN1
+- SNEK
+- SWIM
+- WALK
 Voices:
   Male: 01F236:Skyrim.esm
   Female: 01F236:Skyrim.esm
@@ -98,7 +98,7 @@ FacegenFaceClamp: 3
 Attacks:
 - AttackData:
     DamageMult: 1.5
-    Spell: 000BE6:ITB_Wildlife.esp
+    Spell: 000BE7:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 35
@@ -107,7 +107,7 @@ Attacks:
   AttackEvent: attackPowerStart_GroundDive
 - AttackData:
     DamageMult: 1.5
-    Spell: 000BE6:ITB_Wildlife.esp
+    Spell: 000BE7:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 35
@@ -117,14 +117,14 @@ Attacks:
 - AttackData:
     DamageMult: 0.5
     Chance: 1
-    Spell: 000BE6:ITB_Wildlife.esp
+    Spell: 000BE7:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackLtoR
 - AttackData:
     DamageMult: 0.5
     Chance: 1
-    Spell: 000BE6:ITB_Wildlife.esp
+    Spell: 000BE7:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_AttackRtoL
@@ -158,6 +158,26 @@ BipedObjectNames:
   Value: SmokeFins
 EquipmentFlags:
 - HandToHand
+- 0x2000
+- 0x4000
+- 0x8000
+- 0x10000
+- 0x20000
+- 0x40000
+- 0x80000
+- 0x100000
+- 0x200000
+- 0x400000
+- 0x800000
+- 0x1000000
+- 0x2000000
+- 0x4000000
+- 0x8000000
+- 0x10000000
+- 0x20000000
+- 0x40000000
+- 0x80000000
+- 0x0
 EquipmentSlots:
 - 013F42:Skyrim.esm
 - 013F43:Skyrim.esm

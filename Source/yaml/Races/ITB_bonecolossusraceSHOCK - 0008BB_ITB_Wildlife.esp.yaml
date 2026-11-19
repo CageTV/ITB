@@ -7,8 +7,8 @@ Description:
   TargetLanguage: English
   Value: ''
 ActorEffect:
-- 000BB2:ITB_Wildlife.esp
-- 000BB4:ITB_Wildlife.esp
+- 000BB3:ITB_Wildlife.esp
+- 000BB5:ITB_Wildlife.esp
 Skin: 014497:Dragonborn.esm
 BodyTemplate:
   ArmorType: Clothing
@@ -99,7 +99,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.65
-    Spell: 000BBC:ITB_Wildlife.esp
+    Spell: 000BBD:ITB_Wildlife.esp
     Flags:
     - IgnoreWeapon
     - PowerAttack
@@ -110,7 +110,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BBC:ITB_Wildlife.esp
+    Spell: 000BBD:ITB_Wildlife.esp
     Flags:
     - IgnoreWeapon
     - PowerAttack
@@ -122,7 +122,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BE5:ITB_Wildlife.esp
+    Spell: 000BE6:ITB_Wildlife.esp
     Flags:
     - IgnoreWeapon
     AttackAngle: 180
@@ -133,7 +133,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.5
-    Spell: 000BE5:ITB_Wildlife.esp
+    Spell: 000BE6:ITB_Wildlife.esp
     Flags:
     - IgnoreWeapon
     StrikeAngle: 65
@@ -144,7 +144,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BE5:ITB_Wildlife.esp
+    Spell: 000BE6:ITB_Wildlife.esp
     Flags:
     - IgnoreWeapon
     StrikeAngle: 65
@@ -153,7 +153,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BBC:ITB_Wildlife.esp
+    Spell: 000BBD:ITB_Wildlife.esp
     Flags:
     - IgnoreWeapon
     - BashAttack

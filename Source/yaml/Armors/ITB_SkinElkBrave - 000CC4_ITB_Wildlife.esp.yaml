@@ -1,0 +1,22 @@
+FormKey: 000CC4:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_SkinElkBrave
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Elkmale
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131ED:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 04E783:Skyrim.esm
+- 000D9E:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

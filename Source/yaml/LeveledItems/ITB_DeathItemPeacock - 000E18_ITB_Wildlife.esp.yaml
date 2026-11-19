@@ -1,9 +1,0 @@
-FormKey: 000E18:ITB_Wildlife.esp
-EditorID: ITB_DeathItemPeacock
-Flags:
-- UseAll
-Entries:
-- Data:
-    Level: 1
-    Reference: 0010CB:ITB_Wildlife.esp
-    Count: 1

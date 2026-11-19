@@ -1,0 +1,87 @@
+FormKey: 042295:Skyrim.esm
+EditorID: LCharAnimalMarshPredator
+Version2: 13
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 023AAA:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023AAA:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 10D140:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 2
+    Reference: 000FEA:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 5
+    Reference: 041FB4:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 6
+    Reference: 041FB4:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 8
+    Reference: 041FB4:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 12
+    Reference: 0A5600:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 13
+    Reference: 0A5600:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 14
+    Reference: 0A5600:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 14
+    Reference: 023ABA:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 16
+    Reference: 023ABA:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 18
+    Reference: 023ABA:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 20
+    Reference: 023ABA:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 20
+    Reference: 023A8F:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 24
+    Reference: 023A8F:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 30
+    Reference: 023A8F:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 32
+    Reference: 023A8F:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 35
+    Reference: 023A8F:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 8
+    Reference: 000FE7:ITB_Wildlife.esp
+    Count: 1

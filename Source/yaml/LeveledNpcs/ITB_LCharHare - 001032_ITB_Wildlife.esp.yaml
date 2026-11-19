@@ -1,0 +1,29 @@
+FormKey: 001032:ITB_Wildlife.esp
+EditorID: ITB_LCharHare
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+Entries:
+- Data:
+    Level: 1
+    Reference: 06DC9D:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F2F:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F2E:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F30:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F31:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F32:ITB_Wildlife.esp
+    Count: 1

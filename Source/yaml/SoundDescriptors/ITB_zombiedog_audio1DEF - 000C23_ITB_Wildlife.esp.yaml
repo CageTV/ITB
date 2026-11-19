@@ -1,0 +1,14 @@
+FormKey: 000C23:ITB_Wildlife.esp
+EditorID: ITB_zombiedog_audio1DEF
+FormVersion: 43
+Type: Standard
+Category: 09F254:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\skinnedhound\skinnedhound_61e713b6.wav
+OutputModel: 05A28A:Skyrim.esm
+LoopAndRumble:
+  Loop: Loop
+PercentFrequencyVariance: 10
+Priority: 128
+Variance: 2
+StaticAttenuation: 10.13

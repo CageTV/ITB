@@ -1,0 +1,21 @@
+FormKey: 000BBA:ITB_Wildlife.esp
+EditorID: ITB_bonecolossusspitFIRE
+Name:
+  TargetLanguage: English
+  Value: Acid
+MenuDisplayObject: 0435A5:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 8
+Flags:
+- ManualCostCalc
+- NoDualCastModification
+CastType: FireAndForget
+TargetType: Aimed
+Effects:
+- BaseEffect: 000B74:ITB_Wildlife.esp
+  Data:
+    Magnitude: 70
+    Duration: 5

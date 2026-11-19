@@ -1,0 +1,23 @@
+FormKey: 00103C:ITB_Wildlife.esp
+VersionControl: 13148
+EditorID: ITB_LCharSnake
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 000FE6:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000FE9:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000FEA:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000FE7:ITB_Wildlife.esp
+    Count: 1

@@ -1,0 +1,11 @@
+FormKey: 000C14:ITB_Wildlife.esp
+EditorID: ITB_nitosound
+Type: Standard
+Category: 09F254:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\mmasithis\mmasithis_82e3e612.wav
+OutputModel: 05A28A:Skyrim.esm
+LoopAndRumble:
+  Loop: Loop
+Priority: 1
+StaticAttenuation: 5.29

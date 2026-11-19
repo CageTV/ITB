@@ -1,0 +1,19 @@
+FormKey: 000BDC:ITB_Wildlife.esp
+EditorID: ITB_LORDgarkainspell
+Name:
+  TargetLanguage: English
+  Value: Summon Garkain
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 50
+Flags:
+- ManualCostCalc
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+Effects:
+- BaseEffect: 000B85:ITB_Wildlife.esp
+  Data:
+    Duration: 60

@@ -1,0 +1,33 @@
+FormKey: 00102C:ITB_Wildlife.esp
+EditorID: ITB_LCharBearSnow
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+Entries:
+- Data:
+    Level: 1
+    Reference: 023A8C:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023A8C:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023A8C:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023A8C:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F12:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F15:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023A8C:Skyrim.esm
+    Count: 1

@@ -1,0 +1,22 @@
+FormKey: 000E0D:ITB_Wildlife.esp
+EditorID: ITB_VL_foglin_naked
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000919:ITB_Wildlife.esp
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: itb\fauna\vampire_lords\vampire_lords_78f3a406.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: Actors\DLC02\Riekling\Character Assets\Riekling01.nif
+    Data: 0x020000000000000000000000
+FootstepSound: 028B91:Dragonborn.esm

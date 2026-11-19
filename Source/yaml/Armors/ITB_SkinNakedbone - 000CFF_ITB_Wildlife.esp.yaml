@@ -1,0 +1,23 @@
+FormKey: 000CFF:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_SkinNakedbone
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  - Body
+  - Hands
+  - Feet
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0008BF:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000DE7:ITB_Wildlife.esp
+- 000DA9:ITB_Wildlife.esp
+- 000DA0:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

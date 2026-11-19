@@ -1,0 +1,6 @@
+FormKey: 001115:ITB_Wildlife.esp
+EditorID: ITB_TurkeyPlacementEXP
+PlacedObject: 000FFD:ITB_Wildlife.esp
+Flags:
+- 0x1
+SoundLevel: Silent

@@ -1,0 +1,37 @@
+FormKey: 00102B:ITB_Wildlife.esp
+EditorID: ITB_LCharBearBrown
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+Entries:
+- Data:
+    Level: 1
+    Reference: 023A8B:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023A8B:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023A8B:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023A8B:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F0C:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F0B:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F0E:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F0B:ITB_Wildlife.esp
+    Count: 1

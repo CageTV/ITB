@@ -57,9 +57,9 @@ AIData:
   WarnOrAttack: 2048
   Attack: 2048
 Packages:
+- 0009B3:ITB_Wildlife.esp
 - 0009B2:ITB_Wildlife.esp
 - 0009B1:ITB_Wildlife.esp
-- 0009B0:ITB_Wildlife.esp
 Class: 01CE1D:Skyrim.esm
 Name:
   TargetLanguage: English

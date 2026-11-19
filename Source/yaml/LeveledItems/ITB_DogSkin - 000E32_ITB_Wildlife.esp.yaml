@@ -1,0 +1,32 @@
+FormKey: 000E32:ITB_Wildlife.esp
+EditorID: ITB_DogSkin
+ChanceNone: 0.5
+Entries:
+- Data:
+    Level: 1
+    Reference: 000CBC:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CBD:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CBE:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CBF:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CC0:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CC1:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000CC2:ITB_Wildlife.esp
+    Count: 1

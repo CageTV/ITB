@@ -1,0 +1,7 @@
+FormKey: 000E1C:ITB_Wildlife.esp
+EditorID: ITB_DeathItemGoose
+Entries:
+- Data:
+    Level: 1
+    Reference: 001087:ITB_Wildlife.esp
+    Count: 2

@@ -1,0 +1,7 @@
+FormKey: 00111B:ITB_Wildlife.esp
+EditorID: ITB_WindExpertProjectileMps
+Model:
+  File: itb\fauna\misc\misc_145f1ee9.nif
+  Data: 0x020000000000000000000000
+NodeIndex: 883
+Flags: MasterParticleSystem

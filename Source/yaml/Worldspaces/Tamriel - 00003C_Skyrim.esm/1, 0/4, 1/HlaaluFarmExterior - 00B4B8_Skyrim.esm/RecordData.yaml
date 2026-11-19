@@ -61,52 +61,52 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A6B:ITB_Wildlife.esp
-  Base: 000E75:ITB_Wildlife.esp
+  FormKey: 001A74:ITB_Wildlife.esp
+  Base: 000E7B:ITB_Wildlife.esp
   Owner: 105A5B:Skyrim.esm
   Placement:
     Position: 147042.1, 32817.312, -13600
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A6C:ITB_Wildlife.esp
-  Base: 000E74:ITB_Wildlife.esp
+  FormKey: 001A75:ITB_Wildlife.esp
+  Base: 000E7A:ITB_Wildlife.esp
   Owner: 105A5B:Skyrim.esm
   Placement:
     Position: 146990.95, 32944.24, -13605.064
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A6D:ITB_Wildlife.esp
+  FormKey: 001A76:ITB_Wildlife.esp
   Base: 023A90:Skyrim.esm
   Placement:
     Position: 146438.148, 32982.696, -13587.666
     Rotation: 0, 0, 1.1636
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A6E:ITB_Wildlife.esp
+  FormKey: 001A77:ITB_Wildlife.esp
   Base: 023A90:Skyrim.esm
   Placement:
     Position: 146212.324, 33057.918, -13587.666
     Rotation: 0, 0, 2.0347
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A6F:ITB_Wildlife.esp
+  FormKey: 001A78:ITB_Wildlife.esp
   Base: 04359C:Skyrim.esm
   Placement:
     Position: 146513.965, 33145.991, -13587.666
     Rotation: 0, 0, 7.4344
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A70:ITB_Wildlife.esp
-  Base: 000FF3:ITB_Wildlife.esp
+  FormKey: 001A79:ITB_Wildlife.esp
+  Base: 000FFA:ITB_Wildlife.esp
   Placement:
     Position: 146297.140, 32993.978, -13587.666
     Rotation: 0, 0, 20.6678
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A71:ITB_Wildlife.esp
-  Base: 000FF3:ITB_Wildlife.esp
+  FormKey: 001A7A:ITB_Wildlife.esp
+  Base: 000FFA:ITB_Wildlife.esp
   Placement:
     Position: 146487.075, 33059.233, -13587.666
     Rotation: 0, 0, 7.3997
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A72:ITB_Wildlife.esp
-  Base: 000F11:ITB_Wildlife.esp
+  FormKey: 001A7B:ITB_Wildlife.esp
+  Base: 000F17:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001A6C:ITB_Wildlife.esp
+  - Reference: 001A75:ITB_Wildlife.esp
   Placement:
     Position: 146842.451, 32965.408, -13597.064
     Rotation: 0, 0, 3.0000

@@ -1,0 +1,18 @@
+FormKey: 00111F:ITB_Wildlife.esp
+EditorID: ITB_WindProjectile02
+Model:
+  File: itb\fauna\misc\misc_a84ab7e7.nif
+  Data: 0x020000000000000000000000
+Flags:
+- Explosion
+Type: Missile
+Speed: 2500
+Range: 10000
+Explosion: 001083:ITB_Wildlife.esp
+Sound: 000DFE:Skyrim.esm
+FadeDuration: 8
+ImpactForce: 2
+CollisionRadius: 10
+RelaunchInterval: 0.25
+MuzzleFlashModel: ''
+SoundLevel: 1

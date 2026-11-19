@@ -1,0 +1,273 @@
+FormKey: 000B41:ITB_Wildlife.esp
+EditorID: ITB_WolfBlackSandbox10AM3PM
+Type: Package
+PreferredSpeed: Run
+InterruptFlags:
+- HellosToPlayer
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- WorldInteractions
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: 10
+ScheduleMinute: -1
+Unknown3: 0x000000
+ScheduleDurationInMinutes: 300
+DataInputVersion: 10
+Data:
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: Location
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearEditorLocation
+      Radius: 512
+- Key: 14
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Unlock On Arrival?
+    Flags:
+    - Public
+- Key: 1
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Allow Eating
+    Flags:
+    - Public
+    Data: True
+- Key: 3
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Allow Sleeping
+    Flags:
+    - Public
+    Data: True
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Allow Conversation
+    Flags:
+    - Public
+    Data: True
+- Key: 5
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Allow Idle Markers
+    Flags:
+    - Public
+    Data: True
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Allow Sitting
+    Flags:
+    - Public
+    Data: True
+- Key: 31
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Allow Special Furniture
+    Flags:
+    - Public
+    Data: True
+- Key: 7
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Allow Wandering
+    Flags:
+    - Public
+    Data: True
+- Key: 25
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: Prefered Path Only?
+    Flags:
+    - Public
+- Key: 27
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: RideHorseIfPossible
+    Flags:
+    - Public
+- Key: 29
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: Energy
+    Flags:
+    - Public
+    Data: 70
+- Key: 33
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: WanderMinRadius
+    Flags:
+    - Public
+    Data: 700
+- Key: 2
+  Value:
+    MutagenObjectType: APackageData
+    Name: Allow Acquring Food
+    Flags:
+    - Public
+- Key: 8
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+- Key: 9
+  Value:
+    MutagenObjectType: APackageData
+    Name: Location
+    Flags:
+    - Public
+- Key: 10
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+- Key: 11
+  Value:
+    MutagenObjectType: APackageData
+    Name: DELETE ME TOO
+    Flags:
+    - Public
+- Key: 12
+  Value:
+    MutagenObjectType: APackageData
+    Name: DELETE ME
+    Flags:
+    - Public
+- Key: 15
+  Value:
+    MutagenObjectType: APackageData
+    Name: Location
+    Flags:
+    - Public
+- Key: 16
+  Value:
+    MutagenObjectType: APackageData
+    Name: DELETEME
+    Flags:
+    - Public
+- Key: 17
+  Value:
+    MutagenObjectType: APackageData
+    Name: AllowEatingDELETEME
+    Flags:
+    - Public
+- Key: 18
+  Value:
+    MutagenObjectType: APackageData
+    Name: AllowSleepingDELETEME
+    Flags:
+    - Public
+- Key: 19
+  Value:
+    MutagenObjectType: APackageData
+    Name: AllowConversationDELETEME
+    Flags:
+    - Public
+- Key: 20
+  Value:
+    MutagenObjectType: APackageData
+    Name: AllowIdleMarkersDELETEME
+    Flags:
+    - Public
+- Key: 21
+  Value:
+    MutagenObjectType: APackageData
+    Name: AllowFurnitureDELETEME
+    Flags:
+    - Public
+- Key: 22
+  Value:
+    MutagenObjectType: APackageData
+    Name: AllowWanderingDELETEME
+    Flags:
+    - Public
+- Key: 23
+  Value:
+    MutagenObjectType: APackageData
+    Name: AllowAcquiringFoodDELETEME
+    Flags:
+    - Public
+- Key: 26
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+XnamMarker: 0x22
+ProcedureTree:
+- BranchType: Sequence
+  Root:
+    BranchCount: 3
+  Unknown: []
+- BranchType: Procedure
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetNumericPackageDataConditionData
+      PackageDataIndex: 14
+    ComparisonValue: 1
+  ProcedureType: Travel
+  Flags: []
+  DataInputIndices:
+  - 0
+  - 27
+  - 255
+  Unknown: []
+- BranchType: Procedure
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetNumericPackageDataConditionData
+      PackageDataIndex: 14
+    ComparisonValue: 1
+  ProcedureType: UnlockDoors
+  Flags: []
+  DataInputIndices:
+  - 0
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Sandbox
+  Flags: []
+  DataInputIndices:
+  - 0
+  - 1
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 25
+  - 29
+  - 31
+  - 33
+  Unknown: []
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

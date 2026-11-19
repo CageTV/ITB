@@ -1,0 +1,6 @@
+FormKey: 000C2A:ITB_Wildlife.esp
+EditorID: ITB_Dog_Black_White
+Diffuse: itb\fauna\black_and_white\black_and_white_e8e771d5.dds
+NormalOrGloss: itb\fauna\black_and_white\black_and_white_55efcac4_n.dds
+EnvironmentMaskOrSubsurfaceTint: itb\fauna\default\default_81483cb3_s.dds
+Flags: []

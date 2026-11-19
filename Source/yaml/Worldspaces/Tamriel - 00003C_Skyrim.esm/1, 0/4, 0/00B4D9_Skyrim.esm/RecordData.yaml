@@ -59,48 +59,48 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A53:ITB_Wildlife.esp
-  Base: 000E69:ITB_Wildlife.esp
+  FormKey: 001A5C:ITB_Wildlife.esp
+  Base: 000E6F:ITB_Wildlife.esp
   Owner: 105A5B:Skyrim.esm
   Placement:
     Position: 146999.92, 32517.016, -13588.48
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A54:ITB_Wildlife.esp
-  Base: 000E6B:ITB_Wildlife.esp
+  FormKey: 001A5D:ITB_Wildlife.esp
+  Base: 000E71:ITB_Wildlife.esp
   Owner: 105A5B:Skyrim.esm
   Placement:
     Position: 147009.61, 32504.715, -13575.832
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A55:ITB_Wildlife.esp
-  Base: 000F2E:ITB_Wildlife.esp
+  FormKey: 001A5E:ITB_Wildlife.esp
+  Base: 000F34:ITB_Wildlife.esp
   Placement:
     Position: 146980.5, 32618.158, -13600
     Rotation: 0, -0, 1.1
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A56:ITB_Wildlife.esp
-  Base: 000F2F:ITB_Wildlife.esp
+  FormKey: 001A5F:ITB_Wildlife.esp
+  Base: 000F35:ITB_Wildlife.esp
   Placement:
     Position: 147087.14, 32616.254, -13600
     Rotation: 0, -0, 2.8000002
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A57:ITB_Wildlife.esp
-  Base: 000F43:ITB_Wildlife.esp
+  FormKey: 001A60:ITB_Wildlife.esp
+  Base: 000F49:ITB_Wildlife.esp
   Placement:
     Position: 146969.08, 32764.773, -13600
     Rotation: 0, -0, 4.6831894
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A58:ITB_Wildlife.esp
-  Base: 000E63:ITB_Wildlife.esp
+  FormKey: 001A61:ITB_Wildlife.esp
+  Base: 000E69:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001A54:ITB_Wildlife.esp
+  - Reference: 001A5D:ITB_Wildlife.esp
   Placement:
     Position: 146861.111, 32525.883, -13567.832
     Rotation: 0, 0, 3.0000
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A59:ITB_Wildlife.esp
-  Base: 000F11:ITB_Wildlife.esp
+  FormKey: 001A62:ITB_Wildlife.esp
+  Base: 000F17:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001A56:ITB_Wildlife.esp
+  - Reference: 001A5F:ITB_Wildlife.esp
   Placement:
     Position: 147129.689, 32472.415, -13592.000
     Rotation: 0, 0, 5.0000

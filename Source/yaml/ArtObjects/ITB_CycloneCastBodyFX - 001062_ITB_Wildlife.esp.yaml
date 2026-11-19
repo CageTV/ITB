@@ -1,0 +1,7 @@
+FormKey: 001062:ITB_Wildlife.esp
+EditorID: ITB_CycloneCastBodyFX
+Model:
+  File: itb\fauna\misc\misc_521e7b79.nif
+  Data: 0x020000000000000000000000
+Type:
+- MagicCasting

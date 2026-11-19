@@ -1,0 +1,12 @@
+FormKey: 000BF7:ITB_Wildlife.esp
+EditorID: ITB_boarsoundbolgan
+Type: Standard
+Category: 0DDDC5:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\bolgan\bolgan_fa558b37.wav
+OutputModel: 0E322C:Skyrim.esm
+LoopAndRumble:
+  Loop: Loop
+PercentFrequencyVariance: 3
+Priority: 1
+Variance: 4

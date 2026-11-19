@@ -50,54 +50,54 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 00120F:ITB_Wildlife.esp
+  FormKey: 001218:ITB_Wildlife.esp
   EditorID: ambushred1
-  Base: 000E53:ITB_Wildlife.esp
+  Base: 000E59:ITB_Wildlife.esp
   Placement:
     Position: 10400, 14672, -992
     Rotation: 0, 0, 4.383192
 - MutagenObjectType: PlacedNpc
-  FormKey: 001210:ITB_Wildlife.esp
+  FormKey: 001219:ITB_Wildlife.esp
   EditorID: ambushsmallred1
-  Base: 000E5A:ITB_Wildlife.esp
+  Base: 000E60:ITB_Wildlife.esp
   Placement:
     Position: 10304, 14784, -800
     Rotation: 0, 0, 3.7831912
 - MutagenObjectType: PlacedNpc
-  FormKey: 001211:ITB_Wildlife.esp
+  FormKey: 00121A:ITB_Wildlife.esp
   EditorID: ambushsmallred4
-  Base: 000E5A:ITB_Wildlife.esp
+  Base: 000E60:ITB_Wildlife.esp
   Placement:
     Position: 10400, 14432, -784
     Rotation: 0, 0, 5.2831883
 - MutagenObjectType: PlacedNpc
-  FormKey: 001212:ITB_Wildlife.esp
-  Base: 000E5D:ITB_Wildlife.esp
+  FormKey: 00121B:ITB_Wildlife.esp
+  Base: 000E63:ITB_Wildlife.esp
   Placement:
     Position: 10158, 14988, -584
     Rotation: 0, 0, 3.8831882
 - MutagenObjectType: PlacedNpc
-  FormKey: 001213:ITB_Wildlife.esp
-  Base: 000E5E:ITB_Wildlife.esp
+  FormKey: 00121C:ITB_Wildlife.esp
+  Base: 000E64:ITB_Wildlife.esp
   Placement:
     Position: 10452.255, 14322.986, -583.5986
     Rotation: 0, 0, 4.5231953
 - MutagenObjectType: PlacedNpc
-  FormKey: 001214:ITB_Wildlife.esp
-  Base: 000E49:ITB_Wildlife.esp
+  FormKey: 00121D:ITB_Wildlife.esp
+  Base: 000E4F:ITB_Wildlife.esp
   Placement:
     Position: 7893.9844, 2566.6746, 141.21826
 - MutagenObjectType: PlacedNpc
-  FormKey: 001215:ITB_Wildlife.esp
-  Base: 000E49:ITB_Wildlife.esp
+  FormKey: 00121E:ITB_Wildlife.esp
+  Base: 000E4F:ITB_Wildlife.esp
   Placement:
     Position: 8924.493, 457.49817, -517.8336
     Rotation: 0, 0, 4.7831864
 - MutagenObjectType: PlacedNpc
-  FormKey: 001216:ITB_Wildlife.esp
-  Base: 000E4B:ITB_Wildlife.esp
+  FormKey: 00121F:ITB_Wildlife.esp
+  Base: 000E51:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001215:ITB_Wildlife.esp
+  - Reference: 00121E:ITB_Wildlife.esp
   Placement:
     Position: 8775.994, 478.666, -509.834
     Rotation: 0, 0, 3.0000

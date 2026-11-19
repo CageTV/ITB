@@ -281,8 +281,10 @@ meshes\itb\fauna\smilodon\smilodon_6ff8f810.nif
 meshes\itb\fauna\smilodon\smilodon_7ba74010.nif
 meshes\itb\fauna\smilodon\smilodon_8f8ac62f.nif
 meshes\itb\fauna\smilodon\smilodon_af43c3c2.nif
+meshes\itb\fauna\snakes\snakes_366eab12.nif
 meshes\itb\fauna\snakes\snakes_4bc9b80c.nif
 meshes\itb\fauna\snakes\snakes_63b4de67.nif
+meshes\itb\fauna\snakes\snakes_6477a0f1.nif
 meshes\itb\fauna\snakes\snakes_baf8863d.nif
 meshes\itb\fauna\snakes\snakes_d0ebde1e.nif
 meshes\itb\fauna\spidersmall\spidersmall_71975a97.nif
@@ -807,11 +809,13 @@ textures\itb\fauna\smilodon\smilodon_8f1202f5_n.dds
 textures\itb\fauna\smilodon\smilodon_9144e73e.dds
 textures\itb\fauna\smilodon\smilodon_a61ad563.dds
 textures\itb\fauna\smilodon\smilodon_f4f6264f.dds
+textures\itb\fauna\snakes\snakes_26964c61.dds
 textures\itb\fauna\snakes\snakes_48d90422.dds
 textures\itb\fauna\snakes\snakes_4e60cada_n.dds
 textures\itb\fauna\snakes\snakes_605010c6_n.dds
 textures\itb\fauna\snakes\snakes_6f5a432d.dds
 textures\itb\fauna\snakes\snakes_8576c819_n.dds
+textures\itb\fauna\snakes\snakes_ccc49b59_n.dds
 textures\itb\fauna\snakes\snakes_ec0984c3.dds
 textures\itb\fauna\spider\spider_2ba8f5f3.dds
 textures\itb\fauna\spider\spider_2bca37b8.dds

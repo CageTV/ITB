@@ -121,7 +121,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BC0:ITB_Wildlife.esp
+    Spell: 000BC1:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     AttackAngle: 180
@@ -131,7 +131,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.5
-    Spell: 000BC0:ITB_Wildlife.esp
+    Spell: 000BC1:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 40
@@ -142,7 +142,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.5
-    Spell: 000BC0:ITB_Wildlife.esp
+    Spell: 000BC1:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 40
@@ -153,14 +153,14 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BC0:ITB_Wildlife.esp
+    Spell: 000BC1:ITB_Wildlife.esp
     StrikeAngle: 40
     StaminaMult: 1
   AttackEvent: attackStart_HandSwipeAttack
 - AttackData:
     DamageMult: 1
     Chance: 1
-    Spell: 000BC0:ITB_Wildlife.esp
+    Spell: 000BC1:ITB_Wildlife.esp
     Flags:
     - BashAttack
     StrikeAngle: 45

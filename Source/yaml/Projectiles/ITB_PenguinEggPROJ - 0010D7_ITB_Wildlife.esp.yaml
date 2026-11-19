@@ -1,0 +1,22 @@
+FormKey: 0010D7:ITB_Wildlife.esp
+EditorID: ITB_PenguinEggPROJ
+Name:
+  TargetLanguage: English
+  Value: Penguin Egg
+Model:
+  File: Magic\IceProjectile01.nif
+  Data: 0x020000000000000000000000
+Flags:
+- Explosion
+Type: Missile
+Gravity: 0.5
+Speed: 1000
+Range: 10000
+Explosion: 0010D8:ITB_Wildlife.esp
+Sound: 03F2B4:Skyrim.esm
+FadeDuration: 5
+ImpactForce: 1
+CollisionRadius: 1
+RelaunchInterval: 0.15
+MuzzleFlashModel: ''
+SoundLevel: 1

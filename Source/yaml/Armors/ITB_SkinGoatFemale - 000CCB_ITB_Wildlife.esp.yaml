@@ -1,0 +1,22 @@
+FormKey: 000CCB:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_SkinGoatFemale
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Goat
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131FA:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 04E783:Skyrim.esm
+- 000DA5:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

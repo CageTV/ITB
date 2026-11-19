@@ -11,9 +11,9 @@ Description:
   Value: ''
 ActorEffect:
 - 10C042:Skyrim.esm
-- 000BA3:ITB_Wildlife.esp
-- 000BAF:ITB_Wildlife.esp
-Skin: 000D07:ITB_Wildlife.esp
+- 000BA4:ITB_Wildlife.esp
+- 000BB0:ITB_Wildlife.esp
+Skin: 000D09:ITB_Wildlife.esp
 BodyTemplate:
   ArmorType: Clothing
   ActsLike44: True

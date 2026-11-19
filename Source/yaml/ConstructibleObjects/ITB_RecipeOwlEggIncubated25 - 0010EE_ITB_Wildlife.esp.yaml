@@ -1,0 +1,9 @@
+FormKey: 0010EE:ITB_Wildlife.esp
+EditorID: ITB_RecipeOwlEggIncubated25
+Items:
+- Item:
+    Item: 0010CD:ITB_Wildlife.esp
+    Count: 12
+CreatedObject: 0010CF:ITB_Wildlife.esp
+WorkbenchKeyword: 088105:Skyrim.esm
+CreatedObjectCount: 25

@@ -1,0 +1,434 @@
+FormKey: 000B22:ITB_Wildlife.esp
+EditorID: ITB_Wanderlust4PMGoat
+Flags:
+- PreferredSpeed
+Type: Package
+InterruptFlags:
+- HellosToPlayer
+- RandomConversations
+- ObserveCombatBehavior
+- GreetCorpseBehavior
+- ReactionToPlayerActions
+- FriendlyFireComments
+- AggroRadiusBehavior
+- AllowIdleChatter
+- WorldInteractions
+- 0x400
+- 0x800
+- 0x1000
+- 0x2000
+- 0x4000
+- 0x8000
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: 16
+ScheduleMinute: -1
+Unknown3: 0x000000
+ScheduleDurationInMinutes: 60
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetDeadConditionData
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInInteriorConditionData
+DataInputVersion: 16
+Data:
+- Key: 77
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Name: Destination
+    Flags:
+    - Public
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearSelf
+      Radius: 8192
+- Key: 78
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Name: TargetSelector
+    Flags:
+    - Public
+    Target:
+      MutagenObjectType: PackageTargetObjectType
+      Type: Misc
+- Key: 80
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: RideHorse?
+    Flags:
+    - Public
+- Key: 82
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: PreferredPath?
+    Flags:
+    - Public
+- Key: 87
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: PointRadius
+    Flags:
+    - Public
+    Data: 250
+- Key: 89
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: repeatable
+    Flags:
+    - Public
+- Key: 91
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: StartAtNearestPoint
+    Flags:
+    - Public
+    Data: True
+- Key: 93
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Name: ObjectList
+    Flags:
+    - Public
+    Data: 4096
+- Key: 95
+  Value:
+    MutagenObjectType: PackageDataBool
+    Name: RandomizeList
+    Flags:
+    - Public
+- Key: 75
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Name: Minimum Distance
+    Flags:
+    - Public
+    Data: 2048
+- Key: 0
+  Value:
+    MutagenObjectType: APackageData
+    Name: Target to Follow
+    Flags:
+    - Public
+- Key: 1
+  Value:
+    MutagenObjectType: APackageData
+    Name: 'Min Radius:'
+    Flags:
+    - Public
+- Key: 2
+  Value:
+    MutagenObjectType: APackageData
+    Name: 'Max Radius:'
+    Flags:
+    - Public
+- Key: 4
+  Value:
+    MutagenObjectType: APackageData
+    Name: Accompany?
+    Flags:
+    - Public
+- Key: 6
+  Value:
+    MutagenObjectType: APackageData
+    Name: Ride Horse?
+    Flags:
+    - Public
+- Key: 8
+  Value:
+    MutagenObjectType: APackageData
+    Name: Need LOS?
+    Flags:
+    - Public
+- Key: 9
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+- Key: 10
+  Value:
+    MutagenObjectType: APackageData
+    Name: TargetSelector
+    Flags:
+    - Public
+- Key: 12
+  Value:
+    MutagenObjectType: APackageData
+    Name: MinRadius
+    Flags:
+    - Public
+- Key: 13
+  Value:
+    MutagenObjectType: APackageData
+    Name: target
+    Flags:
+    - Public
+- Key: 14
+  Value:
+    MutagenObjectType: APackageData
+    Name: <none>
+    Flags:
+    - Public
+- Key: 15
+  Value:
+    MutagenObjectType: APackageData
+    Name: Destination
+    Flags:
+    - Public
+- Key: 16
+  Value:
+    MutagenObjectType: APackageData
+    Name: TargetSelector
+    Flags:
+    - Public
+- Key: 18
+  Value:
+    MutagenObjectType: APackageData
+    Name: Int
+    Flags:
+    - Public
+- Key: 20
+  Value:
+    MutagenObjectType: APackageData
+    Name: MinRadius
+    Flags:
+    - Public
+- Key: 21
+  Value:
+    MutagenObjectType: APackageData
+    Name: target
+    Flags:
+    - Public
+- Key: 22
+  Value:
+    MutagenObjectType: APackageData
+    Name: MinRadius
+    Flags:
+    - Public
+- Key: 24
+  Value:
+    MutagenObjectType: APackageData
+    Name: Randomize
+    Flags:
+    - Public
+- Key: 26
+  Value:
+    MutagenObjectType: APackageData
+    Name: SearchInventory
+    Flags:
+    - Public
+- Key: 28
+  Value:
+    MutagenObjectType: APackageData
+    Name: RideHorse?
+    Flags:
+    - Public
+- Key: 30
+  Value:
+    MutagenObjectType: APackageData
+    Name: PrefferedPath?
+    Flags:
+    - Public
+- Key: 32
+  Value:
+    MutagenObjectType: APackageData
+    Name: Leader?
+    Flags:
+    - Public
+- Key: 34
+  Value:
+    MutagenObjectType: APackageData
+    Name: LOS?
+    Flags:
+    - Public
+- Key: 36
+  Value:
+    MutagenObjectType: APackageData
+    Name: UseDynamic
+    Flags:
+    - Public
+- Key: 38
+  Value:
+    MutagenObjectType: APackageData
+    Name: GoalRadius
+    Flags:
+    - Public
+- Key: 41
+  Value:
+    MutagenObjectType: APackageData
+    Name: AvoidNode
+    Flags:
+    - Public
+- Key: 43
+  Value:
+    MutagenObjectType: APackageData
+    Name: FleeDistance
+    Flags:
+    - Public
+- Key: 45
+  Value:
+    MutagenObjectType: APackageData
+    Name: ForgetDead
+    Flags:
+    - Public
+- Key: 47
+  Value:
+    MutagenObjectType: APackageData
+    Name: Quiet
+    Flags:
+    - Public
+- Key: 49
+  Value:
+    MutagenObjectType: APackageData
+    Name: Counts
+    Flags:
+    - Public
+- Key: 51
+  Value:
+    MutagenObjectType: APackageData
+    Name: MinimumDistance
+    Flags:
+    - Public
+- Key: 53
+  Value:
+    MutagenObjectType: APackageData
+    Name: RaidLocation
+    Flags:
+    - Public
+- Key: 57
+  Value:
+    MutagenObjectType: APackageData
+    Name: MinDistance
+    Flags:
+    - Public
+- Key: 59
+  Value:
+    MutagenObjectType: APackageData
+    Name: PrefferedPath
+    Flags:
+    - Public
+- Key: 61
+  Value:
+    MutagenObjectType: APackageData
+    Name: TargetLocation
+    Flags:
+    - Public
+- Key: 63
+  Value:
+    MutagenObjectType: APackageData
+    Name: GoToLeader
+    Flags:
+    - Public
+- Key: 65
+  Value:
+    MutagenObjectType: APackageData
+    Name: NeedLOS
+    Flags:
+    - Public
+- Key: 66
+  Value:
+    MutagenObjectType: APackageData
+    Name: Topic
+    Flags:
+    - Public
+- Key: 67
+  Value:
+    MutagenObjectType: APackageData
+    Name: PointRadius
+    Flags:
+    - Public
+- Key: 69
+  Value:
+    MutagenObjectType: APackageData
+    Name: StartAtNearestPoint
+    Flags:
+    - Public
+- Key: 71
+  Value:
+    MutagenObjectType: APackageData
+    Name: repeatable
+    Flags:
+    - Public
+- Key: 73
+  Value:
+    MutagenObjectType: APackageData
+    Name: StaticPathing
+    Flags:
+    - Public
+- Key: 76
+  Value:
+    MutagenObjectType: APackageData
+    Name: repeatable
+    Flags:
+    - Public
+- Key: 83
+  Value:
+    MutagenObjectType: APackageData
+    Name: InnerRadius
+    Flags:
+    - Public
+- Key: 85
+  Value:
+    MutagenObjectType: APackageData
+    Name: Height
+    Flags:
+    - Public
+- Key: 86
+  Value:
+    MutagenObjectType: APackageData
+    Name: PathStart
+    Flags:
+    - Public
+XnamMarker: 0x4C
+ProcedureTree:
+- BranchType: Sequence
+  Root:
+    BranchCount: 2
+  Unknown: []
+- BranchType: Simultaneous
+  Root:
+    BranchCount: 2
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Find
+  Flags: []
+  DataInputIndices:
+  - 77
+  - 78
+  - 93
+  - 255
+  - 95
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Wander
+  Flags: []
+  DataInputIndices:
+  - 77
+  - 82
+  - 80
+  - 75
+  Unknown: []
+- BranchType: Procedure
+  ProcedureType: Patrol
+  Flags:
+  - SuccessCompletesPackage
+  DataInputIndices:
+  - 93
+  - 87
+  - 89
+  - 91
+  - 80
+  - 255
+  Unknown: []
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

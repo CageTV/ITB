@@ -1,0 +1,135 @@
+FormKey: 000FD1:ITB_Wildlife.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: ITB_sewerratnpc
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -15, -62, 0
+  Second: 15, 62, 56
+Configuration:
+  Flags:
+  - Respawn
+  - DoesntAffectStealthMeter
+  - SimpleActor
+  MagickaOffset: -25
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 1
+  SpeedMultiplier: 250
+  DispositionBase: 35
+Factions:
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02E894:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0A3087:Skyrim.esm
+  Fluff: 0x000000
+Voice: 0D78AD:Skyrim.esm
+Race: 00090A:ITB_Wildlife.esp
+WornArmor: 000CA4:ITB_Wildlife.esp
+AttackRace: 00090A:ITB_Wildlife.esp
+Items:
+- Item:
+    Item: 0010FF:ITB_Wildlife.esp
+    Count: 1
+AIData:
+  EnergyLevel: 60
+  Responsibility: NoCrime
+  Warn: 2048
+  WarnOrAttack: 2048
+  Attack: 2048
+Class: 01CE1D:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Sewer Rat
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 15
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 15
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 15
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 70
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 25
+  Magicka: 65511
+  Stamina: 25
+  GearedUpWeapons: 1
+CombatStyle: 06E27B:Skyrim.esm
+NAM5: 255
+Height: 0.19
+Weight: 1
+SoundLevel: Normal
+Sound:
+  MutagenObjectType: NpcInheritSound
+DefaultPackageList: 0EB249:Skyrim.esm
+TextureLighting: '#007F7F7F'
+MajorFlags:
+- 0x40000

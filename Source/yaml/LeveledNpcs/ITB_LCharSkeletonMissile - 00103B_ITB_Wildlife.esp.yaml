@@ -1,0 +1,14 @@
+FormKey: 00103B:ITB_Wildlife.esp
+EditorID: ITB_LCharSkeletonMissile
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 02D1FC:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000EB9:ITB_Wildlife.esp
+    Count: 1

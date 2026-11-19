@@ -1,0 +1,18 @@
+FormKey: 000D22:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_snowleopardskin
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000915:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000E08:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

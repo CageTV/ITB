@@ -1,0 +1,59 @@
+FormKey: 042293:Skyrim.esm
+EditorID: LCharAnimalPlainsPredator
+Version2: 8
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Data:
+    Level: 1
+    Reference: 023AB7:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023ABE:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023ABE:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023ABE:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 023ABE:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000FE6:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 6
+    Reference: 023AB5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 10
+    Reference: 023AB5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 15
+    Reference: 023AB5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 20
+    Reference: 023AB5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 22
+    Reference: 023AB5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 28
+    Reference: 023AB5:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 8
+    Reference: 000FE7:ITB_Wildlife.esp
+    Count: 1

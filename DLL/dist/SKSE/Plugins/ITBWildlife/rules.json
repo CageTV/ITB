@@ -1756,7 +1756,7 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|000915",
+   "race": "ITB Wildlife.esp|000916",
    "_name": "ITB_SpiderRace",
    "caps": {
     "attackStart_Bite1": [
@@ -1790,7 +1790,7 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|000918",
+   "race": "ITB Wildlife.esp|000919",
    "_name": "ITB_VL_foglin_race",
    "caps": {
     "attackPowerStart_ForwardSpear": [
@@ -1812,7 +1812,7 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|000919",
+   "race": "ITB Wildlife.esp|00091A",
    "_name": "ITB_VL_race_common",
    "caps": {
     "AttackPowerStart_Left": [
@@ -1838,7 +1838,7 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|00091A",
+   "race": "ITB Wildlife.esp|00091B",
    "_name": "ITB_VL_race_grand",
    "caps": {
     "AttackPowerStart_Left": [
@@ -1864,7 +1864,7 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|00091B",
+   "race": "ITB Wildlife.esp|00091C",
    "_name": "ITB_VL_race_skeletal",
    "caps": {
     "AttackPowerStart_Left": [
@@ -6205,7 +6205,7 @@
   },
   {
    "race": "ITB Wildlife.esp|000912",
-   "_name": "ITB_snakeraceRATTLE",
+   "_name": "ITB_snakeraceCOBRA",
    "caps": {
     "attackPowerStart_GroundDive": [
      0.75,
@@ -6227,7 +6227,7 @@
   },
   {
    "race": "ITB Wildlife.esp|000913",
-   "_name": "ITB_snakeraceVIPER",
+   "_name": "ITB_snakeraceRATTLE",
    "caps": {
     "attackPowerStart_GroundDive": [
      0.75,
@@ -6249,6 +6249,28 @@
   },
   {
    "race": "ITB Wildlife.esp|000914",
+   "_name": "ITB_snakeraceVIPER",
+   "caps": {
+    "attackPowerStart_GroundDive": [
+     0.75,
+     0.0
+    ],
+    "attackPowerStart_PowerAttack": [
+     0.5,
+     0.0
+    ],
+    "attackStart_AttackLtoR": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRtoL": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "ITB Wildlife.esp|000915",
    "_name": "ITB_snowleopardrace",
    "caps": {
     "attackStart_Attack1": [
@@ -6286,7 +6308,7 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|000916",
+   "race": "ITB Wildlife.esp|000917",
    "_name": "ITB_squirrelrace",
    "caps": {
     "attackStart_Attack1": [
@@ -6316,7 +6338,7 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|00091C",
+   "race": "ITB Wildlife.esp|00091D",
    "_name": "ITB_zombie_race_deranged1",
    "caps": {
     "attackStart1HMBackSlash": [
@@ -6394,7 +6416,7 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|00091D",
+   "race": "ITB Wildlife.esp|00091E",
    "_name": "ITB_zombie_race_deranged2",
    "caps": {
     "attackStart1HMBackSlash": [
@@ -6472,7 +6494,7 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|00091E",
+   "race": "ITB Wildlife.esp|00091F",
    "_name": "ITB_zombie_race_dread",
    "caps": {
     "attackStart1HMBackSlash": [
@@ -6550,7 +6572,7 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|00091F",
+   "race": "ITB Wildlife.esp|000920",
    "_name": "ITB_zombie_race_normal",
    "caps": {
     "attackStart1HMBackSlash": [
@@ -6628,7 +6650,7 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|000920",
+   "race": "ITB Wildlife.esp|000921",
    "_name": "ITB_zombiedog_race",
    "caps": {
     "attackStart_Attack1": [
@@ -7256,7 +7278,7 @@
    "aggroRadius": false
   },
   {
-   "race": "ITB Wildlife.esp|000917",
+   "race": "ITB Wildlife.esp|000918",
    "_name": "turkey",
    "aggression": 0,
    "confidence": 0,
@@ -7479,79 +7501,79 @@
  ],
  "ingestible_effects": [
   {
-   "form": "ITB Wildlife.esp|00108F",
+   "form": "ITB Wildlife.esp|001097",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001090",
+   "form": "ITB Wildlife.esp|001098",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001091",
+   "form": "ITB Wildlife.esp|001099",
    "effects": [
     "Update.esm|002EE4"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001081",
+   "form": "ITB Wildlife.esp|001089",
    "effects": [
     "Update.esm|002EE2"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001082",
+   "form": "ITB Wildlife.esp|00108A",
    "effects": [
     "Update.esm|002EE4"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00108A",
+   "form": "ITB Wildlife.esp|001092",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001047",
+   "form": "ITB Wildlife.esp|00104F",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001048",
+   "form": "ITB Wildlife.esp|001050",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|001049",
+   "form": "ITB Wildlife.esp|001051",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00108B",
+   "form": "ITB Wildlife.esp|001093",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|00108C",
+   "form": "ITB Wildlife.esp|001094",
    "effects": [
     "Update.esm|002EE3"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|0010D2",
+   "form": "ITB Wildlife.esp|0010DA",
    "effects": [
     "Update.esm|002EE1"
    ]
   },
   {
-   "form": "ITB Wildlife.esp|0010D1",
+   "form": "ITB Wildlife.esp|0010D9",
    "effects": [
     "Update.esm|002EE3"
    ]
@@ -7561,12 +7583,12 @@
   {
    "list": "ccQDRSSE001-SurvivalMode.esl|0008B0",
    "items": [
-    "ITB Wildlife.esp|00108F",
-    "ITB Wildlife.esp|001081",
-    "ITB Wildlife.esp|001047",
-    "ITB Wildlife.esp|001048",
-    "ITB Wildlife.esp|00108B",
-    "ITB Wildlife.esp|0010D2"
+    "ITB Wildlife.esp|001097",
+    "ITB Wildlife.esp|001089",
+    "ITB Wildlife.esp|00104F",
+    "ITB Wildlife.esp|001050",
+    "ITB Wildlife.esp|001093",
+    "ITB Wildlife.esp|0010DA"
    ]
   }
  ]

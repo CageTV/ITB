@@ -1,0 +1,19 @@
+FormKey: 001069:ITB_Wildlife.esp
+EditorID: ITB_deadcolibri5
+Name:
+  TargetLanguage: English
+  Value: Calliope Hummingbird
+Model:
+  File: itb\fauna\hummingbird\hummingbird_49c1f926.nif
+  Data: 0x020000000000000000000000
+Value: 10
+Weight: 0.01
+IngredientValue: 19
+Effects:
+- BaseEffect: 03EB16:Skyrim.esm
+  Data:
+    Magnitude: 10
+- BaseEffect: 03EAF9:Skyrim.esm
+  Data:
+    Magnitude: 5
+    Duration: 60

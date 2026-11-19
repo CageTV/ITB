@@ -1,0 +1,26 @@
+FormKey: 000B65:ITB_Wildlife.esp
+EditorID: ITB_AB_Animal_AbsorbStamina
+Name:
+  TargetLanguage: English
+  Value: Animal Absorb Stamina
+Flags:
+- Detrimental
+- NoDuration
+- NoArea
+- FXPersist
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Stamina
+  Type: Absorb
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 013798:Skyrim.esm
+  ComparisonValue: 1

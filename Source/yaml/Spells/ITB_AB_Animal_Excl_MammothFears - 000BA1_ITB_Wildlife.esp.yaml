@@ -1,0 +1,64 @@
+FormKey: 000BA1:ITB_Wildlife.esp
+EditorID: ITB_AB_Animal_Excl_MammothFears
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+Effects:
+- BaseEffect: 000B6A:ITB_Wildlife.esp
+  Data:
+    Magnitude: 100
+    Duration: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 02482B:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 0C44B6:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 01CEAD:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      RunOnType: CombatTarget
+      Faction: 032D9C:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      RunOnType: CombatTarget
+      Faction: 106643:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      RunOnType: CombatTarget
+      Faction: 043594:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Health
+    ComparisonValue: 0.3
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      RunOnType: CombatTarget
+    ComparisonValue: 300

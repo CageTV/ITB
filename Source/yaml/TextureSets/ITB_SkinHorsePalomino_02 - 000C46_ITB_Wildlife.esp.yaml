@@ -1,0 +1,6 @@
+FormKey: 000C46:ITB_Wildlife.esp
+EditorID: ITB_SkinHorsePalomino_02
+Diffuse: itb\fauna\horse\horse_a925af18.dds
+NormalOrGloss: Actors\Horse\Horse01_n.dds
+GlowOrDetailMap: Actors\Horse\Horse01_sk.dds
+Flags: []

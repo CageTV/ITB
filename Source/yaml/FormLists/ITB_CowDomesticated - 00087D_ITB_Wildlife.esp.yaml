@@ -1,9 +1,9 @@
 FormKey: 00087D:ITB_Wildlife.esp
 EditorID: ITB_CowDomesticated
 Items:
-- 000963:ITB_Wildlife.esp
-- 000965:ITB_Wildlife.esp
 - 000964:ITB_Wildlife.esp
 - 000966:ITB_Wildlife.esp
-- 000A27:ITB_Wildlife.esp
-- 000A2F:ITB_Wildlife.esp
+- 000965:ITB_Wildlife.esp
+- 000967:ITB_Wildlife.esp
+- 000A28:ITB_Wildlife.esp
+- 000A30:ITB_Wildlife.esp

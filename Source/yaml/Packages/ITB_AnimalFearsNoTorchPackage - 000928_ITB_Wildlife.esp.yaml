@@ -1,0 +1,161 @@
+FormKey: 000928:ITB_Wildlife.esp
+EditorID: ITB_AnimalFearsNoTorchPackage
+Flags:
+- PreferredSpeed
+- AllowSwimming
+Type: Package
+PreferredSpeed: Run
+Unknown: 42
+InterruptFlags:
+- AggroRadiusBehavior
+ScheduleMonth: -1
+ScheduleDayOfWeek: Any
+ScheduleHour: -1
+ScheduleMinute: -1
+Unknown3: 0x000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 00080E:ITB_Wildlife.esp
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: HasMagicEffectKeywordConditionData
+    Keyword: 01CEAD:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 032D9C:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 106643:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 04359A:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 0435A1:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 043597:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 02430D:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 02D1DF:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: CombatTarget
+    Faction: 043594:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    RunOnType: CombatTarget
+    Keyword: 10E984:Skyrim.esm
+  ComparisonValue: 1
+PackageTemplate: 0197F1:Skyrim.esm
+DataInputVersion: 7
+Data:
+- Key: 7
+  Value:
+    MutagenObjectType: PackageDataTarget
+    Target:
+      MutagenObjectType: PackageTargetObjectType
+      Type: TargetActorEffects
+- Key: 6
+  Value:
+    MutagenObjectType: PackageDataObjectList
+    Data: 0
+- Key: 1
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 1500
+- Key: 0
+  Value:
+    MutagenObjectType: PackageDataBool
+    Data: True
+- Key: 3
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearPackageStart
+- Key: 4
+  Value:
+    MutagenObjectType: PackageDataFloat
+    Data: 200
+- Key: 10
+  Value:
+    MutagenObjectType: PackageDataLocation
+    Location:
+      Target:
+        MutagenObjectType: LocationFallback
+        Type: NearSelf
+      Radius: 1000
+- Key: 13
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 15
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 17
+  Value:
+    MutagenObjectType: PackageDataBool
+- Key: 19
+  Value:
+    MutagenObjectType: PackageDataBool
+XnamMarker: 0x14
+OnBegin:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnEnd:
+  Topics:
+  - MutagenObjectType: TopicReference
+OnChange:
+  Topics:
+  - MutagenObjectType: TopicReference

@@ -1,0 +1,138 @@
+FormKey: 001024:ITB_Wildlife.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: ITB_zombiedog_NPC2
+FormVersion: 43
+SkyrimMajorRecordFlags:
+- Compressed
+Configuration:
+  Flags:
+  - Female
+  - Respawn
+  - AutoCalcStats
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 5
+  SpeedMultiplier: 120
+  DispositionBase: 35
+Factions:
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02430D:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 026724:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 027242:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02D1DF:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 034B74:Skyrim.esm
+  Fluff: 0x000000
+Voice: 011681:Dawnguard.esm
+Race: 000921:ITB_Wildlife.esp
+WornArmor: 000D30:ITB_Wildlife.esp
+AttackRace: 000921:ITB_Wildlife.esp
+Items:
+- Item:
+    Item: 00112D:ITB_Wildlife.esp
+    Count: 1
+AIData:
+  Aggression: VeryAggressive
+  Confidence: Average
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsAllies
+Class: 01CE17:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Zombie Dog
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 23
+  - Key: TwoHanded
+    Value: 24
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 21
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 18
+  - Key: LightArmor
+    Value: 21
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 50
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 54
+  Stamina: 36
+  GearedUpWeapons: 1
+CombatStyle: 030004:Skyrim.esm
+NAM5: 255
+Height: 0.9
+Weight: 50
+SoundLevel: Normal
+Sound:
+  MutagenObjectType: NpcInheritSound
+  InheritsSoundsFrom: 001021:ITB_Wildlife.esp
+DefaultPackageList: 0EB249:Skyrim.esm
+TextureLighting: '#007F7F7F'
+MajorFlags:
+- 0x40000

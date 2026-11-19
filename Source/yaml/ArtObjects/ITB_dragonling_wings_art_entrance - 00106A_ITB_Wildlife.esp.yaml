@@ -1,7 +1,0 @@
-FormKey: 00106A:ITB_Wildlife.esp
-EditorID: ITB_dragonling_wings_art_entrance
-Model:
-  File: itb\fauna\dragonling\dragonling_f447ad0d.nif
-  Data: 0x020000000000000000000000
-Type:
-- MagicCasting

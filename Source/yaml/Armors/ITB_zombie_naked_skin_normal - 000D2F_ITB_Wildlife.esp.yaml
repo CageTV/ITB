@@ -1,0 +1,18 @@
+FormKey: 000D2F:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_zombie_naked_skin_normal
+SkyrimMajorRecordFlags:
+- NotPlayable
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000920:ITB_Wildlife.esp
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000E17:ITB_Wildlife.esp
+MajorFlags:
+- NonPlayable

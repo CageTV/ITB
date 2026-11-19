@@ -1,0 +1,25 @@
+FormKey: 000E15:ITB_Wildlife.esp
+EditorID: ITB_zombie_naked_deranged2
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  - Body
+  - Hands
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 00091E:ITB_Wildlife.esp
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: itb\fauna\zombies\zombies_d98b6d1e.nif
+    Data: 0x020000000000000000000000
+  Female:
+    File: itb\fauna\zombies\zombies_17a3d0c3.nif
+    Data: 0x020000000000000000000000
+FootstepSound: 0C0D36:Skyrim.esm
