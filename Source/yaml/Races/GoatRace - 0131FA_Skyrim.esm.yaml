@@ -13,8 +13,8 @@ Description:
   Value: ''
 ActorEffect:
 - 10C042:Skyrim.esm
-- 000AC6:ITB_Wildlife.esp
-- 000ABF:ITB_Wildlife.esp
+- 000ACD:ITB_Wildlife.esp
+- 000AC3:ITB_Wildlife.esp
 Skin: 06F278:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
@@ -187,4 +187,4 @@ BaseMovementDefaultWalk: 059659:Skyrim.esm
 BaseMovementDefaultRun: 059659:Skyrim.esm
 MajorFlags:
 - Critter
-BaseMovementDefaultSwim: 000ABD:ITB_Wildlife.esp
+BaseMovementDefaultSwim: 000ABF:ITB_Wildlife.esp

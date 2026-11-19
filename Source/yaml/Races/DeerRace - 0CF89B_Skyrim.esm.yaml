@@ -223,6 +223,6 @@ BaseMovementDefaultRun: 0B8F2E:Skyrim.esm
 MajorFlags:
 - Critter
 ActorEffect:
-- 000ABE:ITB_Wildlife.esp
-- 000AC6:ITB_Wildlife.esp
-BaseMovementDefaultSwim: 000ABD:ITB_Wildlife.esp
+- 000AC2:ITB_Wildlife.esp
+- 000ACD:ITB_Wildlife.esp
+BaseMovementDefaultSwim: 000ABF:ITB_Wildlife.esp

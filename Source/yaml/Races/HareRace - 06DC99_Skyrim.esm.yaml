@@ -129,7 +129,7 @@ MovementTypes:
     RotateWalk: 8.028515
     RotateRun: 8.028515
     Unknown: 1.4727088
-- MovementType: 000ABD:ITB_Wildlife.esp
+- MovementType: 000ABF:ITB_Wildlife.esp
   Overrides:
     ForwardWalk: 75
     ForwardRun: 75
@@ -169,6 +169,6 @@ BaseMovementDefaultRun: 06E27A:Skyrim.esm
 MajorFlags:
 - Critter
 ActorEffect:
-- 000AC6:ITB_Wildlife.esp
-- 000ABF:ITB_Wildlife.esp
-BaseMovementDefaultSwim: 000ABD:ITB_Wildlife.esp
+- 000ACD:ITB_Wildlife.esp
+- 000AC3:ITB_Wildlife.esp
+BaseMovementDefaultSwim: 000ABF:ITB_Wildlife.esp

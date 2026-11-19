@@ -11,8 +11,8 @@ Description:
 ActorEffect:
 - 0F93DB:Skyrim.esm
 - 0B8783:Skyrim.esm
-- 000AC5:ITB_Wildlife.esp
-- 000AC6:ITB_Wildlife.esp
+- 000AC9:ITB_Wildlife.esp
+- 000ACD:ITB_Wildlife.esp
 Skin: 09DA65:Skyrim.esm
 BodyTemplate:
   ArmorType: Clothing
@@ -99,7 +99,7 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 0.25
-    Spell: 000AC1:ITB_Wildlife.esp
+    Spell: 000AC5:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 45
@@ -110,7 +110,7 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 0.25
-    Spell: 000AC1:ITB_Wildlife.esp
+    Spell: 000AC5:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 45
@@ -163,7 +163,7 @@ Attacks:
 - AttackData:
     DamageMult: 2
     Chance: 1
-    Spell: 000AC1:ITB_Wildlife.esp
+    Spell: 000AC5:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 35
@@ -224,5 +224,5 @@ EquipmentSlots:
 UnarmedEquipSlot: 013F42:Skyrim.esm
 BaseMovementDefaultWalk: 059657:Skyrim.esm
 BaseMovementDefaultRun: 059657:Skyrim.esm
-BaseMovementDefaultSwim: 000ABD:ITB_Wildlife.esp
+BaseMovementDefaultSwim: 000ABF:ITB_Wildlife.esp
 BaseMovementDefaultSneak: 059657:Skyrim.esm

@@ -106,7 +106,7 @@ Attacks:
 - AttackData:
     DamageMult: 1.5
     Chance: 0.4
-    Spell: 000AC2:ITB_Wildlife.esp
+    Spell: 000AC6:ITB_Wildlife.esp
     Flags:
     - PowerAttack
     StrikeAngle: 35
@@ -116,7 +116,7 @@ Attacks:
 - AttackData:
     DamageMult: 1
     Chance: 0.25
-    Spell: 000AC2:ITB_Wildlife.esp
+    Spell: 000AC6:ITB_Wildlife.esp
     StrikeAngle: 35
     StaminaMult: 1
   AttackEvent: attackStart_SkeeverLungeLong
@@ -185,5 +185,5 @@ EquipmentSlots:
 UnarmedEquipSlot: 013F42:Skyrim.esm
 ActorEffect:
 - 0B877C:Skyrim.esm
-- 000ABE:ITB_Wildlife.esp
-- 000AC6:ITB_Wildlife.esp
+- 000AC2:ITB_Wildlife.esp
+- 000ACD:ITB_Wildlife.esp

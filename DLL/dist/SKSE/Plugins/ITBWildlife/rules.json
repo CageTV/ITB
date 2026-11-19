@@ -1,0 +1,1041 @@
+{
+ "_comment": "ITB Wildlife rules. Generated; see README. Re-applied at game start, so another mod that overwrites these records does not undo them.",
+ "attack_caps": [
+  {
+   "race": "Skyrim.esm|0131E8",
+   "_name": "BearBlackRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0625,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.0625,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.055,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131E7",
+   "_name": "BearBrownRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.025,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.025,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0625,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.0625,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.055,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131E9",
+   "_name": "BearSnowRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0675,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.0675,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0625,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|04E785",
+   "_name": "CowRace",
+   "caps": {
+    "attackStart_Attack1": [
+     10.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     10.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     7.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.75,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0CF89B",
+   "_name": "DeerRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.75,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131EE",
+   "_name": "DogRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0375,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131ED",
+   "_name": "ElkRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.75,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|109C7C",
+   "_name": "FoxRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.25,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.25,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.25,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.25,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131FA",
+   "_name": "GoatRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.5,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.25,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131FC",
+   "_name": "HorkerRace",
+   "caps": {
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.0375,
+     0.0
+    ],
+    "attackStart_HorkerSwim": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131FD",
+   "_name": "HorseRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0131FF",
+   "_name": "MammothRace",
+   "caps": {
+    "attackStart_Attack1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     1.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     1.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     1.5,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     1.5,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0BA545",
+   "_name": "MudcrabRace",
+   "caps": {
+    "AttackStart_ComboChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LeftChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RightChop": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RSide": [
+     0.0,
+     0.0
+    ],
+    "AttackStartLungeBite": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|013200",
+   "_name": "SabreCatRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0375,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0375,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0625,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.0625,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|013202",
+   "_name": "SabreCatSnowyRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0375,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0375,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0625,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.0625,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|013201",
+   "_name": "SkeeverRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.1,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|0C3EDF",
+   "_name": "SkeeverWhiteRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.1,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|013203",
+   "_name": "SlaughterfishRace",
+   "caps": {
+    "AttackStart_LCross": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_LSlash": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RCorss": [
+     0.0,
+     0.0
+    ],
+    "AttackStart_RUppercut": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "race": "Skyrim.esm|01320A",
+   "_name": "WolfRace",
+   "caps": {
+    "attackStart_Attack1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_Attack2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackLeft2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight1": [
+     0.0,
+     0.0
+    ],
+    "attackStart_AttackRight2": [
+     0.0,
+     0.0
+    ],
+    "attackStart_ForwardPower": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_ForwardPowerShort": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_SkeeverLungeLong": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_SkeeverLungeMedium": [
+     0.0,
+     0.0
+    ],
+    "attackStart_SkeeverLungeShort": [
+     0.0125,
+     0.0
+    ],
+    "attackStart_StandingPower": [
+     0.0125,
+     0.0
+    ]
+   }
+  }
+ ],
+ "ai_by_race": [
+  {
+   "race": "Skyrim.esm|0CF89B",
+   "_name": "Deer",
+   "aggression": 0,
+   "confidence": 0,
+   "assistance": 0
+  },
+  {
+   "race": "Skyrim.esm|0131ED",
+   "_name": "Elk (incl. Megaloceros)",
+   "aggression": 0,
+   "confidence": 0,
+   "assistance": 0
+  },
+  {
+   "race": "Skyrim.esm|0BA545",
+   "_name": "Mudcrab",
+   "aggression": 0,
+   "confidence": 1,
+   "assistance": 0,
+   "aggroRadius": false
+  }
+ ],
+ "package_list_by_race": [
+  {
+   "race": "Skyrim.esm|0B7998",
+   "list": "ITB Wildlife.esp|000887",
+   "_name": "?"
+  },
+  {
+   "race": "Dawnguard.esm|00D0B2",
+   "list": "ITB Wildlife.esp|00086A",
+   "_name": "?"
+  },
+  {
+   "race": "Skyrim.esm|0131F4",
+   "list": "ITB Wildlife.esp|000875",
+   "_name": "?"
+  },
+  {
+   "race": "Dawnguard.esm|00D0B6",
+   "list": "ITB Wildlife.esp|000884",
+   "_name": "?"
+  },
+  {
+   "race": "Dawnguard.esm|019FD3",
+   "list": "ITB Wildlife.esp|000887",
+   "_name": "?"
+  },
+  {
+   "race": "Dawnguard.esm|006AFA",
+   "list": "ITB Wildlife.esp|000887",
+   "_name": "?"
+  },
+  {
+   "race": "Dawnguard.esm|00894D",
+   "list": "ITB Wildlife.esp|000887",
+   "_name": "?"
+  },
+  {
+   "race": "Dawnguard.esm|0023E2",
+   "list": "ITB Wildlife.esp|000887",
+   "_name": "?"
+  },
+  {
+   "race": "Dragonborn.esm|027BFC",
+   "list": "ITB Wildlife.esp|000868",
+   "_name": "?"
+  },
+  {
+   "race": "Dragonborn.esm|01B637",
+   "list": "ITB Wildlife.esp|000860",
+   "_name": "?"
+  },
+  {
+   "race": "Dragonborn.esm|02B014",
+   "list": "ITB Wildlife.esp|000872",
+   "_name": "?"
+  },
+  {
+   "race": "Dragonborn.esm|028580",
+   "list": "ITB Wildlife.esp|000881",
+   "_name": "?"
+  },
+  {
+   "race": "Dragonborn.esm|014449",
+   "list": "ITB Wildlife.esp|000889",
+   "_name": "?"
+  },
+  {
+   "race": "Dragonborn.esm|01CAD8",
+   "list": "ITB Wildlife.esp|000878",
+   "_name": "?"
+  },
+  {
+   "race": "Skyrim.esm|0131EF",
+   "list": "ITB Wildlife.esp|00086F",
+   "_name": "?"
+  },
+  {
+   "race": "Skyrim.esm|000D53",
+   "list": "ITB Wildlife.esp|000870",
+   "_name": "?"
+  },
+  {
+   "race": "Skyrim.esm|0131FB",
+   "list": "ITB Wildlife.esp|00087B",
+   "_name": "?"
+  },
+  {
+   "race": "Skyrim.esm|0EB872",
+   "list": "ITB Wildlife.esp|000887",
+   "_name": "?"
+  },
+  {
+   "race": "Skyrim.esm|0F3903",
+   "list": "ITB Wildlife.esp|00088A",
+   "_name": "?"
+  },
+  {
+   "race": "Skyrim.esm|088794",
+   "list": "ITB Wildlife.esp|00088E",
+   "_name": "?"
+  },
+  {
+   "race": "Skyrim.esm|013209",
+   "list": "ITB Wildlife.esp|000890",
+   "_name": "?"
+  },
+  {
+   "race": "Skyrim.esm|013208",
+   "list": "ITB Wildlife.esp|000891",
+   "_name": "?"
+  },
+  {
+   "race": "Skyrim.esm|0F1182",
+   "list": "ITB Wildlife.esp|000890",
+   "_name": "?"
+  },
+  {
+   "race": "Skyrim.esm|0131F5",
+   "list": "ITB Wildlife.esp|000868",
+   "_name": "AtronachFlameRace"
+  },
+  {
+   "race": "Skyrim.esm|0131F6",
+   "list": "ITB Wildlife.esp|000868",
+   "_name": "AtronachFrostRace"
+  },
+  {
+   "race": "Skyrim.esm|0131F7",
+   "list": "ITB Wildlife.esp|000868",
+   "_name": "AtronachStormRace"
+  },
+  {
+   "race": "Skyrim.esm|0131E8",
+   "list": "ITB Wildlife.esp|000861",
+   "_name": "BearBlackRace"
+  },
+  {
+   "race": "Skyrim.esm|0131E7",
+   "list": "ITB Wildlife.esp|000861",
+   "_name": "BearBrownRace"
+  },
+  {
+   "race": "Skyrim.esm|0131E9",
+   "list": "ITB Wildlife.esp|000861",
+   "_name": "BearSnowRace"
+  },
+  {
+   "race": "Skyrim.esm|106C10",
+   "list": "ITB Wildlife.esp|000892",
+   "_name": "C06WolfSpiritRace"
+  },
+  {
+   "race": "Skyrim.esm|0131EB",
+   "list": "ITB Wildlife.esp|000863",
+   "_name": "ChaurusRace"
+  },
+  {
+   "race": "Skyrim.esm|0A5601",
+   "list": "ITB Wildlife.esp|000863",
+   "_name": "ChaurusReaperRace"
+  },
+  {
+   "race": "Dawnguard.esm|0051FB",
+   "list": "ITB Wildlife.esp|000863",
+   "_name": "DLC1ChaurusHunterRace"
+  },
+  {
+   "race": "Dawnguard.esm|00C5F0",
+   "list": "ITB Wildlife.esp|000869",
+   "_name": "DLC1DeathHoundRace"
+  },
+  {
+   "race": "Dawnguard.esm|00A2C6",
+   "list": "ITB Wildlife.esp|000877",
+   "_name": "DLC1GargoyleRace"
+  },
+  {
+   "race": "Dawnguard.esm|010D00",
+   "list": "ITB Wildlife.esp|000877",
+   "_name": "DLC1GargoyleVariantBossRace"
+  },
+  {
+   "race": "Dawnguard.esm|019D86",
+   "list": "ITB Wildlife.esp|000877",
+   "_name": "DLC1GargoyleVariantGreenRace"
+  },
+  {
+   "race": "Dawnguard.esm|018B33",
+   "list": "ITB Wildlife.esp|00086B",
+   "_name": "DLC1HuskyArmoredRace"
+  },
+  {
+   "race": "Dawnguard.esm|018B36",
+   "list": "ITB Wildlife.esp|00086B",
+   "_name": "DLC1HuskyBareRace"
+  },
+  {
+   "race": "Dragonborn.esm|01B658",
+   "list": "ITB Wildlife.esp|00085F",
+   "_name": "DLC2AshHopperRace"
+  },
+  {
+   "race": "Dragonborn.esm|024038",
+   "list": "ITB Wildlife.esp|000862",
+   "_name": "DLC2BoarRace"
+  },
+  {
+   "race": "Dragonborn.esm|014495",
+   "list": "ITB Wildlife.esp|00087E",
+   "_name": "DLC2LurkerRace"
+  },
+  {
+   "race": "Dragonborn.esm|0179CF",
+   "list": "ITB Wildlife.esp|000883",
+   "_name": "DLC2MountedRieklingRace"
+  },
+  {
+   "race": "Dragonborn.esm|01FEB8",
+   "list": "ITB Wildlife.esp|000881",
+   "_name": "DLC2NetchRace"
+  },
+  {
+   "race": "Dragonborn.esm|017F44",
+   "list": "ITB Wildlife.esp|000883",
+   "_name": "DLC2RieklingRace"
+  },
+  {
+   "race": "Dragonborn.esm|01DCB9",
+   "list": "ITB Wildlife.esp|000885",
+   "_name": "DLC2SeekerRace"
+  },
+  {
+   "race": "Dragonborn.esm|01B644",
+   "list": "ITB Wildlife.esp|00088A",
+   "_name": "DLC2SprigganBurntRace"
+  },
+  {
+   "race": "Dragonborn.esm|01E17B",
+   "list": "ITB Wildlife.esp|00088F",
+   "_name": "DLC2WerebearBeastRace"
+  },
+  {
+   "race": "Skyrim.esm|0131EE",
+   "list": "ITB Wildlife.esp|00086B",
+   "_name": "DogRace"
+  },
+  {
+   "race": "Skyrim.esm|0131F1",
+   "list": "ITB Wildlife.esp|000872",
+   "_name": "DwarvenCenturionRace"
+  },
+  {
+   "race": "Skyrim.esm|0131F2",
+   "list": "ITB Wildlife.esp|000872",
+   "_name": "DwarvenSphereRace"
+  },
+  {
+   "race": "Skyrim.esm|0131F3",
+   "list": "ITB Wildlife.esp|000874",
+   "_name": "DwarvenSpiderRace"
+  },
+  {
+   "race": "Skyrim.esm|109C7C",
+   "list": "ITB Wildlife.esp|000876",
+   "_name": "FoxRace"
+  },
+  {
+   "race": "Skyrim.esm|0131F8",
+   "list": "ITB Wildlife.esp|000889",
+   "_name": "FrostbiteSpiderRace"
+  },
+  {
+   "race": "Skyrim.esm|04E507",
+   "list": "ITB Wildlife.esp|000889",
+   "_name": "FrostbiteSpiderRaceGiant"
+  },
+  {
+   "race": "Skyrim.esm|053477",
+   "list": "ITB Wildlife.esp|000889",
+   "_name": "FrostbiteSpiderRaceLarge"
+  },
+  {
+   "race": "Skyrim.esm|0131F9",
+   "list": "ITB Wildlife.esp|000878",
+   "_name": "GiantRace-Intended"
+  },
+  {
+   "race": "Skyrim.esm|06DC99",
+   "list": "ITB Wildlife.esp|000882",
+   "_name": "HareRace"
+  },
+  {
+   "race": "Skyrim.esm|0131FC",
+   "list": "ITB Wildlife.esp|00087C",
+   "_name": "HorkerRace"
+  },
+  {
+   "race": "Skyrim.esm|0131FE",
+   "list": "ITB Wildlife.esp|000893",
+   "_name": "IceWraithRace"
+  },
+  {
+   "race": "Skyrim.esm|0131FF",
+   "list": "ITB Wildlife.esp|00087F",
+   "_name": "MammothRace"
+  },
+  {
+   "race": "Skyrim.esm|0BA545",
+   "list": "ITB Wildlife.esp|000880",
+   "_name": "MudcrabRace"
+  },
+  {
+   "race": "Skyrim.esm|013200",
+   "list": "ITB Wildlife.esp|000884",
+   "_name": "SabreCatRace"
+  },
+  {
+   "race": "Skyrim.esm|013202",
+   "list": "ITB Wildlife.esp|000884",
+   "_name": "SabreCatSnowyRace"
+  },
+  {
+   "race": "Skyrim.esm|013201",
+   "list": "ITB Wildlife.esp|000886",
+   "_name": "SkeeverRace"
+  },
+  {
+   "race": "Skyrim.esm|013203",
+   "list": "ITB Wildlife.esp|000888",
+   "_name": "SlaughterfishRace"
+  },
+  {
+   "race": "Dawnguard.esm|013B77",
+   "list": "ITB Wildlife.esp|00088A",
+   "_name": "SprigganEarthMotherRace"
+  },
+  {
+   "race": "Skyrim.esm|013204",
+   "list": "ITB Wildlife.esp|00088A",
+   "_name": "SprigganRace"
+  },
+  {
+   "race": "Skyrim.esm|013206",
+   "list": "ITB Wildlife.esp|00088D",
+   "_name": "TrollFrostRace"
+  },
+  {
+   "race": "Skyrim.esm|013205",
+   "list": "ITB Wildlife.esp|00088D",
+   "_name": "TrollRace"
+  },
+  {
+   "race": "Skyrim.esm|0CDD84",
+   "list": "ITB Wildlife.esp|00088F",
+   "_name": "WerewolfBeastRace"
+  },
+  {
+   "race": "Skyrim.esm|01320A",
+   "list": "ITB Wildlife.esp|000892",
+   "_name": "WolfRace"
+  }
+ ]
+}

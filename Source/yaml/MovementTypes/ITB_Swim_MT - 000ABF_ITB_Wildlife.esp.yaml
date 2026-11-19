@@ -1,0 +1,12 @@
+FormKey: 000ABF:ITB_Wildlife.esp
+EditorID: ITB_Swim_MT
+Name: General Swim
+ForwardWalk: 100
+ForwardRun: 100
+RotateInPlaceWalk: 180.00006
+RotateInPlaceRun: 180.00006
+RotateWhileMovingRun: 180.00006
+AnimationChangeThresholds:
+  Directional: 3.4028235E+38
+  MovementSpeed: 3.4028235E+38
+  RotationSpeed: 3.4028235E+38

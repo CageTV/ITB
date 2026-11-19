@@ -1,0 +1,140 @@
+FormKey: 0829B3:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: EncFox
+Version2: 3
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -20, -74, 0
+  Second: 20, 74, 78
+Configuration:
+  Flags:
+  - Respawn
+  - AutoCalcStats
+  StaminaOffset: 100
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 3
+  SpeedMultiplier: 160
+  DispositionBase: 35
+Factions:
+- Faction: 02E894:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 03E093:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 09A741:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0F1ABC:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 000827:ITB_Wildlife.esp
+  Fluff: 0x000000
+DeathItem: 1072C3:Skyrim.esm
+Voice: 10F677:Skyrim.esm
+Race: 109C7C:Skyrim.esm
+WornArmor: 0829B4:Skyrim.esm
+AttackRace: 01320A:Skyrim.esm
+AIData:
+  EnergyLevel: 100
+  AggroRadiusBehavior: True
+  Attack: 1500
+Packages:
+- 0008D6:ITB_Wildlife.esp
+- 0008D3:ITB_Wildlife.esp
+- 0008D2:ITB_Wildlife.esp
+- 000AC1:ITB_Wildlife.esp
+- 0008D0:ITB_Wildlife.esp
+- 0008D1:ITB_Wildlife.esp
+- 000AC0:ITB_Wildlife.esp
+- 0008D4:ITB_Wildlife.esp
+Class: 0131E6:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Fox
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 18
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 18
+  - Key: Block
+    Value: 20
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 35
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 30
+  Stamina: 140
+  GearedUpWeapons: 1
+CombatStyle: 057BE8:Skyrim.esm
+NAM5: 255
+Height: 0.5
+Weight: 50
+SoundLevel: Normal
+DefaultPackageList: 10D483:Skyrim.esm
+TextureLighting: '#00808080'
+MajorFlags:
+- 0x40000

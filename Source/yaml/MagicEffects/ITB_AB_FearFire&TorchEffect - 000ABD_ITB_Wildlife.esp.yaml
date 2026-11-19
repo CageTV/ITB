@@ -1,0 +1,49 @@
+FormKey: 000ABD:ITB_Wildlife.esp
+EditorID: ITB_AB_FearFire&TorchEffect
+Name:
+  TargetLanguage: English
+  Value: Animal Fear Fire & Torch
+Keywords:
+- 078098:Skyrim.esm
+- 0424E0:Skyrim.esm
+- 000AB8:ITB_Wildlife.esp
+Flags:
+- Recover
+- Detrimental
+- FXPersist
+- PowerAffectsDuration
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Confidence
+  Type: Demoralize
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 0640B5:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 09CE28:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 0877EB:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 0E662D:Skyrim.esm
