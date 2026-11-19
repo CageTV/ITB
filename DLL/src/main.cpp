@@ -7,6 +7,7 @@
 #include "PCH.h"
 #include "Rules.h"
 #include "Spawner.h"
+#include "Flee.h"
 
 namespace
 {
@@ -37,6 +38,13 @@ namespace
 			} catch (const std::exception& e) {
 				SKSE::log::error("spawner failed: {}", e.what());
 			}
+			// fear of torches and fire: checked twice a second from a worker thread that posts one-shot game-thread tasks
+			std::thread([]() {
+				while (true) {
+					std::this_thread::sleep_for(std::chrono::milliseconds(500));
+					SKSE::GetTaskInterface()->AddTask([]() { Flee::FleeManager::GetSingleton()->OnTick(); });
+				}
+			}).detach();
 		}
 	}
 }

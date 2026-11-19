@@ -1,0 +1,22 @@
+FormKey: 0010B4:ITB_Wildlife.esp
+EditorID: ITB_horseshoeblood
+ObjectBounds:
+  First: -3, -3, 0
+  Second: 3, 3, 15
+Name:
+  TargetLanguage: English
+  Value: Horseshoe Crab Blood
+Keywords:
+- 08CDEC:Skyrim.esm
+Model:
+  File: itb\fauna\mudcrab\mudcrab_223b432b.nif
+  Data: 0x020000000000000000000000
+PickUpSound: 03EDBD:Skyrim.esm
+PutDownSound: 03EDC0:Skyrim.esm
+Weight: 0.5
+Value: 79
+ConsumeSound: 0B6435:Skyrim.esm
+Effects:
+- BaseEffect: 0AE722:Skyrim.esm
+  Data:
+    Magnitude: 100

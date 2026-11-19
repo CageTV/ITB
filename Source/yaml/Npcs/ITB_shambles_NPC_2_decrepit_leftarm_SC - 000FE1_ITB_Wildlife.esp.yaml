@@ -1,0 +1,149 @@
+FormKey: 000FE1:ITB_Wildlife.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 537133056
+EditorID: ITB_shambles_NPC_2_decrepit_leftarm_SC
+SkyrimMajorRecordFlags:
+- Compressed
+- 0x20000000
+ObjectBounds:
+  First: -33, -33, 0
+  Second: 33, 33, 167
+Configuration:
+  Flags:
+  - Respawn
+  - AutoCalcStats
+  - BleedoutOverride
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 1
+  CalcMinLevel: 10
+  CalcMaxLevel: 30
+  SpeedMultiplier: 70
+  DispositionBase: 35
+  HealthOffset: -100
+Factions:
+- Faction: 007A66:Dawnguard.esm
+  Fluff: 0x000000
+- Faction: 026724:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02B0E5:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02D1DF:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 034B74:Skyrim.esm
+  Fluff: 0x000000
+Voice: 0BFB2B:Skyrim.esm
+Race: 00090E:ITB_Wildlife.esp
+WornArmor: 000CA8:ITB_Wildlife.esp
+AttackRace: 00090C:ITB_Wildlife.esp
+Items:
+- Item:
+    Count: 1
+- Item:
+    Item: 034CDD:Skyrim.esm
+    Count: 2
+AIData:
+  Aggression: Aggressive
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Mood: Angry
+  Assistance: HelpsAllies
+  AggroRadiusBehavior: True
+  Attack: 800
+Class: 0AD236:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Decrepit Shambles
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 28
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 22
+  - Key: Block
+    Value: 34
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 28
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 35
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 240
+  Magicka: 15
+  Stamina: 230
+  GearedUpWeapons: 1
+CombatStyle: 059660:Skyrim.esm
+NAM5: 255
+Height: 0.75
+Weight: 50
+SoundLevel: VeryLoud
+Sound:
+  MutagenObjectType: NpcInheritSound
+  InheritsSoundsFrom: 0BFB2A:Skyrim.esm
+DefaultPackageList: 0EB249:Skyrim.esm
+TextureLighting: '#007F7F7F'
+MajorFlags:
+- 0x40000
+- BleedoutOverride

@@ -1,0 +1,12 @@
+FormKey: 001049:ITB_Wildlife.esp
+EditorID: ITB_BYOHRecipeFoodMudcrabLegsCookedcrab2
+Items:
+- Item:
+    Item: 034CDF:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 001053:ITB_Wildlife.esp
+    Count: 1
+CreatedObject: 001054:ITB_Wildlife.esp
+WorkbenchKeyword: 0A5CB3:Skyrim.esm
+CreatedObjectCount: 1

@@ -41,7 +41,7 @@ Perks:
   Fluff: 0x000000
 Items:
 - Item:
-    Item: 0010E3:ITB_Wildlife.esp
+    Item: 001106:ITB_Wildlife.esp
     Count: 1
 - Item:
     Item: 03ADA3:Skyrim.esm

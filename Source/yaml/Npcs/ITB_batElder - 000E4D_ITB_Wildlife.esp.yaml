@@ -32,7 +32,7 @@ WornArmor: 000C4C:ITB_Wildlife.esp
 AttackRace: 0008B7:ITB_Wildlife.esp
 Items:
 - Item:
-    Item: 001020:ITB_Wildlife.esp
+    Item: 001043:ITB_Wildlife.esp
     Count: 2
 AIData:
   Aggression: VeryAggressive

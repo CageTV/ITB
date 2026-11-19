@@ -1,0 +1,15 @@
+FormKey: 001126:ITB_Wildlife.esp
+EditorID: ITB_WolfPeltcyro
+ObjectBounds:
+  First: -23, -60, -6
+  Second: 23, 80, 5
+Name:
+  TargetLanguage: English
+  Value: Cyrodilic Wolf Pelt
+Model:
+  File: itb\fauna\wolf\wolf_9d32674e.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0914EA:Skyrim.esm
+Value: 13
+Weight: 1

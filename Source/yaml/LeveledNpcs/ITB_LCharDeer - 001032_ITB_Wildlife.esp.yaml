@@ -1,0 +1,45 @@
+FormKey: 001032:ITB_Wildlife.esp
+EditorID: ITB_LCharDeer
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+Entries:
+- Data:
+    Level: 1
+    Reference: 0CF89D:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0CF89D:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F1A:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F1C:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F1C:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0CF89D:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0CF89D:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F1C:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0CF89D:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F1C:ITB_Wildlife.esp
+    Count: 1

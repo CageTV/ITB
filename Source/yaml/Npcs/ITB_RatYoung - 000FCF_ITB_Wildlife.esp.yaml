@@ -1,0 +1,119 @@
+FormKey: 000FCF:ITB_Wildlife.esp
+EditorID: ITB_RatYoung
+ObjectBounds:
+  First: -8, -34, 0
+  Second: 8, 34, 31
+Configuration:
+  Flags:
+  - Respawn
+  - AutoCalcStats
+  - DoesntAffectStealthMeter
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 1
+  SpeedMultiplier: 100
+  HealthOffset: -40
+  DispositionBase: 35
+Factions:
+- Faction: 00084E:ITB_Wildlife.esp
+  Fluff: 0x000000
+- Faction: 000850:ITB_Wildlife.esp
+  Fluff: 0x000000
+Race: 000904:ITB_Wildlife.esp
+Height: 0.55
+WornArmor: 000D03:ITB_Wildlife.esp
+AIData:
+  EnergyLevel: 50
+Packages:
+- 0009B6:ITB_Wildlife.esp
+- 000A73:ITB_Wildlife.esp
+- 000A74:ITB_Wildlife.esp
+Class: 01CE1D:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Pup
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 20
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 15
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 25
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 5
+  Stamina: 25
+  GearedUpWeapons: 1
+CombatStyle: 03CEDF:Skyrim.esm
+NAM5: 255
+Weight: 50
+SoundLevel: Normal
+TextureLighting: '#00000000'
+MajorFlags:
+- 0x40000

@@ -1,0 +1,12 @@
+FormKey: 0010B1:ITB_Wildlife.esp
+EditorID: ITB_gouti_leather2
+Name:
+  TargetLanguage: English
+  Value: Fanged Gouti Hide
+Model:
+  File: itb\fauna\wolf\wolf_f9cd2e81.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0914EA:Skyrim.esm
+Value: 50
+Weight: 2

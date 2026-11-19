@@ -1,0 +1,21 @@
+FormKey: 001079:ITB_Wildlife.esp
+EditorID: ITB_durzog_hit_4
+Duration: 0.25
+Orientation: ProjectileReflection
+AngleThreshold: 15
+PlacementRadius: 16
+SoundLevel: VeryLoud
+Decal:
+  MinWidth: 8
+  MaxWidth: 32
+  MinHeight: 8
+  MaxHeight: 32
+  Depth: 32
+  Shininess: 4
+  ParallaxScale: 1
+  ParallaxPasses: 4
+  Flags:
+  - Parallax
+  Color: '#00FFFFFF'
+TextureSet: 01F827:Skyrim.esm
+Sound1: 000C03:ITB_Wildlife.esp

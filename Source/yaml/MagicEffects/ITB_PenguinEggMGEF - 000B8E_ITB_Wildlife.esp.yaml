@@ -11,10 +11,10 @@ Flags:
 Archetype:
   MutagenObjectType: MagicEffectArchetype
   ActorValue: Health
-Projectile: 0010B7:ITB_Wildlife.esp
+Projectile: 0010DA:ITB_Wildlife.esp
 CastType: FireAndForget
 TargetType: Aimed
-CastingArt: 0010B5:ITB_Wildlife.esp
+CastingArt: 0010D8:ITB_Wildlife.esp
 DualCastScale: 1
 CastingSoundLevel: Normal
 Sounds: []

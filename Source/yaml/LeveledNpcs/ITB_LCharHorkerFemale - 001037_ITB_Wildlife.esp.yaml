@@ -1,0 +1,13 @@
+FormKey: 001037:ITB_Wildlife.esp
+EditorID: ITB_LCharHorkerFemale
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+Entries:
+- Data:
+    Level: 1
+    Reference: 000F37:ITB_Wildlife.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000F38:ITB_Wildlife.esp
+    Count: 1

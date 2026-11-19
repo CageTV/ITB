@@ -1,0 +1,13 @@
+FormKey: 00104D:ITB_Wildlife.esp
+EditorID: ITB_colibriloot4
+Name:
+  TargetLanguage: English
+  Value: Crimson-headed Hummingbird
+Model:
+  File: itb\fauna\chaurus_hunter\chaurus_hunter_0d224ef5.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Search
+Flags: []

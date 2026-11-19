@@ -1,0 +1,30 @@
+FormKey: 001046:ITB_Wildlife.esp
+EditorID: ITB_BoneMealbonecolossus
+Name:
+  TargetLanguage: English
+  Value: Mingled Bone Meal
+Keywords:
+- 08CDEB:Skyrim.esm
+Model:
+  File: itb\fauna\lurker\lurker_1f785009.nif
+  Data: 0x020000000000000000000000
+PickUpSound: 0FC21F:Skyrim.esm
+Value: 100
+Weight: 0.9
+IngredientValue: 143
+Effects:
+- BaseEffect: 03A2C6:Skyrim.esm
+  Data:
+    Magnitude: 20
+- BaseEffect: 03EAEA:Skyrim.esm
+  Data:
+    Magnitude: 7
+    Duration: 60
+- BaseEffect: 03EB25:Skyrim.esm
+  Data:
+    Magnitude: 15
+    Duration: 60
+- BaseEffect: 03EAEC:Skyrim.esm
+  Data:
+    Magnitude: 7
+    Duration: 60

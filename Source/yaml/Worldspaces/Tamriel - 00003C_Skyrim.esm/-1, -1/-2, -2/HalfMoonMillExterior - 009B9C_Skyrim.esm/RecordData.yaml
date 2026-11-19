@@ -65,36 +65,52 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 00142B:ITB_Wildlife.esp
-  Base: 000FD7:ITB_Wildlife.esp
+  FormKey: 0014EE:ITB_Wildlife.esp
+  Base: 000FF6:ITB_Wildlife.esp
   Placement:
     Position: -41633.57, -59300.598, 790.0908
 - MutagenObjectType: PlacedNpc
-  FormKey: 00142C:ITB_Wildlife.esp
-  Base: 000E78:ITB_Wildlife.esp
+  FormKey: 0014EF:ITB_Wildlife.esp
+  Base: 000E7B:ITB_Wildlife.esp
   Owner: 0C13BE:Skyrim.esm
   Placement:
     Position: -44614.883, -58239.727, 936.017
 - MutagenObjectType: PlacedNpc
-  FormKey: 00142D:ITB_Wildlife.esp
-  Base: 000E74:ITB_Wildlife.esp
+  FormKey: 0014F0:ITB_Wildlife.esp
+  Base: 000E77:ITB_Wildlife.esp
   Owner: 0C13BE:Skyrim.esm
   Placement:
     Position: -44044.867, -58587.17, 972.0996
 - MutagenObjectType: PlacedNpc
-  FormKey: 00142E:ITB_Wildlife.esp
-  Base: 000E6B:ITB_Wildlife.esp
+  FormKey: 0014F1:ITB_Wildlife.esp
+  Base: 000E6E:ITB_Wildlife.esp
   Owner: 0C13BE:Skyrim.esm
   Placement:
     Position: -44271.484, -57962.73, 935.26465
 - MutagenObjectType: PlacedNpc
-  FormKey: 00142F:ITB_Wildlife.esp
-  Base: 000F46:ITB_Wildlife.esp
+  FormKey: 0014F2:ITB_Wildlife.esp
+  Base: 000F51:ITB_Wildlife.esp
   Placement:
     Position: -43431.074, -57928.156, 828.8843
 - MutagenObjectType: PlacedNpc
-  FormKey: 001430:ITB_Wildlife.esp
-  Base: 000F44:ITB_Wildlife.esp
+  FormKey: 0014F3:ITB_Wildlife.esp
+  Base: 000F4F:ITB_Wildlife.esp
   Placement:
     Position: -43799.594, -57761.375, 882.94934
     Rotation: 0, -0, 0.5
+- MutagenObjectType: PlacedNpc
+  FormKey: 0014F4:ITB_Wildlife.esp
+  Base: 000F16:ITB_Wildlife.esp
+  LinkedReferences:
+  - Reference: 0014F0:ITB_Wildlife.esp
+  Placement:
+    Position: -44193.366, -58566.002, 980.100
+    Rotation: 0, 0, 3.0000
+- MutagenObjectType: PlacedNpc
+  FormKey: 0014F5:ITB_Wildlife.esp
+  Base: 000F50:ITB_Wildlife.esp
+  LinkedReferences:
+  - Reference: 0014F2:ITB_Wildlife.esp
+  Placement:
+    Position: -43388.525, -58071.995, 836.884
+    Rotation: 0, 0, 5.0000

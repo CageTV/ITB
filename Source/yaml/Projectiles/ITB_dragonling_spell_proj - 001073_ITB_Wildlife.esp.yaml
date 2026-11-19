@@ -1,0 +1,19 @@
+FormKey: 001073:ITB_Wildlife.esp
+EditorID: ITB_dragonling_spell_proj
+Model:
+  File: itb\fauna\chaurus_hunter\chaurus_hunter_688fc450.nif
+  Data: 0x020000000000000000000000
+Type: Missile
+Gravity: 1
+Speed: 1000
+Range: 4000
+Light: 01CBB3:Skyrim.esm
+Sound: 000C00:ITB_Wildlife.esp
+MuzzleFlashDuration: 0.5
+FadeDuration: 0.5
+ImpactForce: 1.5
+CollisionRadius: 10
+RelaunchInterval: 0.25
+MuzzleFlashModel: Magic\MAGChaurusSpitMuzzleFlash.nif
+TextureFilesHashes: 0x020000000000000000000000
+SoundLevel: 2

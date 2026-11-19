@@ -1,0 +1,16 @@
+FormKey: 0010B3:ITB_Wildlife.esp
+EditorID: ITB_gravelordsummonshout2
+Name:
+  TargetLanguage: English
+  Value: Summon Gravelord Servants
+MenuDisplayObject: 1097CC:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Summon Gravelord Servants.
+WordsOfPower:
+- Word: 01A162:Dawnguard.esm
+  Spell: 000BF0:ITB_Wildlife.esp
+- Word: 01A163:Dawnguard.esm
+  Spell: 000BF0:ITB_Wildlife.esp
+- Word: 01A164:Dawnguard.esm
+  Spell: 000BF0:ITB_Wildlife.esp

@@ -25,7 +25,7 @@ Factions:
   Fluff: 0x000000
 - Faction: 02D1DF:Skyrim.esm
   Fluff: 0x000000
-Template: 00101C:ITB_Wildlife.esp
+Template: 00103F:ITB_Wildlife.esp
 Race: 109C7C:Skyrim.esm
 CombatOverridePackageList: 0A6C6E:Skyrim.esm
 AIData:

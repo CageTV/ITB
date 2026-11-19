@@ -21,7 +21,7 @@ MinimumSkillLevel: 90
 SpellmakingCastingTime: 0.5
 Archetype:
   MutagenObjectType: MagicEffectSummonCreatureArchetype
-  Association: 000FDA:ITB_Wildlife.esp
+  Association: 000FFA:ITB_Wildlife.esp
 CastType: FireAndForget
 TargetType: TargetLocation
 CastingArt: 03CDFC:Skyrim.esm

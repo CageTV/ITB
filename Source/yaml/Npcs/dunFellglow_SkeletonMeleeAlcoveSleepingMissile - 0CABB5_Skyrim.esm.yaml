@@ -28,7 +28,7 @@ Configuration:
   - Script
   - DefPackList
   - AttackData
-Template: 00101C:ITB_Wildlife.esp
+Template: 00103F:ITB_Wildlife.esp
 Race: 109C7C:Skyrim.esm
 AIData:
   Confidence: Foolhardy

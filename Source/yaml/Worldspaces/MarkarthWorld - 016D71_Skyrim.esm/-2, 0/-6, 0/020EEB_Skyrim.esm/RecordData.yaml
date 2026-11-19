@@ -48,18 +48,18 @@ Regions:
 - 0D3ADE:Skyrim.esm
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001354:ITB_Wildlife.esp
-  Base: 000FB7:ITB_Wildlife.esp
+  FormKey: 0013C6:ITB_Wildlife.esp
+  Base: 000FCB:ITB_Wildlife.esp
   Placement:
     Position: -176223.78, 2940.9585, -3311.729
 - MutagenObjectType: PlacedNpc
-  FormKey: 001355:ITB_Wildlife.esp
-  Base: 000FB7:ITB_Wildlife.esp
+  FormKey: 0013C7:ITB_Wildlife.esp
+  Base: 000FCB:ITB_Wildlife.esp
   Placement:
     Position: -177721.14, 3424.725, -2398.2966
 - MutagenObjectType: PlacedNpc
-  FormKey: 001356:ITB_Wildlife.esp
-  Base: 000FB7:ITB_Wildlife.esp
+  FormKey: 0013C8:ITB_Wildlife.esp
+  Base: 000FCB:ITB_Wildlife.esp
   Placement:
     Position: -178307.52, 3525.8523, -2182.9648
     Rotation: 0, 0, 4.183186

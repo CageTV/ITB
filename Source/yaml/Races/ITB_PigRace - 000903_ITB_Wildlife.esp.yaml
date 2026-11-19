@@ -92,8 +92,8 @@ MovementTypeNames:
 - SWIM
 - WALK
 Voices:
-  Male: 00103E:ITB_Wildlife.esp
-  Female: 00103E:ITB_Wildlife.esp
+  Male: 001061:ITB_Wildlife.esp
+  Female: 001061:ITB_Wildlife.esp
 FacegenMainClamp: 5
 FacegenFaceClamp: 3
 Attacks:

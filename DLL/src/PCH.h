@@ -26,3 +26,12 @@
 #include <vector>
 
 using namespace std::literals;
+
+// CommonLib callbacks pass the object by reference in one build and by pointer in another: a generic lambda plus this works with both
+namespace compat
+{
+	template <class T>
+	inline T* Ptr(T& a_ref) { return &a_ref; }
+	template <class T>
+	inline T* Ptr(T* a_ptr) { return a_ptr; }
+}

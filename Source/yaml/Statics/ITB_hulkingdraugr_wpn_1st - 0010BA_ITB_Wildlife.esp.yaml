@@ -1,0 +1,7 @@
+FormKey: 0010BA:ITB_Wildlife.esp
+EditorID: ITB_hulkingdraugr_wpn_1st
+Model:
+  File: itb\fauna\draugr\draugr_cdcabfae.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000
