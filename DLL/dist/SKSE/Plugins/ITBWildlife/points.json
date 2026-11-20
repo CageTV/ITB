@@ -2098,21 +2098,6 @@
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
    "pos": [
-    31611.9,
-    27146.5,
-    -6663.4
-   ],
-   "when": "day",
-   "cap": 1,
-   "minGapHours": 36
-  },
-  {
-   "id": "pt-0140",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FFA",
-   "world": "00003C",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
     79819.0,
     -9933.4,
     -4410.6
@@ -2122,7 +2107,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0141",
+   "id": "pt-0140",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2137,7 +2122,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0142",
+   "id": "pt-0141",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2152,7 +2137,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0143",
+   "id": "pt-0142",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "00003C",
@@ -2167,7 +2152,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0144",
+   "id": "pt-0143",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2182,7 +2167,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0145",
+   "id": "pt-0144",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2197,7 +2182,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0146",
+   "id": "pt-0145",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2212,7 +2197,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0147",
+   "id": "pt-0146",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2227,7 +2212,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0148",
+   "id": "pt-0147",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2242,7 +2227,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0149",
+   "id": "pt-0148",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2257,7 +2242,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0150",
+   "id": "pt-0149",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2272,7 +2257,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0151",
+   "id": "pt-0150",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "00003C",
@@ -2287,7 +2272,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0152",
+   "id": "pt-0151",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2302,7 +2287,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0153",
+   "id": "pt-0152",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2317,7 +2302,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0154",
+   "id": "pt-0153",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2332,7 +2317,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0155",
+   "id": "pt-0154",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2347,7 +2332,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0156",
+   "id": "pt-0155",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2362,7 +2347,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0157",
+   "id": "pt-0156",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2377,7 +2362,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0158",
+   "id": "pt-0157",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2392,7 +2377,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0159",
+   "id": "pt-0158",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "00003C",
@@ -2407,7 +2392,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0160",
+   "id": "pt-0159",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2422,7 +2407,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0161",
+   "id": "pt-0160",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2437,7 +2422,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0162",
+   "id": "pt-0161",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2452,7 +2437,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0163",
+   "id": "pt-0162",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2467,7 +2452,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0164",
+   "id": "pt-0163",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2482,7 +2467,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0165",
+   "id": "pt-0164",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2497,7 +2482,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0166",
+   "id": "pt-0165",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2512,7 +2497,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0167",
+   "id": "pt-0166",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "00003C",
@@ -2527,7 +2512,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0168",
+   "id": "pt-0167",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2542,7 +2527,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0169",
+   "id": "pt-0168",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2557,7 +2542,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0170",
+   "id": "pt-0169",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2572,7 +2557,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0171",
+   "id": "pt-0170",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2587,7 +2572,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0172",
+   "id": "pt-0171",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2602,7 +2587,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0173",
+   "id": "pt-0172",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2617,7 +2602,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0174",
+   "id": "pt-0173",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2632,7 +2617,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0175",
+   "id": "pt-0174",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2647,7 +2632,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0176",
+   "id": "pt-0175",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2662,7 +2647,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0177",
+   "id": "pt-0176",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2677,7 +2662,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0178",
+   "id": "pt-0177",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2692,7 +2677,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0179",
+   "id": "pt-0178",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2707,7 +2692,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0180",
+   "id": "pt-0179",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2722,7 +2707,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0181",
+   "id": "pt-0180",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2737,7 +2722,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0182",
+   "id": "pt-0181",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2752,7 +2737,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0183",
+   "id": "pt-0182",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2767,7 +2752,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0184",
+   "id": "pt-0183",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2782,7 +2767,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0185",
+   "id": "pt-0184",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2797,7 +2782,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0186",
+   "id": "pt-0185",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2812,7 +2797,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0187",
+   "id": "pt-0186",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2827,7 +2812,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0188",
+   "id": "pt-0187",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2842,7 +2827,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0189",
+   "id": "pt-0188",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2857,7 +2842,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0190",
+   "id": "pt-0189",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2872,7 +2857,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0191",
+   "id": "pt-0190",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2887,7 +2872,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0192",
+   "id": "pt-0191",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2902,7 +2887,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0193",
+   "id": "pt-0192",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2917,7 +2902,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0194",
+   "id": "pt-0193",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2932,7 +2917,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0195",
+   "id": "pt-0194",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -2947,7 +2932,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0196",
+   "id": "pt-0195",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -2962,7 +2947,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0197",
+   "id": "pt-0196",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -2977,7 +2962,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0198",
+   "id": "pt-0197",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -2992,7 +2977,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0199",
+   "id": "pt-0198",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3007,7 +2992,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0200",
+   "id": "pt-0199",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3022,7 +3007,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0201",
+   "id": "pt-0200",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3037,7 +3022,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0202",
+   "id": "pt-0201",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3052,7 +3037,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0203",
+   "id": "pt-0202",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3067,7 +3052,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0204",
+   "id": "pt-0203",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3082,7 +3067,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0205",
+   "id": "pt-0204",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3097,7 +3082,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0206",
+   "id": "pt-0205",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3112,7 +3097,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0207",
+   "id": "pt-0206",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3127,7 +3112,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0208",
+   "id": "pt-0207",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3142,7 +3127,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0209",
+   "id": "pt-0208",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3157,7 +3142,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0210",
+   "id": "pt-0209",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3172,7 +3157,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0211",
+   "id": "pt-0210",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3187,7 +3172,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0212",
+   "id": "pt-0211",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3202,7 +3187,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0213",
+   "id": "pt-0212",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3217,7 +3202,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0214",
+   "id": "pt-0213",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3232,7 +3217,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0215",
+   "id": "pt-0214",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3247,7 +3232,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0216",
+   "id": "pt-0215",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3262,7 +3247,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0217",
+   "id": "pt-0216",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3277,7 +3262,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0218",
+   "id": "pt-0217",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3292,7 +3277,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0219",
+   "id": "pt-0218",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3307,7 +3292,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0220",
+   "id": "pt-0219",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3322,7 +3307,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0221",
+   "id": "pt-0220",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3337,7 +3322,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0222",
+   "id": "pt-0221",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3352,7 +3337,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0223",
+   "id": "pt-0222",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "016D71",
@@ -3367,7 +3352,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0224",
+   "id": "pt-0223",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBF",
    "world": "016D71",
@@ -3382,7 +3367,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0225",
+   "id": "pt-0224",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3397,7 +3382,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0226",
+   "id": "pt-0225",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3412,7 +3397,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0227",
+   "id": "pt-0226",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3427,7 +3412,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0228",
+   "id": "pt-0227",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3442,7 +3427,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0229",
+   "id": "pt-0228",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3457,7 +3442,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0230",
+   "id": "pt-0229",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3472,7 +3457,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0231",
+   "id": "pt-0230",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3487,7 +3472,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0232",
+   "id": "pt-0231",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9F",
    "world": "01E49D",
@@ -3499,10 +3484,18 @@
    ],
    "when": "any",
    "cap": 1,
-   "minGapHours": 24
+   "minGapHours": 24,
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
   },
   {
-   "id": "pt-0233",
+   "id": "pt-0232",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9F",
    "world": "01E49D",
@@ -3514,10 +3507,18 @@
    ],
    "when": "any",
    "cap": 1,
-   "minGapHours": 24
+   "minGapHours": 24,
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
   },
   {
-   "id": "pt-0234",
+   "id": "pt-0233",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9D",
    "world": "01E49D",
@@ -3529,10 +3530,18 @@
    ],
    "when": "any",
    "cap": 1,
-   "minGapHours": 24
+   "minGapHours": 24,
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
   },
   {
-   "id": "pt-0235",
+   "id": "pt-0234",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9D",
    "world": "01E49D",
@@ -3544,10 +3553,18 @@
    ],
    "when": "any",
    "cap": 1,
-   "minGapHours": 24
+   "minGapHours": 24,
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
   },
   {
-   "id": "pt-0236",
+   "id": "pt-0235",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBF",
    "world": "016BB4",
@@ -3562,7 +3579,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0237",
+   "id": "pt-0236",
    "plugin": "ITB Wildlife.esp",
    "form": "000E79",
    "world": "016BB4",
@@ -3577,7 +3594,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0238",
+   "id": "pt-0237",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3592,7 +3609,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0239",
+   "id": "pt-0238",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3607,7 +3624,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0240",
+   "id": "pt-0239",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3622,7 +3639,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0241",
+   "id": "pt-0240",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3637,7 +3654,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0242",
+   "id": "pt-0241",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3652,7 +3669,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0243",
+   "id": "pt-0242",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3667,7 +3684,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0244",
+   "id": "pt-0243",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3682,7 +3699,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0245",
+   "id": "pt-0244",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3697,7 +3714,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0246",
+   "id": "pt-0245",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3712,7 +3729,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0247",
+   "id": "pt-0246",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9D",
    "world": "016BB4",
@@ -3724,10 +3741,18 @@
    ],
    "when": "any",
    "cap": 1,
-   "minGapHours": 24
+   "minGapHours": 24,
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
   },
   {
-   "id": "pt-0248",
+   "id": "pt-0247",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9D",
    "world": "016BB4",
@@ -3739,10 +3764,18 @@
    ],
    "when": "any",
    "cap": 1,
-   "minGapHours": 24
+   "minGapHours": 24,
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
   },
   {
-   "id": "pt-0249",
+   "id": "pt-0248",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9E",
    "world": "016BB4",
@@ -3754,10 +3787,18 @@
    ],
    "when": "any",
    "cap": 1,
-   "minGapHours": 24
+   "minGapHours": 24,
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
   },
   {
-   "id": "pt-0250",
+   "id": "pt-0249",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "016BB4",
@@ -3772,7 +3813,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0251",
+   "id": "pt-0250",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBF",
    "world": "016BB4",
@@ -3787,7 +3828,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0252",
+   "id": "pt-0251",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBF",
    "world": "016BB4",
@@ -3802,7 +3843,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0253",
+   "id": "pt-0252",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9D",
    "world": "037EDF",
@@ -3814,10 +3855,18 @@
    ],
    "when": "any",
    "cap": 1,
-   "minGapHours": 24
+   "minGapHours": 24,
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
   },
   {
-   "id": "pt-0254",
+   "id": "pt-0253",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9F",
    "world": "037EDF",
@@ -3829,10 +3878,18 @@
    ],
    "when": "any",
    "cap": 1,
-   "minGapHours": 24
+   "minGapHours": 24,
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
   },
   {
-   "id": "pt-0255",
+   "id": "pt-0254",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3847,7 +3904,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0256",
+   "id": "pt-0255",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3862,7 +3919,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0257",
+   "id": "pt-0256",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3877,7 +3934,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0258",
+   "id": "pt-0257",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3892,7 +3949,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0259",
+   "id": "pt-0258",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3907,7 +3964,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0260",
+   "id": "pt-0259",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3922,7 +3979,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0261",
+   "id": "pt-0260",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3937,7 +3994,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0262",
+   "id": "pt-0261",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3952,7 +4009,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0263",
+   "id": "pt-0262",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3967,7 +4024,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0264",
+   "id": "pt-0263",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "037EDF",
@@ -3982,7 +4039,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0265",
+   "id": "pt-0264",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "037EDF",
@@ -3997,7 +4054,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0266",
+   "id": "pt-0265",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBF",
    "world": "037EDF",
@@ -4012,7 +4069,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0267",
+   "id": "pt-0266",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "037EDF",
@@ -4027,7 +4084,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0268",
+   "id": "pt-0267",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4042,7 +4099,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0269",
+   "id": "pt-0268",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4057,7 +4114,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0270",
+   "id": "pt-0269",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4072,7 +4129,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0271",
+   "id": "pt-0270",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4087,7 +4144,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0272",
+   "id": "pt-0271",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBF",
    "world": "01A26F",
@@ -4102,7 +4159,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0273",
+   "id": "pt-0272",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4117,7 +4174,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0274",
+   "id": "pt-0273",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9E",
    "world": "01A26F",
@@ -4129,10 +4186,18 @@
    ],
    "when": "any",
    "cap": 1,
-   "minGapHours": 24
+   "minGapHours": 24,
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
   },
   {
-   "id": "pt-0275",
+   "id": "pt-0274",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4147,7 +4212,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0276",
+   "id": "pt-0275",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4162,7 +4227,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0277",
+   "id": "pt-0276",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBF",
    "world": "01A26F",
@@ -4177,7 +4242,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0278",
+   "id": "pt-0277",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "01A26F",
@@ -4192,7 +4257,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0279",
+   "id": "pt-0278",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4207,7 +4272,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0280",
+   "id": "pt-0279",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4222,7 +4287,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0281",
+   "id": "pt-0280",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4237,7 +4302,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0282",
+   "id": "pt-0281",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4252,7 +4317,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0283",
+   "id": "pt-0282",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4267,7 +4332,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0284",
+   "id": "pt-0283",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4282,7 +4347,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0285",
+   "id": "pt-0284",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4297,7 +4362,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0286",
+   "id": "pt-0285",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4312,7 +4377,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0287",
+   "id": "pt-0286",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBF",
    "world": "01691D",
@@ -4327,7 +4392,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0288",
+   "id": "pt-0287",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBF",
    "world": "01691D",
@@ -4342,7 +4407,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0289",
+   "id": "pt-0288",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01691D",
@@ -4357,7 +4422,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0290",
+   "id": "pt-0289",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4372,7 +4437,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0291",
+   "id": "pt-0290",
    "plugin": "ITB Wildlife.esp",
    "form": "000F45",
    "world": "037EDF",
@@ -4387,7 +4452,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0292",
+   "id": "pt-0291",
    "plugin": "ITB Wildlife.esp",
    "form": "000F46",
    "world": "01A26F",
@@ -4402,7 +4467,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0293",
+   "id": "pt-0292",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "01A26F",
@@ -4417,7 +4482,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0294",
+   "id": "pt-0293",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "01A26F",
@@ -4432,7 +4497,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0295",
+   "id": "pt-0294",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "037EDF",
@@ -4447,7 +4512,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0296",
+   "id": "pt-0295",
    "plugin": "ITB Wildlife.esp",
    "form": "000FBE",
    "world": "037EDF",
@@ -4460,6 +4525,374 @@
    "when": "any",
    "cap": 1,
    "minGapHours": 24
+  },
+  {
+   "id": "pt-0296",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE6",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -64214.8,
+    69880.4,
+    -12992.0
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0297",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FEA",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -75568.1,
+    52585.8,
+    -10380.3
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0298",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE6",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -30036.1,
+    26913.6,
+    -4304.0
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0299",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FEA",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -23638.4,
+    83920.6,
+    -13974.6
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0300",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE6",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -97755.8,
+    42442.7,
+    -9136.7
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0301",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FEA",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -55651.8,
+    43123.8,
+    -8764.2
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0302",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE6",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -85047.9,
+    74341.4,
+    -12570.0
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0303",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE9",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -154157.2,
+    74088.1,
+    -4958.6
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0304",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE6",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -104686.0,
+    27817.5,
+    -702.3
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0305",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE9",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -126721.4,
+    55017.3,
+    -9529.4
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0306",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE6",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -168467.6,
+    44059.7,
+    -4789.7
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0307",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE9",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -175345.2,
+    -18943.9,
+    4014.9
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0308",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE6",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -101308.3,
+    57694.4,
+    -12366.0
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0309",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE9",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -133940.0,
+    23304.9,
+    -4435.2
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0310",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE6",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -126440.5,
+    -25075.1,
+    1009.5
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
+  },
+  {
+   "id": "pt-0311",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FE9",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -151660.3,
+    -13116.6,
+    -4020.2
+   ],
+   "when": "day",
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "cap": 1,
+   "minGapHours": 72
   }
  ]
 }

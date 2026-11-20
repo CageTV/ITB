@@ -27,6 +27,7 @@ namespace Spawner
 			std::uint32_t formId{ 0 };      // leveled NPC list (or a single NPC), local FormID in `plugin`
 			RE::NiPoint3 offset{};          // test anchor: relative to the player (x forward, y right in the player's frame)
 			When         when{ When::kAny };
+			std::uint16_t monthMask{ 0x0FFF };  // bit 0 = Morning Star ... bit 11 = Evening Star; all set = every month
 			int          cap{ 1 };
 			float        minGapHours{ 0.5f };
 			// absolute mode (real spawn points): a fixed place in a worldspace; spawns when the player is near, not in view
@@ -112,6 +113,18 @@ namespace Spawner
 					pt.minDist = p.value("minDist", 1800.0f);
 				}
 				pt.when = ParseWhen(p.value("when", std::string("any")));
+				// "months": [4,5,...] with 1 = Morning Star ... 12 = Evening Star; absent or empty = every month
+				if (p.contains("months") && p["months"].is_array() && !p["months"].empty()) {
+					std::uint16_t mask = 0;
+					for (const auto& m : p["months"]) {
+						if (m.is_number_integer() && m.get<int>() >= 1 && m.get<int>() <= 12) {
+							mask |= static_cast<std::uint16_t>(1u << (m.get<int>() - 1));
+						}
+					}
+					if (mask != 0) {
+						pt.monthMask = mask;
+					}
+				}
 				pt.cap = std::max(1, p.value("cap", 1));
 				pt.minGapHours = p.value("minGapHours", 0.5f);
 				if (pt.formId != 0) {
@@ -126,8 +139,11 @@ namespace Spawner
 			return a_hour >= g_cfg.dayStart && a_hour < g_cfg.dayEnd;
 		}
 
-		bool WindowOpen(const Point& a_pt, float a_hour)
+		bool WindowOpen(const Point& a_pt, float a_hour, std::uint32_t a_month)
 		{
+			if (a_month < 12 && (a_pt.monthMask & (1u << a_month)) == 0) {
+				return false;
+			}
 			switch (a_pt.when) {
 			case When::kDay: return IsDay(a_hour);
 			case When::kNight: return !IsDay(a_hour);
@@ -269,6 +285,7 @@ namespace Spawner
 				return;
 			}
 			const float hour = cal->GetHour();
+			const std::uint32_t month = cal->GetMonth();  // 0 = Morning Star
 			const float hoursNow = cal->GetCurrentGameTime() * 24.0f;
 			const auto  pp = player->GetPosition();
 
@@ -290,14 +307,14 @@ namespace Spawner
 					return false;
 				});
 
-				const bool open = WindowOpen(pt, hour);
+				const bool open = WindowOpen(pt, hour, month);
 				if (!open) {
 					// window closed: remove the ones the player is not looking at (far enough), keep the rest until they leave
 					std::erase_if(pt.alive, [&](const RE::ObjectRefHandle& h) {
 						auto r = h.get();
 						if (r && pp.GetDistance(r->GetPosition()) >= g_cfg.quietDistance) {
 							Retire(r.get());
-							SKSE::log::info("[{}] removed {:08X}: window {} closed at {:.1f}h", pt.id, r->GetFormID(), WhenName(pt.when), hour);
+							SKSE::log::info("[{}] removed {:08X}: window {} closed at {:.1f}h (month {})", pt.id, r->GetFormID(), WhenName(pt.when), hour, month + 1);
 							return true;
 						}
 						return false;
