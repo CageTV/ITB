@@ -3,7 +3,7 @@
 Standalone animal-behaviour plugin for Skyrim Special Edition, part of the Instincts The Beastmaster project. No dependencies beyond the base game and its official DLC.
 
 ## Status
-Plugin (`Plugin/ITB Wildlife.esp`; masters: the five official files plus two Creation Club files):
+Plugin (`Plugin/ITB Wildlife.esp`; masters: the five official files plus one Creation Club file, Survival Mode):
 - Animals, dragons, atronachs, spriggans, trolls and giants with their full behaviour: 2,288 records, 166 races, 611 creatures, 581 schedule packages, 93 factions, 87 spells, 244 skins and 1,694 placed spawns.
 - Undead variants only in vanilla dungeons; giants and dragons at vanilla spawn points.
 - Stagger and knockdown never exceed vanilla; wolves, bears, sabre cats, horkers and dogs are at 5% of vanilla with no knockdown.
