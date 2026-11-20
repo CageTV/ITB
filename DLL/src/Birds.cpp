@@ -368,18 +368,29 @@ namespace Birds
 			if (!tes) {
 				return;
 			}
-			std::vector<RE::FormID> bases;
-			for (const auto& s : g_cfg.species) {
-				if (auto* f = RE::TESDataHandler::GetSingleton()->LookupForm(s.form, s.plugin)) bases.push_back(f->GetFormID());
+			std::vector<std::pair<RE::FormID, int>> bases;  // base form -> species index
+			for (std::size_t i = 0; i < g_cfg.species.size(); ++i) {
+				const auto& s = g_cfg.species[i];
+				if (auto* f = RE::TESDataHandler::GetSingleton()->LookupForm(s.form, s.plugin)) bases.push_back({ f->GetFormID(), static_cast<int>(i) });
 			}
-			int budget = 2;  // removing many actors in one frame crashed the movement code (2026-11-20 03:03 and 03:04): a couple per pass
+			auto* cell = a_player->GetParentCell();
+			auto* world = cell ? cell->GetbhkWorld() : nullptr;
+			int   budget = 2;  // removing many actors in one frame crashed the movement code (2026-11-20 03:03 and 03:04): a couple per pass
 			tes->ForEachReferenceInRange(a_player, 8000.0f, [&](auto&& a_ref) {
 				if (budget <= 0) {
 					return RE::BSContainer::ForEachResult::kStop;
 				}
 				auto* ref = compat::Ptr(a_ref);
-				if (!ref || ref->GetFormID() < 0xFF000000 || !ref->Is3DLoaded() || !ref->GetBaseObject() || g_queued.count(ref->GetFormID()) ||
-					std::find(bases.begin(), bases.end(), ref->GetBaseObject()->GetFormID()) == bases.end()) {
+				if (!ref || ref->GetFormID() < 0xFF000000 || !ref->Is3DLoaded() || !ref->GetBaseObject() || g_queued.count(ref->GetFormID())) {
+					return RE::BSContainer::ForEachResult::kContinue;
+				}
+				int species = -1;
+				for (const auto& [id, idx] : bases) {
+					if (id == ref->GetBaseObject()->GetFormID()) {
+						species = idx;
+					}
+				}
+				if (species < 0) {
 					return RE::BSContainer::ForEachResult::kContinue;
 				}
 				for (const auto& b : g_birds) {
@@ -388,14 +399,30 @@ namespace Birds
 					}
 				}
 				const auto* actor = ref->As<RE::Actor>();
-				--budget;
 				if (actor && actor->IsDead()) {
+					--budget;
 					Bury(ref);
+					SKSE::log::info("birds: sweep: {:X} was left over (dead), removing in 30 s", ref->GetFormID());
 				} else if (!ref->IsDisabled()) {
-					Retire(ref);
-					g_queued.insert(ref->GetFormID());
+					// a bird saved from an earlier session: nothing tracks it, so it would stand frozen for ever. Take it over (touches nothing,
+					// so it is safe at any time): it starts its idle, hops or flees like a new bird and leaves after its time.
+					Bird b;
+					b.ref = ref->GetHandle();
+					b.species = species;
+					b.pos = ref->GetPosition();
+					b.timer = Rand(8.0f, 30.0f);
+					b.idleTimer = Rand(0.5f, 3.0f);
+					RE::NiPoint3 hit;
+					if (CastDown(world, { b.pos.x, b.pos.y, b.pos.z + 40.0f }, 600.0f, hit) && b.pos.z - hit.z < 120.0f) {
+						b.grounded = true;
+						b.pos.z = hit.z + 2.0f;
+						b.home = b.pos;
+						b.hopTimer = Rand(0.5f, 2.5f);
+					}
+					g_birds.push_back(b);
+					SKSE::log::info("birds: sweep: {:X} ({}) was left over from an earlier session, taken over ({})", ref->GetFormID(), g_cfg.species[static_cast<std::size_t>(species)].id,
+						b.grounded ? "on the ground" : "perched");
 				}
-				SKSE::log::info("birds: sweep: {:X} was left over ({}), removing", ref->GetFormID(), actor && actor->IsDead() ? "dead" : "alive");
 				return RE::BSContainer::ForEachResult::kContinue;
 			});
 		}
