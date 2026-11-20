@@ -82,6 +82,11 @@ namespace Birds
 			int                 landPhase{ 0 };    // 0 none, 1 trying to land, 2 waiting for the landing clip, then back to looking around
 			float               landClock{ 0.0f };
 			float               landRetry{ 0.0f };
+			bool                grounded{ false };  // sits on the ground: hops around instead of standing still
+			bool                hopping{ false };
+			float               hopT{ 0.0f }, hopDur{ 0.35f }, hopTimer{ 2.0f };
+			RE::NiPoint3        hopFrom, hopTo, home;
+			bool                logged{ false };  // the "player came near" diagnostic was written
 		};
 
 		Config                           g_cfg;
@@ -505,6 +510,18 @@ namespace Birds
 				b.species = si;
 				b.pos = perch.pos;
 				b.timer = Rand(5.0f, 16.0f);
+				{
+					// a perch within 120 units of the ground is a ground perch: the bird stands on the ground and hops about
+					auto*        cell = a_player->GetParentCell();
+					RE::NiPoint3 hit;
+					if (CastDown(cell ? cell->GetbhkWorld() : nullptr, { perch.pos.x, perch.pos.y, perch.pos.z + 40.0f }, 600.0f, hit) && perch.pos.z - hit.z < 120.0f) {
+						b.grounded = true;
+						b.pos.z = hit.z + 2.0f;
+						b.home = b.pos;
+						b.timer = Rand(25.0f, 60.0f);  // ground birds stay and hop about for a good while
+						b.hopTimer = Rand(0.5f, 2.5f);
+					}
+				}
 				b.idleTimer = Rand(0.5f, 3.0f);
 				g_birds.push_back(b);
 				SKSE::log::info("birds: spawned {} {:08X} on a {} at {:.0f},{:.0f},{:.0f} ({:.0f} away), {} birds", sp.id, ref->GetFormID(), KindName(perch.kind),
@@ -618,13 +635,22 @@ namespace Birds
 						// wait until the bird's 3D and behavior graph exist; then start its idle and turn its AI off (it is moved by this module only)
 						auto* actor = ref->As<RE::Actor>();
 						if (!Ready(actor)) {
-							++it;
-							continue;
+							// not ready yet: wait, but a bird the player walks up to must still fly off
+							if (dist >= g_cfg.scareDist) {
+								++it;
+								continue;
+							}
+						} else {
+							Send(ref.get(), "startGrndLook");
+							actor->EnableAI(false);
+							it->started = true;
+							it->timer = it->grounded ? Rand(25.0f, 60.0f) : Rand(4.0f, 12.0f);
 						}
-						Send(ref.get(), "startGrndLook");
-						actor->EnableAI(false);
-						it->started = true;
-						it->timer = Rand(4.0f, 12.0f);
+					}
+					if (dist < 700.0f && !it->logged) {
+						it->logged = true;
+						SKSE::log::info("birds: player near {:08X} ({}): {:.0f} away, started {}, grounded {}, ready {}, scare distance {:.0f}", ref->GetFormID(),
+							g_cfg.species[static_cast<std::size_t>(it->species)].id, dist, it->started, it->grounded, Ready(ref->As<RE::Actor>()), g_cfg.scareDist);
 					}
 					const bool scared = dist < g_cfg.scareDist || (inCombat && dist < g_cfg.scareDist * 4.0f);
 					it->timer -= a_dt;
@@ -636,10 +662,46 @@ namespace Birds
 						} else {
 							it->timer = Rand(5.0f, 14.0f);
 						}
-					} else if (it->idleTimer <= 0.0f) {
+					} else if (it->idleTimer <= 0.0f && !it->hopping) {
 						const int roll = RandInt(0, 99);
 						Send(ref.get(), roll < 50 ? "startGrndLook" : (roll < 88 ? "startGrndPeck" : "startGrndFlap"));
 						it->idleTimer = Rand(2.5f, 7.0f);
+					}
+					if (it->grounded && it->state == State::kPerched) {
+						// ground birds hop about: a short arc to a spot near where they are, never far from the place they started
+						if (it->hopping) {
+							it->hopT += a_dt / it->hopDur;
+							const float        u = std::min(1.0f, it->hopT);
+							const RE::NiPoint3 p{ it->hopFrom.x + (it->hopTo.x - it->hopFrom.x) * u, it->hopFrom.y + (it->hopTo.y - it->hopFrom.y) * u,
+								it->hopFrom.z + (it->hopTo.z - it->hopFrom.z) * u + 22.0f * std::sin(3.14159265f * u) };
+							FaceAndPlace(ref.get(), p, it->hopTo);
+							it->pos = p;
+							if (u >= 1.0f) {
+								it->hopping = false;
+								it->pos = it->hopTo;
+								it->hopTimer = Rand(0.8f, 3.5f);
+							}
+						} else {
+							it->hopTimer -= a_dt;
+							if (it->hopTimer <= 0.0f) {
+								float        ang = Rand(0.0f, 6.2831f);
+								const float  step = Rand(45.0f, 110.0f);
+								RE::NiPoint3 to{ it->pos.x + std::sin(ang) * step, it->pos.y + std::cos(ang) * step, it->pos.z };
+								if (Dist2D(to, it->home) > 300.0f) {
+									ang = std::atan2(it->home.x - it->pos.x, it->home.y - it->pos.y);
+									to = { it->pos.x + std::sin(ang) * step, it->pos.y + std::cos(ang) * step, it->pos.z };
+								}
+								RE::NiPoint3 hit;
+								auto*        hcell = a_player->GetParentCell();
+								if (CastDown(hcell ? hcell->GetbhkWorld() : nullptr, { to.x, to.y, to.z + 60.0f }, 220.0f, hit)) {
+									to.z = hit.z + 2.0f;
+								}
+								it->hopFrom = it->pos;
+								it->hopTo = to;
+								it->hopT = 0.0f;
+								it->hopping = true;
+							}
+						}
 					}
 					++it;
 					continue;
