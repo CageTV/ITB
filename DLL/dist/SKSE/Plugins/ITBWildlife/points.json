@@ -4518,6 +4518,381 @@
    ],
    "cap": 1,
    "minGapHours": 72
+  },
+  {
+   "id": "pt-0287",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    128717.6,
+    -73638.0,
+    10971.4
+   ],
+   "when": "day",
+   "cap": 1,
+   "minGapHours": 36
+  },
+  {
+   "id": "pt-0288",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    7265.3,
+    -64043.0,
+    3945.5
+   ],
+   "when": "day",
+   "cap": 1,
+   "minGapHours": 36
+  },
+  {
+   "id": "pt-0289",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -24106.4,
+    -22737.7,
+    -5866.7
+   ],
+   "when": "day",
+   "cap": 1,
+   "minGapHours": 36
+  },
+  {
+   "id": "pt-0290",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -27336.9,
+    -67075.6,
+    841.7
+   ],
+   "when": "day",
+   "cap": 1,
+   "minGapHours": 36
+  },
+  {
+   "id": "pt-0291",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    97367.7,
+    -10736.3,
+    -9053.5
+   ],
+   "when": "day",
+   "cap": 1,
+   "minGapHours": 36
+  },
+  {
+   "id": "pt-0292",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "00003C",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -13459.8,
+    -68797.4,
+    1427.8
+   ],
+   "when": "day",
+   "cap": 1,
+   "minGapHours": 36
+  },
+  {
+   "id": "pt-0293",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "016D71",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -178152.4,
+    5705.2,
+    -2157.1
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0294",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "016D71",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -178488.9,
+    5445.9,
+    -2158.4
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0295",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "016BB4",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    177539.9,
+    -98104.1,
+    11136.7
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0296",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "016BB4",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    175050.4,
+    -101946.4,
+    11589.8
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0297",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "016BB4",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    176672.0,
+    -98800.0,
+    11181.0
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0298",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "016BB4",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    176966.0,
+    -98610.0,
+    11168.0
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0299",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "037EDF",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -54018.6,
+    102573.5,
+    -9024.5
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0300",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "037EDF",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -54195.9,
+    103453.1,
+    -9026.2
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0301",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "037EDF",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -53212.7,
+    102525.6,
+    -9008.3
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0302",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "037EDF",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -52632.1,
+    102903.6,
+    -8953.6
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0303",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "01A26F",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    24357.4,
+    -4370.0,
+    -3002.5
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0304",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "01A26F",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    24409.0,
+    -3751.9,
+    -3002.5
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0305",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "01A26F",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    22812.5,
+    -3866.6,
+    -2972.5
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0306",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "01691D",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    135164.5,
+    38370.0,
+    -12259.8
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0307",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "01691D",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    134375.5,
+    38354.0,
+    -12259.8
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0308",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "01A26F",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    26870.5,
+    577.8,
+    -1492.0
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0309",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "01A26F",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    26754.5,
+    107.2,
+    -1492.0
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0310",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "037EDF",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -58733.9,
+    110433.7,
+    -7924.0
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
+  },
+  {
+   "id": "pt-0311",
+   "plugin": "ITB Wildlife.esp",
+   "form": "000FBF",
+   "world": "037EDF",
+   "worldPlugin": "Skyrim.esm",
+   "pos": [
+    -58849.9,
+    109963.1,
+    -7924.0
+   ],
+   "when": "any",
+   "cap": 1,
+   "minGapHours": 24
   }
  ]
 }
