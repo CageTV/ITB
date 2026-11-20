@@ -1,0 +1,18 @@
+FormKey: 001640:ITB_Wildlife.esp
+MajorRecordFlagsRaw: 4
+EditorID: ITB_BirdNullSkin
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Bird
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Description:
+  TargetLanguage: English
+  Value: ''
+MajorFlags:
+- NonPlayable
