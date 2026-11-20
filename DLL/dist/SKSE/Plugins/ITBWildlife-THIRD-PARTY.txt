@@ -6,12 +6,38 @@ The licence of the DLL itself is in ITBWildlife-LICENSE.txt, and its source code
 (ITBWildlife-0.1.0-source.zip, also in the repository under DLL/): https://github.com/CageTV/ITB
 
 -----------------------------------------------------------------------------
-CommonLibSSE-NG (alandtse fork) - https://github.com/alandtse/CommonLibSSE-NG
+CommonLibSSE-NG (alandtse fork), used in the current DLL (Skyrim SE/AE 1.6.1170 and newer) - https://github.com/alandtse/CommonLibSSE-NG
 -----------------------------------------------------------------------------
 Licensed GPL-3.0-or-later with the Modding Exception and the GPL-3.0 Linking Exception (with Corresponding
 Source) of that project (EXCEPTIONS.md in its repository). The full text of the GPL is in ITBWildlife-LICENSE.txt.
 CommonLibSSE-NG is a fork of CharmedBaryon's CommonLibSSE-NG, itself a fork of CommonLibSSE, and uses its own
 dependencies; their notices are in the CommonLibSSE-NG repository.
+
+-----------------------------------------------------------------------------
+CommonLibSSE-NG (CharmedBaryon / Ryan-rsm-McKenzie), used only in the legacy DLL (Skyrim VR and 1.6.1130 and older)
+https://github.com/CharmedBaryon/CommonLibSSE-NG
+-----------------------------------------------------------------------------
+MIT License
+
+Copyright (c) 2018 Ryan-rsm-McKenzie
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 -----------------------------------------------------------------------------
 nlohmann/json - https://github.com/nlohmann/json

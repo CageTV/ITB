@@ -2,3 +2,7 @@ assets/
 *.bsa
 Birds/audio_src/
 Birds/audio_fetch.py
+
+# legacy build output
+DLL/plugin/build/
+DLL/plugin/build-legacy.log

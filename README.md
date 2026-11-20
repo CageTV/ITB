@@ -3,7 +3,7 @@
 Standalone animal-behaviour plugin for Skyrim Special Edition, part of the Instincts The Beastmaster project. No other mod is required: only the base game, its official add-ons and one Creation Club file (Survival Mode).
 
 ## Status
-Release 0.1.0. The author has tested in game: the ambient birds, herds, wolf packs with pups, young variants, prey that flees, the stagger caps, fire fear, farm animals, snakes, peacocks and turkeys. Other mods that change the same animals or their spawns can conflict with it. Design rules: `SPEC.md`; birds: `BIRDS-SPEC.md`.
+Release 0.1.1. The author has tested in game: the ambient birds, herds, wolf packs with pups, young variants, prey that flees, the stagger caps, fire fear, farm animals, snakes, peacocks and turkeys. Other mods that change the same animals or their spawns can conflict with it. Design rules: `SPEC.md`; birds: `BIRDS-SPEC.md`.
 
 Plugin (`Plugin/ITB Wildlife.esp`; masters: the five official files plus one Creation Club file, Survival Mode):
 - Animals, dragons, atronachs, spriggans, trolls and giants with their full behaviour: races, creatures, schedule packages, factions, spells and skins, and placed spawns. Every animal species has a smaller young variant that follows its mother; wolves hunt in packs with pups.
@@ -12,7 +12,7 @@ Plugin (`Plugin/ITB Wildlife.esp`; masters: the five official files plus one Cre
 - Stagger and knockdown never exceed vanilla; wolves, bears, sabre cats, horkers and dogs are at 5% of vanilla with no knockdown.
 - About 1,300 meshes, textures and sounds under `meshes/itb`, `textures/itb` and `sound/fx/itb` (not in the repository because of size; list in `Docs/assets-list.txt`).
 
-SKSE DLL (`DLL/`, CommonLibSSE-NG): `ITBWildlife.dll` re-applies the plugin's schedules, prey behaviour and stagger caps at game start, even if a later mod overwrites them, spawns animals at the points in `points.json`, makes animals flee from torches and fire, and runs the ambient birds. Settings: `DLL/dist/SKSE/Plugins/ITBWildlife/` (`rules.json`, `points.json`, `birds.json`). It needs SKSE64 and the Address Library for SKSE Plugins (Skyrim SE / AE). The DLL's source code is in `DLL/` and is also a separate download with each release (`ITBWildlife-<version>-source.zip`); its licence and third-party notices are beside the DLL (`ITBWildlife-LICENSE.txt`, `ITBWildlife-THIRD-PARTY.txt`).
+SKSE DLL (`DLL/`, CommonLibSSE-NG): `ITBWildlife.dll` re-applies the plugin's schedules, prey behaviour and stagger caps at game start, even if a later mod overwrites them, spawns animals at the points in `points.json`, makes animals flee from torches and fire, and runs the ambient birds. Settings: `DLL/dist/SKSE/Plugins/ITBWildlife/` (`rules.json`, `points.json`, `birds.json`). It needs SKSE64 and the Address Library for SKSE Plugins. There are two builds of the DLL, chosen in the installer: the current one for Skyrim SE/AE 1.6.1170 and newer (including 1.7.x), and an older one for Skyrim VR and 1.6.1130 and older (its VR build is untested in the headset). The DLL's source code is in `DLL/` and is also a separate download with each release (`ITBWildlife-<version>-source.zip`); its licence and third-party notices are beside the DLL (`ITBWildlife-LICENSE.txt`, `ITBWildlife-THIRD-PARTY.txt`).
 
 Everything the DLL does is written to `ITBWildlife.log` in the SKSE log folder.
 
@@ -30,7 +30,7 @@ Everything the DLL does is written to `ITBWildlife.log` in the SKSE log folder.
 ## Layout
 - `Plugin/ITB Wildlife.esp`: built plugin.
 - `Source/yaml/`: the plugin as Spriggit YAML (Spriggit 0.41, Skyrim SE).
-- `DLL/`: DLL source (`src/`, `ng.cmake`, `LICENSE`) and the built DLL with its rules in `DLL/dist/`.
+- `DLL/`: DLL source (`src/`, `ng.cmake`, `LICENSE`), the legacy build (`plugin/`) and the built DLL with its rules in `DLL/dist/`.
 
 ## Credits
 See `CREDITS.md`.

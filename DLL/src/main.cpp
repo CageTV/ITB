@@ -62,7 +62,7 @@ SKSEPluginLoad(const SKSE::LoadInterface* a_skse)
 {
 	SKSE::Init(a_skse);
 	SetupLog();
-	SKSE::log::info("ITBWildlife 0.1.0, game {}", REL::Module::get().version().string());
+	SKSE::log::info("ITBWildlife 0.1.1, game {}", REL::Module::get().version().string());
 	SKSE::GetMessagingInterface()->RegisterListener(OnMessage);
 	return true;
 }

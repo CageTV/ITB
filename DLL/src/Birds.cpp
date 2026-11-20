@@ -251,9 +251,15 @@ namespace Birds
 			pick.rayInput.from = RE::hkVector4(a_from.x * scale, a_from.y * scale, a_from.z * scale, 0.0f);
 			pick.rayInput.to = RE::hkVector4(to.x * scale, to.y * scale, to.z * scale, 0.0f);
 			pick.rayInput.enableShapeCollectionFilter = false;
+#ifdef ITB_LEGACY
+			pick.rayInput.filterInfo = static_cast<std::uint32_t>(RE::COL_LAYER::kLOS);
+			a_world->PickObject(pick);
+			if (!pick.rayOutput.HasHit()) {
+#else
 			pick.rayInput.filterInfo.filter = static_cast<std::uint32_t>(RE::COL_LAYER::kLOS);
 			a_world->PickObject(pick);
 			if (pick.pickFailed || !pick.rayOutput.HasHit()) {
+#endif
 				return false;
 			}
 			const float f = pick.rayOutput.hitFraction;
@@ -603,12 +609,26 @@ namespace Birds
 			}
 		}
 
+		// rotation about Z of a reference (the older CommonLib has no TESObjectREFR::SetAngle)
+		void SetHeading(RE::TESObjectREFR* a_ref, float a_z)
+		{
+#ifdef ITB_LEGACY
+			if (auto* a = a_ref->As<RE::Actor>()) {
+				a->SetRotationZ(a_z);
+			} else {
+				a_ref->data.angle.z = a_z;
+			}
+#else
+			a_ref->SetAngle({ 0.0f, 0.0f, a_z });
+#endif
+		}
+
 		void FaceAndPlace(RE::TESObjectREFR* a_ref, const RE::NiPoint3& a_pos, const RE::NiPoint3& a_towards)
 		{
 			MoveBird(a_ref, a_pos);
 			const float dx = a_towards.x - a_pos.x, dy = a_towards.y - a_pos.y;
 			if (std::abs(dx) + std::abs(dy) > 1.0f) {
-				a_ref->SetAngle({ 0.0f, 0.0f, std::atan2(dx, dy) });
+				SetHeading(a_ref, std::atan2(dx, dy));
 			}
 		}
 
@@ -751,7 +771,11 @@ namespace Birds
 				return false;
 			}
 			RE::BSSoundHandle h;
+#ifdef ITB_LEGACY
+			if (!am->BuildSoundDataFromDescriptor(h, a_sound->soundDescriptor)) {
+#else
 			if (!am->GetSoundHandle(h, a_sound->soundDescriptor)) {
+#endif
 				return false;
 			}
 			h.SetPosition(a_ref->GetPosition());
@@ -821,7 +845,7 @@ namespace Birds
 			a_b.seg2Sent = false;
 			a_b.movedChecked = false;
 			a_b.manual = g_manualFlight;
-			a_ref->SetAngle({ 0.0f, 0.0f, heading });
+			SetHeading(a_ref, heading);
 			Send(a_ref, "takeoff");
 			if (g_cfg.flap != 0) {
 				if (!g_cfg.flapResolved) {
@@ -923,7 +947,11 @@ namespace Birds
 							Send(ref.get(), "startGrndLook");
 							// the bird's AI stays ON: an actor with its AI disabled stops updating its animation (like "tai" in the console), which froze every clip
 							if (auto* root3d = ref->Get3D()) {
+#ifdef ITB_LEGACY
+								it->motionSet = root3d->SetMotionType(static_cast<std::uint32_t>(RE::hkpMotion::MotionType::kKeyframed), true, false, true);  // no gravity
+#else
 								it->motionSet = root3d->SetMotionType(RE::hkpMotion::MotionType::kKeyframed, true, false, true);  // no gravity
+#endif
 							}
 							if (g_diagLines < 70) {
 								++g_diagLines;

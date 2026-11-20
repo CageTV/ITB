@@ -1,0 +1,6 @@
+{
+  "name": "itbwildlife-legacy",
+  "version-string": "0.1.1",
+  "dependencies": [ "spdlog", "commonlibsse-ng", "nlohmann-json" ],
+  "builtin-baseline": "e03dc9b29710050cd1018bc5674688108658d327"
+}
