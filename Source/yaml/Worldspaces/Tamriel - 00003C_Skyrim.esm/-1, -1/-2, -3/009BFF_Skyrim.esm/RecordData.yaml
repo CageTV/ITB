@@ -60,58 +60,34 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001479:ITB_Wildlife.esp
+  FormKey: 001417:ITB_Wildlife.esp
   Base: 000F57:ITB_Wildlife.esp
   Placement:
     Position: -43229.73, -71186.08, -1425.3662
     Rotation: 0, -0, 4.68319
 - MutagenObjectType: PlacedNpc
-  FormKey: 00147A:ITB_Wildlife.esp
+  FormKey: 001418:ITB_Wildlife.esp
   Base: 000F57:ITB_Wildlife.esp
   Placement:
     Position: -42942.312, -70978.914, -1304.9576
     Rotation: 0, -0, 5.0831885
 - MutagenObjectType: PlacedNpc
-  FormKey: 00147B:ITB_Wildlife.esp
+  FormKey: 001419:ITB_Wildlife.esp
   Base: 000F57:ITB_Wildlife.esp
   Placement:
     Position: -42533.484, -71060.47, -1281.8022
     Rotation: 0, -0, 5.6831903
 - MutagenObjectType: PlacedNpc
-  FormKey: 00147C:ITB_Wildlife.esp
+  FormKey: 00141A:ITB_Wildlife.esp
   Base: 000FAB:ITB_Wildlife.esp
   LevelModifier: Easy
   Placement:
     Position: -42037.953, -70802.836, -1130.1616
 - MutagenObjectType: PlacedNpc
-  FormKey: 00147D:ITB_Wildlife.esp
-  Base: 00100E:ITB_Wildlife.esp
-  LinkedReferences:
-  - Reference: 001479:ITB_Wildlife.esp
-  Placement:
-    Position: -43089.251, -70967.298, -1417.366
-    Rotation: 0, 0, 1.0000
-- MutagenObjectType: PlacedNpc
-  FormKey: 00147E:ITB_Wildlife.esp
-  Base: 00100F:ITB_Wildlife.esp
-  LinkedReferences:
-  - Reference: 001479:ITB_Wildlife.esp
-  Placement:
-    Position: -43293.932, -71061.669, -1417.366
-    Rotation: 0, 0, 2.0472
-- MutagenObjectType: PlacedNpc
-  FormKey: 00147F:ITB_Wildlife.esp
-  Base: 00100F:ITB_Wildlife.esp
-  LinkedReferences:
-  - Reference: 001479:ITB_Wildlife.esp
-  Placement:
-    Position: -43304.711, -71304.308, -1417.366
-    Rotation: 0, 0, 4.1472
-- MutagenObjectType: PlacedNpc
-  FormKey: 001480:ITB_Wildlife.esp
+  FormKey: 00141B:ITB_Wildlife.esp
   Base: 000F67:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 00147C:ITB_Wildlife.esp
+  - Reference: 00141A:ITB_Wildlife.esp
   Placement:
     Position: -41995.404, -70946.675, -1122.162
     Rotation: 0, 0, 5.0000

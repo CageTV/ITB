@@ -58,7 +58,7 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001849:ITB_Wildlife.esp
+  FormKey: 0015EE:ITB_Wildlife.esp
   Base: 000FB0:ITB_Wildlife.esp
   LevelModifier: Easy
   Placement:
