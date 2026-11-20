@@ -101,6 +101,7 @@ namespace Birds
 		RE::FormID                       g_lastCell{ 0 };
 		float                            g_sinceScan{ 1000.0f };
 		float                            g_sinceSpawn{ 0.0f };
+		float                            g_sinceLoad{ 0.0f };  // seconds since the game was loaded: the bird module waits for the world to settle
 		int                              g_eventFails{ 0 };
 
 		float Rand(float a_lo, float a_hi) { return std::uniform_real_distribution<float>(a_lo, a_hi)(g_rng); }
@@ -366,9 +367,13 @@ namespace Birds
 			for (const auto& s : g_cfg.species) {
 				if (auto* f = RE::TESDataHandler::GetSingleton()->LookupForm(s.form, s.plugin)) bases.push_back(f->GetFormID());
 			}
+			int budget = 2;  // removing many actors in one frame crashed the movement code (2026-11-20 03:03 and 03:04): a couple per pass
 			tes->ForEachReferenceInRange(a_player, 8000.0f, [&](auto&& a_ref) {
+				if (budget <= 0) {
+					return RE::BSContainer::ForEachResult::kStop;
+				}
 				auto* ref = compat::Ptr(a_ref);
-				if (!ref || ref->GetFormID() < 0xFF000000 || !ref->GetBaseObject() || g_queued.count(ref->GetFormID()) ||
+				if (!ref || ref->GetFormID() < 0xFF000000 || !ref->Is3DLoaded() || !ref->GetBaseObject() || g_queued.count(ref->GetFormID()) ||
 					std::find(bases.begin(), bases.end(), ref->GetBaseObject()->GetFormID()) == bases.end()) {
 					return RE::BSContainer::ForEachResult::kContinue;
 				}
@@ -378,6 +383,7 @@ namespace Birds
 					}
 				}
 				const auto* actor = ref->As<RE::Actor>();
+				--budget;
 				if (actor && actor->IsDead()) {
 					Bury(ref);
 				} else if (!ref->IsDisabled()) {
@@ -687,6 +693,10 @@ namespace Birds
 				return;
 			}
 			FlushPending(a_dt);
+			g_sinceLoad += a_dt;
+			if (g_sinceLoad < 25.0f) {
+				return;
+			}
 			const float hour = cal->GetHour();
 			const bool  night = !(hour >= g_cfg.dayStart && hour < g_cfg.dayEnd);
 
@@ -726,32 +736,17 @@ namespace Birds
 		if (g_cfg.species.empty()) {
 			return;
 		}
-		// dynamic birds from an earlier session are not tracked any more: remove them
+		// Birds from an earlier session are not tracked any more. They are NOT touched here (removing actors while the save is still
+		// loading crashed the game); the sweep removes them a couple at a time once the world has settled.
 		SKSE::GetTaskInterface()->AddTask([] {
 			g_birds.clear();
-			g_queued.clear();
 			g_perches.clear();
+			g_queued.clear();
+			g_pendingDelete.clear();
 			g_lastCell = 0;
-			auto* player = RE::PlayerCharacter::GetSingleton();
-			auto* tes = RE::TES::GetSingleton();
-			if (!player || !tes || !player->GetParentCell()) {
-				return;
-			}
-			std::vector<RE::FormID> bases;
-			for (const auto& s : g_cfg.species) {
-				if (auto* f = RE::TESDataHandler::GetSingleton()->LookupForm(s.form, s.plugin)) bases.push_back(f->GetFormID());
-			}
-			int removed = 0;
-			tes->ForEachReferenceInRange(player, 20000.0f, [&](auto&& a_ref) {
-				auto* ref = compat::Ptr(a_ref);
-				if (ref && ref->GetFormID() >= 0xFF000000 && ref->GetBaseObject() &&
-					std::find(bases.begin(), bases.end(), ref->GetBaseObject()->GetFormID()) != bases.end()) {
-					Retire(ref);
-					++removed;
-				}
-				return RE::BSContainer::ForEachResult::kContinue;
-			});
-			SKSE::log::info("birds: game loaded, removed {} old birds", removed);
+			g_sinceLoad = 0.0f;
+			g_sinceSpawn = 0.0f;
+			SKSE::log::info("birds: game loaded, waiting 25 s before the first scan");
 		});
 	}
 
