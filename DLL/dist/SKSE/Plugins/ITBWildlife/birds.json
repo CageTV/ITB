@@ -1,0 +1,23 @@
+{
+ "_comment": "ITB ambient birds. perch kinds: roof, fence, rock, tree. Distances are game units (about 70 per metre).",
+ "enabled": true,
+ "maxBirds": 10,
+ "scanRadius": 6000,
+ "perchRefreshSeconds": 12,
+ "spawnEverySeconds": 3,
+ "spawnMinDist": 1400,
+ "spawnMaxDist": 4200,
+ "despawnDist": 7500,
+ "scareDist": 450,
+ "flightSpeed": 420,
+ "hopMinDist": 700,
+ "hopMaxDist": 2600,
+ "dayStartHour": 6,
+ "dayEndHour": 20,
+ "maxRaycastsPerScan": 40,
+ "species": [
+  { "id": "pigeon",  "plugin": "ITB Wildlife.esp", "form": "001644", "weight": 6, "dayOnly": true, "perch": ["roof", "fence", "rock"] },
+  { "id": "sparrow", "plugin": "ITB Wildlife.esp", "form": "001645", "weight": 5, "dayOnly": true, "perch": ["fence", "tree", "rock"] },
+  { "id": "crow",    "plugin": "ITB Wildlife.esp", "form": "001646", "weight": 3, "dayOnly": false, "perch": ["tree", "rock", "fence"] }
+ ]
+}

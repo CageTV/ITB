@@ -7,6 +7,7 @@
 #include "PCH.h"
 #include "Rules.h"
 #include "Spawner.h"
+#include "Birds.h"
 #include "Flee.h"
 
 namespace
@@ -27,6 +28,9 @@ namespace
 
 	void OnMessage(SKSE::MessagingInterface::Message* a_msg)
 	{
+		if (a_msg->type == SKSE::MessagingInterface::kPostLoadGame || a_msg->type == SKSE::MessagingInterface::kNewGame) {
+			Birds::OnGameLoaded();
+		}
 		if (a_msg->type == SKSE::MessagingInterface::kDataLoaded) {
 			try {
 				Rules::Apply();
@@ -37,6 +41,11 @@ namespace
 				Spawner::Init();
 			} catch (const std::exception& e) {
 				SKSE::log::error("spawner failed: {}", e.what());
+			}
+			try {
+				Birds::Init();
+			} catch (const std::exception& e) {
+				SKSE::log::error("birds failed: {}", e.what());
 			}
 			// fear of torches and fire: checked twice a second from a worker thread that posts one-shot game-thread tasks
 			std::thread([]() {
