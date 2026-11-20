@@ -12,8 +12,8 @@ VirtualMachineAdapter:
       Name: DLC2HMDaedraAshPile
       Object: 001049:ITB_Wildlife.esp
 ObjectBounds:
-  First: -57, -57, 0
-  Second: 57, 57, 198
+  First: -9, -12, 0
+  Second: 9, 12, 14
 Configuration:
   Flags:
   - Respawn
