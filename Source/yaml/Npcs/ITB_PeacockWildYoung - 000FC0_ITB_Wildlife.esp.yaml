@@ -26,7 +26,7 @@ DeathItem: 000E1E:ITB_Wildlife.esp
 Voice: 00105D:ITB_Wildlife.esp
 Race: 0008FF:ITB_Wildlife.esp
 Height: 0.55
-WornArmor: 000C9D:ITB_Wildlife.esp
+WornArmor: 000C9C:ITB_Wildlife.esp
 AttackRace: 06DC99:Skyrim.esm
 Items:
 - Item:

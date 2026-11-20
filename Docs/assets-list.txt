@@ -220,7 +220,6 @@ meshes\itb\fauna\mountain_lion\mountain_lion_7bb821e1.nif
 meshes\itb\fauna\mountain_lion\mountain_lion_9b231b47.nif
 meshes\itb\fauna\mountain_lion\mountain_lion_a8ceaf8d.nif
 meshes\itb\fauna\mountain_lion\mountain_lion_c5a8e2d4.nif
-meshes\itb\fauna\peacock\peacock_2dcdf133.nif
 meshes\itb\fauna\peacock\peacock_bf06e63f.nif
 meshes\itb\fauna\pig\pig_18c35567.nif
 meshes\itb\fauna\pig\pig_2779b716.nif
