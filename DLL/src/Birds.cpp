@@ -345,6 +345,50 @@ namespace Birds
 			g_pendingDelete.push_back({ a_ref->GetHandle(), 4.0f });  // deleted a few seconds later: the movement code may still be using it
 		}
 
+		std::set<RE::FormID> g_queued;  // birds already queued for deletion (a corpse is queued once)
+
+		// A killed bird stays a while (the player may want to look), then goes: dynamic corpses are never cleaned up by the game.
+		void Bury(RE::TESObjectREFR* a_ref)
+		{
+			if (a_ref && g_queued.insert(a_ref->GetFormID()).second) {
+				g_pendingDelete.push_back({ a_ref->GetHandle(), 30.0f });
+			}
+		}
+
+		// Birds left from an earlier session (or lost track of): none of them is in g_birds, so nothing else would ever remove them.
+		void SweepOrphans(RE::PlayerCharacter* a_player)
+		{
+			auto* tes = RE::TES::GetSingleton();
+			if (!tes) {
+				return;
+			}
+			std::vector<RE::FormID> bases;
+			for (const auto& s : g_cfg.species) {
+				if (auto* f = RE::TESDataHandler::GetSingleton()->LookupForm(s.form, s.plugin)) bases.push_back(f->GetFormID());
+			}
+			tes->ForEachReferenceInRange(a_player, 8000.0f, [&](auto&& a_ref) {
+				auto* ref = compat::Ptr(a_ref);
+				if (!ref || ref->GetFormID() < 0xFF000000 || !ref->GetBaseObject() || g_queued.count(ref->GetFormID()) ||
+					std::find(bases.begin(), bases.end(), ref->GetBaseObject()->GetFormID()) == bases.end()) {
+					return RE::BSContainer::ForEachResult::kContinue;
+				}
+				for (const auto& b : g_birds) {
+					if (const auto r = b.ref.get(); r && r->GetFormID() == ref->GetFormID()) {
+						return RE::BSContainer::ForEachResult::kContinue;
+					}
+				}
+				const auto* actor = ref->As<RE::Actor>();
+				if (actor && actor->IsDead()) {
+					Bury(ref);
+				} else if (!ref->IsDisabled()) {
+					Retire(ref);
+					g_queued.insert(ref->GetFormID());
+				}
+				SKSE::log::info("birds: sweep: {:X} was left over ({}), removing", ref->GetFormID(), actor && actor->IsDead() ? "dead" : "alive");
+				return RE::BSContainer::ForEachResult::kContinue;
+			});
+		}
+
 		void FlushPending(float a_dt)
 		{
 			for (auto it = g_pendingDelete.begin(); it != g_pendingDelete.end();) {
@@ -514,7 +558,8 @@ namespace Birds
 					continue;
 				}
 				if (auto* actor = ref->As<RE::Actor>(); actor && actor->IsDead()) {
-					// a bird that was killed stays where it fell; the world cleans it up
+					// a bird that was killed stays where it fell for a while, then is removed
+					Bury(ref.get());
 					it = g_birds.erase(it);
 					continue;
 				}
@@ -652,6 +697,7 @@ namespace Birds
 				g_lastCell = cellId;
 				g_sinceScan = 0.0f;
 				RefreshPerches(player);
+				SweepOrphans(player);
 			}
 			UpdateBirds(player, a_dt, night);
 			if (!night && static_cast<int>(g_birds.size()) < g_cfg.maxBirds && g_sinceSpawn >= g_cfg.spawnEverySeconds) {
@@ -683,6 +729,7 @@ namespace Birds
 		// dynamic birds from an earlier session are not tracked any more: remove them
 		SKSE::GetTaskInterface()->AddTask([] {
 			g_birds.clear();
+			g_queued.clear();
 			g_perches.clear();
 			g_lastCell = 0;
 			auto* player = RE::PlayerCharacter::GetSingleton();
