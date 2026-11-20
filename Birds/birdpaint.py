@@ -193,7 +193,30 @@ def paint(species, A):
         img = blend(img, col(0.86, 0.72, 0.12), beak.astype(np.float32))
     else:
         raise ValueError(species)
+    img = add_eye(img, species, A)
     return np.clip(img, 0, 1)
+
+
+EYE_UV = (0.199, 0.158)   # a side face of the head, about a third of the way back from the beak; both sides share these UVs
+EYE_R = 7.0
+
+
+def add_eye(img, species, A):
+    H, W = img.shape[:2]
+    cx, cy = EYE_UV[0] * W, EYE_UV[1] * H
+    yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+    d = np.sqrt((xx + 0.5 - cx) ** 2 + ((yy + 0.5 - cy) * 0.5) ** 2 * 4.0 / 4.0)
+    head = (A['bone'] == 3)
+    iris = {'pigeon': (0.85, 0.42, 0.08), 'dove': (0.45, 0.10, 0.10), 'sparrow': (0.20, 0.12, 0.06),
+            'crow': (0.30, 0.22, 0.14), 'starling': (0.22, 0.14, 0.08)}[species]
+    ring = (d < EYE_R) & head
+    pupil = (d < EYE_R * 0.55) & head
+    spark = (np.sqrt((xx + 0.5 - (cx - 1.5)) ** 2 + (yy + 0.5 - (cy - 1.5)) ** 2) < 1.2) & head
+    out = img.copy()
+    out[ring] = np.array(iris, np.float32)
+    out[pupil] = np.array((0.02, 0.02, 0.02), np.float32)
+    out[spark] = np.array((0.95, 0.95, 0.95), np.float32)
+    return out
 
 
 def dilate(img, mask, iters=8):

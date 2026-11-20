@@ -78,6 +78,10 @@ namespace Birds
 			bool                landSent{ false };
 			bool                flapSent{ false };
 			bool                started{ false };  // graph ready, first look sent, AI off
+			bool                landAccepted{ false };
+			int                 landPhase{ 0 };    // 0 none, 1 trying to land, 2 waiting for the landing clip, then back to looking around
+			float               landClock{ 0.0f };
+			float               landRetry{ 0.0f };
 		};
 
 		Config                           g_cfg;
@@ -93,6 +97,7 @@ namespace Birds
 		std::vector<Pending>             g_pendingDelete;
 		int                              g_diagLines{ 0 };
 		int                              g_rejectLogged{ 0 };
+		int                              g_landLogs{ 0 };
 		RE::FormID                       g_lastCell{ 0 };
 		float                            g_sinceScan{ 1000.0f };
 		float                            g_sinceSpawn{ 0.0f };
@@ -520,6 +525,44 @@ namespace Birds
 					continue;
 				}
 				if (it->state == State::kPerched) {
+					// a perched bird is held on its perch every tick: with its AI off nothing else keeps it up (tree perches are in the air)
+					ref->SetPosition(it->pos);
+					if (it->landPhase != 0) {
+						it->landClock += a_dt;
+						it->landRetry -= a_dt;
+						if (it->landPhase == 1) {
+							if (it->landRetry <= 0.0f) {
+								it->landRetry = 0.25f;
+								const bool ok = Send(ref.get(), "land");
+								if (g_landLogs < 40) {
+									++g_landLogs;
+									SKSE::log::info("birds: landing {:08X}: land {} after {:.2f}s", ref->GetFormID(), ok ? "ACCEPTED" : "rejected", it->landClock);
+								}
+								if (ok) {
+									it->landAccepted = true;
+								}
+							}
+							if (it->landAccepted || it->landClock > 3.0f) {
+								it->landPhase = 2;
+								it->landClock = 0.0f;
+								it->landRetry = 0.0f;
+							}
+						} else {
+							if (it->landClock >= 0.9f && it->landRetry <= 0.0f) {
+								it->landRetry = 0.3f;
+								const bool ok = Send(ref.get(), "startGrndLook");
+								if (g_landLogs < 40) {
+									++g_landLogs;
+									SKSE::log::info("birds: landed {:08X}: startGrndLook {} after {:.2f}s", ref->GetFormID(), ok ? "ACCEPTED" : "rejected", it->landClock);
+								}
+								if (ok || it->landClock > 3.0f) {
+									it->landPhase = 0;
+								}
+							}
+						}
+						++it;
+						continue;
+					}
 					if (!it->started) {
 						// wait until the bird's 3D and behavior graph exist; then start its idle and turn its AI off (it is moved by this module only)
 						auto* actor = ref->As<RE::Actor>();
@@ -552,19 +595,19 @@ namespace Birds
 				}
 				// flying
 				it->t += a_dt / it->dur;
-				if (!it->flapSent && it->t * it->dur > 0.3f) {
-					Send(ref.get(), "startAirFlap");
-					it->flapSent = true;
-				}
 				const float        u = std::min(1.0f, it->t);
 				const float        ease = u * u * (3.0f - 2.0f * u);
 				const RE::NiPoint3 p{ it->from.x + (it->to.x - it->from.x) * ease, it->from.y + (it->to.y - it->from.y) * ease,
 					it->from.z + (it->to.z - it->from.z) * ease + it->arc * std::sin(3.14159265f * u) };
 				FaceAndPlace(ref.get(), p, it->to);
 				it->pos = p;
-				if (!it->landSent && !it->leaving && (it->t * it->dur) > (it->dur - 0.45f)) {
-					Send(ref.get(), "land");
+				if (!it->landSent && !it->leaving && (it->t * it->dur) > (it->dur - 0.5f)) {
+					it->landAccepted = Send(ref.get(), "land");
 					it->landSent = true;
+					if (g_landLogs < 40) {
+						++g_landLogs;
+						SKSE::log::info("birds: approaching {:08X}: land {}", ref->GetFormID(), it->landAccepted ? "ACCEPTED" : "rejected");
+					}
 				}
 				if (it->t >= 1.0f) {
 					if (it->leaving) {
@@ -576,7 +619,9 @@ namespace Birds
 					it->pos = it->to;
 					it->timer = Rand(6.0f, 20.0f);
 					it->idleTimer = Rand(1.0f, 4.0f);
-					Send(ref.get(), "startGrndLook");
+					it->landPhase = it->landAccepted ? 2 : 1;
+					it->landClock = 0.0f;
+					it->landRetry = 0.0f;
 				}
 				++it;
 			}
