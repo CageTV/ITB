@@ -76,6 +76,7 @@ namespace Birds
 			bool                leaving{ false };  // flies off and is removed on arrival
 			bool                landSent{ false };
 			bool                flapSent{ false };
+			bool                started{ false };  // graph ready, first look sent, AI off
 		};
 
 		Config                           g_cfg;
@@ -83,7 +84,13 @@ namespace Birds
 		std::mt19937                     g_rng{ std::random_device{}() };
 		std::vector<Perch>               g_perches;
 		std::vector<Bird>                g_birds;
-		std::vector<RE::ObjectRefHandle> g_pendingDelete;
+		struct Pending
+		{
+			RE::ObjectRefHandle h;
+			float               ttl{ 4.0f };
+		};
+		std::vector<Pending>             g_pendingDelete;
+		int                              g_diagLines{ 0 };
 		RE::FormID                       g_lastCell{ 0 };
 		float                            g_sinceScan{ 1000.0f };
 		float                            g_sinceSpawn{ 0.0f };
@@ -312,30 +319,49 @@ namespace Birds
 				return;
 			}
 			a_ref->Disable();
-			g_pendingDelete.push_back(a_ref->GetHandle());
+			g_pendingDelete.push_back({ a_ref->GetHandle(), 4.0f });  // deleted a few seconds later: the movement code may still be using it
 		}
 
-		void FlushPending()
+		void FlushPending(float a_dt)
 		{
-			for (auto& h : g_pendingDelete) {
-				if (auto r = h.get()) {
-					r->SetDelete(true);
+			for (auto it = g_pendingDelete.begin(); it != g_pendingDelete.end();) {
+				it->ttl -= a_dt;
+				if (it->ttl <= 0.0f) {
+					if (auto r = it->h.get()) {
+						r->SetDelete(true);
+					}
+					it = g_pendingDelete.erase(it);
+				} else {
+					++it;
 				}
 			}
-			g_pendingDelete.clear();
 		}
 
-		void Send(RE::TESObjectREFR* a_ref, const char* a_event)
+		// A bird can take animation events only when its 3D and its behavior graph are loaded.
+		bool Ready(RE::Actor* a_actor)
+		{
+			if (!a_actor || !a_actor->Is3DLoaded()) {
+				return false;
+			}
+			RE::BSTSmartPointer<RE::BSAnimationGraphManager> mgr;
+			return a_actor->GetAnimationGraphManager(mgr) && mgr && mgr->graphs.size() > 0;
+		}
+
+		bool Send(RE::TESObjectREFR* a_ref, const char* a_event)
 		{
 			auto* actor = a_ref ? a_ref->As<RE::Actor>() : nullptr;
 			if (!actor) {
-				return;
+				return false;
 			}
 			const bool ok = actor->NotifyAnimationGraph(a_event);
-			if (!ok && g_eventFails < 12) {
-				++g_eventFails;
-				SKSE::log::warn("birds: animation event '{}' was not accepted by {:08X}", a_event, actor->GetFormID());
+			if (g_diagLines < 60) {
+				++g_diagLines;
+				RE::BSTSmartPointer<RE::BSAnimationGraphManager> mgr;
+				const bool hasMgr = actor->GetAnimationGraphManager(mgr) && mgr;
+				SKSE::log::info("birds: event '{}' on {:08X}: {} (3D {}, graph manager {}, graphs {}, process level {})", a_event, actor->GetFormID(),
+					ok ? "ACCEPTED" : "rejected", actor->Is3DLoaded(), hasMgr, hasMgr ? mgr->graphs.size() : 0, static_cast<int>(actor->GetProcessLevel()));
 			}
+			return ok;
 		}
 
 		void FaceAndPlace(RE::TESObjectREFR* a_ref, const RE::NiPoint3& a_pos, const RE::NiPoint3& a_towards)
@@ -408,7 +434,6 @@ namespace Birds
 				b.timer = Rand(5.0f, 16.0f);
 				b.idleTimer = Rand(0.5f, 3.0f);
 				g_birds.push_back(b);
-				Send(ref.get(), "startGrndLook");
 				SKSE::log::info("birds: spawned {} {:08X} on a {} at {:.0f},{:.0f},{:.0f} ({:.0f} away), {} birds", sp.id, ref->GetFormID(), KindName(perch.kind),
 					perch.pos.x, perch.pos.y, perch.pos.z, d, g_birds.size());
 				return true;
@@ -477,6 +502,18 @@ namespace Birds
 					continue;
 				}
 				if (it->state == State::kPerched) {
+					if (!it->started) {
+						// wait until the bird's 3D and behavior graph exist; then start its idle and turn its AI off (it is moved by this module only)
+						auto* actor = ref->As<RE::Actor>();
+						if (!Ready(actor)) {
+							++it;
+							continue;
+						}
+						Send(ref.get(), "startGrndLook");
+						actor->EnableAI(false);
+						it->started = true;
+						it->timer = Rand(4.0f, 12.0f);
+					}
 					const bool scared = dist < g_cfg.scareDist || (inCombat && dist < g_cfg.scareDist * 4.0f);
 					it->timer -= a_dt;
 					it->idleTimer -= a_dt;
@@ -535,18 +572,13 @@ namespace Birds
 			if (!player || !cal || !player->Is3DLoaded() || !player->GetParentCell() || (ui && ui->GameIsPaused())) {
 				return;
 			}
-			FlushPending();
 			auto* cell = player->GetParentCell();
 			if (cell->IsInteriorCell() || !player->GetWorldspace()) {
-				// indoors: drop every bird we made
-				for (auto& b : g_birds) {
-					if (auto r = b.ref.get()) Retire(r.get());
-				}
-				g_birds.clear();
-				g_perches.clear();
+				// indoors (or in a cell change): touch nothing. Removing actors while the exterior unloads crashed the movement code (2026-11-20).
 				g_lastCell = 0;
 				return;
 			}
+			FlushPending(a_dt);
 			const float hour = cal->GetHour();
 			const bool  night = !(hour >= g_cfg.dayStart && hour < g_cfg.dayEnd);
 
