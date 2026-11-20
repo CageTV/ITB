@@ -136,6 +136,8 @@ namespace Birds
 		int                              g_flightLogs{ 0 };
 		float                            g_sinceCall{ 100.0f };  // seconds since any bird was heard
 		int                              g_soundLogs{ 0 };
+		int                              g_callLogs{ 0 };    // calls that were heard (logged up to a limit)
+		int                              g_callMisses{ 0 };  // calls that were not heard (only the first few are logged)
 
 		float Rand(float a_lo, float a_hi) { return std::uniform_real_distribution<float>(a_lo, a_hi)(g_rng); }
 		int   RandInt(int a_lo, int a_hi) { return std::uniform_int_distribution<int>(a_lo, a_hi)(g_rng); }
@@ -827,7 +829,7 @@ namespace Birds
 					g_cfg.flapForm = ResolveSound(sp.plugin, g_cfg.flap);
 				}
 				const bool heard = PlayAt(g_cfg.flapForm, a_ref, Dist2D(a_b.pos, a_playerPos), true);
-				if (g_soundLogs < 25) {
+				if (g_soundLogs < 80) {
 					++g_soundLogs;
 					SKSE::log::info("birds: wing flutter at take-off of {:08X}: {}", a_ref->GetFormID(), heard ? "played" : "not played (too far, or no sound)");
 				}
@@ -949,9 +951,13 @@ namespace Birds
 								csp.callForm = ResolveSound(csp.plugin, csp.call);
 							}
 							const bool heard = PlayAt(csp.callForm, ref.get(), dist, false);
-							if (g_soundLogs < 25) {
-								++g_soundLogs;
-								SKSE::log::info("birds: {} call from {:08X}, {:.0f} units away: {}", csp.id, ref->GetFormID(), dist, heard ? "played" : "not played (too far, another bird just called, or no sound)");
+							if (!heard) {
+								// a call nobody could hear does not use up the bird's turn: it tries again soon (a bird that is out of range may come into range, or the gap between calls ends)
+								it->callTimer = dist > g_cfg.soundDist ? Rand(2.0f, 5.0f) : Rand(1.0f, 3.0f);
+							}
+							if (heard ? g_callLogs < 150 : g_callMisses < 10) {
+								++(heard ? g_callLogs : g_callMisses);
+								SKSE::log::info("birds: {} call from {:08X}, {:.0f} units away: {}", csp.id, ref->GetFormID(), dist, heard ? "played" : (dist > g_cfg.soundDist ? "not played (out of range, retries soon)" : "not played (another bird just called, retries soon)"));
 							}
 						}
 					}
