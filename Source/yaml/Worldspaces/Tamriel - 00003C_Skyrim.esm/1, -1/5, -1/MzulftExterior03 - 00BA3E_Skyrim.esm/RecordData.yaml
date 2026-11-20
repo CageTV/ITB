@@ -59,7 +59,7 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001A15:ITB_Wildlife.esp
+  FormKey: 0019B6:ITB_Wildlife.esp
   MajorRecordFlagsRaw: 512
   SkyrimMajorRecordFlags:
   - 0x200

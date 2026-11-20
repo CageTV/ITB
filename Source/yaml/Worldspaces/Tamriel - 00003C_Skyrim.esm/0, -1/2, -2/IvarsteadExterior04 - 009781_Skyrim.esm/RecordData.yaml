@@ -62,58 +62,58 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 00183B:ITB_Wildlife.esp
+  FormKey: 0017DC:ITB_Wildlife.esp
   Base: 000FC6:ITB_Wildlife.esp
   Placement:
     Position: 76419.81, -60856.098, 10537.465
 - MutagenObjectType: PlacedNpc
-  FormKey: 00183C:ITB_Wildlife.esp
+  FormKey: 0017DD:ITB_Wildlife.esp
   Base: 000FC6:ITB_Wildlife.esp
   Placement:
     Position: 75254.71, -61213.133, 10686.547
 - MutagenObjectType: PlacedNpc
-  FormKey: 00183D:ITB_Wildlife.esp
+  FormKey: 0017DE:ITB_Wildlife.esp
   Base: 000E70:ITB_Wildlife.esp
   Owner: 084409:Skyrim.esm
   Placement:
     Position: 76656.22, -61022.65, 10545.099
 - MutagenObjectType: PlacedNpc
-  FormKey: 00183E:ITB_Wildlife.esp
+  FormKey: 0017DF:ITB_Wildlife.esp
   Base: 000E7A:ITB_Wildlife.esp
   Owner: 084409:Skyrim.esm
   Placement:
     Position: 76476.48, -61267.44, 10544
 - MutagenObjectType: PlacedNpc
-  FormKey: 00183F:ITB_Wildlife.esp
+  FormKey: 0017E0:ITB_Wildlife.esp
   Base: 000E7B:ITB_Wildlife.esp
   Owner: 084409:Skyrim.esm
   Placement:
     Position: 76567.26, -61075.17, 10544
 - MutagenObjectType: PlacedNpc
-  FormKey: 001840:ITB_Wildlife.esp
+  FormKey: 0017E1:ITB_Wildlife.esp
   Base: 000E6F:ITB_Wildlife.esp
   Owner: 084409:Skyrim.esm
   Placement:
     Position: 76617.06, -61031.742, 10545.174
 - MutagenObjectType: PlacedNpc
-  FormKey: 001841:ITB_Wildlife.esp
+  FormKey: 0017E2:ITB_Wildlife.esp
   Base: 000E71:ITB_Wildlife.esp
   Owner: 084409:Skyrim.esm
   Placement:
     Position: 76597.16, -61361.965, 10561.198
 - MutagenObjectType: PlacedNpc
-  FormKey: 001842:ITB_Wildlife.esp
+  FormKey: 0017E3:ITB_Wildlife.esp
   Base: 000F17:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 00183E:ITB_Wildlife.esp
+  - Reference: 0017DF:ITB_Wildlife.esp
   Placement:
     Position: 76327.981, -61246.272, 10552.000
     Rotation: 0, 0, 3.0000
 - MutagenObjectType: PlacedNpc
-  FormKey: 001843:ITB_Wildlife.esp
+  FormKey: 0017E4:ITB_Wildlife.esp
   Base: 000E69:ITB_Wildlife.esp
   LinkedReferences:
-  - Reference: 001840:ITB_Wildlife.esp
+  - Reference: 0017E1:ITB_Wildlife.esp
   Placement:
     Position: 76659.609, -61175.581, 10553.174
     Rotation: 0, 0, 5.0000
