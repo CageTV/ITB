@@ -220,7 +220,6 @@ meshes\itb\fauna\mountain_lion\mountain_lion_7bb821e1.nif
 meshes\itb\fauna\mountain_lion\mountain_lion_9b231b47.nif
 meshes\itb\fauna\mountain_lion\mountain_lion_a8ceaf8d.nif
 meshes\itb\fauna\mountain_lion\mountain_lion_c5a8e2d4.nif
-meshes\itb\fauna\peacock\peacock_bf06e63f.nif
 meshes\itb\fauna\pig\pig_18c35567.nif
 meshes\itb\fauna\pig\pig_2779b716.nif
 meshes\itb\fauna\pig\pig_2cc2f74c.nif
@@ -714,10 +713,6 @@ textures\itb\fauna\objects\objects_40766c49_n.dds
 textures\itb\fauna\objects\objects_81925ab7.dds
 textures\itb\fauna\oblivion\oblivion_07476b82_n.dds
 textures\itb\fauna\oblivion\oblivion_1cca5954.dds
-textures\itb\fauna\peacock\peacock_39577dca.dds
-textures\itb\fauna\peacock\peacock_74fefa4c.dds
-textures\itb\fauna\peacock\peacock_82e4518e.dds
-textures\itb\fauna\peacock\peacock_dff1ca92.dds
 textures\itb\fauna\pig\pig_9f3d8f5c.dds
 textures\itb\fauna\pig\pig_b6d09d28_n.dds
 textures\itb\fauna\pig\pig_ce11798a_d.dds

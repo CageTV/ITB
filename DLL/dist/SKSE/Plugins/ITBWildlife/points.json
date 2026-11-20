@@ -1914,21 +1914,6 @@
   {
    "id": "pt-0127",
    "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "00003C",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    128717.6,
-    -73638.0,
-    10971.4
-   ],
-   "when": "day",
-   "cap": 1,
-   "minGapHours": 36
-  },
-  {
-   "id": "pt-0128",
-   "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
    "worldPlugin": "Skyrim.esm",
@@ -1942,7 +1927,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0129",
+   "id": "pt-0128",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -1957,7 +1942,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0130",
+   "id": "pt-0129",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -1972,7 +1957,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0131",
+   "id": "pt-0130",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -1987,7 +1972,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0132",
+   "id": "pt-0131",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2002,7 +1987,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0133",
+   "id": "pt-0132",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2017,7 +2002,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0134",
+   "id": "pt-0133",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2032,22 +2017,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0135",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "00003C",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    7265.3,
-    -64043.0,
-    3945.5
-   ],
-   "when": "day",
-   "cap": 1,
-   "minGapHours": 36
-  },
-  {
-   "id": "pt-0136",
+   "id": "pt-0134",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2062,7 +2032,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0137",
+   "id": "pt-0135",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2077,7 +2047,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0138",
+   "id": "pt-0136",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2092,7 +2062,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0139",
+   "id": "pt-0137",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2107,7 +2077,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0140",
+   "id": "pt-0138",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2122,7 +2092,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0141",
+   "id": "pt-0139",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2137,22 +2107,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0142",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "00003C",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    -24106.4,
-    -22737.7,
-    -5866.7
-   ],
-   "when": "day",
-   "cap": 1,
-   "minGapHours": 36
-  },
-  {
-   "id": "pt-0143",
+   "id": "pt-0140",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2167,7 +2122,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0144",
+   "id": "pt-0141",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2182,7 +2137,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0145",
+   "id": "pt-0142",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2197,7 +2152,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0146",
+   "id": "pt-0143",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2212,7 +2167,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0147",
+   "id": "pt-0144",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2227,7 +2182,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0148",
+   "id": "pt-0145",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2242,7 +2197,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0149",
+   "id": "pt-0146",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2257,22 +2212,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0150",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "00003C",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    -27336.9,
-    -67075.6,
-    841.7
-   ],
-   "when": "day",
-   "cap": 1,
-   "minGapHours": 36
-  },
-  {
-   "id": "pt-0151",
+   "id": "pt-0147",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2287,7 +2227,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0152",
+   "id": "pt-0148",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2302,7 +2242,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0153",
+   "id": "pt-0149",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2317,7 +2257,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0154",
+   "id": "pt-0150",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2332,7 +2272,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0155",
+   "id": "pt-0151",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2347,7 +2287,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0156",
+   "id": "pt-0152",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2362,7 +2302,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0157",
+   "id": "pt-0153",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2377,22 +2317,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0158",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "00003C",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    97367.7,
-    -10736.3,
-    -9053.5
-   ],
-   "when": "day",
-   "cap": 1,
-   "minGapHours": 36
-  },
-  {
-   "id": "pt-0159",
+   "id": "pt-0154",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2407,7 +2332,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0160",
+   "id": "pt-0155",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2422,7 +2347,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0161",
+   "id": "pt-0156",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2437,7 +2362,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0162",
+   "id": "pt-0157",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2452,7 +2377,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0163",
+   "id": "pt-0158",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2467,7 +2392,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0164",
+   "id": "pt-0159",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2482,7 +2407,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0165",
+   "id": "pt-0160",
    "plugin": "ITB Wildlife.esp",
    "form": "000FFA",
    "world": "00003C",
@@ -2497,22 +2422,7 @@
    "minGapHours": 36
   },
   {
-   "id": "pt-0166",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "00003C",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    -13459.8,
-    -68797.4,
-    1427.8
-   ],
-   "when": "day",
-   "cap": 1,
-   "minGapHours": 36
-  },
-  {
-   "id": "pt-0167",
+   "id": "pt-0161",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2527,7 +2437,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0168",
+   "id": "pt-0162",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2542,7 +2452,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0169",
+   "id": "pt-0163",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2557,7 +2467,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0170",
+   "id": "pt-0164",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2572,7 +2482,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0171",
+   "id": "pt-0165",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2587,7 +2497,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0172",
+   "id": "pt-0166",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2602,7 +2512,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0173",
+   "id": "pt-0167",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2617,7 +2527,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0174",
+   "id": "pt-0168",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2632,7 +2542,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0175",
+   "id": "pt-0169",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2647,7 +2557,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0176",
+   "id": "pt-0170",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2662,7 +2572,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0177",
+   "id": "pt-0171",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2677,7 +2587,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0178",
+   "id": "pt-0172",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2692,7 +2602,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0179",
+   "id": "pt-0173",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2707,7 +2617,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0180",
+   "id": "pt-0174",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2722,7 +2632,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0181",
+   "id": "pt-0175",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2737,7 +2647,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0182",
+   "id": "pt-0176",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2752,7 +2662,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0183",
+   "id": "pt-0177",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016D71",
@@ -2767,7 +2677,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0184",
+   "id": "pt-0178",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2782,7 +2692,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0185",
+   "id": "pt-0179",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2797,7 +2707,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0186",
+   "id": "pt-0180",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2812,7 +2722,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0187",
+   "id": "pt-0181",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2827,7 +2737,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0188",
+   "id": "pt-0182",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2842,7 +2752,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0189",
+   "id": "pt-0183",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2857,7 +2767,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0190",
+   "id": "pt-0184",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2872,7 +2782,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0191",
+   "id": "pt-0185",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2887,7 +2797,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0192",
+   "id": "pt-0186",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2902,7 +2812,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0193",
+   "id": "pt-0187",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "016BB4",
@@ -2917,7 +2827,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0194",
+   "id": "pt-0188",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -2932,7 +2842,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0195",
+   "id": "pt-0189",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -2947,7 +2857,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0196",
+   "id": "pt-0190",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -2962,7 +2872,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0197",
+   "id": "pt-0191",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -2977,7 +2887,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0198",
+   "id": "pt-0192",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -2992,7 +2902,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0199",
+   "id": "pt-0193",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3007,7 +2917,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0200",
+   "id": "pt-0194",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3022,7 +2932,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0201",
+   "id": "pt-0195",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3037,7 +2947,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0202",
+   "id": "pt-0196",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3052,7 +2962,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0203",
+   "id": "pt-0197",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3067,7 +2977,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0204",
+   "id": "pt-0198",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3082,7 +2992,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0205",
+   "id": "pt-0199",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3097,7 +3007,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0206",
+   "id": "pt-0200",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3112,7 +3022,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0207",
+   "id": "pt-0201",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "037EDF",
@@ -3127,7 +3037,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0208",
+   "id": "pt-0202",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3142,7 +3052,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0209",
+   "id": "pt-0203",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3157,7 +3067,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0210",
+   "id": "pt-0204",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3172,7 +3082,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0211",
+   "id": "pt-0205",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3187,7 +3097,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0212",
+   "id": "pt-0206",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3202,7 +3112,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0213",
+   "id": "pt-0207",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3217,7 +3127,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0214",
+   "id": "pt-0208",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3232,7 +3142,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0215",
+   "id": "pt-0209",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3247,7 +3157,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0216",
+   "id": "pt-0210",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3262,7 +3172,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0217",
+   "id": "pt-0211",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3277,7 +3187,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0218",
+   "id": "pt-0212",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3292,7 +3202,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0219",
+   "id": "pt-0213",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3307,7 +3217,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0220",
+   "id": "pt-0214",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3322,7 +3232,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0221",
+   "id": "pt-0215",
    "plugin": "ITB Wildlife.esp",
    "form": "000FC6",
    "world": "01A26F",
@@ -3337,37 +3247,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0222",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "016D71",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    -178152.4,
-    5705.2,
-    -2157.1
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0223",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "016D71",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    -178488.9,
-    5445.9,
-    -2158.4
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0224",
+   "id": "pt-0216",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3382,7 +3262,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0225",
+   "id": "pt-0217",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3397,7 +3277,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0226",
+   "id": "pt-0218",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3412,7 +3292,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0227",
+   "id": "pt-0219",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3427,7 +3307,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0228",
+   "id": "pt-0220",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3442,7 +3322,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0229",
+   "id": "pt-0221",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3457,7 +3337,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0230",
+   "id": "pt-0222",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016D71",
@@ -3472,7 +3352,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0231",
+   "id": "pt-0223",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9F",
    "world": "01E49D",
@@ -3495,7 +3375,7 @@
    ]
   },
   {
-   "id": "pt-0232",
+   "id": "pt-0224",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9F",
    "world": "01E49D",
@@ -3518,7 +3398,7 @@
    ]
   },
   {
-   "id": "pt-0233",
+   "id": "pt-0225",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9D",
    "world": "01E49D",
@@ -3541,7 +3421,7 @@
    ]
   },
   {
-   "id": "pt-0234",
+   "id": "pt-0226",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9D",
    "world": "01E49D",
@@ -3564,22 +3444,7 @@
    ]
   },
   {
-   "id": "pt-0235",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "016BB4",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    177539.9,
-    -98104.1,
-    11136.7
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0236",
+   "id": "pt-0227",
    "plugin": "ITB Wildlife.esp",
    "form": "000E79",
    "world": "016BB4",
@@ -3594,7 +3459,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0237",
+   "id": "pt-0228",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3609,7 +3474,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0238",
+   "id": "pt-0229",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3624,7 +3489,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0239",
+   "id": "pt-0230",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3639,7 +3504,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0240",
+   "id": "pt-0231",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3654,7 +3519,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0241",
+   "id": "pt-0232",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3669,7 +3534,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0242",
+   "id": "pt-0233",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3684,7 +3549,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0243",
+   "id": "pt-0234",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3699,7 +3564,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0244",
+   "id": "pt-0235",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3714,7 +3579,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0245",
+   "id": "pt-0236",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "016BB4",
@@ -3729,7 +3594,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0246",
+   "id": "pt-0237",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9D",
    "world": "016BB4",
@@ -3752,7 +3617,7 @@
    ]
   },
   {
-   "id": "pt-0247",
+   "id": "pt-0238",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9D",
    "world": "016BB4",
@@ -3775,7 +3640,7 @@
    ]
   },
   {
-   "id": "pt-0248",
+   "id": "pt-0239",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9E",
    "world": "016BB4",
@@ -3798,52 +3663,7 @@
    ]
   },
   {
-   "id": "pt-0249",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "016BB4",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    175050.4,
-    -101946.4,
-    11589.8
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0250",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "016BB4",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    176672.0,
-    -98800.0,
-    11181.0
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0251",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "016BB4",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    176966.0,
-    -98610.0,
-    11168.0
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0252",
+   "id": "pt-0240",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9D",
    "world": "037EDF",
@@ -3866,7 +3686,7 @@
    ]
   },
   {
-   "id": "pt-0253",
+   "id": "pt-0241",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9F",
    "world": "037EDF",
@@ -3889,7 +3709,7 @@
    ]
   },
   {
-   "id": "pt-0254",
+   "id": "pt-0242",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3904,7 +3724,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0255",
+   "id": "pt-0243",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3919,7 +3739,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0256",
+   "id": "pt-0244",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3934,7 +3754,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0257",
+   "id": "pt-0245",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3949,7 +3769,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0258",
+   "id": "pt-0246",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3964,7 +3784,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0259",
+   "id": "pt-0247",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3979,7 +3799,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0260",
+   "id": "pt-0248",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -3994,7 +3814,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0261",
+   "id": "pt-0249",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -4009,7 +3829,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0262",
+   "id": "pt-0250",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "037EDF",
@@ -4024,67 +3844,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0263",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "037EDF",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    -54018.6,
-    102573.5,
-    -9024.5
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0264",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "037EDF",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    -54195.9,
-    103453.1,
-    -9026.2
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0265",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "037EDF",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    -53212.7,
-    102525.6,
-    -9008.3
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0266",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "037EDF",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    -52632.1,
-    102903.6,
-    -8953.6
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0267",
+   "id": "pt-0251",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4099,7 +3859,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0268",
+   "id": "pt-0252",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4114,7 +3874,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0269",
+   "id": "pt-0253",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4129,7 +3889,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0270",
+   "id": "pt-0254",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4144,22 +3904,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0271",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "01A26F",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    24357.4,
-    -4370.0,
-    -3002.5
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0272",
+   "id": "pt-0255",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4174,7 +3919,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0273",
+   "id": "pt-0256",
    "plugin": "ITB Wildlife.esp",
    "form": "000F9E",
    "world": "01A26F",
@@ -4197,7 +3942,7 @@
    ]
   },
   {
-   "id": "pt-0274",
+   "id": "pt-0257",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4212,7 +3957,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0275",
+   "id": "pt-0258",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4227,37 +3972,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0276",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "01A26F",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    24409.0,
-    -3751.9,
-    -3002.5
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0277",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "01A26F",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    22812.5,
-    -3866.6,
-    -2972.5
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0278",
+   "id": "pt-0259",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4272,7 +3987,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0279",
+   "id": "pt-0260",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4287,7 +4002,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0280",
+   "id": "pt-0261",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01A26F",
@@ -4302,7 +4017,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0281",
+   "id": "pt-0262",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4317,7 +4032,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0282",
+   "id": "pt-0263",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4332,7 +4047,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0283",
+   "id": "pt-0264",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4347,7 +4062,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0284",
+   "id": "pt-0265",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4362,7 +4077,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0285",
+   "id": "pt-0266",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4377,37 +4092,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0286",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "01691D",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    135164.5,
-    38370.0,
-    -12259.8
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0287",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "01691D",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    134375.5,
-    38354.0,
-    -12259.8
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0288",
+   "id": "pt-0267",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD1",
    "world": "01691D",
@@ -4422,7 +4107,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0289",
+   "id": "pt-0268",
    "plugin": "ITB Wildlife.esp",
    "form": "000FD3",
    "world": "01691D",
@@ -4437,7 +4122,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0290",
+   "id": "pt-0269",
    "plugin": "ITB Wildlife.esp",
    "form": "000F45",
    "world": "037EDF",
@@ -4452,7 +4137,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0291",
+   "id": "pt-0270",
    "plugin": "ITB Wildlife.esp",
    "form": "000F46",
    "world": "01A26F",
@@ -4467,67 +4152,7 @@
    "minGapHours": 24
   },
   {
-   "id": "pt-0292",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "01A26F",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    26870.5,
-    577.8,
-    -1492.0
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0293",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "01A26F",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    26754.5,
-    107.2,
-    -1492.0
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0294",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "037EDF",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    -58733.9,
-    110433.7,
-    -7924.0
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0295",
-   "plugin": "ITB Wildlife.esp",
-   "form": "000FBF",
-   "world": "037EDF",
-   "worldPlugin": "Skyrim.esm",
-   "pos": [
-    -58849.9,
-    109963.1,
-    -7924.0
-   ],
-   "when": "any",
-   "cap": 1,
-   "minGapHours": 24
-  },
-  {
-   "id": "pt-0296",
+   "id": "pt-0271",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE6",
    "world": "00003C",
@@ -4550,7 +4175,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0297",
+   "id": "pt-0272",
    "plugin": "ITB Wildlife.esp",
    "form": "000FEA",
    "world": "00003C",
@@ -4573,7 +4198,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0298",
+   "id": "pt-0273",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE6",
    "world": "00003C",
@@ -4596,7 +4221,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0299",
+   "id": "pt-0274",
    "plugin": "ITB Wildlife.esp",
    "form": "000FEA",
    "world": "00003C",
@@ -4619,7 +4244,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0300",
+   "id": "pt-0275",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE6",
    "world": "00003C",
@@ -4642,7 +4267,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0301",
+   "id": "pt-0276",
    "plugin": "ITB Wildlife.esp",
    "form": "000FEA",
    "world": "00003C",
@@ -4665,7 +4290,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0302",
+   "id": "pt-0277",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE6",
    "world": "00003C",
@@ -4688,7 +4313,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0303",
+   "id": "pt-0278",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE9",
    "world": "00003C",
@@ -4711,7 +4336,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0304",
+   "id": "pt-0279",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE6",
    "world": "00003C",
@@ -4734,7 +4359,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0305",
+   "id": "pt-0280",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE9",
    "world": "00003C",
@@ -4757,7 +4382,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0306",
+   "id": "pt-0281",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE6",
    "world": "00003C",
@@ -4780,7 +4405,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0307",
+   "id": "pt-0282",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE9",
    "world": "00003C",
@@ -4803,7 +4428,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0308",
+   "id": "pt-0283",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE6",
    "world": "00003C",
@@ -4826,7 +4451,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0309",
+   "id": "pt-0284",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE9",
    "world": "00003C",
@@ -4849,7 +4474,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0310",
+   "id": "pt-0285",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE6",
    "world": "00003C",
@@ -4872,7 +4497,7 @@
    "minGapHours": 72
   },
   {
-   "id": "pt-0311",
+   "id": "pt-0286",
    "plugin": "ITB Wildlife.esp",
    "form": "000FE9",
    "world": "00003C",

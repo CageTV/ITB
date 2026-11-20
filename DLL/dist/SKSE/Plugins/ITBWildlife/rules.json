@@ -1618,74 +1618,6 @@
    }
   },
   {
-   "race": "ITB Wildlife.esp|000900",
-   "_name": "ITB_PenguinFollowerRace",
-   "caps": {
-    "attackStart_Bite1": [
-     0.0,
-     0.0
-    ],
-    "attackStart_Bite2": [
-     0.0,
-     0.0
-    ],
-    "AttackStart_ComboChop": [
-     0.1,
-     0.0
-    ],
-    "AttackStart_LeftChop": [
-     0.0,
-     0.0
-    ],
-    "AttackStart_RightChop": [
-     0.0,
-     0.0
-    ],
-    "AttackStartLungeBite": [
-     0.25,
-     0.0
-    ],
-    "bashStart": [
-     0.0,
-     0.0
-    ]
-   }
-  },
-  {
-   "race": "ITB Wildlife.esp|000901",
-   "_name": "ITB_PenguinRace",
-   "caps": {
-    "attackStart_Bite1": [
-     0.0,
-     0.0
-    ],
-    "attackStart_Bite2": [
-     0.0,
-     0.0
-    ],
-    "AttackStart_ComboChop": [
-     0.1,
-     0.0
-    ],
-    "AttackStart_LeftChop": [
-     0.0,
-     0.0
-    ],
-    "AttackStart_RightChop": [
-     0.0,
-     0.0
-    ],
-    "AttackStartLungeBite": [
-     0.25,
-     0.0
-    ],
-    "bashStart": [
-     0.0,
-     0.0
-    ]
-   }
-  },
-  {
    "race": "ITB Wildlife.esp|000903",
    "_name": "ITB_PigRace",
    "caps": {
@@ -7280,13 +7212,6 @@
   {
    "race": "ITB Wildlife.esp|000918",
    "_name": "turkey",
-   "aggression": 0,
-   "confidence": 0,
-   "assistance": 0
-  },
-  {
-   "race": "ITB Wildlife.esp|0008FF",
-   "_name": "peacock",
    "aggression": 0,
    "confidence": 0,
    "assistance": 0

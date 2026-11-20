@@ -101,12 +101,6 @@ Temporary:
     Position: 165381.276, -87201.945, 11161.851
     Rotation: 0, 0, 4.2873
 - MutagenObjectType: PlacedNpc
-  FormKey: 00160E:ITB_Wildlife.esp
-  Base: 000FBF:ITB_Wildlife.esp
-  Placement:
-    Position: 165698.179, -86996.665, 11161.851
-    Rotation: 0, 0, 5.4747
-- MutagenObjectType: PlacedNpc
   FormKey: 00160F:ITB_Wildlife.esp
   Base: 000F50:ITB_Wildlife.esp
   Placement:
