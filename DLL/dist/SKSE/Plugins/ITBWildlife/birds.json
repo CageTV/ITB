@@ -16,8 +16,66 @@
  "dayEndHour": 20,
  "maxRaycastsPerScan": 40,
  "species": [
-  { "id": "pigeon",  "plugin": "ITB Wildlife.esp", "form": "001644", "weight": 6, "dayOnly": true, "perch": ["roof", "fence", "rock"] },
-  { "id": "sparrow", "plugin": "ITB Wildlife.esp", "form": "001645", "weight": 5, "dayOnly": true, "perch": ["fence", "tree", "rock"] },
-  { "id": "crow",    "plugin": "ITB Wildlife.esp", "form": "001646", "weight": 3, "dayOnly": false, "perch": ["tree", "rock", "fence"] }
+  {
+   "id": "pigeon",
+   "plugin": "ITB Wildlife.esp",
+   "form": "001644",
+   "weight": 6,
+   "dayOnly": true,
+   "perch": [
+    "roof",
+    "fence",
+    "rock"
+   ]
+  },
+  {
+   "id": "dove",
+   "plugin": "ITB Wildlife.esp",
+   "form": "001649",
+   "weight": 2,
+   "dayOnly": true,
+   "perch": [
+    "roof",
+    "fence",
+    "tree"
+   ]
+  },
+  {
+   "id": "sparrow",
+   "plugin": "ITB Wildlife.esp",
+   "form": "001645",
+   "weight": 5,
+   "dayOnly": true,
+   "perch": [
+    "fence",
+    "tree",
+    "rock",
+    "roof"
+   ]
+  },
+  {
+   "id": "starling",
+   "plugin": "ITB Wildlife.esp",
+   "form": "00164A",
+   "weight": 3,
+   "dayOnly": true,
+   "perch": [
+    "roof",
+    "tree",
+    "fence"
+   ]
+  },
+  {
+   "id": "crow",
+   "plugin": "ITB Wildlife.esp",
+   "form": "001646",
+   "weight": 3,
+   "dayOnly": false,
+   "perch": [
+    "tree",
+    "rock",
+    "fence"
+   ]
+  }
  ]
 }

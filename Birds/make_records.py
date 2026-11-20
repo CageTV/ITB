@@ -7,11 +7,13 @@ BS=chr(92)
 def rd(p): return open(p,'rb').read().decode('utf-8').replace('\r\n','\n')
 def wr(p,t): open(p,'wb').write(t.replace('\n','\r\n').encode('utf-8'))
 def find(d,name): return [f for f in os.listdir(f'{Y}/{d}') if f.startswith(name+' - ')][0]
-IDS=dict(skin=0x1640,race={'pigeon':0x1641,'sparrow':0x1642,'crow':0x1643},npc={'pigeon':0x1644,'sparrow':0x1645,'crow':0x1646},ref={'pigeon':0x1650,'sparrow':0x1651,'crow':0x1652})
+IDS=dict(skin=0x1640,race={'pigeon':0x1641,'sparrow':0x1642,'crow':0x1643,'dove':0x1647,'starling':0x1648},npc={'pigeon':0x1644,'sparrow':0x1645,'crow':0x1646,'dove':0x1649,'starling':0x164A},ref={'pigeon':0x1650,'sparrow':0x1651,'crow':0x1652})
 H=lambda v:'%06X'%v
 SPEC={'pigeon':dict(name='Pigeon',height=1.0,obnd=('-8, -8, 0','8, 8, 14')),
       'sparrow':dict(name='Sparrow',height=0.55,obnd=('-5, -5, 0','5, 5, 8')),
-      'crow':dict(name='Crow',height=1.35,obnd=('-10, -10, 0','10, 10, 18'))}
+      'crow':dict(name='Crow',height=1.35,obnd=('-10, -10, 0','10, 10, 18')),
+      'dove':dict(name='Dove',height=0.95,obnd=('-8, -8, 0','8, 8, 13')),
+      'starling':dict(name='Starling',height=0.7,obnd=('-6, -6, 0','6, 6, 10'))}
 # --- null skin (an armor with nothing to draw: the bird mesh is part of its skeleton nif)
 skin=f"""FormKey: {H(IDS['skin'])}:ITB_Wildlife.esp
 MajorRecordFlagsRaw: 4

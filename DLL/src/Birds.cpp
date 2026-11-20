@@ -9,6 +9,7 @@
 
 #include <array>
 #include <optional>
+#include <set>
 
 #include <nlohmann/json.hpp>
 
@@ -91,6 +92,7 @@ namespace Birds
 		};
 		std::vector<Pending>             g_pendingDelete;
 		int                              g_diagLines{ 0 };
+		int                              g_rejectLogged{ 0 };
 		RE::FormID                       g_lastCell{ 0 };
 		float                            g_sinceScan{ 1000.0f };
 		float                            g_sinceSpawn{ 0.0f };
@@ -219,11 +221,16 @@ namespace Birds
 			if (type != RE::FormType::Static && type != RE::FormType::MovableStatic) {
 				return std::nullopt;
 			}
-			if (Contains(a_model, "fence") && a_dims.z < 400.0f) return Kind::kFence;
+			if ((Contains(a_model, "fence") || Contains(a_model, "palisade") || Contains(a_model, "stonewall") ||
+					(Contains(a_model, "wall") && (Contains(a_model, "farm") || Contains(a_model, "exterior")))) && a_dims.z < 400.0f && a_dims.z > 25.0f) {
+				return Kind::kFence;
+			}
 			if ((Contains(a_model, "rock") || Contains(a_model, "boulder")) && !Contains(a_model, "rockwall") && a_dims.z > 40.0f && a_dims.z < 600.0f) return Kind::kRock;
+			const bool outsideOnly = !Contains(a_model, "dungeon") && !Contains(a_model, "interior") && !Contains(a_model, "cave") && !Contains(a_model, "tomb") && !Contains(a_model, "crypt");
+			if (outsideOnly && (Contains(a_model, "roof") || Contains(a_model, "thatch")) && a_dims.x >= 150.0f && a_dims.y >= 150.0f) return Kind::kRoof;
 			if (Contains(a_model, "architecture") && !Contains(a_model, "dungeon") && !Contains(a_model, "interior") && !Contains(a_model, "cave") &&
 				!Contains(a_model, "mine") && !Contains(a_model, "ruin") && !Contains(a_model, "fort") && !Contains(a_model, "tomb") && !Contains(a_model, "crypt") &&
-				a_dims.z >= 220.0f && a_dims.x >= 260.0f && a_dims.y >= 260.0f) {
+				a_dims.z >= 180.0f && a_dims.x >= 200.0f && a_dims.y >= 200.0f) {
 				return Kind::kRoof;
 			}
 			return std::nullopt;
@@ -248,6 +255,7 @@ namespace Birds
 				return;
 			}
 			std::vector<Cand> cands;
+			std::set<std::string> rejected;
 			int               seen = 0, perchable = 0;
 			tes->ForEachReferenceInRange(a_player, g_cfg.scanRadius, [&](auto&& a_ref) {
 				auto* ref = compat::Ptr(a_ref);
@@ -264,8 +272,12 @@ namespace Birds
 				const auto&  bd = base->boundData;
 				const RE::NiPoint3 dims{ std::abs(static_cast<float>(bd.boundMax.x - bd.boundMin.x)) * scale, std::abs(static_cast<float>(bd.boundMax.y - bd.boundMin.y)) * scale,
 					std::abs(static_cast<float>(bd.boundMax.z - bd.boundMin.z)) * scale };
-				const auto kind = Classify(base, Lower(model->GetModel()), dims);
+				const std::string lowModel = Lower(model->GetModel());
+				const auto kind = Classify(base, lowModel, dims);
 				if (!kind) {
+					if (g_rejectLogged < 3 && dims.z >= 120.0f && dims.x >= 150.0f && Contains(lowModel, "architecture") && rejected.size() < 30) {
+						rejected.insert(lowModel + " " + std::to_string(static_cast<int>(dims.x)) + "x" + std::to_string(static_cast<int>(dims.y)) + "x" + std::to_string(static_cast<int>(dims.z)));
+					}
 					return RE::BSContainer::ForEachResult::kContinue;
 				}
 				++perchable;
@@ -306,6 +318,12 @@ namespace Birds
 				}
 				g_perches.push_back({ { hit.x, hit.y, hit.z + 2.0f }, c.kind });
 				++found[static_cast<std::size_t>(c.kind)];
+			}
+			if (!rejected.empty()) {
+				++g_rejectLogged;
+				std::string list;
+				for (const auto& r : rejected) list += std::string("\n    ") + r;
+				SKSE::log::info("birds: large building models NOT used as perches:{}", list);
 			}
 			SKSE::log::info("birds: perch scan: {} refs seen, {} perchable, {} ray casts -> {} perches (roof {}, fence {}, rock {}, tree {})", seen, perchable, casts,
 				g_perches.size(), found[0], found[1], found[2], found[3]);
