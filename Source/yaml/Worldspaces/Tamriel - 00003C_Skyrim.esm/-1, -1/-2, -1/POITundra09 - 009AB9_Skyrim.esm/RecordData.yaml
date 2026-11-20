@@ -61,21 +61,21 @@ MajorFlags:
 - 0x40000
 Temporary:
 - MutagenObjectType: PlacedNpc
-  FormKey: 001442:ITB_Wildlife.esp
+  FormKey: 001424:ITB_Wildlife.esp
   FormVersion: 43
   Base: 001023:ITB_Wildlife.esp
   Placement:
     Position: -60308, -31029, -2976
     Rotation: 0, 0, 1.5831916
 - MutagenObjectType: PlacedNpc
-  FormKey: 001443:ITB_Wildlife.esp
+  FormKey: 001425:ITB_Wildlife.esp
   FormVersion: 43
   Base: 001026:ITB_Wildlife.esp
   Placement:
     Position: -60207, -31199, -3002
     Rotation: 0, 0, 1.700003
 - MutagenObjectType: PlacedNpc
-  FormKey: 001444:ITB_Wildlife.esp
+  FormKey: 001426:ITB_Wildlife.esp
   FormVersion: 43
   Base: 0F85FB:Skyrim.esm
   LevelModifier: Easy
@@ -83,7 +83,7 @@ Temporary:
     Position: -60384, -31104, -2990
     Rotation: 0, 0, 1.6000009
 - MutagenObjectType: PlacedNpc
-  FormKey: 001445:ITB_Wildlife.esp
+  FormKey: 001427:ITB_Wildlife.esp
   FormVersion: 43
   Base: 001025:ITB_Wildlife.esp
   Placement:
