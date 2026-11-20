@@ -6,3 +6,7 @@ Birds/audio_fetch.py
 # legacy build output
 DLL/plugin/build/
 DLL/plugin/build-legacy.log
+
+# python caches
+__pycache__/
+*.pyc
