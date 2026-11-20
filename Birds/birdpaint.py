@@ -191,6 +191,24 @@ def paint(species, A):
         img = blend(img, col(0.55, 0.42, 0.28), edge * 0.6)
         beak = smooth(y, 12.4, 13.2) * head
         img = blend(img, col(0.86, 0.72, 0.12), beak.astype(np.float32))
+    elif species == 'robin':
+        # European robin: olive-brown upperparts, orange-red face and breast, cream belly, dark thin beak
+        img[:] = col(0.36, 0.29, 0.17)
+        img = blend(img, col(0.45, 0.36, 0.21), n2 * back * 0.45)              # soft mottling on the back
+        img = blend(img, col(0.91, 0.88, 0.79), belly * 0.95)                  # cream belly
+        breast = smooth(y, 3.0, 5.0) * (1 - smooth(y, 9.5, 11.5)) * belly * (body | head)
+        img = blend(img, col(0.85, 0.33, 0.09), breast * 0.95)                 # orange-red breast
+        face = head.astype(np.float32) * (1 - back * 0.85)                     # orange-red face and throat
+        img = blend(img, col(0.85, 0.35, 0.10), face * 0.92)
+        w = wing.astype(np.float32)
+        img = blend(img, col(0.33, 0.26, 0.16), w)
+        edge = (stripes(A, 1.6, 7) > 0.78).astype(np.float32) * w              # pale feather edges
+        img = blend(img, col(0.56, 0.45, 0.29), edge * 0.45)
+        img = blend(img, col(0.20, 0.15, 0.10), tip * w * 0.7)
+        img *= (0.9 + 0.2 * st[..., None] * w[..., None] + (1 - w[..., None]) * 0.1 * n1[..., None])
+        img = blend(img, col(0.30, 0.23, 0.15), tail * (body | aux) * 0.9)
+        beak = smooth(y, 12.6, 13.3) * head
+        img = blend(img, col(0.13, 0.11, 0.09), beak.astype(np.float32))
     else:
         raise ValueError(species)
     img = add_eye(img, species, A)
@@ -208,7 +226,7 @@ def add_eye(img, species, A):
     d = np.sqrt((xx + 0.5 - cx) ** 2 + ((yy + 0.5 - cy) * 0.5) ** 2 * 4.0 / 4.0)
     head = (A['bone'] == 3)
     iris = {'pigeon': (0.85, 0.42, 0.08), 'dove': (0.45, 0.10, 0.10), 'sparrow': (0.20, 0.12, 0.06),
-            'crow': (0.30, 0.22, 0.14), 'starling': (0.22, 0.14, 0.08)}[species]
+            'crow': (0.30, 0.22, 0.14), 'starling': (0.22, 0.14, 0.08), 'robin': (0.10, 0.06, 0.04)}[species]
     ring = (d < EYE_R) & head
     pupil = (d < EYE_R * 0.55) & head
     spark = (np.sqrt((xx + 0.5 - (cx - 1.5)) ** 2 + (yy + 0.5 - (cy - 1.5)) ** 2) < 1.2) & head

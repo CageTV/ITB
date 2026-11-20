@@ -10,6 +10,7 @@
 #include <array>
 #include <optional>
 #include <set>
+#include <unordered_map>
 
 #include <nlohmann/json.hpp>
 
@@ -32,6 +33,11 @@ namespace Birds
 			int               weight{ 1 };
 			std::vector<Kind> perches;
 			bool              dayOnly{ true };
+			std::uint32_t     call{ 0 };            // sound descriptor of this species' call (local FormID in `plugin`), 0 = silent
+			float             callMin{ 15.0f };     // seconds between two calls of one perched bird
+			float             callMax{ 45.0f };
+			RE::BGSSoundDescriptorForm* callForm{ nullptr };
+			bool              callResolved{ false };
 		};
 
 		struct Config
@@ -52,6 +58,13 @@ namespace Birds
 			float dayStart{ 6.0f };
 			float dayEnd{ 20.0f };
 			int   maxRaycastsPerScan{ 40 };
+			bool  sounds{ true };           // bird calls and the wing flutter
+			float soundDist{ 2000.0f };     // nothing is played when the player is farther than this (the sound's own model carries to about 2000)
+			float soundVolume{ 1.0f };
+			float minCallGap{ 1.5f };       // seconds between any two calls, so a flock does not become a wall of sound
+			std::uint32_t flap{ 0 };        // sound descriptor of the wing flutter at take-off
+			RE::BGSSoundDescriptorForm* flapForm{ nullptr };
+			bool  flapResolved{ false };
 			std::vector<Species> species;
 		};
 
@@ -87,6 +100,15 @@ namespace Birds
 			float               hopT{ 0.0f }, hopDur{ 0.35f }, hopTimer{ 2.0f };
 			RE::NiPoint3        hopFrom, hopTo, home;
 			bool                logged{ false };  // the "player came near" diagnostic was written
+			bool                motionSet{ false };  // keyframed (no gravity), like the reference mod does for its birds
+			float               holdTimer{ 0.0f };
+			float               callTimer{ 8.0f };   // seconds until this bird calls
+			float               elapsed{ 0.0f };     // seconds since the flight began
+			float               t1{ 0.0f };          // seconds until the second leg starts
+			RE::NiPoint3        apex;                // end of the first leg: halfway and higher than both ends
+			bool                seg2Sent{ false };
+			bool                manual{ false };     // this flight is moved by SetPosition (the engine spline did not move the bird)
+			bool                movedChecked{ false };
 		};
 
 		Config                           g_cfg;
@@ -108,6 +130,10 @@ namespace Birds
 		float                            g_sinceSpawn{ 0.0f };
 		float                            g_sinceLoad{ 0.0f };  // seconds since the game was loaded: the bird module waits for the world to settle
 		int                              g_eventFails{ 0 };
+		bool                             g_manualFlight{ true };  // flights are moved by SetPosition (the Papyrus spline needs a script object on the bird, which these actors do not have)
+		int                              g_flightLogs{ 0 };
+		float                            g_sinceCall{ 100.0f };  // seconds since any bird was heard
+		int                              g_soundLogs{ 0 };
 
 		float Rand(float a_lo, float a_hi) { return std::uniform_real_distribution<float>(a_lo, a_hi)(g_rng); }
 		int   RandInt(int a_lo, int a_hi) { return std::uniform_int_distribution<int>(a_lo, a_hi)(g_rng); }
@@ -173,6 +199,14 @@ namespace Birds
 			g_cfg.dayStart = j.value("dayStartHour", 6.0f);
 			g_cfg.dayEnd = j.value("dayEndHour", 20.0f);
 			g_cfg.maxRaycastsPerScan = std::clamp(j.value("maxRaycastsPerScan", 40), 5, 200);
+			if (j.contains("sounds") && j["sounds"].is_object()) {
+				const auto& so = j["sounds"];
+				g_cfg.sounds = so.value("enabled", true);
+				g_cfg.soundDist = std::clamp(so.value("maxDistance", 2000.0f), 300.0f, 6000.0f);
+				g_cfg.soundVolume = std::clamp(so.value("volume", 1.0f), 0.0f, 2.0f);
+				g_cfg.minCallGap = std::clamp(so.value("minGapSeconds", 1.5f), 0.0f, 30.0f);
+				g_cfg.flap = static_cast<std::uint32_t>(std::stoul(so.value("flutter", std::string("0")), nullptr, 16));
+			}
 			for (const auto& s : j.value("species", nlohmann::json::array())) {
 				Species sp;
 				sp.id = s.value("id", std::string("bird"));
@@ -180,6 +214,9 @@ namespace Birds
 				sp.form = static_cast<std::uint32_t>(std::stoul(s.value("form", std::string("0")), nullptr, 16));
 				sp.weight = std::max(1, s.value("weight", 1));
 				sp.dayOnly = s.value("dayOnly", true);
+				sp.call = static_cast<std::uint32_t>(std::stoul(s.value("call", std::string("0")), nullptr, 16));
+				sp.callMin = std::clamp(s.value("callMin", 15.0f), 2.0f, 300.0f);
+				sp.callMax = std::max(sp.callMin + 1.0f, s.value("callMax", 45.0f));
 				for (const auto& k : s.value("perch", nlohmann::json::array())) {
 					if (auto kind = ParseKind(k.get<std::string>())) {
 						sp.perches.push_back(*kind);
@@ -291,8 +328,20 @@ namespace Birds
 					}
 					return RE::BSContainer::ForEachResult::kContinue;
 				}
+				RE::NiPoint3 ctr{ (bd.boundMax.x + bd.boundMin.x) * 0.5f * scale, (bd.boundMax.y + bd.boundMin.y) * 0.5f * scale, static_cast<float>(bd.boundMax.z) * scale };
+				if (*kind == Kind::kTree) {
+					// the bounds of a tree base record are tiny (every "tree" perch was at the foot of the trunk): use the loaded 3D, whose bound covers the whole tree
+					auto* tree3d = ref->Get3D();
+					if (!tree3d) {
+						return RE::BSContainer::ForEachResult::kContinue;
+					}
+					const float top = tree3d->worldBound.center.z + tree3d->worldBound.radius * 0.8f - ref->GetPosition().z;
+					if (top < 260.0f) {
+						return RE::BSContainer::ForEachResult::kContinue;  // a bush or a sapling
+					}
+					ctr.z = top;
+				}
 				++perchable;
-				const RE::NiPoint3 ctr{ (bd.boundMax.x + bd.boundMin.x) * 0.5f * scale, (bd.boundMax.y + bd.boundMin.y) * 0.5f * scale, static_cast<float>(bd.boundMax.z) * scale };
 				cands.push_back({ ref->GetPosition(), *kind, dims, ref->GetAngleZ(), ctr });
 				return RE::BSContainer::ForEachResult::kContinue;
 			});
@@ -452,26 +501,104 @@ namespace Birds
 			return a_actor->GetAnimationGraphManager(mgr) && mgr && mgr->graphs.size() > 0;
 		}
 
+		// The game's own Papyrus natives, called through the script VM the way a script calls them. The reference mod (SkyBirds) animates and moves its
+		// birds with exactly these: PlayGamebryoAnimation, SplineTranslateTo and SetMotionType.
+		template <class... Args>
+		bool Native(RE::TESObjectREFR* a_ref, const char* a_func, Args... a_args)
+		{
+			auto* vm = RE::BSScript::Internal::VirtualMachine::GetSingleton();
+			auto* policy = vm ? vm->GetObjectHandlePolicy() : nullptr;
+			if (!vm || !policy || !a_ref) {
+				return false;
+			}
+			const auto                                               handle = policy->GetHandleForObject(static_cast<std::uint32_t>(a_ref->GetFormType()), a_ref);
+			RE::BSTSmartPointer<RE::BSScript::IStackCallbackFunctor> none;
+			return vm->DispatchMethodCall2(handle, "ObjectReference", a_func, RE::MakeFunctionArguments(std::move(a_args)...), none);
+		}
+
+		RE::NiControllerManager* FindManager(RE::NiAVObject* a_root)
+		{
+			if (!a_root) {
+				return nullptr;
+			}
+			for (auto* c = a_root->GetControllers(); c; c = c->GetNext()) {
+				if (auto* m = netimmerse_cast<RE::NiControllerManager*>(c)) {
+					return m;
+				}
+			}
+			return nullptr;
+		}
+
+		std::unordered_map<RE::FormID, std::string> g_curSeq;  // by bird: the clip that is playing now
+		int                                         g_seqFails{ 0 };
+
+		// Plays one of the clips inside the bird's own nif (airFlap, airToGrnd, grndFlap, grndLook, grndPeck, grndToAir) directly on its
+		// NiControllerManager. That is what PlayGamebryoAnimation does, and it needs no script on the bird (the Papyrus native only works on a
+		// reference that already has a script object bound).
+		bool PlaySeq(RE::TESObjectREFR* a_ref, const char* a_name)
+		{
+			const char* why = nullptr;
+			auto*       root = a_ref ? a_ref->Get3D() : nullptr;
+			auto*       mgr = FindManager(root);
+			RE::NiControllerSequence* seq = nullptr;
+			if (!root) {
+				why = "no 3D";
+			} else if (!mgr) {
+				why = "no NiControllerManager on the 3D root";
+			} else if (!(seq = mgr->GetSequenceByName(a_name))) {
+				why = "the nif has no clip of that name";
+			}
+			if (why) {
+				if (g_seqFails < 12) {
+					++g_seqFails;
+					SKSE::log::info("birds: clip '{}' not played on {:08X}: {}", a_name, a_ref ? a_ref->GetFormID() : 0u, why);
+				}
+				return false;
+			}
+			auto& cur = g_curSeq[a_ref->GetFormID()];
+			if (!cur.empty() && cur != a_name) {
+				if (auto* prev = mgr->GetSequenceByName(cur)) {
+					prev->Deactivate(0.12f, false);
+				}
+			}
+			cur = a_name;
+			return seq->Activate(0, true, 1.0f, 0.12f, nullptr, false);
+		}
+
+		// What an event means for the bird: the behavior graph is told (so that its state follows and cannot undo the clip) and the clip of
+		// the same name is played directly. Returns true when the clip was handed to the game.
 		bool Send(RE::TESObjectREFR* a_ref, const char* a_event)
 		{
 			auto* actor = a_ref ? a_ref->As<RE::Actor>() : nullptr;
 			if (!actor) {
 				return false;
 			}
-			const bool ok = actor->NotifyAnimationGraph(a_event);
+			const bool             graphOk = actor->NotifyAnimationGraph(a_event);
+			const std::string_view ev{ a_event };
+			const char*            clip = ev == "startGrndLook" ? "grndLook" : ev == "startGrndPeck" ? "grndPeck" : ev == "startGrndFlap" ? "grndFlap" : ev == "takeoff" ? "grndToAir" : ev == "land" ? "airToGrnd" : nullptr;
+			const bool             clipOk = clip && PlaySeq(a_ref, clip);
 			if (g_diagLines < 60) {
 				++g_diagLines;
-				RE::BSTSmartPointer<RE::BSAnimationGraphManager> mgr;
-				const bool hasMgr = actor->GetAnimationGraphManager(mgr) && mgr;
-				SKSE::log::info("birds: event '{}' on {:08X}: {} (3D {}, graph manager {}, graphs {}, process level {})", a_event, actor->GetFormID(),
-					ok ? "ACCEPTED" : "rejected", actor->Is3DLoaded(), hasMgr, hasMgr ? mgr->graphs.size() : 0, static_cast<int>(actor->GetProcessLevel()));
+				SKSE::log::info("birds: event '{}' on {:08X}: clip '{}' {}, graph {} (3D {})", a_event, actor->GetFormID(), clip ? clip : "-", clipOk ? "played" : "NOT played",
+					graphOk ? "accepted" : "rejected", actor->Is3DLoaded());
 			}
-			return ok;
+			return clipOk;
+		}
+
+		// Moves a bird. An actor has its own SetPosition(pos, updateCharController): the plain reference SetPosition leaves the character controller where it was,
+		// which then drags the bird back every frame (the bird "turned, flapped and stayed").
+		void MoveBird(RE::TESObjectREFR* a_ref, const RE::NiPoint3& a_pos)
+		{
+			if (auto* actor = a_ref ? a_ref->As<RE::Actor>() : nullptr) {
+				actor->SetPosition(a_pos, true);
+			} else if (a_ref) {
+				a_ref->SetPosition(a_pos);
+			}
 		}
 
 		void FaceAndPlace(RE::TESObjectREFR* a_ref, const RE::NiPoint3& a_pos, const RE::NiPoint3& a_towards)
 		{
-			a_ref->SetPosition(a_pos);
+			MoveBird(a_ref, a_pos);
 			const float dx = a_towards.x - a_pos.x, dy = a_towards.y - a_pos.y;
 			if (std::abs(dx) + std::abs(dy) > 1.0f) {
 				a_ref->SetAngle({ 0.0f, 0.0f, std::atan2(dx, dy) });
@@ -537,6 +664,7 @@ namespace Birds
 				b.species = si;
 				b.pos = perch.pos;
 				b.timer = Rand(5.0f, 16.0f);
+				b.callTimer = Rand(3.0f, 14.0f);
 				{
 					// a perch within 120 units of the ground is a ground perch: the bird stands on the ground and hops about
 					auto*        cell = a_player->GetParentCell();
@@ -558,7 +686,49 @@ namespace Birds
 			return false;
 		}
 
+		RE::BGSSoundDescriptorForm* ResolveSound(const std::string& a_plugin, std::uint32_t a_form)
+		{
+			auto* f = a_form ? RE::TESDataHandler::GetSingleton()->LookupForm(a_form, a_plugin) : nullptr;
+			auto* d = f ? f->As<RE::BGSSoundDescriptorForm>() : nullptr;
+			if (a_form && !d) {
+				SKSE::log::warn("birds: sound {}|{:06X} not found", a_plugin, a_form);
+			}
+			return d;
+		}
+
+		// Plays a sound at a bird. Nothing is played when the player is too far away to hear it, or (a call) when another bird was heard a moment ago.
+		bool PlayAt(RE::BGSSoundDescriptorForm* a_sound, RE::TESObjectREFR* a_ref, float a_playerDist, bool a_ignoreGap)
+		{
+			if (!g_cfg.sounds || !a_sound || !a_sound->soundDescriptor || !a_ref || a_playerDist > g_cfg.soundDist) {
+				return false;
+			}
+			if (!a_ignoreGap && g_sinceCall < g_cfg.minCallGap) {
+				return false;
+			}
+			auto* am = RE::BSAudioManager::GetSingleton();
+			if (!am) {
+				return false;
+			}
+			RE::BSSoundHandle h;
+			if (!am->GetSoundHandle(h, a_sound->soundDescriptor)) {
+				return false;
+			}
+			h.SetPosition(a_ref->GetPosition());
+			if (auto* n = a_ref->Get3D()) {
+				h.SetObjectToFollow(n);
+			}
+			h.SetVolume(g_cfg.soundVolume);
+			if (!h.Play()) {
+				return false;
+			}
+			g_sinceCall = 0.0f;
+			return true;
+		}
+
+		constexpr float kRadToDeg = 57.2957795f;
+
 		// Starts a flight to a perch of the bird's kind, or away from the player when it is scared or it is night.
+		// The flight is two legs moved by the engine (SplineTranslateTo): up and across to a point halfway, then down onto the perch.
 		void StartFlight(Bird& a_b, RE::TESObjectREFR* a_ref, const RE::NiPoint3& a_playerPos, bool a_scared, bool a_night)
 		{
 			const auto&  sp = g_cfg.species[static_cast<std::size_t>(a_b.species)];
@@ -588,13 +758,50 @@ namespace Birds
 			a_b.from = a_b.pos;
 			a_b.to = dest;
 			const float dist = std::max(100.0f, std::hypot(dest.x - a_b.pos.x, dest.y - a_b.pos.y));
-			a_b.dur = std::max(1.6f, dist / g_cfg.flightSpeed);
-			a_b.arc = a_b.leaving ? 0.0f : std::min(260.0f, 50.0f + dist * 0.09f);
+			const float heading = std::atan2(dest.x - a_b.pos.x, dest.y - a_b.pos.y);  // Skyrim yaw: clockwise from +Y
+			if (a_b.leaving) {
+				a_b.apex = dest;
+				a_b.t1 = dist / g_cfg.flightSpeed;
+				a_b.dur = a_b.t1 + 0.4f;
+			} else {
+				const float up = std::min(320.0f, 90.0f + dist * 0.12f);
+				a_b.apex = { (a_b.pos.x + dest.x) * 0.5f, (a_b.pos.y + dest.y) * 0.5f, std::max(a_b.pos.z, dest.z) + up };
+				const float d1 = std::hypot(a_b.apex.x - a_b.pos.x, a_b.apex.y - a_b.pos.y, a_b.apex.z - a_b.pos.z);
+				const float d2 = std::hypot(dest.x - a_b.apex.x, dest.y - a_b.apex.y, dest.z - a_b.apex.z);
+				a_b.t1 = d1 / g_cfg.flightSpeed;
+				a_b.dur = a_b.t1 + d2 / (g_cfg.flightSpeed * 0.75f) + 0.4f;
+			}
+			a_b.arc = a_b.leaving ? 0.0f : std::min(260.0f, 50.0f + dist * 0.09f);  // only the manual fallback uses this
 			a_b.t = 0.0f;
+			a_b.elapsed = 0.0f;
 			a_b.state = State::kFlying;
 			a_b.landSent = false;
 			a_b.flapSent = false;
+			a_b.seg2Sent = false;
+			a_b.movedChecked = false;
+			a_b.manual = g_manualFlight;
+			a_ref->SetAngle({ 0.0f, 0.0f, heading });
 			Send(a_ref, "takeoff");
+			if (g_cfg.flap != 0) {
+				if (!g_cfg.flapResolved) {
+					g_cfg.flapResolved = true;
+					g_cfg.flapForm = ResolveSound(sp.plugin, g_cfg.flap);
+				}
+				const bool heard = PlayAt(g_cfg.flapForm, a_ref, Dist2D(a_b.pos, a_playerPos), true);
+				if (g_soundLogs < 25) {
+					++g_soundLogs;
+					SKSE::log::info("birds: wing flutter at take-off of {:08X}: {}", a_ref->GetFormID(), heard ? "played" : "not played (too far, or no sound)");
+				}
+			}
+			bool dispatched = false;
+			if (!a_b.manual) {
+				dispatched = Native(a_ref, "SplineTranslateTo", a_b.apex.x, a_b.apex.y, a_b.apex.z, 0.0f, 0.0f, heading * kRadToDeg, dist * 0.3f, g_cfg.flightSpeed, 0.0f);
+			}
+			if (g_flightLogs < 30) {
+				++g_flightLogs;
+				SKSE::log::info("birds: flight {:08X} ({}): {:.0f} units to {:.0f},{:.0f},{:.0f}{}, first leg {:.1f}s, total {:.1f}s, {}", a_ref->GetFormID(), sp.id, dist, dest.x, dest.y, dest.z,
+					a_b.leaving ? " (flying off)" : "", a_b.t1, a_b.dur, a_b.manual ? "MANUAL (SetPosition)" : (dispatched ? "SplineTranslateTo dispatched" : "SplineTranslateTo NOT dispatched"));
+			}
 		}
 
 		void UpdateBirds(RE::PlayerCharacter* a_player, float a_dt, bool a_night)
@@ -620,8 +827,12 @@ namespace Birds
 					continue;
 				}
 				if (it->state == State::kPerched) {
-					// a perched bird is held on its perch every tick: with its AI off nothing else keeps it up (tree perches are in the air)
-					ref->SetPosition(it->pos);
+					// a perched bird is held on its perch a few times a second (it is keyframed, so gravity does not pull it down)
+					it->holdTimer -= a_dt;
+					if (it->holdTimer <= 0.0f) {
+						it->holdTimer = 0.25f;
+						MoveBird(ref.get(), it->pos);
+					}
 					if (it->landPhase != 0) {
 						it->landClock += a_dt;
 						it->landRetry -= a_dt;
@@ -669,7 +880,14 @@ namespace Birds
 							}
 						} else {
 							Send(ref.get(), "startGrndLook");
-							actor->EnableAI(false);
+							// the bird's AI stays ON: an actor with its AI disabled stops updating its animation (like "tai" in the console), which froze every clip
+							if (auto* root3d = ref->Get3D()) {
+								it->motionSet = root3d->SetMotionType(RE::hkpMotion::MotionType::kKeyframed, true, false, true);  // no gravity
+							}
+							if (g_diagLines < 70) {
+								++g_diagLines;
+								SKSE::log::info("birds: {:08X} set keyframed: {}", ref->GetFormID(), it->motionSet ? "dispatched" : "NOT dispatched");
+							}
 							it->started = true;
 							it->timer = it->grounded ? Rand(25.0f, 60.0f) : Rand(4.0f, 12.0f);
 						}
@@ -682,6 +900,22 @@ namespace Birds
 					const bool scared = dist < g_cfg.scareDist || (inCombat && dist < g_cfg.scareDist * 4.0f);
 					it->timer -= a_dt;
 					it->idleTimer -= a_dt;
+					it->callTimer -= a_dt;
+					if (it->callTimer <= 0.0f) {
+						auto& csp = g_cfg.species[static_cast<std::size_t>(it->species)];
+						it->callTimer = Rand(csp.callMin, csp.callMax);
+						if (csp.call != 0) {
+							if (!csp.callResolved) {
+								csp.callResolved = true;
+								csp.callForm = ResolveSound(csp.plugin, csp.call);
+							}
+							const bool heard = PlayAt(csp.callForm, ref.get(), dist, false);
+							if (g_soundLogs < 25) {
+								++g_soundLogs;
+								SKSE::log::info("birds: {} call from {:08X}, {:.0f} units away: {}", csp.id, ref->GetFormID(), dist, heard ? "played" : "not played (too far, another bird just called, or no sound)");
+							}
+						}
+					}
 					if (scared || it->timer <= 0.0f || a_night) {
 						const bool nightLeave = a_night && g_cfg.species[static_cast<std::size_t>(it->species)].dayOnly;
 						if (scared || nightLeave || RandInt(0, 99) < 70) {
@@ -733,23 +967,63 @@ namespace Birds
 					++it;
 					continue;
 				}
-				// flying
-				it->t += a_dt / it->dur;
-				const float        u = std::min(1.0f, it->t);
-				const float        ease = u * u * (3.0f - 2.0f * u);
-				const RE::NiPoint3 p{ it->from.x + (it->to.x - it->from.x) * ease, it->from.y + (it->to.y - it->from.y) * ease,
-					it->from.z + (it->to.z - it->from.z) * ease + it->arc * std::sin(3.14159265f * u) };
-				FaceAndPlace(ref.get(), p, it->to);
-				it->pos = p;
-				if (!it->landSent && !it->leaving && (it->t * it->dur) > (it->dur - 0.5f)) {
+				// flying: the engine moves the bird along its spline; this code starts the second leg, plays the clips and checks that it really moves
+				it->elapsed += a_dt;
+				const float u = std::min(1.0f, it->elapsed / it->dur);
+				const float heading = std::atan2(it->to.x - it->from.x, it->to.y - it->from.y);
+				if (!it->manual) {
+					const auto cur = ref->GetPosition();
+					if (!it->movedChecked && it->elapsed > 0.8f) {
+						it->movedChecked = true;
+						const float moved = std::hypot(cur.x - it->from.x, cur.y - it->from.y, cur.z - it->from.z);
+						if (moved < 25.0f) {
+							// the spline did not move this bird: stop it and fly by SetPosition from now on
+							Native(ref.get(), "StopTranslation");
+							g_manualFlight = true;
+							it->manual = true;
+							SKSE::log::info("birds: SplineTranslateTo did not move {:08X} (moved {:.1f} in {:.1f}s): this and all later flights use SetPosition", ref->GetFormID(), moved, it->elapsed);
+						} else if (g_flightLogs < 30) {
+							SKSE::log::info("birds: {:08X} is flying: moved {:.0f} units in {:.1f}s (the engine spline works)", ref->GetFormID(), moved, it->elapsed);
+						}
+					}
+					if (!it->manual) {
+						if (!it->seg2Sent && !it->leaving && it->elapsed >= it->t1 - 0.05f) {
+							it->seg2Sent = true;
+							const float dist2 = std::max(100.0f, std::hypot(it->to.x - it->apex.x, it->to.y - it->apex.y));
+							Native(ref.get(), "SplineTranslateTo", it->to.x, it->to.y, it->to.z, 0.0f, 0.0f, heading * kRadToDeg, dist2 * 0.3f, g_cfg.flightSpeed * 0.75f, 0.0f);
+						}
+						it->pos = cur;
+					}
+				}
+				if (it->manual) {
+					const float        ease = u * u * (3.0f - 2.0f * u);
+					const RE::NiPoint3 p{ it->from.x + (it->to.x - it->from.x) * ease, it->from.y + (it->to.y - it->from.y) * ease,
+						it->from.z + (it->to.z - it->from.z) * ease + it->arc * std::sin(3.14159265f * u) };
+					FaceAndPlace(ref.get(), p, it->to);
+					it->pos = p;
+					if (!it->movedChecked && it->elapsed > 1.0f) {
+						it->movedChecked = true;
+						const auto  act = ref->GetPosition();
+						const float off = std::hypot(act.x - p.x, act.y - p.y, act.z - p.z);
+						if (g_flightLogs < 40) {
+							++g_flightLogs;
+							SKSE::log::info("birds: manual flight {:08X}: after {:.1f}s the bird is {:.0f} units from where it was put ({})", ref->GetFormID(), it->elapsed, off, off < 30.0f ? "it follows" : "it is being pulled back");
+						}
+					}
+				}
+				if (!it->flapSent && it->elapsed > 0.45f) {
+					it->flapSent = true;
+					PlaySeq(ref.get(), "airFlap");
+				}
+				if (!it->landSent && !it->leaving && it->elapsed > it->dur - 0.9f) {
 					it->landAccepted = Send(ref.get(), "land");
 					it->landSent = true;
 					if (g_landLogs < 40) {
 						++g_landLogs;
-						SKSE::log::info("birds: approaching {:08X}: land {}", ref->GetFormID(), it->landAccepted ? "ACCEPTED" : "rejected");
+						SKSE::log::info("birds: approaching {:08X}: land clip {}", ref->GetFormID(), it->landAccepted ? "played" : "NOT played");
 					}
 				}
-				if (it->t >= 1.0f) {
+				if (u >= 1.0f) {
 					if (it->leaving) {
 						Retire(ref.get());
 						it = g_birds.erase(it);
@@ -757,6 +1031,7 @@ namespace Birds
 					}
 					it->state = State::kPerched;
 					it->pos = it->to;
+					MoveBird(ref.get(), it->pos);
 					it->timer = Rand(6.0f, 20.0f);
 					it->idleTimer = Rand(1.0f, 4.0f);
 					it->landPhase = it->landAccepted ? 2 : 1;
@@ -790,6 +1065,7 @@ namespace Birds
 			const bool  night = !(hour >= g_cfg.dayStart && hour < g_cfg.dayEnd);
 
 			g_sinceScan += a_dt;
+			g_sinceCall += a_dt;
 			g_sinceSpawn += a_dt;
 			const RE::FormID cellId = cell->GetFormID();
 			if (g_sinceScan >= g_cfg.perchRefreshSeconds || cellId != g_lastCell) {
@@ -832,6 +1108,7 @@ namespace Birds
 			g_perches.clear();
 			g_queued.clear();
 			g_pendingDelete.clear();
+			g_curSeq.clear();
 			g_lastCell = 0;
 			g_sinceLoad = 0.0f;
 			g_sinceSpawn = 0.0f;

@@ -7,13 +7,14 @@ BS=chr(92)
 def rd(p): return open(p,'rb').read().decode('utf-8').replace('\r\n','\n')
 def wr(p,t): open(p,'wb').write(t.replace('\n','\r\n').encode('utf-8'))
 def find(d,name): return [f for f in os.listdir(f'{Y}/{d}') if f.startswith(name+' - ')][0]
-IDS=dict(skin=0x1640,race={'pigeon':0x1641,'sparrow':0x1642,'crow':0x1643,'dove':0x1647,'starling':0x1648},npc={'pigeon':0x1644,'sparrow':0x1645,'crow':0x1646,'dove':0x1649,'starling':0x164A},ref={'pigeon':0x1650,'sparrow':0x1651,'crow':0x1652})
+IDS=dict(skin=0x1640,race={'pigeon':0x1641,'sparrow':0x1642,'crow':0x1643,'dove':0x1647,'starling':0x1648,'robin':0x164B},npc={'pigeon':0x1644,'sparrow':0x1645,'crow':0x1646,'dove':0x1649,'starling':0x164A,'robin':0x164C},ref={'pigeon':0x1650,'sparrow':0x1651,'crow':0x1652})
 H=lambda v:'%06X'%v
 SPEC={'pigeon':dict(name='Pigeon',height=1.0,obnd=('-8, -8, 0','8, 8, 14')),
       'sparrow':dict(name='Sparrow',height=0.55,obnd=('-5, -5, 0','5, 5, 8')),
       'crow':dict(name='Crow',height=1.35,obnd=('-10, -10, 0','10, 10, 18')),
       'dove':dict(name='Dove',height=0.95,obnd=('-8, -8, 0','8, 8, 13')),
-      'starling':dict(name='Starling',height=0.7,obnd=('-6, -6, 0','6, 6, 10'))}
+      'starling':dict(name='Starling',height=0.7,obnd=('-6, -6, 0','6, 6, 10')),
+      'robin':dict(name='Robin',height=0.6,obnd=('-5, -5, 0','5, 5, 8'))}
 # --- null skin (an armor with nothing to draw: the bird mesh is part of its skeleton nif)
 skin=f"""FormKey: {H(IDS['skin'])}:ITB_Wildlife.esp
 MajorRecordFlagsRaw: 4
@@ -78,4 +79,19 @@ def npc(sp):
     return t
 for sp in SPEC:
     wr(f'{Y}/Npcs/ITB_Bird{SPEC[sp]["name"]} - {H(IDS["npc"][sp])}_ITB_Wildlife.esp.yaml',npc(sp))
+# --- sound descriptors: one call per species (the DLL plays them at the bird) and one wing flutter. Own records, own files (Birds/audio_build.py).
+# Same category and mono 3D output model (SOMMono02000, audible to about 2000 units) as the ITB owl sound.
+SOUNDS={'pigeon':(0x1660,4,'Pigeon call'),'dove':(0x1661,4,'Dove call'),'sparrow':(0x1662,4,'Sparrow call'),'robin':(0x1663,4,'Robin call'),
+        'starling':(0x1664,4,'Starling call'),'crow':(0x1665,4,'Crow call'),'flap':(0x1666,3,'Wing flutter')}
+def sound(key):
+    fid,n,_=SOUNDS[key]
+    edid='ITB_BirdWingFlutter' if key=='flap' else f'ITB_Bird{key.capitalize()}Call'
+    files=''.join(f'- data\\sound\\fx\\itb\\birds\\{key}_{i}.wav\n' for i in range(1,n+1))
+    t=(f'FormKey: {H(fid)}:ITB_Wildlife.esp\nEditorID: {edid}\nType: Standard\nCategory: 09F254:Skyrim.esm\nSoundFiles:\n{files}'
+       f'OutputModel: 07F80C:Skyrim.esm\nPercentFrequencyVariance: 4\nPriority: 1\n')
+    return edid,t
+os.makedirs(f'{Y}/SoundDescriptors',exist_ok=True)
+for key in SOUNDS:
+    edid,t=sound(key)
+    wr(f'{Y}/SoundDescriptors/{edid} - {H(SOUNDS[key][0])}_ITB_Wildlife.esp.yaml',t)
 print('records written')

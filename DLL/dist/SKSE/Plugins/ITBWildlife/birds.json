@@ -15,6 +15,13 @@
  "dayStartHour": 6,
  "dayEndHour": 20,
  "maxRaycastsPerScan": 40,
+ "sounds": {
+  "enabled": true,
+  "maxDistance": 2000,
+  "volume": 1.0,
+  "minGapSeconds": 1.5,
+  "flutter": "001666"
+ },
  "species": [
   {
    "id": "pigeon",
@@ -26,7 +33,10 @@
     "roof",
     "fence",
     "rock"
-   ]
+   ],
+   "call": "001660",
+   "callMin": 14,
+   "callMax": 40
   },
   {
    "id": "dove",
@@ -38,7 +48,10 @@
     "roof",
     "fence",
     "tree"
-   ]
+   ],
+   "call": "001661",
+   "callMin": 20,
+   "callMax": 55
   },
   {
    "id": "sparrow",
@@ -51,7 +64,25 @@
     "tree",
     "rock",
     "roof"
-   ]
+   ],
+   "call": "001662",
+   "callMin": 8,
+   "callMax": 25
+  },
+  {
+   "id": "robin",
+   "plugin": "ITB Wildlife.esp",
+   "form": "00164C",
+   "weight": 3,
+   "dayOnly": true,
+   "perch": [
+    "fence",
+    "tree",
+    "rock"
+   ],
+   "call": "001663",
+   "callMin": 15,
+   "callMax": 40
   },
   {
    "id": "starling",
@@ -63,7 +94,10 @@
     "roof",
     "tree",
     "fence"
-   ]
+   ],
+   "call": "001664",
+   "callMin": 10,
+   "callMax": 30
   },
   {
    "id": "crow",
@@ -75,7 +109,10 @@
     "tree",
     "rock",
     "fence"
-   ]
+   ],
+   "call": "001665",
+   "callMin": 12,
+   "callMax": 35
   }
  ]
 }

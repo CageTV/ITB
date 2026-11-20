@@ -1,0 +1,12 @@
+FormKey: 001664:ITB_Wildlife.esp
+EditorID: ITB_BirdStarlingCall
+Type: Standard
+Category: 09F254:Skyrim.esm
+SoundFiles:
+- data\sound\fx\itb\birds\starling_1.wav
+- data\sound\fx\itb\birds\starling_2.wav
+- data\sound\fx\itb\birds\starling_3.wav
+- data\sound\fx\itb\birds\starling_4.wav
+OutputModel: 07F80C:Skyrim.esm
+PercentFrequencyVariance: 4
+Priority: 1

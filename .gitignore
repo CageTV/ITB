@@ -1,2 +1,4 @@
 assets/
 *.bsa
+Birds/audio_src/
+Birds/audio_fetch.py
