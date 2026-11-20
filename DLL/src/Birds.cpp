@@ -38,6 +38,8 @@ namespace Birds
 			float             callMax{ 45.0f };
 			RE::BGSSoundDescriptorForm* callForm{ nullptr };
 			bool              callResolved{ false };
+			std::vector<std::pair<std::string, std::uint32_t>> worlds;  // worldspaces (plugin, local FormID) this species is limited to; empty = anywhere
+			std::vector<const RE::TESWorldSpace*>              worldPtrs;
 		};
 
 		struct Config
@@ -217,6 +219,9 @@ namespace Birds
 				sp.call = static_cast<std::uint32_t>(std::stoul(s.value("call", std::string("0")), nullptr, 16));
 				sp.callMin = std::clamp(s.value("callMin", 15.0f), 2.0f, 300.0f);
 				sp.callMax = std::max(sp.callMin + 1.0f, s.value("callMax", 45.0f));
+				for (const auto& w : s.value("worlds", nlohmann::json::array())) {
+					sp.worlds.emplace_back(w.value("plugin", std::string("Skyrim.esm")), static_cast<std::uint32_t>(std::stoul(w.value("form", std::string("0")), nullptr, 16)));
+				}
 				for (const auto& k : s.value("perch", nlohmann::json::array())) {
 					if (auto kind = ParseKind(k.get<std::string>())) {
 						sp.perches.push_back(*kind);
@@ -605,20 +610,54 @@ namespace Birds
 			}
 		}
 
-		int PickSpecies(Kind a_kind, bool a_night)
+		// A species limited to certain worldspaces (the pigeons live in the four cities, where the old walking pigeons were placed) is only picked there.
+		bool g_worldsResolved = false;
+		void ResolveWorlds()
 		{
+			g_worldsResolved = true;
+			for (auto& sp : g_cfg.species) {
+				sp.worldPtrs.clear();
+				for (const auto& [plugin, form] : sp.worlds) {
+					auto* f = RE::TESDataHandler::GetSingleton()->LookupForm(form, plugin);
+					if (auto* w = f ? f->As<RE::TESWorldSpace>() : nullptr) {
+						sp.worldPtrs.push_back(w);
+					} else {
+						SKSE::log::warn("birds: {} worldspace {}|{:06X} not found", sp.id, plugin, form);
+					}
+				}
+				if (!sp.worlds.empty()) {
+					SKSE::log::info("birds: {} lives only in {} of {} listed worldspaces", sp.id, sp.worldPtrs.size(), sp.worlds.size());
+				}
+			}
+		}
+
+		bool AllowedIn(const Species& a_s, const RE::TESWorldSpace* a_ws)
+		{
+			if (a_s.worlds.empty()) {
+				return true;
+			}
+			return a_ws && std::find(a_s.worldPtrs.begin(), a_s.worldPtrs.end(), a_ws) != a_s.worldPtrs.end();
+		}
+
+		int PickSpecies(Kind a_kind, bool a_night, const RE::TESWorldSpace* a_ws)
+		{
+			if (!g_worldsResolved) {
+				ResolveWorlds();
+			}
 			int total = 0;
-			for (const auto& s : g_cfg.species) {
-				if (a_night && s.dayOnly) continue;
-				if (std::find(s.perches.begin(), s.perches.end(), a_kind) != s.perches.end()) total += s.weight;
+			for (const auto& sp : g_cfg.species) {
+				if (a_night && sp.dayOnly) continue;
+				if (!AllowedIn(sp, a_ws)) continue;
+				if (std::find(sp.perches.begin(), sp.perches.end(), a_kind) != sp.perches.end()) total += sp.weight;
 			}
 			if (total <= 0) return -1;
 			int roll = RandInt(1, total);
 			for (std::size_t i = 0; i < g_cfg.species.size(); ++i) {
-				const auto& s = g_cfg.species[i];
-				if (a_night && s.dayOnly) continue;
-				if (std::find(s.perches.begin(), s.perches.end(), a_kind) == s.perches.end()) continue;
-				roll -= s.weight;
+				const auto& sp = g_cfg.species[i];
+				if (a_night && sp.dayOnly) continue;
+				if (!AllowedIn(sp, a_ws)) continue;
+				if (std::find(sp.perches.begin(), sp.perches.end(), a_kind) == sp.perches.end()) continue;
+				roll -= sp.weight;
 				if (roll <= 0) return static_cast<int>(i);
 			}
 			return -1;
@@ -642,7 +681,7 @@ namespace Birds
 					}
 				}
 				if (taken) continue;
-				const int si = PickSpecies(perch.kind, a_night);
+				const int si = PickSpecies(perch.kind, a_night, a_player->GetWorldspace());
 				if (si < 0) continue;
 				const auto& sp = g_cfg.species[static_cast<std::size_t>(si)];
 				auto*       form = RE::TESDataHandler::GetSingleton()->LookupForm(sp.form, sp.plugin);

@@ -36,7 +36,25 @@
    ],
    "call": "001660",
    "callMin": 14,
-   "callMax": 40
+   "callMax": 40,
+   "worlds": [
+    {
+     "plugin": "Skyrim.esm",
+     "form": "01A26F"
+    },
+    {
+     "plugin": "Skyrim.esm",
+     "form": "037EDF"
+    },
+    {
+     "plugin": "Skyrim.esm",
+     "form": "016D71"
+    },
+    {
+     "plugin": "Skyrim.esm",
+     "form": "016BB4"
+    }
+   ]
   },
   {
    "id": "dove",
